@@ -1,0 +1,1015 @@
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 19, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 26, returning copy
+2025-09-23 11:10:07 - src.core.actions - WARNING - Unknown action_id 15, returning copy
+2025-09-23 11:10:07 - __main__ - INFO - Saved candidate solutions to output/candidate_solutions.json
+2025-09-23 11:10:07 - __main__ - INFO - Profiling: avg step 0.3454s, mem 0.0MB
+2025-09-23 11:10:07 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:07 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_00576224.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 00576224 example failed in VAE solve: index 2 is out of bounds for axis 2 with size 2
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_007bbfb7.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 007bbfb7 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_00d62c1b.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 00d62c1b example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_009d5c81.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 009d5c81 example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_00dbd492.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 00dbd492 example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_017c7c7b.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 017c7c7b example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_025d127b.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 025d127b example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_03560426.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 03560426 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_045e512c.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 045e512c example failed in VAE solve: index 21 is out of bounds for axis 2 with size 21
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0520fde7.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0520fde7 example failed in VAE solve: index 7 is out of bounds for axis 2 with size 7
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_05269061.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 05269061 example failed in VAE solve: index 7 is out of bounds for axis 2 with size 7
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_05a7bcf2.pt
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_05f2a901.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 05f2a901 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0607ce86.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0607ce86 example failed in VAE solve: index 22 is out of bounds for axis 2 with size 22
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0692e18c.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0692e18c example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_06df4c85.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 06df4c85 example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_070dd51e.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 070dd51e example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_08ed6ac7.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 08ed6ac7 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_09629e4f.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 09629e4f example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0962bcdd.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0962bcdd example failed in VAE solve: index 12 is out of bounds for axis 2 with size 12
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_09c534e7.pt
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0a1d4ef5.pt
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0a2355a6.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0a2355a6 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0a938d79.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0a938d79 example failed in VAE solve: index 27 is out of bounds for axis 2 with size 27
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0b148d64.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0b148d64 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0b17323b.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0b17323b example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0bb8deee.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0bb8deee example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0becf7df.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0becf7df example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0c786b71.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0c786b71 example failed in VAE solve: index 4 is out of bounds for axis 2 with size 4
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0c9aba6e.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0c9aba6e example failed in VAE solve: index 4 is out of bounds for axis 2 with size 4
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0ca9ddb6.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0ca9ddb6 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0d3d703e.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0d3d703e example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0d87d2a6.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0d87d2a6 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0e206a2e.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0e206a2e example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0e671a1a.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0e671a1a example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_0f63c0b9.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 0f63c0b9 example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_103eff5b.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 103eff5b example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_10fcaaa3.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 10fcaaa3 example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_11852cab.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 11852cab example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1190bc91.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1190bc91 example failed in VAE solve: index 8 is out of bounds for axis 2 with size 8
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1190e5a7.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1190e5a7 example failed in VAE solve: index 22 is out of bounds for axis 2 with size 22
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_11dc524f.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 11dc524f example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_11e1fe23.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 11e1fe23 example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_12422b43.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 12422b43 example failed in VAE solve: index 7 is out of bounds for axis 2 with size 7
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_12997ef3.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 12997ef3 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - __main__ - ERROR - Task 12997ef3 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_12eac192.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 12eac192 example failed in VAE solve: index 8 is out of bounds for axis 2 with size 8
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_13713586.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 13713586 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_137eaa0f.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 137eaa0f example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_137f0df0.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 137f0df0 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_13f06aa5.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 13f06aa5 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_140c817e.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 140c817e example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_14754a24.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 14754a24 example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1478ab18.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1478ab18 example failed in VAE solve: index 8 is out of bounds for axis 2 with size 8
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_14b8e18c.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 14b8e18c example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_150deff5.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 150deff5 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_15113be4.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 15113be4 example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_15660dd6.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 15660dd6 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_15663ba9.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 15663ba9 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_15696249.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 15696249 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_17829a00.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 17829a00 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_178fcbfb.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 178fcbfb example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_17b80ad2.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 17b80ad2 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_17b866bd.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 17b866bd example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - __main__ - ERROR - Task 17b866bd example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_17cae0c1.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 17cae0c1 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_18286ef8.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 18286ef8 example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_182e5d0f.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 182e5d0f example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_18447a8d.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 18447a8d example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_18419cfa.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 18419cfa example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_184a9768.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 184a9768 example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_195ba7dc.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 195ba7dc example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1990f7a8.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1990f7a8 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_19bb5feb.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 19bb5feb example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1a07d186.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1a07d186 example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1a244afd.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1a244afd example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1a2e2828.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1a2e2828 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1a6449f1.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1a6449f1 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1acc24af.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1acc24af example failed in VAE solve: index 12 is out of bounds for axis 2 with size 12
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1b2d62fb.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1b2d62fb example failed in VAE solve: index 7 is out of bounds for axis 2 with size 7
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1b59e163.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1b59e163 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1b60fb0c.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1b60fb0c example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1b8318e3.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1b8318e3 example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1be83260.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1be83260 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1be83260 example failed in VAE solve: index 27 is out of bounds for axis 2 with size 27
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1bfc4729.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1bfc4729 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1c02dbbe.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1c02dbbe example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1c0d0a4b.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1c0d0a4b example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1c56ad9f.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1c56ad9f example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1c786137.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1c786137 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1caeab9d.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1caeab9d example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1cf80156.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1cf80156 example failed in VAE solve: index 12 is out of bounds for axis 2 with size 12
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1d0a4b61.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1d0a4b61 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1d398264.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1d398264 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1d398264 example failed in VAE solve: index 12 is out of bounds for axis 2 with size 12
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1d61978c.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1d61978c example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1da012fc.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1da012fc example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1e0a9b12.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1e0a9b12 example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1e32b0e9.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1e32b0e9 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1e5d6875.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1e5d6875 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1e81d6f9.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1e81d6f9 example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1efba499.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1efba499 example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1f0c79e5.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1f0c79e5 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1f642eb9.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1f642eb9 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1f85a75f.pt
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1f876c06.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1f876c06 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_1fad071e.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 1fad071e example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2013d3e2.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 2013d3e2 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2037f2c7.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 2037f2c7 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2072aba6.pt
+2025-09-23 11:10:08 - __main__ - ERROR - Task 2072aba6 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:08 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:08 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_20818e16.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 20818e16 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_20981f0e.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 20981f0e example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_20fb2937.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 20fb2937 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_212895b5.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 212895b5 example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_21f83797.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 21f83797 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2204b7a8.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2204b7a8 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22168020.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22168020 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22208ba4.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22208ba4 example failed in VAE solve: index 7 is out of bounds for axis 1 with size 7
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22233c11.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22233c11 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22425bda.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22425bda example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22806e14.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22806e14 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2281f1f4.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2281f1f4 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_228f6490.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 228f6490 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22a4bbc2.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22a4bbc2 example failed in VAE solve: index 4 is out of bounds for axis 2 with size 4
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_22eb0ac0.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 22eb0ac0 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_230f2e48.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 230f2e48 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_234bbc79.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 234bbc79 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_23581191.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 23581191 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_239be575.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 239be575 example failed in VAE solve: index 6 is out of bounds for axis 2 with size 6
+2025-09-23 11:10:09 - __main__ - ERROR - Task 239be575 example failed in VAE solve: index 6 is out of bounds for axis 2 with size 6
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_23b5c85d.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 23b5c85d example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_25094a63.pt
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_252143c9.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 252143c9 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_253bf280.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 253bf280 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2546ccf6.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2546ccf6 example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_256b0a75.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 256b0a75 example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_25c199f5.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25c199f5 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25c199f5 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_25d487eb.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25d487eb example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_25d8a9c8.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25d8a9c8 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_25e02866.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25e02866 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_25ff71a9.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25ff71a9 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - __main__ - ERROR - Task 25ff71a9 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2601afb7.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2601afb7 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_264363fd.pt
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2685904e.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2685904e example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2697da3f.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2697da3f example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_272f95fa.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 272f95fa example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2753e76c.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2753e76c example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_278e5215.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 278e5215 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_27a28665.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 27a28665 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - __main__ - ERROR - Task 27a28665 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - __main__ - ERROR - Task 27a28665 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_27a77e38.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 27a77e38 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_27f8ce4f.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 27f8ce4f example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_281123b4.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 281123b4 example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_28bf18c6.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 28bf18c6 example failed in VAE solve: index 8 is out of bounds for axis 2 with size 8
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_28e73c20.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 28e73c20 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_292dd178.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 292dd178 example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_29623171.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 29623171 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_29700607.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 29700607 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_29c11459.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 29c11459 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2a28add5.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2a28add5 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2a5f8217.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2a5f8217 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2b01abd0.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2b01abd0 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2b9ef948.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2b9ef948 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2b9ef948 example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2bcee788.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2bcee788 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2bee17df.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2bee17df example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2c0b0aff.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2c0b0aff example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2c608aff.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2c608aff example failed in VAE solve: index 21 is out of bounds for axis 2 with size 21
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2c737e39.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2c737e39 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2ccd9fef.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2ccd9fef example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2ccd9fef example failed in VAE solve: index 27 is out of bounds for axis 2 with size 27
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2dc579da.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2dc579da example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2dd70a9a.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2dd70a9a example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2de01db2.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2de01db2 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2dee498d.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2dee498d example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2e65ae53.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2e65ae53 example failed in VAE solve: index 28 is out of bounds for axis 2 with size 28
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2f0c5170.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2f0c5170 example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2f767503.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2f767503 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_2faf500b.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 2faf500b example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_305b1341.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 305b1341 example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_30f42897.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 30f42897 example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_310f3251.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 310f3251 example failed in VAE solve: index 4 is out of bounds for axis 2 with size 4
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3194b014.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3194b014 example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_31aa019c.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 31aa019c example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_319f2597.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 319f2597 example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_31adaf00.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 31adaf00 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_31d5ba1a.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 31d5ba1a example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:09 - __main__ - ERROR - Task 31d5ba1a example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_320afe60.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 320afe60 example failed in VAE solve: index 26 is out of bounds for axis 2 with size 26
+2025-09-23 11:10:09 - __main__ - ERROR - Task 320afe60 example failed in VAE solve: index 24 is out of bounds for axis 2 with size 24
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_321b1fc6.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 321b1fc6 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_32597951.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 32597951 example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_32e9702f.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 32e9702f example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_33067df9.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 33067df9 example failed in VAE solve: index 7 is out of bounds for axis 2 with size 7
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_332202d5.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 332202d5 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_332efdb3.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 332efdb3 example failed in VAE solve: index 11 is out of bounds for axis 2 with size 11
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3345333e.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3345333e example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_337b420f.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 337b420f example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:09 - __main__ - ERROR - Task 337b420f example failed in VAE solve: index 17 is out of bounds for axis 2 with size 17
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3391f8c0.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3391f8c0 example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_33b52de3.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 33b52de3 example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3428a4f5.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3428a4f5 example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3428a4f5 example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_342ae2ed.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 342ae2ed example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_342dd610.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 342dd610 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3490cc26.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3490cc26 example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_34b99a2b.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 34b99a2b example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_34cfa167.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 34cfa167 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_351d6448.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 351d6448 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_358ba94e.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 358ba94e example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3618c87e.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3618c87e example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_363442ee.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 363442ee example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_36d67576.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 36d67576 example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_36fdfd69.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 36fdfd69 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_37ce87bb.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 37ce87bb example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_37d3e8b2.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 37d3e8b2 example failed in VAE solve: index 18 is out of bounds for axis 2 with size 18
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3906de3d.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3906de3d example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_396d80d7.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 396d80d7 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3979b1a8.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3979b1a8 example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_39a8645d.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 39a8645d example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_39e1d7f9.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 39e1d7f9 example failed in VAE solve: index 29 is out of bounds for axis 2 with size 29
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3a301edc.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3a301edc example failed in VAE solve: index 21 is out of bounds for axis 2 with size 21
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:09 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3aa6fb7a.pt
+2025-09-23 11:10:09 - __main__ - ERROR - Task 3aa6fb7a example failed in VAE solve: index 7 is out of bounds for axis 2 with size 7
+2025-09-23 11:10:09 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3ac3eb23.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3ac3eb23 example failed in VAE solve: index 12 is out of bounds for axis 2 with size 12
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3ad05f52.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3ad05f52 example failed in VAE solve: index 28 is out of bounds for axis 2 with size 28
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3af2c5a8.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3af2c5a8 example failed in VAE solve: index 4 is out of bounds for axis 2 with size 4
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3b4c2228.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3b4c2228 example failed in VAE solve: index 8 is out of bounds for axis 2 with size 8
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3b4c2228 example failed in VAE solve: index 5 is out of bounds for axis 2 with size 5
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3bd292e8.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3bd292e8 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3bd67248.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3bd67248 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3bdb4ada.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3bdb4ada example failed in VAE solve: index 20 is out of bounds for axis 2 with size 20
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3befdf3e.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3befdf3e example failed in VAE solve: index 12 is out of bounds for axis 2 with size 12
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3c9b0459.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3c9b0459 example failed in VAE solve: index 3 is out of bounds for axis 2 with size 3
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3cd86f4f.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3cd86f4f example failed in VAE solve: index 1 is out of bounds for axis 2 with size 1
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3cd86f4f example failed in VAE solve: index 2 is out of bounds for axis 2 with size 2
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3cd86f4f example failed in VAE solve: index 4 is out of bounds for axis 2 with size 4
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3d31c5b3.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3d31c5b3 example failed in VAE solve: index 6 is out of bounds for axis 2 with size 6
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3d588dc9.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3d588dc9 example failed in VAE solve: index 16 is out of bounds for axis 2 with size 16
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3d6c6e23.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3d6c6e23 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3de23699.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3de23699 example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3e980e27.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3e980e27 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3eda0437.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3eda0437 example failed in VAE solve: index 24 is out of bounds for axis 2 with size 24
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3ee1011a.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3ee1011a example failed in VAE solve: index 23 is out of bounds for axis 2 with size 23
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3f23242b.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3f23242b example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_3f7978a0.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 3f7978a0 example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_4093f84a.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 4093f84a example failed in VAE solve: index 14 is out of bounds for axis 2 with size 14
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_40f6cd08.pt
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_412b6263.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 412b6263 example failed in VAE solve: index 10 is out of bounds for axis 2 with size 10
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_414297c0.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 414297c0 example failed in VAE solve: index 24 is out of bounds for axis 2 with size 24
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_41ace6b5.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 41ace6b5 example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_41e4d17e.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 41e4d17e example failed in VAE solve: index 15 is out of bounds for axis 2 with size 15
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_423a55dc.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 423a55dc example failed in VAE solve: index 13 is out of bounds for axis 2 with size 13
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_4258a5f9.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 4258a5f9 example failed in VAE solve: index 9 is out of bounds for axis 2 with size 9
+2025-09-23 11:10:10 - src.core.vae_initializers - INFO - Initializing VAE model with provided configuration.
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_4290ef0e.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 4290ef0e example failed in VAE solve: index 19 is out of bounds for axis 2 with size 19
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - INFO - Checkpoint directory created at: checkpoints
+2025-09-23 11:10:10 - src.utils.checkpoint_handler - WARNING - No checkpoint found at checkpoints/vae_best_task_42918530.pt
+2025-09-23 11:10:10 - __main__ - ERROR - Task 42918530 example failed in VAE solve: index 25 is out of bounds for axis 2 with size 25
+2025-09-23 11:10:10 - __main__ - INFO - Solutions saved to output/submission.json
+2025-09-23 11:10:10 - __main__ - INFO - ARC Solver Pipeline finished successfully.
+Pipeline finished.
