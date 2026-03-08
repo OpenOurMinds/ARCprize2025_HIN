@@ -1,0 +1,258 @@
+import json
+import logging
+import os
+from pathlib import Path
+import random
+import numpy as np
+import torch
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# Import core and utility modules
+from src.utils.logger_setup import setup_logging
+from src.utils.data_loader import get_data_loader, get_vae_data_loader
+from src.utils.checkpoint_handler import CheckpointHandler
+from src.core.config_manager import ConfigManager
+from src.core.vae_preprocessing import VAEPreprocessor
+from src.core.vae_initializers import VAEInitializer
+from src.core.vae_solver import VAESolver
+from src.core.rl_model import RLModel
+from src.core.rl_trainer import RLTrainer, Discriminator
+from src.core.trajectory_generator import TrajectoryGenerator
+
+# --- Setup Logging and Configuration ---
+setup_logging()
+logger = logging.getLogger(__name__)
+
+# Define file paths
+CONFIG_PATH = 'src/configs/config.json'
+TRAINING_DATA_PATH = 'data/arc-agi_training_challenges.json'
+EVALUATION_DATA_PATH = 'data/arc-agi_evaluation_challenges.json'
+TEST_DATA_PATH = 'data/arc-agi_test_challenges.json'
+SOLUTION_OUTPUT_PATH = 'output/sample_submission.json'
+CHECKPOINT_DIR = 'checkpoints'
+GENERATED_DATA_DIR = 'data/generated'
+
+def main():
+    """
+    The main orchestration function for the ARC solving pipeline.
+    
+    This function coordinates the entire process:
+    1. Loads configurations and data.
+    2. Initializes and trains the VAE on the full dataset.
+    3. Initializes and trains the RL policy on a subset of tasks.
+    4. Uses the trained RL policy and VAE to generate solutions for test tasks.
+    5. Saves the final submission file.
+    """
+    logger.info("Starting ARC Solver Pipeline...")
+
+    # Load configuration
+    config_manager = ConfigManager(CONFIG_PATH)
+    config = config_manager.config
+
+    # Seeding for reproducibility
+    seed = 42
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+    # Initialize components
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    logger.info(f"Using device: {device}")
+    
+    # Checkpoint handler for saving and loading models
+    checkpoint_handler = CheckpointHandler(CHECKPOINT_DIR)
+
+    # --- Phase 1: VAE Training ---
+    logger.info("Phase 1: VAE Pre-training...")
+    
+    # VAE requires all grids for training, so we load them all and preprocess.
+    preprocessor = VAEPreprocessor(config['vae'])
+    vae_data_loader = get_vae_data_loader(
+        data_path=TRAINING_DATA_PATH,
+        batch_size=config['vae']['batch_size'],
+        shuffle=True,
+        num_colors=config['vae']['num_colors'],
+        grid_size=tuple(config['vae']['grid_size'])
+    )
+    
+    if vae_data_loader:
+        initializer = VAEInitializer(config['vae'])
+        vae_model = initializer.initialize_model()
+        vae_model = vae_model.to(device)
+        
+        # Load VAE checkpoint if available
+        if checkpoint_handler.load_checkpoint(vae_model, 'vae', device):
+            logger.info("Loaded VAE model from checkpoint.")
+        else:
+            logger.info("No VAE checkpoint found. Training new VAE model.")
+            
+            # Placeholder for VAE training loop
+            vae_optimizer = torch.optim.Adam(vae_model.parameters(), lr=config['vae']['learning_rate'])
+            # In a full implementation, the VAE training would be an extensive loop
+            # with reconstruction loss and KL divergence.
+            for epoch in range(config['vae']['epochs']):
+                # Simple VAE training loop placeholder
+                for batch in vae_data_loader:
+                    inputs = batch[0].to(device)
+                    recon_batch, mu, logvar = vae_model(inputs)
+                    
+                    # Calculate VAE loss
+                    reconstruction_loss = torch.mean((recon_batch - inputs)**2)
+                    kl_divergence = -0.5 * torch.sum(1 + logvar - mu.pow(2) - logvar.exp())
+                    vae_loss = reconstruction_loss + kl_divergence
+                    
+                    vae_optimizer.zero_grad()
+                    vae_loss.backward()
+                    vae_optimizer.step()
+                
+                if (epoch + 1) % 10 == 0:
+                    logger.info(f"VAE Epoch [{epoch+1}/{config['vae']['epochs']}], Loss: {vae_loss.item():.4f}")
+            
+            checkpoint_handler.save_checkpoint(vae_model, 'vae')
+    else:
+        logger.error("Could not load VAE data. Exiting.")
+        return
+
+    # --- Phase 2: RL Training ---
+    logger.info("Phase 2: RL Policy Training...")
+
+    # RL is trained on a specific subset of tasks or on augmented data.
+    # For simplicity, we'll train it on a single, representative grid size.
+    rl_grid_size = tuple(config_manager.get_setting('rl.grid_size', (3, 3)))
+    rl_data_loader = get_data_loader(
+        data_path=TRAINING_DATA_PATH,
+        grid_size=rl_grid_size,
+        batch_size=config['rl']['batch_size'],
+        shuffle=True
+    )
+    # simple split for validation
+    rl_val_loader = rl_data_loader  # placeholder; ideally create a separate split
+
+    if rl_data_loader:
+        rl_model = RLModel(config['rl']).to(device)
+        
+        # Load RL checkpoint if available
+        if checkpoint_handler.load_checkpoint(rl_model, 'rl_policy', device):
+            logger.info("Loaded RL policy from checkpoint.")
+        else:
+            logger.info("No RL policy checkpoint found. Training new RL policy.")
+            
+            # Initialize RL Trainer
+            disc = Discriminator(config['rl']).to(device)
+            trainer = RLTrainer(rl_model, disc, config['rl'], checkpoint_dir=CHECKPOINT_DIR)
+            trainer.train(rl_data_loader, num_epochs=config['rl']['epochs'], val_loader=rl_val_loader)
+            
+            checkpoint_handler.save_checkpoint(rl_model, 'rl_policy')
+    else:
+        logger.error(f"Could not load RL data for grid size {rl_grid_size}. Exiting.")
+        return
+
+    # --- Phase 3: Solving Test Tasks ---
+    logger.info("Phase 3: Solving test challenges...")
+    
+    try:
+        with open(TEST_DATA_PATH, 'r') as f:
+            test_data = json.load(f)
+    except Exception as e:
+        logger.error(f"Failed loading test data {TEST_DATA_PATH}: {e}")
+        return
+
+    # Handle test data format (dict of task_id -> task_data)
+    if isinstance(test_data, dict):
+        test_tasks = []
+        for task_id, task_data in test_data.items():
+            task_data['task_id'] = task_id
+            test_tasks.append(task_data)
+    else:
+        test_tasks = test_data
+
+    # Candidate generation via TrajectoryGenerator (greedy per example, pick first test example)
+    # Load best RL checkpoint for candidate generation if available
+    checkpoint_handler.load_named(rl_model, 'Transformer_best.pt', device)
+    generator = TrajectoryGenerator(rl_model, config['rl'])
+    candidates = {}
+    for task in test_tasks:
+        task_id = task.get('task_id') or task.get('id')
+        tests = task.get('test', [])
+        if not tests:
+            continue
+        first_input = np.array(tests[0]['input'], dtype=np.int64)
+        # multi-rollouts or beam
+        bw = int(config_manager.get_setting('rl.beam_width', 1))
+        ns = int(config_manager.get_setting('rl.num_samples_per_candidate', 1))
+        cands = generator.generate_candidates(first_input, num_samples=ns, beam_width=bw)
+        best = cands[0] if cands else first_input
+        candidates[str(task_id)] = best.tolist()
+
+    candidates_path = config_manager.get_setting('paths.candidates', 'output/candidate_solutions.json')
+    Path(candidates_path).parent.mkdir(parents=True, exist_ok=True)
+    try:
+        with open(candidates_path, 'w') as f:
+            json.dump(candidates, f)
+        logger.info(f"Saved candidate solutions to {candidates_path}")
+    except Exception as e:
+        logger.error(f"Failed to save candidates: {e}")
+        return
+
+    # Profile VAE single step to inform parallelism
+    try:
+        start_t = time.time()
+        prof_steps = 2
+        b = next(iter(vae_data_loader))
+        _tmp_solver = VAESolver(vae_model, config['vae'], device=str(device))
+        for _ in range(prof_steps):
+            _ = _tmp_solver.model(b[0].unsqueeze(0).to(device)) if isinstance(b, tuple) else _tmp_solver.model(b[0].to(device))
+        elapsed = (time.time() - start_t) / prof_steps
+        mem = torch.cuda.memory_allocated() if torch.cuda.is_available() else 0
+        logger.info(f"Profiling: avg step {elapsed:.4f}s, mem {mem/1e6:.1f}MB")
+    except Exception as e:
+        logger.warning(f"Profiling failed: {e}")
+
+    # Hybrid VAE per-task inference using candidates, with best checkpoints, in parallel
+    final_solutions = {}
+    submission_path = config_manager.get_setting('paths.submission', SOLUTION_OUTPUT_PATH)
+
+    def solve_task(task):
+        task_id = str(task.get('task_id') or task.get('id'))
+        cand = candidates.get(task_id)
+        try:
+            local_model = initializer.initialize_model().to(device)
+            task_solver = VAESolver(local_model, config['vae'], device=str(device), candidates_path=candidates_path, checkpoint_dir=CHECKPOINT_DIR)
+            # Load best if exists
+            task_solver.load_best_for_task(task_id)
+            attempts = []
+            for example in task.get('test', []):
+                grid_np = np.array(example['input'], dtype=np.int64)
+                pre = preprocessor.preprocess_grid(grid_np)
+                if pre is None:
+                    continue
+                recon = task_solver.solve(pre)
+                out_grid = preprocessor.postprocess_grid(recon)
+                attempts.append(out_grid.tolist())
+            return task_id, {
+                "attempt_1": attempts[0] if attempts else cand,
+                "attempt_2": cand
+            }
+        except Exception as e:
+            logger.error(f"Task {task_id} failed during VAE solve: {e}")
+            return task_id, {"attempt_1": cand, "attempt_2": cand}
+
+    max_workers = int(config_manager.get_setting('parallel.max_workers', 2))
+    timeout_sec = int(config_manager.get_setting('parallel.per_task_timeout_sec', 120))
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(solve_task, task): task for task in test_tasks}
+        for future in as_completed(futures, timeout=timeout_sec * max(1, len(futures))):
+            task_id, result = future.result()
+            final_solutions[task_id] = result
+
+    Path(submission_path).parent.mkdir(parents=True, exist_ok=True)
+    with open(submission_path, 'w') as f:
+        json.dump(final_solutions, f)
+    logger.info(f"Solutions saved to {submission_path}")
+    logger.info("ARC Solver Pipeline finished successfully.")
+
+if __name__ == '__main__':
+    main()
