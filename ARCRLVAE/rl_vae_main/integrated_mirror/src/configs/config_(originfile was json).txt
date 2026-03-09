@@ -1,0 +1,36 @@
+{
+  "paths": {
+    "checkpoints": "checkpoints",
+    "candidates": "output/candidate_solutions.json",
+    "submission": "output/submission.json"
+  },
+  "vae": {
+    "num_colors": 10,
+    "grid_size": [30, 30],
+    "latent_dim": 128,
+    "hidden_dims": [32, 64, 128],
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0,
+    "epochs": 10,
+    "kl_weight": 0.1,
+    "rl_guidance_weight": 5.0
+  },
+  "rl": {
+    "grid_size": [3, 3],
+    "num_colors": 10,
+    "embedding_size": 128,
+    "action_space_size": 50,
+    "max_generation_steps": 10,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "epochs": 5,
+    "beam_width": 3,
+    "num_samples_per_candidate": 5
+  },
+  "parallel": {
+    "max_workers": 2,
+    "per_task_timeout_sec": 120
+  }
+}
+
