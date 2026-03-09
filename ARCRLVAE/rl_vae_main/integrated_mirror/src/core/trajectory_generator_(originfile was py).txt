@@ -1,0 +1,195 @@
+import torch
+import numpy as np
+import logging
+from src.utils.logger_setup import setup_logging
+
+setup_logging()
+logger = logging.getLogger(__name__)
+from src.core.actions import ActionApplier
+            
+class TrajectoryGenerator:
+    """
+    Generates a full trajectory of states and actions for a given input grid.
+    """
+    
+    def __init__(self, rl_model, config):
+        """
+        Initializes the generator with a trained RLModel.
+
+        Args:
+            rl_model (RLModel): The policy network to use for action selection.
+            config (dict): The configuration dictionary.
+        """
+        self.rl_model = rl_model
+        self.config = config
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.max_generation_steps = config['max_generation_steps']
+        self.action_applier = ActionApplier(config)
+
+    def _grid_to_tensor(self, grid):
+        """Converts a NumPy grid into a one-hot encoded PyTorch tensor."""
+        grid = np.array(grid)
+        height, width = grid.shape
+        num_colors = self.config['num_colors']
+        
+        # Resize grid to match RL model's expected input size
+        target_h, target_w = self.config['grid_size']
+        
+        # Pad or crop to target size
+        padded = np.zeros((target_h, target_w), dtype=np.int64)
+        start_h = max(0, (target_h - height) // 2)
+        start_w = max(0, (target_w - width) // 2)
+        end_h = min(target_h, start_h + height)
+        end_w = min(target_w, start_w + width)
+        padded[start_h:end_h, start_w:end_w] = grid[:end_h-start_h, :end_w-start_w]
+        
+        # One-hot encode the resized grid
+        one_hot_grid = np.zeros((target_h, target_w, num_colors), dtype=np.float32)
+        for i in range(target_h):
+            for j in range(target_w):
+                color_index = int(padded[i, j])
+                if 0 <= color_index < num_colors:
+                    one_hot_grid[i, j, color_index] = 1.0
+
+        tensor = torch.from_numpy(one_hot_grid).permute(2, 0, 1).unsqueeze(0).to(self.device)
+        return tensor
+
+    def generate_trajectory(self, initial_grid):
+        """
+        Generates a sequence of states and actions from the initial grid.
+
+        Args:
+            initial_grid (np.array): The starting grid for the trajectory.
+
+        Returns:
+            tuple: A tuple containing:
+                - states (list): A list of grid states (np.arrays) during generation.
+                - actions (list): A list of action IDs (ints) taken.
+                - final_grid (np.array): The final generated grid.
+        """
+        states = []
+        actions = []
+        
+        # Store original size for final output
+        original_h, original_w = initial_grid.shape
+        target_h, target_w = self.config['grid_size']
+        
+        # Resize initial grid to match RL model's expected size
+        current_grid = self._resize_grid(initial_grid, target_h, target_w)
+
+        for step in range(self.max_generation_steps):
+            states.append(np.copy(current_grid))
+            
+            # Convert grid to tensor for model input
+            grid_tensor = self._grid_to_tensor(current_grid)
+            
+            # Get action from the RL model's policy
+            with torch.no_grad():
+                action_logits = self.rl_model(grid_tensor)
+                
+            # Greedy selection (most probable action)
+            action_id = int(torch.argmax(action_logits, dim=1).item())
+            
+            # Apply the action and get the next state
+            next_grid = self.action_applier.apply(current_grid, action_id)
+            
+            actions.append(action_id)
+            current_grid = next_grid
+            
+        # Resize final grid back to original size
+        final_grid = self._resize_grid(current_grid, original_h, original_w)
+        
+        return states, actions, final_grid
+    
+    def _resize_grid(self, grid, target_h, target_w):
+        """Resize grid by padding or cropping to target size."""
+        h, w = grid.shape
+        resized = np.zeros((target_h, target_w), dtype=grid.dtype)
+        
+        start_h = max(0, (target_h - h) // 2)
+        start_w = max(0, (target_w - w) // 2)
+        end_h = min(target_h, start_h + h)
+        end_w = min(target_w, start_w + w)
+        resized[start_h:end_h, start_w:end_w] = grid[:end_h-start_h, :end_w-start_w]
+        
+        return resized
+
+    def generate_candidates(self, initial_grid, num_samples: int = 1, beam_width: int | None = None):
+        """
+        Generate multiple candidate final grids via stochastic rollouts or beam search.
+        """
+        candidates = []
+        
+        # Store original size for final output
+        original_h, original_w = initial_grid.shape
+        target_h, target_w = self.config['grid_size']
+        
+        # Resize initial grid to match RL model's expected size
+        resized_initial = self._resize_grid(initial_grid, target_h, target_w)
+        
+        if beam_width and beam_width > 1:
+            # Simple beam search on cumulative logit scores
+            beams = [ (np.copy(resized_initial), 0.0) ]
+            for step in range(self.max_generation_steps):
+                new_beams = []
+                for grid, score in beams:
+                    grid_tensor = self._grid_to_tensor(grid)
+                    with torch.no_grad():
+                        logits = self.rl_model(grid_tensor)
+                        probs = torch.log_softmax(logits, dim=1).squeeze(0).cpu().numpy()
+                    top_actions = np.argsort(probs)[-beam_width:][::-1]
+                    for a in top_actions:
+                        next_grid = self.action_applier.apply(grid, int(a))
+                        new_beams.append((next_grid, score + float(probs[int(a)])))
+                # keep best beams
+                new_beams.sort(key=lambda x: x[1], reverse=True)
+                beams = new_beams[:beam_width]
+            candidates = [self._resize_grid(b[0], original_h, original_w) for b in beams]
+        else:
+            for _ in range(max(1, num_samples)):
+                current_grid = np.copy(resized_initial)
+                for step in range(self.max_generation_steps):
+                    grid_tensor = self._grid_to_tensor(current_grid)
+                    with torch.no_grad():
+                        logits = self.rl_model(grid_tensor)
+                        # sample action
+                        probs = torch.softmax(logits, dim=1).squeeze(0).cpu().numpy()
+                        action_id = int(np.random.choice(len(probs), p=probs / probs.sum()))
+                    current_grid = self.action_applier.apply(current_grid, action_id)
+                # Resize back to original size
+                candidates.append(self._resize_grid(current_grid, original_h, original_w))
+        return candidates
+
+if __name__ == '__main__':
+    # Example usage with a mock configuration and model
+    mock_config = {
+        'grid_size': (5, 5),
+        'num_colors': 10,
+        'embedding_size': 128,
+        'action_space_size': 50,
+        'max_generation_steps': 10
+    }
+    
+    # Mocking the RLModel
+    class MockRLModel:
+        def __init__(self, config):
+            self.config = config
+        def __call__(self, x):
+            # Returns a random tensor of logits for demonstration
+            return torch.randn(1, self.config['action_space_size'])
+
+    rl_model = MockRLModel(mock_config)
+    
+    # Create a mock input grid
+    mock_input_grid = np.random.randint(0, 10, size=(5, 5))
+    logger.info("Initial Grid:")
+    logger.info(mock_input_grid)
+    
+    # Initialize and use the TrajectoryGenerator
+    generator = TrajectoryGenerator(rl_model, mock_config)
+    states, actions, final_grid = generator.generate_trajectory(mock_input_grid)
+    
+    logger.info(f"Generated a trajectory of {len(states)} steps.")
+    logger.info(f"Actions taken: {actions}")
+    logger.info("Final Generated Grid:")
+    logger.info(final_grid)
