@@ -1,0 +1,232 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "</s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Sequence",
+    "pretokenizers": [
+      {
+        "type": "Split",
+        "pattern": {
+          "Regex": "[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]*[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]+|[^\\r\\n\\p{L}\\p{N}]?[\\p{Lu}\\p{Lt}\\p{Lm}\\p{Lo}\\p{M}]+[\\p{Ll}\\p{Lm}\\p{Lo}\\p{M}]*|\\p{N}| ?[^\\s\\p{L}\\p{N}]+[\\r\\n/]*|\\s*[\\r\\n]+|\\s+(?!\\S)|\\s+"
+        },
+        "behavior": "Isolated",
+        "invert": false
+      },
+      {
+        "type": "ByteLevel",
+        "add_prefix_space": false,
+        "trim_offsets": true,
+        "use_regex": false
+      }
+    ]
+  },
+  "post_processor": {
+    "type": "TemplateProcessing",
+    "single": [
+      {
+        "SpecialToken": {
+          "id": "<s>",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      }
+    ],
+    "pair": [
+      {
+        "SpecialToken": {
+          "id": "<s>",
+          "type_id": 0
+        }
+      },
+      {
+        "Sequence": {
+          "id": "A",
+          "type_id": 0
+        }
+      },
+      {
+        "SpecialToken": {
+          "id": "<s>",
+          "type_id": 1
+        }
+      },
+      {
+        "Sequence": {
+          "id": "B",
+          "type_id": 1
+        }
+      }
+    ],
+    "special_tokens": {
+      "</s>": {
+        "id": "</s>",
+        "ids": [
+          2
+        ],
+        "tokens": [
+          "</s>"
+        ]
+      },
+      "<s>": {
+        "id": "<s>",
+        "ids": [
+          1
+        ],
+        "tokens": [
+          "<s>"
+        ]
+      }
+    }
+  },
+  "decoder": {
+    "type": "ByteLevel",
+    "add_prefix_space": true,
+    "trim_offsets": true,
+    "use_regex": true
+  },
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": null,
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": true,
+    "vocab": {
+      "<unk>": 0,
+      "<s>": 1,
+      "</s>": 2,
+      "<pad>": 3,
+      "Ċ": 4,
+      "!": 5,
+      "*": 6,
+      "+": 7,
+      ",": 8,
+      "-": 9,
+      ".": 10,
+      "/": 11,
+      "0": 12,
+      "1": 13,
+      "2": 14,
+      "3": 15,
+      "4": 16,
+      "5": 17,
+      "6": 18,
+      "7": 19,
+      "8": 20,
+      "9": 21,
+      ":": 22,
+      ";": 23,
+      "=": 24,
+      "?": 25,
+      "A": 26,
+      "B": 27,
+      "C": 28,
+      "D": 29,
+      "E": 30,
+      "F": 31,
+      "G": 32,
+      "H": 33,
+      "I": 34,
+      "J": 35,
+      "K": 36,
+      "L": 37,
+      "M": 38,
+      "N": 39,
+      "O": 40,
+      "P": 41,
+      "Q": 42,
+      "R": 43,
+      "S": 44,
+      "T": 45,
+      "U": 46,
+      "V": 47,
+      "W": 48,
+      "X": 49,
+      "Y": 50,
+      "Z": 51,
+      "a": 52,
+      "b": 53,
+      "c": 54,
+      "d": 55,
+      "e": 56,
+      "f": 57,
+      "g": 58,
+      "h": 59,
+      "i": 60,
+      "j": 61,
+      "k": 62,
+      "l": 63,
+      "m": 64,
+      "n": 65,
+      "o": 66,
+      "p": 67,
+      "q": 68,
+      "r": 69,
+      "s": 70,
+      "t": 71,
+      "u": 72,
+      "v": 73,
+      "w": 74,
+      "x": 75,
+      "y": 76,
+      "z": 77,
+      "-Ċ": 78,
+      "/Ċ": 79,
+      "+Ċ": 80,
+      "=Ċ": 81
+    },
+    "merges": [
+      "- Ċ",
+      "/ Ċ",
+      "+ Ċ",
+      "= Ċ"
+    ]
+  }
+}

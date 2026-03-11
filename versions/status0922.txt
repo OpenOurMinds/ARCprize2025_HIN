@@ -1,0 +1,37 @@
+!ls /content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets
+
+arc-agi_evaluation_challenges.json  generated_dcgan_dataset_20x20.json
+arc-agi_evaluation_solutions.json   generated_dcgan_dataset_30x30.json
+arc-agi_test_challenges.json	    generated_dcgan_dataset_3x3.json
+arc-agi_training_challenges.json    generated_dcgan_dataset_4x4.json
+arc-agi_training_solutions.json     generated_dcgan_dataset_5x5.json
+generated_dcgan_dataset_10x10.json  generated_dcgan_dataset_6x6.json
+generated_dcgan_dataset_11x11.json  generated_dcgan_dataset_8x8.json
+generated_dcgan_dataset_12x12.json  generated_dcgan_dataset_9x9.json
+generated_dcgan_dataset_13x13.json  sample_submission.json
+generated_dcgan_dataset_15x15.json  training_augmented_dataset.json
+generated_dcgan_dataset_16x16.json  training_combined_dataset.json
+generated_dcgan_dataset_19x19.json
+
+#input list
+
+generated_dcgan_dataset_20x20.json
+generated_dcgan_dataset_30x30.json
+generated_dcgan_dataset_3x3.json
+generated_dcgan_dataset_4x4.json
+generated_dcgan_dataset_5x5.json
+generated_dcgan_dataset_10x10.json  
+generated_dcgan_dataset_11x11.json  
+generated_dcgan_dataset_12x12.json  
+generated_dcgan_dataset_13x13.json  
+generated_dcgan_dataset_15x15.json  
+generated_dcgan_dataset_16x16.json  
+generated_dcgan_dataset_19x19.json
+generated_dcgan_dataset_6x6.json
+generated_dcgan_dataset_8x8.json
+generated_dcgan_dataset_9x9.json
+training_augmented_dataset.json
+
+#output format
+
+sample_submission.json

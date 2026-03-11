@@ -1,0 +1,2678 @@
+Processing grid size (6, 6) with 216 examples...
+Using Linear models for grid size (6, 6).
+Grid Size (6, 6) | Epoch [0/1000] | D Loss: 1.3646 | G Loss: 0.6573
+Grid Size (6, 6) | Epoch [10/1000] | D Loss: 1.3609 | G Loss: 0.6530
+Grid Size (6, 6) | Epoch [20/1000] | D Loss: 1.3387 | G Loss: 0.6498
+Grid Size (6, 6) | Epoch [30/1000] | D Loss: 1.3143 | G Loss: 0.6525
+Grid Size (6, 6) | Epoch [40/1000] | D Loss: 1.3157 | G Loss: 0.6475
+Grid Size (6, 6) | Epoch [50/1000] | D Loss: 1.2874 | G Loss: 0.6588
+Grid Size (6, 6) | Epoch [60/1000] | D Loss: 1.2765 | G Loss: 0.6519
+Grid Size (6, 6) | Epoch [70/1000] | D Loss: 1.2830 | G Loss: 0.6622
+Grid Size (6, 6) | Epoch [80/1000] | D Loss: 1.2535 | G Loss: 0.6652
+Grid Size (6, 6) | Epoch [90/1000] | D Loss: 1.2494 | G Loss: 0.6704
+Grid Size (6, 6) | Epoch [100/1000] | D Loss: 1.2359 | G Loss: 0.6741
+Grid Size (6, 6) | Epoch [110/1000] | D Loss: 1.2381 | G Loss: 0.6665
+Grid Size (6, 6) | Epoch [120/1000] | D Loss: 1.2195 | G Loss: 0.6690
+Grid Size (6, 6) | Epoch [130/1000] | D Loss: 1.1758 | G Loss: 0.6763
+Grid Size (6, 6) | Epoch [140/1000] | D Loss: 1.1840 | G Loss: 0.6849
+Grid Size (6, 6) | Epoch [150/1000] | D Loss: 1.2018 | G Loss: 0.6718
+Grid Size (6, 6) | Epoch [160/1000] | D Loss: 1.1868 | G Loss: 0.6737
+Grid Size (6, 6) | Epoch [170/1000] | D Loss: 1.1711 | G Loss: 0.6782
+Grid Size (6, 6) | Epoch [180/1000] | D Loss: 1.1751 | G Loss: 0.6936
+Grid Size (6, 6) | Epoch [190/1000] | D Loss: 1.1246 | G Loss: 0.6818
+Grid Size (6, 6) | Epoch [200/1000] | D Loss: 1.1396 | G Loss: 0.6864
+Grid Size (6, 6) | Epoch [210/1000] | D Loss: 1.1000 | G Loss: 0.6942
+Grid Size (6, 6) | Epoch [220/1000] | D Loss: 1.1212 | G Loss: 0.6916
+Grid Size (6, 6) | Epoch [230/1000] | D Loss: 1.1087 | G Loss: 0.6965
+Grid Size (6, 6) | Epoch [240/1000] | D Loss: 1.1101 | G Loss: 0.7131
+Grid Size (6, 6) | Epoch [250/1000] | D Loss: 1.1273 | G Loss: 0.7166
+Grid Size (6, 6) | Epoch [260/1000] | D Loss: 1.0613 | G Loss: 0.7132
+Grid Size (6, 6) | Epoch [270/1000] | D Loss: 1.0771 | G Loss: 0.7077
+Grid Size (6, 6) | Epoch [280/1000] | D Loss: 1.0917 | G Loss: 0.7151
+Grid Size (6, 6) | Epoch [290/1000] | D Loss: 1.0553 | G Loss: 0.7149
+Grid Size (6, 6) | Epoch [300/1000] | D Loss: 1.0534 | G Loss: 0.7246
+Grid Size (6, 6) | Epoch [310/1000] | D Loss: 1.0484 | G Loss: 0.7150
+Grid Size (6, 6) | Epoch [320/1000] | D Loss: 1.0502 | G Loss: 0.7385
+Grid Size (6, 6) | Epoch [330/1000] | D Loss: 1.0746 | G Loss: 0.7508
+Grid Size (6, 6) | Epoch [340/1000] | D Loss: 1.0581 | G Loss: 0.7302
+Grid Size (6, 6) | Epoch [350/1000] | D Loss: 1.0748 | G Loss: 0.7463
+Grid Size (6, 6) | Epoch [360/1000] | D Loss: 0.9962 | G Loss: 0.7537
+Grid Size (6, 6) | Epoch [370/1000] | D Loss: 1.0718 | G Loss: 0.7494
+Grid Size (6, 6) | Epoch [380/1000] | D Loss: 1.0517 | G Loss: 0.7589
+Grid Size (6, 6) | Epoch [390/1000] | D Loss: 1.0580 | G Loss: 0.7522
+Grid Size (6, 6) | Epoch [400/1000] | D Loss: 0.9971 | G Loss: 0.7619
+Grid Size (6, 6) | Epoch [410/1000] | D Loss: 0.9870 | G Loss: 0.7705
+Grid Size (6, 6) | Epoch [420/1000] | D Loss: 1.0833 | G Loss: 0.7785
+Grid Size (6, 6) | Epoch [430/1000] | D Loss: 1.0434 | G Loss: 0.7832
+Grid Size (6, 6) | Epoch [440/1000] | D Loss: 1.0011 | G Loss: 0.7605
+Grid Size (6, 6) | Epoch [450/1000] | D Loss: 1.0182 | G Loss: 0.7793
+Grid Size (6, 6) | Epoch [460/1000] | D Loss: 1.0320 | G Loss: 0.7609
+Grid Size (6, 6) | Epoch [470/1000] | D Loss: 1.0298 | G Loss: 0.7738
+Grid Size (6, 6) | Epoch [480/1000] | D Loss: 1.0163 | G Loss: 0.7936
+Grid Size (6, 6) | Epoch [490/1000] | D Loss: 1.0414 | G Loss: 0.7811
+Grid Size (6, 6) | Epoch [500/1000] | D Loss: 0.9695 | G Loss: 0.8003
+Grid Size (6, 6) | Epoch [510/1000] | D Loss: 1.0262 | G Loss: 0.7934
+Grid Size (6, 6) | Epoch [520/1000] | D Loss: 1.0255 | G Loss: 0.8004
+Grid Size (6, 6) | Epoch [530/1000] | D Loss: 1.0169 | G Loss: 0.7935
+Grid Size (6, 6) | Epoch [540/1000] | D Loss: 0.9719 | G Loss: 0.8000
+Grid Size (6, 6) | Epoch [550/1000] | D Loss: 1.0117 | G Loss: 0.7977
+Grid Size (6, 6) | Epoch [560/1000] | D Loss: 0.9899 | G Loss: 0.7977
+Grid Size (6, 6) | Epoch [570/1000] | D Loss: 1.0247 | G Loss: 0.8123
+Grid Size (6, 6) | Epoch [580/1000] | D Loss: 0.9966 | G Loss: 0.7928
+Grid Size (6, 6) | Epoch [590/1000] | D Loss: 1.0347 | G Loss: 0.7957
+Grid Size (6, 6) | Epoch [600/1000] | D Loss: 1.0398 | G Loss: 0.8615
+Grid Size (6, 6) | Epoch [610/1000] | D Loss: 0.9898 | G Loss: 0.8225
+Grid Size (6, 6) | Epoch [620/1000] | D Loss: 1.1113 | G Loss: 0.8068
+Grid Size (6, 6) | Epoch [630/1000] | D Loss: 1.0184 | G Loss: 0.8196
+Grid Size (6, 6) | Epoch [640/1000] | D Loss: 1.0195 | G Loss: 0.8339
+Grid Size (6, 6) | Epoch [650/1000] | D Loss: 0.9886 | G Loss: 0.8449
+Grid Size (6, 6) | Epoch [660/1000] | D Loss: 1.0588 | G Loss: 0.8394
+Grid Size (6, 6) | Epoch [670/1000] | D Loss: 1.0441 | G Loss: 0.8239
+Grid Size (6, 6) | Epoch [680/1000] | D Loss: 1.0673 | G Loss: 0.8215
+Grid Size (6, 6) | Epoch [690/1000] | D Loss: 1.0776 | G Loss: 0.8245
+Grid Size (6, 6) | Epoch [700/1000] | D Loss: 1.0655 | G Loss: 0.8295
+Grid Size (6, 6) | Epoch [710/1000] | D Loss: 1.0959 | G Loss: 0.8339
+Grid Size (6, 6) | Epoch [720/1000] | D Loss: 0.9849 | G Loss: 0.8517
+Grid Size (6, 6) | Epoch [730/1000] | D Loss: 1.0753 | G Loss: 0.8664
+Grid Size (6, 6) | Epoch [740/1000] | D Loss: 1.0859 | G Loss: 0.8695
+Grid Size (6, 6) | Epoch [750/1000] | D Loss: 1.0949 | G Loss: 0.8649
+Grid Size (6, 6) | Epoch [760/1000] | D Loss: 1.0947 | G Loss: 0.8353
+Grid Size (6, 6) | Epoch [770/1000] | D Loss: 1.0339 | G Loss: 0.8536
+Grid Size (6, 6) | Epoch [780/1000] | D Loss: 1.0963 | G Loss: 0.8574
+Grid Size (6, 6) | Epoch [790/1000] | D Loss: 1.0805 | G Loss: 0.8863
+Grid Size (6, 6) | Epoch [800/1000] | D Loss: 1.1298 | G Loss: 0.8623
+Grid Size (6, 6) | Epoch [810/1000] | D Loss: 1.1369 | G Loss: 0.8569
+Grid Size (6, 6) | Epoch [820/1000] | D Loss: 1.0769 | G Loss: 0.8627
+Grid Size (6, 6) | Epoch [830/1000] | D Loss: 1.1154 | G Loss: 0.8657
+Grid Size (6, 6) | Epoch [840/1000] | D Loss: 1.1506 | G Loss: 0.9142
+Grid Size (6, 6) | Epoch [850/1000] | D Loss: 1.1907 | G Loss: 0.8935
+Grid Size (6, 6) | Epoch [860/1000] | D Loss: 1.0594 | G Loss: 0.8579
+Grid Size (6, 6) | Epoch [870/1000] | D Loss: 1.1137 | G Loss: 0.8757
+Grid Size (6, 6) | Epoch [880/1000] | D Loss: 1.1129 | G Loss: 0.9125
+Grid Size (6, 6) | Epoch [890/1000] | D Loss: 1.1490 | G Loss: 0.8705
+Grid Size (6, 6) | Epoch [900/1000] | D Loss: 1.1314 | G Loss: 0.8879
+Grid Size (6, 6) | Epoch [910/1000] | D Loss: 1.0578 | G Loss: 0.9135
+Grid Size (6, 6) | Epoch [920/1000] | D Loss: 1.0430 | G Loss: 0.8902
+Grid Size (6, 6) | Epoch [930/1000] | D Loss: 1.1432 | G Loss: 0.8582
+Grid Size (6, 6) | Epoch [940/1000] | D Loss: 1.1728 | G Loss: 0.9021
+Grid Size (6, 6) | Epoch [950/1000] | D Loss: 1.1164 | G Loss: 0.9253
+Grid Size (6, 6) | Epoch [960/1000] | D Loss: 1.1054 | G Loss: 0.9005
+Grid Size (6, 6) | Epoch [970/1000] | D Loss: 1.0553 | G Loss: 0.8350
+Grid Size (6, 6) | Epoch [980/1000] | D Loss: 1.1802 | G Loss: 0.9222
+Grid Size (6, 6) | Epoch [990/1000] | D Loss: 1.2103 | G Loss: 0.8598
+
+Training complete for grid size (6, 6).
+
+Generating 200 new examples for grid size (6, 6)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_6x6.json'.
+
+Processing grid size (9, 9) with 352 examples...
+Using Conv models for grid size (9, 9).
+Grid Size (9, 9) | Epoch [0/1000] | D Loss: 1.5112 | G Loss: 0.7067
+Grid Size (9, 9) | Epoch [10/1000] | D Loss: 0.9030 | G Loss: 1.1314
+Grid Size (9, 9) | Epoch [20/1000] | D Loss: 0.7485 | G Loss: 1.4744
+Grid Size (9, 9) | Epoch [30/1000] | D Loss: 1.0505 | G Loss: 1.1473
+Grid Size (9, 9) | Epoch [40/1000] | D Loss: 0.6070 | G Loss: 1.6262
+Grid Size (9, 9) | Epoch [50/1000] | D Loss: 0.8763 | G Loss: 1.1859
+Grid Size (9, 9) | Epoch [60/1000] | D Loss: 0.5706 | G Loss: 1.6495
+Grid Size (9, 9) | Epoch [70/1000] | D Loss: 0.6492 | G Loss: 1.4884
+Grid Size (9, 9) | Epoch [80/1000] | D Loss: 0.5642 | G Loss: 1.7188
+Grid Size (9, 9) | Epoch [90/1000] | D Loss: 0.5195 | G Loss: 1.7334
+Grid Size (9, 9) | Epoch [100/1000] | D Loss: 0.5127 | G Loss: 2.0943
+Grid Size (9, 9) | Epoch [110/1000] | D Loss: 0.4583 | G Loss: 2.2351
+Grid Size (9, 9) | Epoch [120/1000] | D Loss: 0.4217 | G Loss: 1.9482
+Grid Size (9, 9) | Epoch [130/1000] | D Loss: 0.5271 | G Loss: 1.9862
+Grid Size (9, 9) | Epoch [140/1000] | D Loss: 0.7385 | G Loss: 1.2587
+Grid Size (9, 9) | Epoch [150/1000] | D Loss: 0.7311 | G Loss: 1.9413
+Grid Size (9, 9) | Epoch [160/1000] | D Loss: 0.6918 | G Loss: 1.6619
+Grid Size (9, 9) | Epoch [170/1000] | D Loss: 0.6853 | G Loss: 1.3037
+Grid Size (9, 9) | Epoch [180/1000] | D Loss: 0.6761 | G Loss: 1.3449
+Grid Size (9, 9) | Epoch [190/1000] | D Loss: 0.8359 | G Loss: 1.3095
+Grid Size (9, 9) | Epoch [200/1000] | D Loss: 1.0021 | G Loss: 1.1524
+Grid Size (9, 9) | Epoch [210/1000] | D Loss: 0.8715 | G Loss: 1.2850
+Grid Size (9, 9) | Epoch [220/1000] | D Loss: 0.9637 | G Loss: 1.0284
+Grid Size (9, 9) | Epoch [230/1000] | D Loss: 1.1102 | G Loss: 1.1766
+Grid Size (9, 9) | Epoch [240/1000] | D Loss: 1.0521 | G Loss: 1.0427
+Grid Size (9, 9) | Epoch [250/1000] | D Loss: 0.9722 | G Loss: 1.1515
+Grid Size (9, 9) | Epoch [260/1000] | D Loss: 0.9146 | G Loss: 1.1057
+Grid Size (9, 9) | Epoch [270/1000] | D Loss: 0.8073 | G Loss: 1.3813
+Grid Size (9, 9) | Epoch [280/1000] | D Loss: 0.9067 | G Loss: 1.1074
+Grid Size (9, 9) | Epoch [290/1000] | D Loss: 0.8789 | G Loss: 1.2493
+Grid Size (9, 9) | Epoch [300/1000] | D Loss: 0.8812 | G Loss: 1.3421
+Grid Size (9, 9) | Epoch [310/1000] | D Loss: 0.7819 | G Loss: 1.3771
+Grid Size (9, 9) | Epoch [320/1000] | D Loss: 0.7413 | G Loss: 1.2991
+Grid Size (9, 9) | Epoch [330/1000] | D Loss: 0.7118 | G Loss: 1.2864
+Grid Size (9, 9) | Epoch [340/1000] | D Loss: 0.5531 | G Loss: 1.4547
+Grid Size (9, 9) | Epoch [350/1000] | D Loss: 0.6117 | G Loss: 1.4276
+Grid Size (9, 9) | Epoch [360/1000] | D Loss: 0.6803 | G Loss: 1.4031
+Grid Size (9, 9) | Epoch [370/1000] | D Loss: 0.6559 | G Loss: 1.5363
+Grid Size (9, 9) | Epoch [380/1000] | D Loss: 0.6507 | G Loss: 1.3613
+Grid Size (9, 9) | Epoch [390/1000] | D Loss: 0.6129 | G Loss: 1.4225
+Grid Size (9, 9) | Epoch [400/1000] | D Loss: 0.5964 | G Loss: 1.6693
+Grid Size (9, 9) | Epoch [410/1000] | D Loss: 0.6131 | G Loss: 1.7466
+Grid Size (9, 9) | Epoch [420/1000] | D Loss: 0.5176 | G Loss: 1.7501
+Grid Size (9, 9) | Epoch [430/1000] | D Loss: 0.6604 | G Loss: 1.9239
+Grid Size (9, 9) | Epoch [440/1000] | D Loss: 0.5290 | G Loss: 1.7550
+Grid Size (9, 9) | Epoch [450/1000] | D Loss: 0.4446 | G Loss: 1.9840
+Grid Size (9, 9) | Epoch [460/1000] | D Loss: 0.4989 | G Loss: 1.9781
+Grid Size (9, 9) | Epoch [470/1000] | D Loss: 0.3891 | G Loss: 1.8549
+Grid Size (9, 9) | Epoch [480/1000] | D Loss: 0.4300 | G Loss: 1.9264
+Grid Size (9, 9) | Epoch [490/1000] | D Loss: 0.5624 | G Loss: 2.0776
+Grid Size (9, 9) | Epoch [500/1000] | D Loss: 0.4329 | G Loss: 1.6131
+Grid Size (9, 9) | Epoch [510/1000] | D Loss: 0.3559 | G Loss: 2.2235
+Grid Size (9, 9) | Epoch [520/1000] | D Loss: 0.4196 | G Loss: 1.8840
+Grid Size (9, 9) | Epoch [530/1000] | D Loss: 0.3610 | G Loss: 2.1679
+Grid Size (9, 9) | Epoch [540/1000] | D Loss: 0.3533 | G Loss: 2.1842
+Grid Size (9, 9) | Epoch [550/1000] | D Loss: 0.2651 | G Loss: 2.6503
+Grid Size (9, 9) | Epoch [560/1000] | D Loss: 0.2537 | G Loss: 2.4737
+Grid Size (9, 9) | Epoch [570/1000] | D Loss: 0.2772 | G Loss: 2.6301
+Grid Size (9, 9) | Epoch [580/1000] | D Loss: 0.2767 | G Loss: 2.5557
+Grid Size (9, 9) | Epoch [590/1000] | D Loss: 0.3506 | G Loss: 3.0220
+Grid Size (9, 9) | Epoch [600/1000] | D Loss: 0.3174 | G Loss: 2.3112
+Grid Size (9, 9) | Epoch [610/1000] | D Loss: 0.2371 | G Loss: 2.8397
+Grid Size (9, 9) | Epoch [620/1000] | D Loss: 0.2867 | G Loss: 2.2894
+Grid Size (9, 9) | Epoch [630/1000] | D Loss: 0.2741 | G Loss: 2.3263
+Grid Size (9, 9) | Epoch [640/1000] | D Loss: 0.2748 | G Loss: 2.5992
+Grid Size (9, 9) | Epoch [650/1000] | D Loss: 0.1998 | G Loss: 2.6132
+Grid Size (9, 9) | Epoch [660/1000] | D Loss: 0.3012 | G Loss: 2.4671
+Grid Size (9, 9) | Epoch [670/1000] | D Loss: 0.2538 | G Loss: 3.0838
+Grid Size (9, 9) | Epoch [680/1000] | D Loss: 0.1837 | G Loss: 2.6672
+Grid Size (9, 9) | Epoch [690/1000] | D Loss: 0.2065 | G Loss: 2.9675
+Grid Size (9, 9) | Epoch [700/1000] | D Loss: 0.2057 | G Loss: 3.2870
+Grid Size (9, 9) | Epoch [710/1000] | D Loss: 0.1515 | G Loss: 3.0126
+Grid Size (9, 9) | Epoch [720/1000] | D Loss: 0.1916 | G Loss: 3.0386
+Grid Size (9, 9) | Epoch [730/1000] | D Loss: 0.1306 | G Loss: 3.0638
+Grid Size (9, 9) | Epoch [740/1000] | D Loss: 0.1167 | G Loss: 3.1489
+Grid Size (9, 9) | Epoch [750/1000] | D Loss: 0.1742 | G Loss: 3.2577
+Grid Size (9, 9) | Epoch [760/1000] | D Loss: 0.1593 | G Loss: 3.2318
+Grid Size (9, 9) | Epoch [770/1000] | D Loss: 0.1687 | G Loss: 3.1876
+Grid Size (9, 9) | Epoch [780/1000] | D Loss: 0.1631 | G Loss: 3.2993
+Grid Size (9, 9) | Epoch [790/1000] | D Loss: 0.1746 | G Loss: 3.3333
+Grid Size (9, 9) | Epoch [800/1000] | D Loss: 0.1140 | G Loss: 2.8326
+Grid Size (9, 9) | Epoch [810/1000] | D Loss: 0.1524 | G Loss: 3.5132
+Grid Size (9, 9) | Epoch [820/1000] | D Loss: 0.1859 | G Loss: 3.3912
+Grid Size (9, 9) | Epoch [830/1000] | D Loss: 0.1170 | G Loss: 3.2328
+Grid Size (9, 9) | Epoch [840/1000] | D Loss: 0.1138 | G Loss: 3.4138
+Grid Size (9, 9) | Epoch [850/1000] | D Loss: 0.1566 | G Loss: 3.7205
+Grid Size (9, 9) | Epoch [860/1000] | D Loss: 0.1514 | G Loss: 3.0571
+Grid Size (9, 9) | Epoch [870/1000] | D Loss: 0.0948 | G Loss: 2.8681
+Grid Size (9, 9) | Epoch [880/1000] | D Loss: 0.1065 | G Loss: 3.5044
+Grid Size (9, 9) | Epoch [890/1000] | D Loss: 0.4056 | G Loss: 3.8254
+Grid Size (9, 9) | Epoch [900/1000] | D Loss: 0.1066 | G Loss: 3.6250
+Grid Size (9, 9) | Epoch [910/1000] | D Loss: 0.1363 | G Loss: 3.5169
+Grid Size (9, 9) | Epoch [920/1000] | D Loss: 0.1235 | G Loss: 2.7095
+Grid Size (9, 9) | Epoch [930/1000] | D Loss: 0.1206 | G Loss: 2.8826
+Grid Size (9, 9) | Epoch [940/1000] | D Loss: 0.1296 | G Loss: 3.5467
+Grid Size (9, 9) | Epoch [950/1000] | D Loss: 0.1497 | G Loss: 3.9689
+Grid Size (9, 9) | Epoch [960/1000] | D Loss: 0.1428 | G Loss: 4.2315
+Grid Size (9, 9) | Epoch [970/1000] | D Loss: 0.1008 | G Loss: 2.8652
+Grid Size (9, 9) | Epoch [980/1000] | D Loss: 0.1298 | G Loss: 3.2550
+Grid Size (9, 9) | Epoch [990/1000] | D Loss: 0.1208 | G Loss: 3.2676
+
+Training complete for grid size (9, 9).
+
+Generating 200 new examples for grid size (9, 9)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_9x9.json'.
+
+Processing grid size (14, 14) with 88 examples...
+Skipping training for grid size (14, 14) due to insufficient data (88 examples).
+
+Processing grid size (20, 20) with 200 examples...
+Using Conv models for grid size (20, 20).
+Grid Size (20, 20) | Epoch [0/1000] | D Loss: 1.5247 | G Loss: 0.8292
+Grid Size (20, 20) | Epoch [10/1000] | D Loss: 0.7274 | G Loss: 1.2910
+Grid Size (20, 20) | Epoch [20/1000] | D Loss: 0.6176 | G Loss: 1.4299
+Grid Size (20, 20) | Epoch [30/1000] | D Loss: 0.5771 | G Loss: 1.4794
+Grid Size (20, 20) | Epoch [40/1000] | D Loss: 0.5541 | G Loss: 1.5512
+Grid Size (20, 20) | Epoch [50/1000] | D Loss: 0.4637 | G Loss: 1.7938
+Grid Size (20, 20) | Epoch [60/1000] | D Loss: 0.3816 | G Loss: 1.9757
+Grid Size (20, 20) | Epoch [70/1000] | D Loss: 0.6177 | G Loss: 1.5278
+Grid Size (20, 20) | Epoch [80/1000] | D Loss: 0.6654 | G Loss: 1.6734
+Grid Size (20, 20) | Epoch [90/1000] | D Loss: 0.5510 | G Loss: 1.8171
+Grid Size (20, 20) | Epoch [100/1000] | D Loss: 0.6480 | G Loss: 1.5862
+Grid Size (20, 20) | Epoch [110/1000] | D Loss: 0.6772 | G Loss: 1.3993
+Grid Size (20, 20) | Epoch [120/1000] | D Loss: 0.6044 | G Loss: 1.5958
+Grid Size (20, 20) | Epoch [130/1000] | D Loss: 0.8107 | G Loss: 1.4052
+Grid Size (20, 20) | Epoch [140/1000] | D Loss: 0.7101 | G Loss: 1.0790
+Grid Size (20, 20) | Epoch [150/1000] | D Loss: 0.4935 | G Loss: 1.2010
+Grid Size (20, 20) | Epoch [160/1000] | D Loss: 0.7110 | G Loss: 1.2555
+Grid Size (20, 20) | Epoch [170/1000] | D Loss: 0.7050 | G Loss: 1.8469
+Grid Size (20, 20) | Epoch [180/1000] | D Loss: 0.8517 | G Loss: 1.2310
+Grid Size (20, 20) | Epoch [190/1000] | D Loss: 0.8851 | G Loss: 2.2027
+Grid Size (20, 20) | Epoch [200/1000] | D Loss: 0.6374 | G Loss: 1.4729
+Grid Size (20, 20) | Epoch [210/1000] | D Loss: 0.7699 | G Loss: 2.1601
+Grid Size (20, 20) | Epoch [220/1000] | D Loss: 0.6156 | G Loss: 1.2768
+Grid Size (20, 20) | Epoch [230/1000] | D Loss: 0.6060 | G Loss: 1.7751
+Grid Size (20, 20) | Epoch [240/1000] | D Loss: 0.6391 | G Loss: 2.2100
+Grid Size (20, 20) | Epoch [250/1000] | D Loss: 0.6976 | G Loss: 1.4441
+Grid Size (20, 20) | Epoch [260/1000] | D Loss: 0.5272 | G Loss: 1.9545
+Grid Size (20, 20) | Epoch [270/1000] | D Loss: 0.5702 | G Loss: 1.7175
+Grid Size (20, 20) | Epoch [280/1000] | D Loss: 0.5651 | G Loss: 1.5777
+Grid Size (20, 20) | Epoch [290/1000] | D Loss: 0.4224 | G Loss: 1.8305
+Grid Size (20, 20) | Epoch [300/1000] | D Loss: 0.6146 | G Loss: 1.8855
+Grid Size (20, 20) | Epoch [310/1000] | D Loss: 0.4274 | G Loss: 1.8418
+Grid Size (20, 20) | Epoch [320/1000] | D Loss: 0.5113 | G Loss: 1.5435
+Grid Size (20, 20) | Epoch [330/1000] | D Loss: 0.5114 | G Loss: 1.7081
+Grid Size (20, 20) | Epoch [340/1000] | D Loss: 0.6116 | G Loss: 1.1593
+Grid Size (20, 20) | Epoch [350/1000] | D Loss: 0.4211 | G Loss: 1.7274
+Grid Size (20, 20) | Epoch [360/1000] | D Loss: 0.3879 | G Loss: 1.7026
+Grid Size (20, 20) | Epoch [370/1000] | D Loss: 0.5104 | G Loss: 2.1869
+Grid Size (20, 20) | Epoch [380/1000] | D Loss: 0.5018 | G Loss: 2.3114
+Grid Size (20, 20) | Epoch [390/1000] | D Loss: 0.3602 | G Loss: 2.0327
+Grid Size (20, 20) | Epoch [400/1000] | D Loss: 0.3008 | G Loss: 1.6616
+Grid Size (20, 20) | Epoch [410/1000] | D Loss: 0.3825 | G Loss: 2.0752
+Grid Size (20, 20) | Epoch [420/1000] | D Loss: 0.4684 | G Loss: 2.1569
+Grid Size (20, 20) | Epoch [430/1000] | D Loss: 0.3696 | G Loss: 1.4080
+Grid Size (20, 20) | Epoch [440/1000] | D Loss: 0.5200 | G Loss: 1.7040
+Grid Size (20, 20) | Epoch [450/1000] | D Loss: 0.3701 | G Loss: 2.2439
+Grid Size (20, 20) | Epoch [460/1000] | D Loss: 0.3307 | G Loss: 1.9843
+Grid Size (20, 20) | Epoch [470/1000] | D Loss: 0.3850 | G Loss: 1.8232
+Grid Size (20, 20) | Epoch [480/1000] | D Loss: 0.3701 | G Loss: 1.9732
+Grid Size (20, 20) | Epoch [490/1000] | D Loss: 0.4111 | G Loss: 1.9338
+Grid Size (20, 20) | Epoch [500/1000] | D Loss: 0.3451 | G Loss: 2.1753
+Grid Size (20, 20) | Epoch [510/1000] | D Loss: 0.2705 | G Loss: 1.9168
+Grid Size (20, 20) | Epoch [520/1000] | D Loss: 0.3852 | G Loss: 2.1591
+Grid Size (20, 20) | Epoch [530/1000] | D Loss: 0.3227 | G Loss: 2.2184
+Grid Size (20, 20) | Epoch [540/1000] | D Loss: 0.3172 | G Loss: 2.3111
+Grid Size (20, 20) | Epoch [550/1000] | D Loss: 0.2208 | G Loss: 1.8521
+Grid Size (20, 20) | Epoch [560/1000] | D Loss: 0.2729 | G Loss: 2.0938
+Grid Size (20, 20) | Epoch [570/1000] | D Loss: 0.2929 | G Loss: 2.2240
+Grid Size (20, 20) | Epoch [580/1000] | D Loss: 0.2763 | G Loss: 2.7647
+Grid Size (20, 20) | Epoch [590/1000] | D Loss: 0.3044 | G Loss: 2.3856
+Grid Size (20, 20) | Epoch [600/1000] | D Loss: 0.2748 | G Loss: 1.9909
+Grid Size (20, 20) | Epoch [610/1000] | D Loss: 0.2354 | G Loss: 2.1619
+Grid Size (20, 20) | Epoch [620/1000] | D Loss: 0.2393 | G Loss: 2.0529
+Grid Size (20, 20) | Epoch [630/1000] | D Loss: 0.2436 | G Loss: 2.3818
+Grid Size (20, 20) | Epoch [640/1000] | D Loss: 0.2287 | G Loss: 2.9681
+Grid Size (20, 20) | Epoch [650/1000] | D Loss: 0.2451 | G Loss: 2.5119
+Grid Size (20, 20) | Epoch [660/1000] | D Loss: 0.2527 | G Loss: 2.1920
+Grid Size (20, 20) | Epoch [670/1000] | D Loss: 0.2526 | G Loss: 2.5217
+Grid Size (20, 20) | Epoch [680/1000] | D Loss: 0.2618 | G Loss: 3.1821
+Grid Size (20, 20) | Epoch [690/1000] | D Loss: 0.2265 | G Loss: 2.6549
+Grid Size (20, 20) | Epoch [700/1000] | D Loss: 0.2130 | G Loss: 2.3868
+Grid Size (20, 20) | Epoch [710/1000] | D Loss: 0.2361 | G Loss: 3.0938
+Grid Size (20, 20) | Epoch [720/1000] | D Loss: 0.1823 | G Loss: 2.6898
+Grid Size (20, 20) | Epoch [730/1000] | D Loss: 0.2784 | G Loss: 2.2305
+Grid Size (20, 20) | Epoch [740/1000] | D Loss: 0.1476 | G Loss: 2.5633
+Grid Size (20, 20) | Epoch [750/1000] | D Loss: 0.1672 | G Loss: 2.5737
+Grid Size (20, 20) | Epoch [760/1000] | D Loss: 0.2945 | G Loss: 3.8287
+Grid Size (20, 20) | Epoch [770/1000] | D Loss: 0.1726 | G Loss: 3.1325
+Grid Size (20, 20) | Epoch [780/1000] | D Loss: 0.1351 | G Loss: 3.0141
+Grid Size (20, 20) | Epoch [790/1000] | D Loss: 0.1844 | G Loss: 2.9020
+Grid Size (20, 20) | Epoch [800/1000] | D Loss: 0.1774 | G Loss: 2.6845
+Grid Size (20, 20) | Epoch [810/1000] | D Loss: 0.1660 | G Loss: 3.1070
+Grid Size (20, 20) | Epoch [820/1000] | D Loss: 0.1686 | G Loss: 2.7192
+Grid Size (20, 20) | Epoch [830/1000] | D Loss: 0.1585 | G Loss: 2.7335
+Grid Size (20, 20) | Epoch [840/1000] | D Loss: 0.1879 | G Loss: 2.8734
+Grid Size (20, 20) | Epoch [850/1000] | D Loss: 0.2029 | G Loss: 2.4785
+Grid Size (20, 20) | Epoch [860/1000] | D Loss: 0.1805 | G Loss: 2.8093
+Grid Size (20, 20) | Epoch [870/1000] | D Loss: 0.2391 | G Loss: 2.5025
+Grid Size (20, 20) | Epoch [880/1000] | D Loss: 0.1508 | G Loss: 2.8362
+Grid Size (20, 20) | Epoch [890/1000] | D Loss: 0.1284 | G Loss: 2.5784
+Grid Size (20, 20) | Epoch [900/1000] | D Loss: 0.0972 | G Loss: 3.0057
+Grid Size (20, 20) | Epoch [910/1000] | D Loss: 0.1637 | G Loss: 2.7789
+Grid Size (20, 20) | Epoch [920/1000] | D Loss: 0.1499 | G Loss: 2.9994
+Grid Size (20, 20) | Epoch [930/1000] | D Loss: 0.1598 | G Loss: 3.5941
+Grid Size (20, 20) | Epoch [940/1000] | D Loss: 0.1918 | G Loss: 2.8982
+Grid Size (20, 20) | Epoch [950/1000] | D Loss: 0.1518 | G Loss: 3.4471
+Grid Size (20, 20) | Epoch [960/1000] | D Loss: 0.1307 | G Loss: 3.0710
+Grid Size (20, 20) | Epoch [970/1000] | D Loss: 0.1031 | G Loss: 3.1956
+Grid Size (20, 20) | Epoch [980/1000] | D Loss: 0.1695 | G Loss: 2.5170
+Grid Size (20, 20) | Epoch [990/1000] | D Loss: 0.1442 | G Loss: 3.3907
+
+Training complete for grid size (20, 20).
+
+Generating 200 new examples for grid size (20, 20)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_20x20.json'.
+
+Processing grid size (9, 3) with 8 examples...
+Skipping training for grid size (9, 3) due to insufficient data (8 examples).
+
+Processing grid size (3, 9) with 8 examples...
+Skipping training for grid size (3, 9) due to insufficient data (8 examples).
+
+Processing grid size (10, 10) with 936 examples...
+Using Conv models for grid size (10, 10).
+Grid Size (10, 10) | Epoch [0/1000] | D Loss: 1.4882 | G Loss: 0.6152
+Grid Size (10, 10) | Epoch [10/1000] | D Loss: 0.9570 | G Loss: 0.9898
+Grid Size (10, 10) | Epoch [20/1000] | D Loss: 0.7969 | G Loss: 1.1111
+Grid Size (10, 10) | Epoch [30/1000] | D Loss: 0.6349 | G Loss: 1.3628
+Grid Size (10, 10) | Epoch [40/1000] | D Loss: 0.5843 | G Loss: 1.5496
+Grid Size (10, 10) | Epoch [50/1000] | D Loss: 0.5869 | G Loss: 1.5233
+Grid Size (10, 10) | Epoch [60/1000] | D Loss: 0.5759 | G Loss: 1.6668
+Grid Size (10, 10) | Epoch [70/1000] | D Loss: 0.6887 | G Loss: 1.4466
+Grid Size (10, 10) | Epoch [80/1000] | D Loss: 0.7873 | G Loss: 1.2219
+Grid Size (10, 10) | Epoch [90/1000] | D Loss: 1.2772 | G Loss: 1.0148
+Grid Size (10, 10) | Epoch [100/1000] | D Loss: 0.9869 | G Loss: 1.2888
+Grid Size (10, 10) | Epoch [110/1000] | D Loss: 1.1232 | G Loss: 1.0361
+Grid Size (10, 10) | Epoch [120/1000] | D Loss: 1.0747 | G Loss: 1.0333
+Grid Size (10, 10) | Epoch [130/1000] | D Loss: 1.0982 | G Loss: 0.8287
+Grid Size (10, 10) | Epoch [140/1000] | D Loss: 0.9524 | G Loss: 0.8830
+Grid Size (10, 10) | Epoch [150/1000] | D Loss: 1.1640 | G Loss: 1.0944
+Grid Size (10, 10) | Epoch [160/1000] | D Loss: 1.1114 | G Loss: 0.9443
+Grid Size (10, 10) | Epoch [170/1000] | D Loss: 1.0876 | G Loss: 0.8528
+Grid Size (10, 10) | Epoch [180/1000] | D Loss: 1.1267 | G Loss: 0.8554
+Grid Size (10, 10) | Epoch [190/1000] | D Loss: 1.1466 | G Loss: 1.0293
+Grid Size (10, 10) | Epoch [200/1000] | D Loss: 1.0906 | G Loss: 1.2267
+Grid Size (10, 10) | Epoch [210/1000] | D Loss: 1.1527 | G Loss: 1.0662
+Grid Size (10, 10) | Epoch [220/1000] | D Loss: 0.9486 | G Loss: 1.1587
+Grid Size (10, 10) | Epoch [230/1000] | D Loss: 0.9414 | G Loss: 1.3069
+Grid Size (10, 10) | Epoch [240/1000] | D Loss: 0.8569 | G Loss: 1.2005
+Grid Size (10, 10) | Epoch [250/1000] | D Loss: 0.8923 | G Loss: 1.1890
+Grid Size (10, 10) | Epoch [260/1000] | D Loss: 0.7885 | G Loss: 1.2356
+Grid Size (10, 10) | Epoch [270/1000] | D Loss: 0.7711 | G Loss: 1.3858
+Grid Size (10, 10) | Epoch [280/1000] | D Loss: 0.8201 | G Loss: 1.3501
+Grid Size (10, 10) | Epoch [290/1000] | D Loss: 0.7075 | G Loss: 1.4388
+Grid Size (10, 10) | Epoch [300/1000] | D Loss: 0.6269 | G Loss: 1.4892
+Grid Size (10, 10) | Epoch [310/1000] | D Loss: 0.7498 | G Loss: 1.3444
+Grid Size (10, 10) | Epoch [320/1000] | D Loss: 0.6009 | G Loss: 1.5795
+Grid Size (10, 10) | Epoch [330/1000] | D Loss: 0.5775 | G Loss: 1.6938
+Grid Size (10, 10) | Epoch [340/1000] | D Loss: 0.5574 | G Loss: 1.5734
+Grid Size (10, 10) | Epoch [350/1000] | D Loss: 0.5352 | G Loss: 1.4725
+Grid Size (10, 10) | Epoch [360/1000] | D Loss: 0.4265 | G Loss: 1.8310
+Grid Size (10, 10) | Epoch [370/1000] | D Loss: 0.4307 | G Loss: 1.8148
+Grid Size (10, 10) | Epoch [380/1000] | D Loss: 0.4048 | G Loss: 1.8417
+Grid Size (10, 10) | Epoch [390/1000] | D Loss: 0.4365 | G Loss: 1.6666
+Grid Size (10, 10) | Epoch [400/1000] | D Loss: 0.4664 | G Loss: 2.4301
+Grid Size (10, 10) | Epoch [410/1000] | D Loss: 0.4212 | G Loss: 1.6058
+Grid Size (10, 10) | Epoch [420/1000] | D Loss: 0.3191 | G Loss: 1.9840
+Grid Size (10, 10) | Epoch [430/1000] | D Loss: 0.3788 | G Loss: 2.3952
+Grid Size (10, 10) | Epoch [440/1000] | D Loss: 0.3239 | G Loss: 2.2018
+Grid Size (10, 10) | Epoch [450/1000] | D Loss: 0.2938 | G Loss: 2.2625
+Grid Size (10, 10) | Epoch [460/1000] | D Loss: 0.3499 | G Loss: 2.0148
+Grid Size (10, 10) | Epoch [470/1000] | D Loss: 0.4260 | G Loss: 2.2344
+Grid Size (10, 10) | Epoch [480/1000] | D Loss: 0.4185 | G Loss: 1.4926
+Grid Size (10, 10) | Epoch [490/1000] | D Loss: 0.4057 | G Loss: 1.9031
+Grid Size (10, 10) | Epoch [500/1000] | D Loss: 0.3452 | G Loss: 2.0547
+Grid Size (10, 10) | Epoch [510/1000] | D Loss: 0.3906 | G Loss: 2.0752
+Grid Size (10, 10) | Epoch [520/1000] | D Loss: 0.4887 | G Loss: 1.6975
+Grid Size (10, 10) | Epoch [530/1000] | D Loss: 0.2830 | G Loss: 2.5689
+Grid Size (10, 10) | Epoch [540/1000] | D Loss: 0.4349 | G Loss: 1.8506
+Grid Size (10, 10) | Epoch [550/1000] | D Loss: 0.2180 | G Loss: 2.2585
+Grid Size (10, 10) | Epoch [560/1000] | D Loss: 0.3212 | G Loss: 2.4531
+Grid Size (10, 10) | Epoch [570/1000] | D Loss: 0.3632 | G Loss: 2.1027
+Grid Size (10, 10) | Epoch [580/1000] | D Loss: 0.5002 | G Loss: 1.6476
+Grid Size (10, 10) | Epoch [590/1000] | D Loss: 0.3207 | G Loss: 2.3825
+Grid Size (10, 10) | Epoch [600/1000] | D Loss: 0.3870 | G Loss: 2.2994
+Grid Size (10, 10) | Epoch [610/1000] | D Loss: 0.3753 | G Loss: 2.4949
+Grid Size (10, 10) | Epoch [620/1000] | D Loss: 0.2805 | G Loss: 2.4066
+Grid Size (10, 10) | Epoch [630/1000] | D Loss: 0.2698 | G Loss: 2.8093
+Grid Size (10, 10) | Epoch [640/1000] | D Loss: 0.2747 | G Loss: 2.4971
+Grid Size (10, 10) | Epoch [650/1000] | D Loss: 0.3023 | G Loss: 2.6164
+Grid Size (10, 10) | Epoch [660/1000] | D Loss: 0.1926 | G Loss: 2.6469
+Grid Size (10, 10) | Epoch [670/1000] | D Loss: 0.3250 | G Loss: 2.1358
+Grid Size (10, 10) | Epoch [680/1000] | D Loss: 0.1783 | G Loss: 2.6066
+Grid Size (10, 10) | Epoch [690/1000] | D Loss: 0.3046 | G Loss: 2.4292
+Grid Size (10, 10) | Epoch [700/1000] | D Loss: 0.2894 | G Loss: 2.8256
+Grid Size (10, 10) | Epoch [710/1000] | D Loss: 0.2504 | G Loss: 2.6105
+Grid Size (10, 10) | Epoch [720/1000] | D Loss: 0.3443 | G Loss: 2.2950
+Grid Size (10, 10) | Epoch [730/1000] | D Loss: 0.3432 | G Loss: 2.4626
+Grid Size (10, 10) | Epoch [740/1000] | D Loss: 0.4534 | G Loss: 1.5530
+Grid Size (10, 10) | Epoch [750/1000] | D Loss: 0.2152 | G Loss: 2.6001
+Grid Size (10, 10) | Epoch [760/1000] | D Loss: 0.4031 | G Loss: 2.7293
+Grid Size (10, 10) | Epoch [770/1000] | D Loss: 0.2387 | G Loss: 2.1938
+Grid Size (10, 10) | Epoch [780/1000] | D Loss: 0.4232 | G Loss: 1.9525
+Grid Size (10, 10) | Epoch [790/1000] | D Loss: 0.5198 | G Loss: 1.8070
+Grid Size (10, 10) | Epoch [800/1000] | D Loss: 0.3553 | G Loss: 2.2359
+Grid Size (10, 10) | Epoch [810/1000] | D Loss: 0.2410 | G Loss: 2.3343
+Grid Size (10, 10) | Epoch [820/1000] | D Loss: 0.7610 | G Loss: 1.6340
+Grid Size (10, 10) | Epoch [830/1000] | D Loss: 0.3379 | G Loss: 2.3389
+Grid Size (10, 10) | Epoch [840/1000] | D Loss: 0.3095 | G Loss: 2.2968
+Grid Size (10, 10) | Epoch [850/1000] | D Loss: 0.2408 | G Loss: 2.4419
+Grid Size (10, 10) | Epoch [860/1000] | D Loss: 0.2652 | G Loss: 2.5138
+Grid Size (10, 10) | Epoch [870/1000] | D Loss: 0.3591 | G Loss: 2.3065
+Grid Size (10, 10) | Epoch [880/1000] | D Loss: 0.2913 | G Loss: 2.5910
+Grid Size (10, 10) | Epoch [890/1000] | D Loss: 0.5123 | G Loss: 2.4224
+Grid Size (10, 10) | Epoch [900/1000] | D Loss: 0.2620 | G Loss: 2.1577
+Grid Size (10, 10) | Epoch [910/1000] | D Loss: 0.3617 | G Loss: 2.5880
+Grid Size (10, 10) | Epoch [920/1000] | D Loss: 0.3214 | G Loss: 1.8911
+Grid Size (10, 10) | Epoch [930/1000] | D Loss: 0.2980 | G Loss: 1.8420
+Grid Size (10, 10) | Epoch [940/1000] | D Loss: 0.2395 | G Loss: 2.2386
+Grid Size (10, 10) | Epoch [950/1000] | D Loss: 0.3039 | G Loss: 2.8049
+Grid Size (10, 10) | Epoch [960/1000] | D Loss: 0.5209 | G Loss: 2.3608
+Grid Size (10, 10) | Epoch [970/1000] | D Loss: 0.3144 | G Loss: 2.8289
+Grid Size (10, 10) | Epoch [980/1000] | D Loss: 0.3585 | G Loss: 2.5399
+Grid Size (10, 10) | Epoch [990/1000] | D Loss: 0.5852 | G Loss: 1.6711
+
+Training complete for grid size (10, 10).
+
+Generating 200 new examples for grid size (10, 10)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_10x10.json'.
+
+Processing grid size (21, 21) with 48 examples...
+Skipping training for grid size (21, 21) due to insufficient data (48 examples).
+
+Processing grid size (3, 3) with 560 examples...
+Using Linear models for grid size (3, 3).
+Grid Size (3, 3) | Epoch [0/1000] | D Loss: 1.4077 | G Loss: 0.7622
+Grid Size (3, 3) | Epoch [10/1000] | D Loss: 1.3880 | G Loss: 0.7661
+Grid Size (3, 3) | Epoch [20/1000] | D Loss: 1.3867 | G Loss: 0.7572
+Grid Size (3, 3) | Epoch [30/1000] | D Loss: 1.3708 | G Loss: 0.7579
+Grid Size (3, 3) | Epoch [40/1000] | D Loss: 1.3735 | G Loss: 0.7511
+Grid Size (3, 3) | Epoch [50/1000] | D Loss: 1.3571 | G Loss: 0.7466
+Grid Size (3, 3) | Epoch [60/1000] | D Loss: 1.3387 | G Loss: 0.7579
+Grid Size (3, 3) | Epoch [70/1000] | D Loss: 1.3331 | G Loss: 0.7450
+Grid Size (3, 3) | Epoch [80/1000] | D Loss: 1.3291 | G Loss: 0.7471
+Grid Size (3, 3) | Epoch [90/1000] | D Loss: 1.3330 | G Loss: 0.7381
+Grid Size (3, 3) | Epoch [100/1000] | D Loss: 1.2917 | G Loss: 0.7380
+Grid Size (3, 3) | Epoch [110/1000] | D Loss: 1.3043 | G Loss: 0.7387
+Grid Size (3, 3) | Epoch [120/1000] | D Loss: 1.2915 | G Loss: 0.7455
+Grid Size (3, 3) | Epoch [130/1000] | D Loss: 1.3077 | G Loss: 0.7415
+Grid Size (3, 3) | Epoch [140/1000] | D Loss: 1.2936 | G Loss: 0.7459
+Grid Size (3, 3) | Epoch [150/1000] | D Loss: 1.2810 | G Loss: 0.7314
+Grid Size (3, 3) | Epoch [160/1000] | D Loss: 1.2808 | G Loss: 0.7396
+Grid Size (3, 3) | Epoch [170/1000] | D Loss: 1.2848 | G Loss: 0.7462
+Grid Size (3, 3) | Epoch [180/1000] | D Loss: 1.2878 | G Loss: 0.7420
+Grid Size (3, 3) | Epoch [190/1000] | D Loss: 1.2881 | G Loss: 0.7518
+Grid Size (3, 3) | Epoch [200/1000] | D Loss: 1.2892 | G Loss: 0.7438
+Grid Size (3, 3) | Epoch [210/1000] | D Loss: 1.2571 | G Loss: 0.7405
+Grid Size (3, 3) | Epoch [220/1000] | D Loss: 1.2776 | G Loss: 0.7497
+Grid Size (3, 3) | Epoch [230/1000] | D Loss: 1.2485 | G Loss: 0.7445
+Grid Size (3, 3) | Epoch [240/1000] | D Loss: 1.2466 | G Loss: 0.7453
+Grid Size (3, 3) | Epoch [250/1000] | D Loss: 1.2582 | G Loss: 0.7523
+Grid Size (3, 3) | Epoch [260/1000] | D Loss: 1.2988 | G Loss: 0.7506
+Grid Size (3, 3) | Epoch [270/1000] | D Loss: 1.2561 | G Loss: 0.7611
+Grid Size (3, 3) | Epoch [280/1000] | D Loss: 1.2523 | G Loss: 0.7605
+Grid Size (3, 3) | Epoch [290/1000] | D Loss: 1.2458 | G Loss: 0.7696
+Grid Size (3, 3) | Epoch [300/1000] | D Loss: 1.2024 | G Loss: 0.7629
+Grid Size (3, 3) | Epoch [310/1000] | D Loss: 1.2382 | G Loss: 0.7584
+Grid Size (3, 3) | Epoch [320/1000] | D Loss: 1.2480 | G Loss: 0.7660
+Grid Size (3, 3) | Epoch [330/1000] | D Loss: 1.2205 | G Loss: 0.7707
+Grid Size (3, 3) | Epoch [340/1000] | D Loss: 1.1959 | G Loss: 0.7777
+Grid Size (3, 3) | Epoch [350/1000] | D Loss: 1.2288 | G Loss: 0.7545
+Grid Size (3, 3) | Epoch [360/1000] | D Loss: 1.2018 | G Loss: 0.7850
+Grid Size (3, 3) | Epoch [370/1000] | D Loss: 1.2387 | G Loss: 0.7613
+Grid Size (3, 3) | Epoch [380/1000] | D Loss: 1.1984 | G Loss: 0.7751
+Grid Size (3, 3) | Epoch [390/1000] | D Loss: 1.2315 | G Loss: 0.7787
+Grid Size (3, 3) | Epoch [400/1000] | D Loss: 1.1766 | G Loss: 0.7538
+Grid Size (3, 3) | Epoch [410/1000] | D Loss: 1.2040 | G Loss: 0.7898
+Grid Size (3, 3) | Epoch [420/1000] | D Loss: 1.2010 | G Loss: 0.7820
+Grid Size (3, 3) | Epoch [430/1000] | D Loss: 1.2698 | G Loss: 0.7837
+Grid Size (3, 3) | Epoch [440/1000] | D Loss: 1.1946 | G Loss: 0.7761
+Grid Size (3, 3) | Epoch [450/1000] | D Loss: 1.1956 | G Loss: 0.7934
+Grid Size (3, 3) | Epoch [460/1000] | D Loss: 1.2120 | G Loss: 0.8051
+Grid Size (3, 3) | Epoch [470/1000] | D Loss: 1.2350 | G Loss: 0.8088
+Grid Size (3, 3) | Epoch [480/1000] | D Loss: 1.2102 | G Loss: 0.8035
+Grid Size (3, 3) | Epoch [490/1000] | D Loss: 1.2316 | G Loss: 0.8110
+Grid Size (3, 3) | Epoch [500/1000] | D Loss: 1.1521 | G Loss: 0.7945
+Grid Size (3, 3) | Epoch [510/1000] | D Loss: 1.1808 | G Loss: 0.7934
+Grid Size (3, 3) | Epoch [520/1000] | D Loss: 1.2202 | G Loss: 0.7990
+Grid Size (3, 3) | Epoch [530/1000] | D Loss: 1.2400 | G Loss: 0.8165
+Grid Size (3, 3) | Epoch [540/1000] | D Loss: 1.1568 | G Loss: 0.8030
+Grid Size (3, 3) | Epoch [550/1000] | D Loss: 1.2553 | G Loss: 0.7962
+Grid Size (3, 3) | Epoch [560/1000] | D Loss: 1.1904 | G Loss: 0.8114
+Grid Size (3, 3) | Epoch [570/1000] | D Loss: 1.2045 | G Loss: 0.8050
+Grid Size (3, 3) | Epoch [580/1000] | D Loss: 1.2631 | G Loss: 0.7926
+Grid Size (3, 3) | Epoch [590/1000] | D Loss: 1.1794 | G Loss: 0.8146
+Grid Size (3, 3) | Epoch [600/1000] | D Loss: 1.2444 | G Loss: 0.8110
+Grid Size (3, 3) | Epoch [610/1000] | D Loss: 1.2003 | G Loss: 0.8515
+Grid Size (3, 3) | Epoch [620/1000] | D Loss: 1.2045 | G Loss: 0.8242
+Grid Size (3, 3) | Epoch [630/1000] | D Loss: 1.1605 | G Loss: 0.8137
+Grid Size (3, 3) | Epoch [640/1000] | D Loss: 1.1601 | G Loss: 0.8227
+Grid Size (3, 3) | Epoch [650/1000] | D Loss: 1.1477 | G Loss: 0.8227
+Grid Size (3, 3) | Epoch [660/1000] | D Loss: 1.1269 | G Loss: 0.8230
+Grid Size (3, 3) | Epoch [670/1000] | D Loss: 1.1608 | G Loss: 0.8148
+Grid Size (3, 3) | Epoch [680/1000] | D Loss: 1.2382 | G Loss: 0.8225
+Grid Size (3, 3) | Epoch [690/1000] | D Loss: 1.2229 | G Loss: 0.8550
+Grid Size (3, 3) | Epoch [700/1000] | D Loss: 1.2711 | G Loss: 0.8259
+Grid Size (3, 3) | Epoch [710/1000] | D Loss: 1.1401 | G Loss: 0.8452
+Grid Size (3, 3) | Epoch [720/1000] | D Loss: 1.2210 | G Loss: 0.8299
+Grid Size (3, 3) | Epoch [730/1000] | D Loss: 1.2298 | G Loss: 0.8099
+Grid Size (3, 3) | Epoch [740/1000] | D Loss: 1.2218 | G Loss: 0.8395
+Grid Size (3, 3) | Epoch [750/1000] | D Loss: 1.1850 | G Loss: 0.8449
+Grid Size (3, 3) | Epoch [760/1000] | D Loss: 1.2055 | G Loss: 0.8385
+Grid Size (3, 3) | Epoch [770/1000] | D Loss: 1.1715 | G Loss: 0.8388
+Grid Size (3, 3) | Epoch [780/1000] | D Loss: 1.2482 | G Loss: 0.8210
+Grid Size (3, 3) | Epoch [790/1000] | D Loss: 1.2097 | G Loss: 0.8460
+Grid Size (3, 3) | Epoch [800/1000] | D Loss: 1.2303 | G Loss: 0.8514
+Grid Size (3, 3) | Epoch [810/1000] | D Loss: 1.1740 | G Loss: 0.8221
+Grid Size (3, 3) | Epoch [820/1000] | D Loss: 1.1606 | G Loss: 0.8444
+Grid Size (3, 3) | Epoch [830/1000] | D Loss: 1.2359 | G Loss: 0.8396
+Grid Size (3, 3) | Epoch [840/1000] | D Loss: 1.1570 | G Loss: 0.8400
+Grid Size (3, 3) | Epoch [850/1000] | D Loss: 1.2037 | G Loss: 0.8316
+Grid Size (3, 3) | Epoch [860/1000] | D Loss: 1.1999 | G Loss: 0.8243
+Grid Size (3, 3) | Epoch [870/1000] | D Loss: 1.1360 | G Loss: 0.8506
+Grid Size (3, 3) | Epoch [880/1000] | D Loss: 1.2207 | G Loss: 0.8386
+Grid Size (3, 3) | Epoch [890/1000] | D Loss: 1.1476 | G Loss: 0.8325
+Grid Size (3, 3) | Epoch [900/1000] | D Loss: 1.1975 | G Loss: 0.8659
+Grid Size (3, 3) | Epoch [910/1000] | D Loss: 1.2169 | G Loss: 0.8420
+Grid Size (3, 3) | Epoch [920/1000] | D Loss: 1.2164 | G Loss: 0.8365
+Grid Size (3, 3) | Epoch [930/1000] | D Loss: 1.2347 | G Loss: 0.8437
+Grid Size (3, 3) | Epoch [940/1000] | D Loss: 1.1403 | G Loss: 0.8250
+Grid Size (3, 3) | Epoch [950/1000] | D Loss: 1.2378 | G Loss: 0.8538
+Grid Size (3, 3) | Epoch [960/1000] | D Loss: 1.1196 | G Loss: 0.8501
+Grid Size (3, 3) | Epoch [970/1000] | D Loss: 1.2283 | G Loss: 0.8202
+Grid Size (3, 3) | Epoch [980/1000] | D Loss: 1.2056 | G Loss: 0.8145
+Grid Size (3, 3) | Epoch [990/1000] | D Loss: 1.2181 | G Loss: 0.8278
+
+Training complete for grid size (3, 3).
+
+Generating 200 new examples for grid size (3, 3)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_3x3.json'.
+
+Processing grid size (7, 7) with 128 examples...
+Skipping training for grid size (7, 7) due to insufficient data (128 examples).
+
+Processing grid size (30, 30) with 216 examples...
+Using Conv models for grid size (30, 30).
+Grid Size (30, 30) | Epoch [0/1000] | D Loss: 1.4611 | G Loss: 0.7235
+Grid Size (30, 30) | Epoch [10/1000] | D Loss: 0.7825 | G Loss: 1.2130
+Grid Size (30, 30) | Epoch [20/1000] | D Loss: 0.7001 | G Loss: 1.4192
+Grid Size (30, 30) | Epoch [30/1000] | D Loss: 0.6235 | G Loss: 1.5333
+Grid Size (30, 30) | Epoch [40/1000] | D Loss: 0.5995 | G Loss: 1.7229
+Grid Size (30, 30) | Epoch [50/1000] | D Loss: 0.6258 | G Loss: 1.5851
+Grid Size (30, 30) | Epoch [60/1000] | D Loss: 0.7019 | G Loss: 1.3915
+Grid Size (30, 30) | Epoch [70/1000] | D Loss: 0.7184 | G Loss: 1.4845
+Grid Size (30, 30) | Epoch [80/1000] | D Loss: 0.7090 | G Loss: 1.4229
+Grid Size (30, 30) | Epoch [90/1000] | D Loss: 0.8167 | G Loss: 1.6019
+Grid Size (30, 30) | Epoch [100/1000] | D Loss: 0.7193 | G Loss: 1.2183
+Grid Size (30, 30) | Epoch [110/1000] | D Loss: 0.7487 | G Loss: 1.4130
+Grid Size (30, 30) | Epoch [120/1000] | D Loss: 0.9777 | G Loss: 1.2735
+Grid Size (30, 30) | Epoch [130/1000] | D Loss: 0.8585 | G Loss: 1.2757
+Grid Size (30, 30) | Epoch [140/1000] | D Loss: 0.9055 | G Loss: 1.1714
+Grid Size (30, 30) | Epoch [150/1000] | D Loss: 0.8953 | G Loss: 1.1830
+Grid Size (30, 30) | Epoch [160/1000] | D Loss: 0.9127 | G Loss: 1.2112
+Grid Size (30, 30) | Epoch [170/1000] | D Loss: 0.8909 | G Loss: 1.0343
+Grid Size (30, 30) | Epoch [180/1000] | D Loss: 0.8768 | G Loss: 1.1058
+Grid Size (30, 30) | Epoch [190/1000] | D Loss: 0.8119 | G Loss: 1.3909
+Grid Size (30, 30) | Epoch [200/1000] | D Loss: 0.7229 | G Loss: 1.4187
+Grid Size (30, 30) | Epoch [210/1000] | D Loss: 0.7328 | G Loss: 1.4194
+Grid Size (30, 30) | Epoch [220/1000] | D Loss: 0.6579 | G Loss: 1.5367
+Grid Size (30, 30) | Epoch [230/1000] | D Loss: 0.7233 | G Loss: 1.3784
+Grid Size (30, 30) | Epoch [240/1000] | D Loss: 0.6719 | G Loss: 1.5526
+Grid Size (30, 30) | Epoch [250/1000] | D Loss: 0.6657 | G Loss: 1.4707
+Grid Size (30, 30) | Epoch [260/1000] | D Loss: 0.6946 | G Loss: 1.5208
+Grid Size (30, 30) | Epoch [270/1000] | D Loss: 0.6510 | G Loss: 1.1799
+Grid Size (30, 30) | Epoch [280/1000] | D Loss: 0.5735 | G Loss: 1.7493
+Grid Size (30, 30) | Epoch [290/1000] | D Loss: 0.5497 | G Loss: 1.9533
+Grid Size (30, 30) | Epoch [300/1000] | D Loss: 0.4639 | G Loss: 1.8379
+Grid Size (30, 30) | Epoch [310/1000] | D Loss: 0.5884 | G Loss: 1.8772
+Grid Size (30, 30) | Epoch [320/1000] | D Loss: 0.4441 | G Loss: 1.5944
+Grid Size (30, 30) | Epoch [330/1000] | D Loss: 0.4158 | G Loss: 2.0349
+Grid Size (30, 30) | Epoch [340/1000] | D Loss: 0.5051 | G Loss: 1.6439
+Grid Size (30, 30) | Epoch [350/1000] | D Loss: 0.4433 | G Loss: 1.9324
+Grid Size (30, 30) | Epoch [360/1000] | D Loss: 0.4055 | G Loss: 2.0591
+Grid Size (30, 30) | Epoch [370/1000] | D Loss: 0.4170 | G Loss: 1.7135
+Grid Size (30, 30) | Epoch [380/1000] | D Loss: 0.4316 | G Loss: 1.9360
+Grid Size (30, 30) | Epoch [390/1000] | D Loss: 0.3811 | G Loss: 1.7434
+Grid Size (30, 30) | Epoch [400/1000] | D Loss: 0.3970 | G Loss: 1.8718
+Grid Size (30, 30) | Epoch [410/1000] | D Loss: 0.3166 | G Loss: 2.0563
+Grid Size (30, 30) | Epoch [420/1000] | D Loss: 0.3681 | G Loss: 1.9077
+Grid Size (30, 30) | Epoch [430/1000] | D Loss: 0.3141 | G Loss: 2.1728
+Grid Size (30, 30) | Epoch [440/1000] | D Loss: 0.2851 | G Loss: 2.3546
+Grid Size (30, 30) | Epoch [450/1000] | D Loss: 0.3109 | G Loss: 2.4510
+Grid Size (30, 30) | Epoch [460/1000] | D Loss: 0.2413 | G Loss: 2.4040
+Grid Size (30, 30) | Epoch [470/1000] | D Loss: 0.3012 | G Loss: 2.1754
+Grid Size (30, 30) | Epoch [480/1000] | D Loss: 0.2822 | G Loss: 2.6656
+Grid Size (30, 30) | Epoch [490/1000] | D Loss: 0.3008 | G Loss: 2.3496
+Grid Size (30, 30) | Epoch [500/1000] | D Loss: 0.3095 | G Loss: 2.1921
+Grid Size (30, 30) | Epoch [510/1000] | D Loss: 0.4230 | G Loss: 2.4687
+Grid Size (30, 30) | Epoch [520/1000] | D Loss: 0.2736 | G Loss: 2.2702
+Grid Size (30, 30) | Epoch [530/1000] | D Loss: 0.3168 | G Loss: 2.1917
+Grid Size (30, 30) | Epoch [540/1000] | D Loss: 0.3396 | G Loss: 2.3625
+Grid Size (30, 30) | Epoch [550/1000] | D Loss: 0.3255 | G Loss: 2.1792
+Grid Size (30, 30) | Epoch [560/1000] | D Loss: 0.3716 | G Loss: 2.5168
+Grid Size (30, 30) | Epoch [570/1000] | D Loss: 0.3808 | G Loss: 1.8679
+Grid Size (30, 30) | Epoch [580/1000] | D Loss: 0.3280 | G Loss: 1.8832
+Grid Size (30, 30) | Epoch [590/1000] | D Loss: 0.4256 | G Loss: 2.2768
+Grid Size (30, 30) | Epoch [600/1000] | D Loss: 0.3302 | G Loss: 2.1932
+Grid Size (30, 30) | Epoch [610/1000] | D Loss: 0.2891 | G Loss: 2.3518
+Grid Size (30, 30) | Epoch [620/1000] | D Loss: 0.3177 | G Loss: 2.3244
+Grid Size (30, 30) | Epoch [630/1000] | D Loss: 0.3907 | G Loss: 1.9053
+Grid Size (30, 30) | Epoch [640/1000] | D Loss: 0.3100 | G Loss: 2.2423
+Grid Size (30, 30) | Epoch [650/1000] | D Loss: 0.3198 | G Loss: 2.0497
+Grid Size (30, 30) | Epoch [660/1000] | D Loss: 0.3024 | G Loss: 2.3412
+Grid Size (30, 30) | Epoch [670/1000] | D Loss: 0.2785 | G Loss: 2.1780
+Grid Size (30, 30) | Epoch [680/1000] | D Loss: 0.3023 | G Loss: 2.5164
+Grid Size (30, 30) | Epoch [690/1000] | D Loss: 0.2373 | G Loss: 2.4641
+Grid Size (30, 30) | Epoch [700/1000] | D Loss: 0.2377 | G Loss: 2.4007
+Grid Size (30, 30) | Epoch [710/1000] | D Loss: 0.3711 | G Loss: 2.7005
+Grid Size (30, 30) | Epoch [720/1000] | D Loss: 0.2376 | G Loss: 2.5548
+Grid Size (30, 30) | Epoch [730/1000] | D Loss: 0.2651 | G Loss: 2.5966
+Grid Size (30, 30) | Epoch [740/1000] | D Loss: 0.2150 | G Loss: 2.5250
+Grid Size (30, 30) | Epoch [750/1000] | D Loss: 0.2852 | G Loss: 2.2299
+Grid Size (30, 30) | Epoch [760/1000] | D Loss: 0.2179 | G Loss: 2.1082
+Grid Size (30, 30) | Epoch [770/1000] | D Loss: 0.2628 | G Loss: 2.7967
+Grid Size (30, 30) | Epoch [780/1000] | D Loss: 0.2414 | G Loss: 2.6785
+Grid Size (30, 30) | Epoch [790/1000] | D Loss: 0.2016 | G Loss: 2.6197
+Grid Size (30, 30) | Epoch [800/1000] | D Loss: 0.2440 | G Loss: 2.5486
+Grid Size (30, 30) | Epoch [810/1000] | D Loss: 0.2570 | G Loss: 2.2256
+Grid Size (30, 30) | Epoch [820/1000] | D Loss: 0.3272 | G Loss: 1.7506
+Grid Size (30, 30) | Epoch [830/1000] | D Loss: 0.2245 | G Loss: 2.5782
+Grid Size (30, 30) | Epoch [840/1000] | D Loss: 0.1702 | G Loss: 2.9308
+Grid Size (30, 30) | Epoch [850/1000] | D Loss: 0.2311 | G Loss: 2.6550
+Grid Size (30, 30) | Epoch [860/1000] | D Loss: 0.2653 | G Loss: 2.8131
+Grid Size (30, 30) | Epoch [870/1000] | D Loss: 0.2056 | G Loss: 3.0316
+Grid Size (30, 30) | Epoch [880/1000] | D Loss: 0.1695 | G Loss: 2.9122
+Grid Size (30, 30) | Epoch [890/1000] | D Loss: 0.1677 | G Loss: 2.5979
+Grid Size (30, 30) | Epoch [900/1000] | D Loss: 0.1958 | G Loss: 2.7931
+Grid Size (30, 30) | Epoch [910/1000] | D Loss: 0.2152 | G Loss: 2.5451
+Grid Size (30, 30) | Epoch [920/1000] | D Loss: 0.1698 | G Loss: 2.8529
+Grid Size (30, 30) | Epoch [930/1000] | D Loss: 0.1746 | G Loss: 2.8634
+Grid Size (30, 30) | Epoch [940/1000] | D Loss: 0.1429 | G Loss: 3.1367
+Grid Size (30, 30) | Epoch [950/1000] | D Loss: 0.1850 | G Loss: 2.6561
+Grid Size (30, 30) | Epoch [960/1000] | D Loss: 0.2046 | G Loss: 2.7173
+Grid Size (30, 30) | Epoch [970/1000] | D Loss: 0.1339 | G Loss: 2.9154
+Grid Size (30, 30) | Epoch [980/1000] | D Loss: 0.2342 | G Loss: 3.3665
+Grid Size (30, 30) | Epoch [990/1000] | D Loss: 0.1370 | G Loss: 3.1022
+
+Training complete for grid size (30, 30).
+
+Generating 200 new examples for grid size (30, 30)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_30x30.json'.
+
+Processing grid size (11, 10) with 18 examples...
+Skipping training for grid size (11, 10) due to insufficient data (18 examples).
+
+Processing grid size (10, 11) with 22 examples...
+Skipping training for grid size (10, 11) due to insufficient data (22 examples).
+
+Processing grid size (24, 22) with 8 examples...
+Skipping training for grid size (24, 22) due to insufficient data (8 examples).
+
+Processing grid size (22, 24) with 8 examples...
+Skipping training for grid size (22, 24) due to insufficient data (8 examples).
+
+Processing grid size (26, 26) with 56 examples...
+Skipping training for grid size (26, 26) due to insufficient data (56 examples).
+
+Processing grid size (11, 11) with 176 examples...
+Using Conv models for grid size (11, 11).
+Grid Size (11, 11) | Epoch [0/1000] | D Loss: 1.2772 | G Loss: 1.1080
+Grid Size (11, 11) | Epoch [10/1000] | D Loss: 0.5820 | G Loss: 1.5464
+Grid Size (11, 11) | Epoch [20/1000] | D Loss: 0.4942 | G Loss: 1.5505
+Grid Size (11, 11) | Epoch [30/1000] | D Loss: 0.3780 | G Loss: 1.9683
+Grid Size (11, 11) | Epoch [40/1000] | D Loss: 0.3427 | G Loss: 2.1248
+Grid Size (11, 11) | Epoch [50/1000] | D Loss: 0.3973 | G Loss: 2.0613
+Grid Size (11, 11) | Epoch [60/1000] | D Loss: 0.3694 | G Loss: 2.0369
+Grid Size (11, 11) | Epoch [70/1000] | D Loss: 0.3513 | G Loss: 1.9875
+Grid Size (11, 11) | Epoch [80/1000] | D Loss: 0.3858 | G Loss: 1.9569
+Grid Size (11, 11) | Epoch [90/1000] | D Loss: 0.3519 | G Loss: 2.0292
+Grid Size (11, 11) | Epoch [100/1000] | D Loss: 0.3579 | G Loss: 2.2062
+Grid Size (11, 11) | Epoch [110/1000] | D Loss: 0.3834 | G Loss: 2.0157
+Grid Size (11, 11) | Epoch [120/1000] | D Loss: 0.6230 | G Loss: 1.5502
+Grid Size (11, 11) | Epoch [130/1000] | D Loss: 0.5856 | G Loss: 1.6733
+Grid Size (11, 11) | Epoch [140/1000] | D Loss: 0.7486 | G Loss: 1.4816
+Grid Size (11, 11) | Epoch [150/1000] | D Loss: 0.6579 | G Loss: 1.7605
+Grid Size (11, 11) | Epoch [160/1000] | D Loss: 0.5320 | G Loss: 1.7099
+Grid Size (11, 11) | Epoch [170/1000] | D Loss: 0.5810 | G Loss: 1.1888
+Grid Size (11, 11) | Epoch [180/1000] | D Loss: 0.7797 | G Loss: 1.3514
+Grid Size (11, 11) | Epoch [190/1000] | D Loss: 0.6025 | G Loss: 1.5362
+Grid Size (11, 11) | Epoch [200/1000] | D Loss: 0.5738 | G Loss: 1.8328
+Grid Size (11, 11) | Epoch [210/1000] | D Loss: 0.5295 | G Loss: 1.6600
+Grid Size (11, 11) | Epoch [220/1000] | D Loss: 0.4832 | G Loss: 1.8591
+Grid Size (11, 11) | Epoch [230/1000] | D Loss: 0.4598 | G Loss: 1.9045
+Grid Size (11, 11) | Epoch [240/1000] | D Loss: 0.5125 | G Loss: 1.6817
+Grid Size (11, 11) | Epoch [250/1000] | D Loss: 0.5504 | G Loss: 1.2446
+Grid Size (11, 11) | Epoch [260/1000] | D Loss: 0.4802 | G Loss: 1.4436
+Grid Size (11, 11) | Epoch [270/1000] | D Loss: 0.4830 | G Loss: 2.0261
+Grid Size (11, 11) | Epoch [280/1000] | D Loss: 0.4591 | G Loss: 2.0145
+Grid Size (11, 11) | Epoch [290/1000] | D Loss: 0.4702 | G Loss: 2.2215
+Grid Size (11, 11) | Epoch [300/1000] | D Loss: 0.3368 | G Loss: 1.9683
+Grid Size (11, 11) | Epoch [310/1000] | D Loss: 0.4353 | G Loss: 1.8008
+Grid Size (11, 11) | Epoch [320/1000] | D Loss: 0.4783 | G Loss: 1.9948
+Grid Size (11, 11) | Epoch [330/1000] | D Loss: 0.2866 | G Loss: 2.0636
+Grid Size (11, 11) | Epoch [340/1000] | D Loss: 0.3331 | G Loss: 1.9647
+Grid Size (11, 11) | Epoch [350/1000] | D Loss: 0.3309 | G Loss: 2.1789
+Grid Size (11, 11) | Epoch [360/1000] | D Loss: 0.3486 | G Loss: 2.3168
+Grid Size (11, 11) | Epoch [370/1000] | D Loss: 0.2950 | G Loss: 2.0920
+Grid Size (11, 11) | Epoch [380/1000] | D Loss: 0.3093 | G Loss: 2.2628
+Grid Size (11, 11) | Epoch [390/1000] | D Loss: 0.3564 | G Loss: 1.9361
+Grid Size (11, 11) | Epoch [400/1000] | D Loss: 0.2345 | G Loss: 3.2725
+Grid Size (11, 11) | Epoch [410/1000] | D Loss: 0.2314 | G Loss: 2.8035
+Grid Size (11, 11) | Epoch [420/1000] | D Loss: 0.1742 | G Loss: 2.7506
+Grid Size (11, 11) | Epoch [430/1000] | D Loss: 0.2338 | G Loss: 2.6728
+Grid Size (11, 11) | Epoch [440/1000] | D Loss: 0.2432 | G Loss: 3.0647
+Grid Size (11, 11) | Epoch [450/1000] | D Loss: 0.2310 | G Loss: 3.0982
+Grid Size (11, 11) | Epoch [460/1000] | D Loss: 0.1973 | G Loss: 2.6498
+Grid Size (11, 11) | Epoch [470/1000] | D Loss: 0.1825 | G Loss: 2.6790
+Grid Size (11, 11) | Epoch [480/1000] | D Loss: 0.2703 | G Loss: 3.1177
+Grid Size (11, 11) | Epoch [490/1000] | D Loss: 0.2072 | G Loss: 3.2521
+Grid Size (11, 11) | Epoch [500/1000] | D Loss: 0.1806 | G Loss: 2.7886
+Grid Size (11, 11) | Epoch [510/1000] | D Loss: 0.1476 | G Loss: 2.8874
+Grid Size (11, 11) | Epoch [520/1000] | D Loss: 0.1835 | G Loss: 3.1893
+Grid Size (11, 11) | Epoch [530/1000] | D Loss: 0.1748 | G Loss: 2.9129
+Grid Size (11, 11) | Epoch [540/1000] | D Loss: 0.1644 | G Loss: 3.3047
+Grid Size (11, 11) | Epoch [550/1000] | D Loss: 0.1121 | G Loss: 3.7762
+Grid Size (11, 11) | Epoch [560/1000] | D Loss: 0.1572 | G Loss: 3.5316
+Grid Size (11, 11) | Epoch [570/1000] | D Loss: 0.1520 | G Loss: 2.8569
+Grid Size (11, 11) | Epoch [580/1000] | D Loss: 0.1124 | G Loss: 3.5081
+Grid Size (11, 11) | Epoch [590/1000] | D Loss: 0.1671 | G Loss: 4.0530
+Grid Size (11, 11) | Epoch [600/1000] | D Loss: 0.1646 | G Loss: 3.1706
+Grid Size (11, 11) | Epoch [610/1000] | D Loss: 0.1062 | G Loss: 3.0269
+Grid Size (11, 11) | Epoch [620/1000] | D Loss: 0.1318 | G Loss: 3.5333
+Grid Size (11, 11) | Epoch [630/1000] | D Loss: 0.1207 | G Loss: 3.2361
+Grid Size (11, 11) | Epoch [640/1000] | D Loss: 0.1100 | G Loss: 3.7176
+Grid Size (11, 11) | Epoch [650/1000] | D Loss: 0.1252 | G Loss: 3.1641
+Grid Size (11, 11) | Epoch [660/1000] | D Loss: 0.2168 | G Loss: 2.6692
+Grid Size (11, 11) | Epoch [670/1000] | D Loss: 0.0836 | G Loss: 4.0126
+Grid Size (11, 11) | Epoch [680/1000] | D Loss: 0.1132 | G Loss: 3.7005
+Grid Size (11, 11) | Epoch [690/1000] | D Loss: 0.1024 | G Loss: 3.0307
+Grid Size (11, 11) | Epoch [700/1000] | D Loss: 0.1211 | G Loss: 4.2372
+Grid Size (11, 11) | Epoch [710/1000] | D Loss: 0.1569 | G Loss: 4.0766
+Grid Size (11, 11) | Epoch [720/1000] | D Loss: 0.0722 | G Loss: 3.6531
+Grid Size (11, 11) | Epoch [730/1000] | D Loss: 0.1130 | G Loss: 3.4714
+Grid Size (11, 11) | Epoch [740/1000] | D Loss: 0.1507 | G Loss: 3.3878
+Grid Size (11, 11) | Epoch [750/1000] | D Loss: 0.1267 | G Loss: 3.5370
+Grid Size (11, 11) | Epoch [760/1000] | D Loss: 0.1702 | G Loss: 3.5544
+Grid Size (11, 11) | Epoch [770/1000] | D Loss: 0.1171 | G Loss: 3.7136
+Grid Size (11, 11) | Epoch [780/1000] | D Loss: 0.0663 | G Loss: 3.5184
+Grid Size (11, 11) | Epoch [790/1000] | D Loss: 0.0946 | G Loss: 3.6453
+Grid Size (11, 11) | Epoch [800/1000] | D Loss: 0.1609 | G Loss: 2.8173
+Grid Size (11, 11) | Epoch [810/1000] | D Loss: 0.0898 | G Loss: 3.7132
+Grid Size (11, 11) | Epoch [820/1000] | D Loss: 0.0784 | G Loss: 3.3978
+Grid Size (11, 11) | Epoch [830/1000] | D Loss: 0.0921 | G Loss: 3.5658
+Grid Size (11, 11) | Epoch [840/1000] | D Loss: 0.1493 | G Loss: 3.9830
+Grid Size (11, 11) | Epoch [850/1000] | D Loss: 0.0940 | G Loss: 4.2577
+Grid Size (11, 11) | Epoch [860/1000] | D Loss: 0.1010 | G Loss: 3.4990
+Grid Size (11, 11) | Epoch [870/1000] | D Loss: 0.0639 | G Loss: 3.8099
+Grid Size (11, 11) | Epoch [880/1000] | D Loss: 0.1315 | G Loss: 3.3914
+Grid Size (11, 11) | Epoch [890/1000] | D Loss: 0.0835 | G Loss: 3.9065
+Grid Size (11, 11) | Epoch [900/1000] | D Loss: 0.0615 | G Loss: 4.2200
+Grid Size (11, 11) | Epoch [910/1000] | D Loss: 0.1104 | G Loss: 4.1825
+Grid Size (11, 11) | Epoch [920/1000] | D Loss: 0.1016 | G Loss: 4.8682
+Grid Size (11, 11) | Epoch [930/1000] | D Loss: 0.0825 | G Loss: 4.2802
+Grid Size (11, 11) | Epoch [940/1000] | D Loss: 0.0654 | G Loss: 3.9001
+Grid Size (11, 11) | Epoch [950/1000] | D Loss: 0.0794 | G Loss: 3.9003
+Grid Size (11, 11) | Epoch [960/1000] | D Loss: 0.1094 | G Loss: 4.0624
+Grid Size (11, 11) | Epoch [970/1000] | D Loss: 0.0896 | G Loss: 4.2992
+Grid Size (11, 11) | Epoch [980/1000] | D Loss: 0.0579 | G Loss: 4.8638
+Grid Size (11, 11) | Epoch [990/1000] | D Loss: 0.0745 | G Loss: 4.0174
+
+Training complete for grid size (11, 11).
+
+Generating 200 new examples for grid size (11, 11)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_11x11.json'.
+
+Processing grid size (12, 12) with 248 examples...
+Using Conv models for grid size (12, 12).
+Grid Size (12, 12) | Epoch [0/1000] | D Loss: 1.4170 | G Loss: 0.8482
+Grid Size (12, 12) | Epoch [10/1000] | D Loss: 0.8886 | G Loss: 1.0510
+Grid Size (12, 12) | Epoch [20/1000] | D Loss: 0.7128 | G Loss: 1.3754
+Grid Size (12, 12) | Epoch [30/1000] | D Loss: 0.7458 | G Loss: 1.2673
+Grid Size (12, 12) | Epoch [40/1000] | D Loss: 0.4727 | G Loss: 1.6373
+Grid Size (12, 12) | Epoch [50/1000] | D Loss: 0.5776 | G Loss: 1.7311
+Grid Size (12, 12) | Epoch [60/1000] | D Loss: 0.6580 | G Loss: 1.4414
+Grid Size (12, 12) | Epoch [70/1000] | D Loss: 0.7450 | G Loss: 1.6159
+Grid Size (12, 12) | Epoch [80/1000] | D Loss: 0.8979 | G Loss: 1.4592
+Grid Size (12, 12) | Epoch [90/1000] | D Loss: 0.8095 | G Loss: 1.3933
+Grid Size (12, 12) | Epoch [100/1000] | D Loss: 0.9103 | G Loss: 1.2078
+Grid Size (12, 12) | Epoch [110/1000] | D Loss: 0.9131 | G Loss: 1.1428
+Grid Size (12, 12) | Epoch [120/1000] | D Loss: 0.9101 | G Loss: 1.1688
+Grid Size (12, 12) | Epoch [130/1000] | D Loss: 0.8805 | G Loss: 1.1586
+Grid Size (12, 12) | Epoch [140/1000] | D Loss: 0.8590 | G Loss: 1.3568
+Grid Size (12, 12) | Epoch [150/1000] | D Loss: 0.8825 | G Loss: 1.2132
+Grid Size (12, 12) | Epoch [160/1000] | D Loss: 0.7564 | G Loss: 1.2573
+Grid Size (12, 12) | Epoch [170/1000] | D Loss: 0.8125 | G Loss: 1.3616
+Grid Size (12, 12) | Epoch [180/1000] | D Loss: 0.7809 | G Loss: 1.2714
+Grid Size (12, 12) | Epoch [190/1000] | D Loss: 0.8677 | G Loss: 1.2037
+Grid Size (12, 12) | Epoch [200/1000] | D Loss: 0.8792 | G Loss: 1.1704
+Grid Size (12, 12) | Epoch [210/1000] | D Loss: 0.7794 | G Loss: 1.2543
+Grid Size (12, 12) | Epoch [220/1000] | D Loss: 0.8025 | G Loss: 1.1657
+Grid Size (12, 12) | Epoch [230/1000] | D Loss: 0.7171 | G Loss: 1.3365
+Grid Size (12, 12) | Epoch [240/1000] | D Loss: 0.7533 | G Loss: 1.4435
+Grid Size (12, 12) | Epoch [250/1000] | D Loss: 0.7662 | G Loss: 1.2868
+Grid Size (12, 12) | Epoch [260/1000] | D Loss: 0.7485 | G Loss: 1.0526
+Grid Size (12, 12) | Epoch [270/1000] | D Loss: 0.7086 | G Loss: 1.2766
+Grid Size (12, 12) | Epoch [280/1000] | D Loss: 0.7901 | G Loss: 1.2830
+Grid Size (12, 12) | Epoch [290/1000] | D Loss: 0.6505 | G Loss: 1.4826
+Grid Size (12, 12) | Epoch [300/1000] | D Loss: 0.6271 | G Loss: 1.3437
+Grid Size (12, 12) | Epoch [310/1000] | D Loss: 0.5910 | G Loss: 1.7770
+Grid Size (12, 12) | Epoch [320/1000] | D Loss: 0.5446 | G Loss: 1.7279
+Grid Size (12, 12) | Epoch [330/1000] | D Loss: 0.5709 | G Loss: 1.5404
+Grid Size (12, 12) | Epoch [340/1000] | D Loss: 0.4862 | G Loss: 1.7328
+Grid Size (12, 12) | Epoch [350/1000] | D Loss: 0.5131 | G Loss: 1.9100
+Grid Size (12, 12) | Epoch [360/1000] | D Loss: 0.4615 | G Loss: 1.7246
+Grid Size (12, 12) | Epoch [370/1000] | D Loss: 0.5949 | G Loss: 1.5097
+Grid Size (12, 12) | Epoch [380/1000] | D Loss: 0.4185 | G Loss: 1.6637
+Grid Size (12, 12) | Epoch [390/1000] | D Loss: 0.3828 | G Loss: 1.8293
+Grid Size (12, 12) | Epoch [400/1000] | D Loss: 0.3759 | G Loss: 1.7212
+Grid Size (12, 12) | Epoch [410/1000] | D Loss: 0.3955 | G Loss: 1.8438
+Grid Size (12, 12) | Epoch [420/1000] | D Loss: 0.3791 | G Loss: 2.0915
+Grid Size (12, 12) | Epoch [430/1000] | D Loss: 0.3753 | G Loss: 2.3362
+Grid Size (12, 12) | Epoch [440/1000] | D Loss: 0.3172 | G Loss: 2.2308
+Grid Size (12, 12) | Epoch [450/1000] | D Loss: 0.3394 | G Loss: 1.8929
+Grid Size (12, 12) | Epoch [460/1000] | D Loss: 0.2918 | G Loss: 2.0917
+Grid Size (12, 12) | Epoch [470/1000] | D Loss: 0.3632 | G Loss: 2.8154
+Grid Size (12, 12) | Epoch [480/1000] | D Loss: 0.2991 | G Loss: 2.2900
+Grid Size (12, 12) | Epoch [490/1000] | D Loss: 0.2189 | G Loss: 2.6052
+Grid Size (12, 12) | Epoch [500/1000] | D Loss: 0.2442 | G Loss: 2.5192
+Grid Size (12, 12) | Epoch [510/1000] | D Loss: 0.2646 | G Loss: 2.1984
+Grid Size (12, 12) | Epoch [520/1000] | D Loss: 0.4724 | G Loss: 2.8853
+Grid Size (12, 12) | Epoch [530/1000] | D Loss: 0.3205 | G Loss: 2.1205
+Grid Size (12, 12) | Epoch [540/1000] | D Loss: 0.2193 | G Loss: 2.4233
+Grid Size (12, 12) | Epoch [550/1000] | D Loss: 0.2745 | G Loss: 2.5396
+Grid Size (12, 12) | Epoch [560/1000] | D Loss: 0.2719 | G Loss: 2.6954
+Grid Size (12, 12) | Epoch [570/1000] | D Loss: 0.2420 | G Loss: 2.3459
+Grid Size (12, 12) | Epoch [580/1000] | D Loss: 0.2832 | G Loss: 2.3423
+Grid Size (12, 12) | Epoch [590/1000] | D Loss: 0.3157 | G Loss: 2.2105
+Grid Size (12, 12) | Epoch [600/1000] | D Loss: 0.3489 | G Loss: 2.6426
+Grid Size (12, 12) | Epoch [610/1000] | D Loss: 0.3048 | G Loss: 2.1534
+Grid Size (12, 12) | Epoch [620/1000] | D Loss: 0.3158 | G Loss: 2.2160
+Grid Size (12, 12) | Epoch [630/1000] | D Loss: 0.3035 | G Loss: 2.3584
+Grid Size (12, 12) | Epoch [640/1000] | D Loss: 0.3456 | G Loss: 1.9698
+Grid Size (12, 12) | Epoch [650/1000] | D Loss: 0.2612 | G Loss: 2.2477
+Grid Size (12, 12) | Epoch [660/1000] | D Loss: 0.4190 | G Loss: 2.6780
+Grid Size (12, 12) | Epoch [670/1000] | D Loss: 0.2099 | G Loss: 2.7223
+Grid Size (12, 12) | Epoch [680/1000] | D Loss: 0.2888 | G Loss: 2.3826
+Grid Size (12, 12) | Epoch [690/1000] | D Loss: 0.2823 | G Loss: 2.5864
+Grid Size (12, 12) | Epoch [700/1000] | D Loss: 0.2428 | G Loss: 2.4155
+Grid Size (12, 12) | Epoch [710/1000] | D Loss: 0.2300 | G Loss: 2.3781
+Grid Size (12, 12) | Epoch [720/1000] | D Loss: 0.1903 | G Loss: 2.7948
+Grid Size (12, 12) | Epoch [730/1000] | D Loss: 0.2568 | G Loss: 2.9586
+Grid Size (12, 12) | Epoch [740/1000] | D Loss: 0.2891 | G Loss: 2.5094
+Grid Size (12, 12) | Epoch [750/1000] | D Loss: 0.2157 | G Loss: 2.3351
+Grid Size (12, 12) | Epoch [760/1000] | D Loss: 0.2127 | G Loss: 2.7402
+Grid Size (12, 12) | Epoch [770/1000] | D Loss: 0.2054 | G Loss: 2.8193
+Grid Size (12, 12) | Epoch [780/1000] | D Loss: 0.1722 | G Loss: 2.7902
+Grid Size (12, 12) | Epoch [790/1000] | D Loss: 0.1641 | G Loss: 3.0377
+Grid Size (12, 12) | Epoch [800/1000] | D Loss: 0.1718 | G Loss: 2.6486
+Grid Size (12, 12) | Epoch [810/1000] | D Loss: 0.1892 | G Loss: 2.4885
+Grid Size (12, 12) | Epoch [820/1000] | D Loss: 0.1940 | G Loss: 2.7104
+Grid Size (12, 12) | Epoch [830/1000] | D Loss: 0.1949 | G Loss: 2.7817
+Grid Size (12, 12) | Epoch [840/1000] | D Loss: 0.1583 | G Loss: 2.7257
+Grid Size (12, 12) | Epoch [850/1000] | D Loss: 0.3195 | G Loss: 2.7915
+Grid Size (12, 12) | Epoch [860/1000] | D Loss: 0.2641 | G Loss: 2.3676
+Grid Size (12, 12) | Epoch [870/1000] | D Loss: 0.2015 | G Loss: 3.1265
+Grid Size (12, 12) | Epoch [880/1000] | D Loss: 0.1381 | G Loss: 3.5641
+Grid Size (12, 12) | Epoch [890/1000] | D Loss: 0.1287 | G Loss: 3.2798
+Grid Size (12, 12) | Epoch [900/1000] | D Loss: 0.1419 | G Loss: 3.5653
+Grid Size (12, 12) | Epoch [910/1000] | D Loss: 0.1490 | G Loss: 2.9464
+Grid Size (12, 12) | Epoch [920/1000] | D Loss: 0.1594 | G Loss: 2.8582
+Grid Size (12, 12) | Epoch [930/1000] | D Loss: 0.1571 | G Loss: 3.0762
+Grid Size (12, 12) | Epoch [940/1000] | D Loss: 0.1778 | G Loss: 2.8216
+Grid Size (12, 12) | Epoch [950/1000] | D Loss: 0.2075 | G Loss: 2.3206
+Grid Size (12, 12) | Epoch [960/1000] | D Loss: 0.1695 | G Loss: 2.5961
+Grid Size (12, 12) | Epoch [970/1000] | D Loss: 0.1403 | G Loss: 3.2044
+Grid Size (12, 12) | Epoch [980/1000] | D Loss: 0.1007 | G Loss: 3.0556
+Grid Size (12, 12) | Epoch [990/1000] | D Loss: 0.1500 | G Loss: 3.0014
+
+Training complete for grid size (12, 12).
+
+Generating 200 new examples for grid size (12, 12)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_12x12.json'.
+
+Processing grid size (4, 3) with 52 examples...
+Skipping training for grid size (4, 3) due to insufficient data (52 examples).
+
+Processing grid size (3, 4) with 28 examples...
+Skipping training for grid size (3, 4) due to insufficient data (28 examples).
+
+Processing grid size (15, 17) with 28 examples...
+Skipping training for grid size (15, 17) due to insufficient data (28 examples).
+
+Processing grid size (17, 15) with 20 examples...
+Skipping training for grid size (17, 15) due to insufficient data (20 examples).
+
+Processing grid size (11, 27) with 6 examples...
+Skipping training for grid size (11, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 11) with 2 examples...
+Skipping training for grid size (27, 11) due to insufficient data (2 examples).
+
+Processing grid size (15, 15) with 280 examples...
+Using Conv models for grid size (15, 15).
+Grid Size (15, 15) | Epoch [0/1000] | D Loss: 1.8385 | G Loss: 0.5347
+Grid Size (15, 15) | Epoch [10/1000] | D Loss: 0.5424 | G Loss: 1.5713
+Grid Size (15, 15) | Epoch [20/1000] | D Loss: 0.4950 | G Loss: 1.5790
+Grid Size (15, 15) | Epoch [30/1000] | D Loss: 0.3421 | G Loss: 1.9455
+Grid Size (15, 15) | Epoch [40/1000] | D Loss: 0.3895 | G Loss: 2.0491
+Grid Size (15, 15) | Epoch [50/1000] | D Loss: 0.2996 | G Loss: 2.2295
+Grid Size (15, 15) | Epoch [60/1000] | D Loss: 0.2193 | G Loss: 2.5748
+Grid Size (15, 15) | Epoch [70/1000] | D Loss: 0.1697 | G Loss: 2.8383
+Grid Size (15, 15) | Epoch [80/1000] | D Loss: 0.1589 | G Loss: 2.8951
+Grid Size (15, 15) | Epoch [90/1000] | D Loss: 0.1623 | G Loss: 2.6857
+Grid Size (15, 15) | Epoch [100/1000] | D Loss: 0.3086 | G Loss: 2.3222
+Grid Size (15, 15) | Epoch [110/1000] | D Loss: 0.4101 | G Loss: 2.2374
+Grid Size (15, 15) | Epoch [120/1000] | D Loss: 0.3093 | G Loss: 2.3582
+Grid Size (15, 15) | Epoch [130/1000] | D Loss: 0.3373 | G Loss: 2.2528
+Grid Size (15, 15) | Epoch [140/1000] | D Loss: 0.3430 | G Loss: 2.0864
+Grid Size (15, 15) | Epoch [150/1000] | D Loss: 0.3496 | G Loss: 2.3365
+Grid Size (15, 15) | Epoch [160/1000] | D Loss: 0.3961 | G Loss: 2.0204
+Grid Size (15, 15) | Epoch [170/1000] | D Loss: 0.3432 | G Loss: 2.3515
+Grid Size (15, 15) | Epoch [180/1000] | D Loss: 0.3943 | G Loss: 2.1930
+Grid Size (15, 15) | Epoch [190/1000] | D Loss: 0.7041 | G Loss: 1.7480
+Grid Size (15, 15) | Epoch [200/1000] | D Loss: 0.7049 | G Loss: 1.6896
+Grid Size (15, 15) | Epoch [210/1000] | D Loss: 0.7524 | G Loss: 1.3783
+Grid Size (15, 15) | Epoch [220/1000] | D Loss: 0.7440 | G Loss: 1.3660
+Grid Size (15, 15) | Epoch [230/1000] | D Loss: 0.5691 | G Loss: 2.0105
+Grid Size (15, 15) | Epoch [240/1000] | D Loss: 0.5548 | G Loss: 1.8257
+Grid Size (15, 15) | Epoch [250/1000] | D Loss: 0.6023 | G Loss: 1.4369
+Grid Size (15, 15) | Epoch [260/1000] | D Loss: 0.5938 | G Loss: 1.5809
+Grid Size (15, 15) | Epoch [270/1000] | D Loss: 0.5819 | G Loss: 1.8697
+Grid Size (15, 15) | Epoch [280/1000] | D Loss: 0.5350 | G Loss: 1.5499
+Grid Size (15, 15) | Epoch [290/1000] | D Loss: 0.6278 | G Loss: 1.7703
+Grid Size (15, 15) | Epoch [300/1000] | D Loss: 0.6320 | G Loss: 1.8545
+Grid Size (15, 15) | Epoch [310/1000] | D Loss: 0.5276 | G Loss: 1.7191
+Grid Size (15, 15) | Epoch [320/1000] | D Loss: 0.6833 | G Loss: 1.5739
+Grid Size (15, 15) | Epoch [330/1000] | D Loss: 0.5208 | G Loss: 1.3539
+Grid Size (15, 15) | Epoch [340/1000] | D Loss: 0.5489 | G Loss: 1.5814
+Grid Size (15, 15) | Epoch [350/1000] | D Loss: 0.6554 | G Loss: 1.3788
+Grid Size (15, 15) | Epoch [360/1000] | D Loss: 0.7872 | G Loss: 1.2314
+Grid Size (15, 15) | Epoch [370/1000] | D Loss: 0.6414 | G Loss: 1.5586
+Grid Size (15, 15) | Epoch [380/1000] | D Loss: 0.6281 | G Loss: 1.5540
+Grid Size (15, 15) | Epoch [390/1000] | D Loss: 0.6590 | G Loss: 1.3748
+Grid Size (15, 15) | Epoch [400/1000] | D Loss: 0.7244 | G Loss: 2.2315
+Grid Size (15, 15) | Epoch [410/1000] | D Loss: 0.8092 | G Loss: 1.7926
+Grid Size (15, 15) | Epoch [420/1000] | D Loss: 0.5507 | G Loss: 1.6407
+Grid Size (15, 15) | Epoch [430/1000] | D Loss: 0.5692 | G Loss: 1.7477
+Grid Size (15, 15) | Epoch [440/1000] | D Loss: 0.5967 | G Loss: 1.8182
+Grid Size (15, 15) | Epoch [450/1000] | D Loss: 0.9436 | G Loss: 1.5421
+Grid Size (15, 15) | Epoch [460/1000] | D Loss: 0.6288 | G Loss: 1.5838
+Grid Size (15, 15) | Epoch [470/1000] | D Loss: 0.5965 | G Loss: 1.6043
+Grid Size (15, 15) | Epoch [480/1000] | D Loss: 0.5695 | G Loss: 1.7448
+Grid Size (15, 15) | Epoch [490/1000] | D Loss: 0.6814 | G Loss: 1.8315
+Grid Size (15, 15) | Epoch [500/1000] | D Loss: 0.6377 | G Loss: 1.7674
+Grid Size (15, 15) | Epoch [510/1000] | D Loss: 0.5396 | G Loss: 1.5470
+Grid Size (15, 15) | Epoch [520/1000] | D Loss: 0.6368 | G Loss: 1.9269
+Grid Size (15, 15) | Epoch [530/1000] | D Loss: 0.5014 | G Loss: 1.2472
+Grid Size (15, 15) | Epoch [540/1000] | D Loss: 0.6166 | G Loss: 1.5929
+Grid Size (15, 15) | Epoch [550/1000] | D Loss: 0.5694 | G Loss: 1.4543
+Grid Size (15, 15) | Epoch [560/1000] | D Loss: 0.4983 | G Loss: 1.5080
+Grid Size (15, 15) | Epoch [570/1000] | D Loss: 0.6302 | G Loss: 2.0714
+Grid Size (15, 15) | Epoch [580/1000] | D Loss: 0.5372 | G Loss: 1.8146
+Grid Size (15, 15) | Epoch [590/1000] | D Loss: 0.6273 | G Loss: 1.5197
+Grid Size (15, 15) | Epoch [600/1000] | D Loss: 0.4357 | G Loss: 1.4601
+Grid Size (15, 15) | Epoch [610/1000] | D Loss: 0.5362 | G Loss: 1.5950
+Grid Size (15, 15) | Epoch [620/1000] | D Loss: 0.4977 | G Loss: 1.7402
+Grid Size (15, 15) | Epoch [630/1000] | D Loss: 0.5708 | G Loss: 1.5791
+Grid Size (15, 15) | Epoch [640/1000] | D Loss: 0.5154 | G Loss: 2.3468
+Grid Size (15, 15) | Epoch [650/1000] | D Loss: 0.4701 | G Loss: 2.2308
+Grid Size (15, 15) | Epoch [660/1000] | D Loss: 0.4571 | G Loss: 1.8314
+Grid Size (15, 15) | Epoch [670/1000] | D Loss: 0.4641 | G Loss: 1.5401
+Grid Size (15, 15) | Epoch [680/1000] | D Loss: 0.5249 | G Loss: 1.7751
+Grid Size (15, 15) | Epoch [690/1000] | D Loss: 0.7844 | G Loss: 1.7173
+Grid Size (15, 15) | Epoch [700/1000] | D Loss: 0.4708 | G Loss: 2.2016
+Grid Size (15, 15) | Epoch [710/1000] | D Loss: 0.3727 | G Loss: 1.5954
+Grid Size (15, 15) | Epoch [720/1000] | D Loss: 0.4470 | G Loss: 1.8848
+Grid Size (15, 15) | Epoch [730/1000] | D Loss: 0.4570 | G Loss: 1.1944
+Grid Size (15, 15) | Epoch [740/1000] | D Loss: 0.4599 | G Loss: 2.3244
+Grid Size (15, 15) | Epoch [750/1000] | D Loss: 0.5281 | G Loss: 1.5982
+Grid Size (15, 15) | Epoch [760/1000] | D Loss: 0.4324 | G Loss: 2.2362
+Grid Size (15, 15) | Epoch [770/1000] | D Loss: 0.4779 | G Loss: 2.1193
+Grid Size (15, 15) | Epoch [780/1000] | D Loss: 0.3633 | G Loss: 1.9222
+Grid Size (15, 15) | Epoch [790/1000] | D Loss: 0.4675 | G Loss: 2.1556
+Grid Size (15, 15) | Epoch [800/1000] | D Loss: 0.4074 | G Loss: 1.5557
+Grid Size (15, 15) | Epoch [810/1000] | D Loss: 0.3868 | G Loss: 2.1822
+Grid Size (15, 15) | Epoch [820/1000] | D Loss: 0.3776 | G Loss: 2.3936
+Grid Size (15, 15) | Epoch [830/1000] | D Loss: 0.3780 | G Loss: 2.0808
+Grid Size (15, 15) | Epoch [840/1000] | D Loss: 0.5594 | G Loss: 2.8747
+Grid Size (15, 15) | Epoch [850/1000] | D Loss: 0.3455 | G Loss: 2.4403
+Grid Size (15, 15) | Epoch [860/1000] | D Loss: 0.3648 | G Loss: 2.3283
+Grid Size (15, 15) | Epoch [870/1000] | D Loss: 0.3203 | G Loss: 2.2414
+Grid Size (15, 15) | Epoch [880/1000] | D Loss: 0.3400 | G Loss: 2.1798
+Grid Size (15, 15) | Epoch [890/1000] | D Loss: 0.3318 | G Loss: 2.1536
+Grid Size (15, 15) | Epoch [900/1000] | D Loss: 0.3304 | G Loss: 2.1641
+Grid Size (15, 15) | Epoch [910/1000] | D Loss: 0.3614 | G Loss: 1.8693
+Grid Size (15, 15) | Epoch [920/1000] | D Loss: 0.2933 | G Loss: 2.2451
+Grid Size (15, 15) | Epoch [930/1000] | D Loss: 0.3336 | G Loss: 2.7725
+Grid Size (15, 15) | Epoch [940/1000] | D Loss: 0.2938 | G Loss: 2.2516
+Grid Size (15, 15) | Epoch [950/1000] | D Loss: 0.3023 | G Loss: 2.6565
+Grid Size (15, 15) | Epoch [960/1000] | D Loss: 0.3414 | G Loss: 2.1360
+Grid Size (15, 15) | Epoch [970/1000] | D Loss: 0.3078 | G Loss: 2.4992
+Grid Size (15, 15) | Epoch [980/1000] | D Loss: 0.3474 | G Loss: 1.9830
+Grid Size (15, 15) | Epoch [990/1000] | D Loss: 0.2874 | G Loss: 2.5771
+
+Training complete for grid size (15, 15).
+
+Generating 200 new examples for grid size (15, 15)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_15x15.json'.
+
+Processing grid size (6, 8) with 24 examples...
+Skipping training for grid size (6, 8) due to insufficient data (24 examples).
+
+Processing grid size (8, 6) with 8 examples...
+Skipping training for grid size (8, 6) due to insufficient data (8 examples).
+
+Processing grid size (6, 4) with 46 examples...
+Skipping training for grid size (6, 4) due to insufficient data (46 examples).
+
+Processing grid size (4, 6) with 26 examples...
+Skipping training for grid size (4, 6) due to insufficient data (26 examples).
+
+Processing grid size (23, 25) with 6 examples...
+Skipping training for grid size (23, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 23) with 2 examples...
+Skipping training for grid size (25, 23) due to insufficient data (2 examples).
+
+Processing grid size (24, 19) with 8 examples...
+Skipping training for grid size (24, 19) due to insufficient data (8 examples).
+
+Processing grid size (19, 24) with 8 examples...
+Skipping training for grid size (19, 24) due to insufficient data (8 examples).
+
+Processing grid size (13, 13) with 152 examples...
+Using Conv models for grid size (13, 13).
+Grid Size (13, 13) | Epoch [0/1000] | D Loss: 1.4887 | G Loss: 0.8164
+Grid Size (13, 13) | Epoch [10/1000] | D Loss: 0.5721 | G Loss: 1.5229
+Grid Size (13, 13) | Epoch [20/1000] | D Loss: 0.4575 | G Loss: 1.7790
+Grid Size (13, 13) | Epoch [30/1000] | D Loss: 0.3616 | G Loss: 1.8359
+Grid Size (13, 13) | Epoch [40/1000] | D Loss: 0.3844 | G Loss: 1.8097
+Grid Size (13, 13) | Epoch [50/1000] | D Loss: 0.4532 | G Loss: 1.7646
+Grid Size (13, 13) | Epoch [60/1000] | D Loss: 0.3797 | G Loss: 2.0153
+Grid Size (13, 13) | Epoch [70/1000] | D Loss: 0.3958 | G Loss: 1.8677
+Grid Size (13, 13) | Epoch [80/1000] | D Loss: 0.3190 | G Loss: 2.0227
+Grid Size (13, 13) | Epoch [90/1000] | D Loss: 0.2391 | G Loss: 2.4817
+Grid Size (13, 13) | Epoch [100/1000] | D Loss: 0.2180 | G Loss: 2.7144
+Grid Size (13, 13) | Epoch [110/1000] | D Loss: 0.2564 | G Loss: 2.1200
+Grid Size (13, 13) | Epoch [120/1000] | D Loss: 0.3287 | G Loss: 2.3432
+Grid Size (13, 13) | Epoch [130/1000] | D Loss: 0.3531 | G Loss: 2.0356
+Grid Size (13, 13) | Epoch [140/1000] | D Loss: 0.4643 | G Loss: 1.6523
+Grid Size (13, 13) | Epoch [150/1000] | D Loss: 0.3983 | G Loss: 2.2633
+Grid Size (13, 13) | Epoch [160/1000] | D Loss: 0.4654 | G Loss: 2.0470
+Grid Size (13, 13) | Epoch [170/1000] | D Loss: 0.5401 | G Loss: 2.4737
+Grid Size (13, 13) | Epoch [180/1000] | D Loss: 0.4843 | G Loss: 2.0593
+Grid Size (13, 13) | Epoch [190/1000] | D Loss: 0.6149 | G Loss: 1.9721
+Grid Size (13, 13) | Epoch [200/1000] | D Loss: 0.5419 | G Loss: 2.1402
+Grid Size (13, 13) | Epoch [210/1000] | D Loss: 0.4464 | G Loss: 2.0973
+Grid Size (13, 13) | Epoch [220/1000] | D Loss: 0.3888 | G Loss: 2.1877
+Grid Size (13, 13) | Epoch [230/1000] | D Loss: 0.3341 | G Loss: 2.0384
+Grid Size (13, 13) | Epoch [240/1000] | D Loss: 0.3258 | G Loss: 2.1275
+Grid Size (13, 13) | Epoch [250/1000] | D Loss: 0.3186 | G Loss: 2.5331
+Grid Size (13, 13) | Epoch [260/1000] | D Loss: 0.2760 | G Loss: 2.4640
+Grid Size (13, 13) | Epoch [270/1000] | D Loss: 0.2981 | G Loss: 2.4761
+Grid Size (13, 13) | Epoch [280/1000] | D Loss: 0.3152 | G Loss: 2.4343
+Grid Size (13, 13) | Epoch [290/1000] | D Loss: 0.1639 | G Loss: 2.6615
+Grid Size (13, 13) | Epoch [300/1000] | D Loss: 0.3667 | G Loss: 2.7952
+Grid Size (13, 13) | Epoch [310/1000] | D Loss: 0.2042 | G Loss: 2.9406
+Grid Size (13, 13) | Epoch [320/1000] | D Loss: 0.2049 | G Loss: 2.6489
+Grid Size (13, 13) | Epoch [330/1000] | D Loss: 0.2947 | G Loss: 2.6921
+Grid Size (13, 13) | Epoch [340/1000] | D Loss: 0.2885 | G Loss: 2.2357
+Grid Size (13, 13) | Epoch [350/1000] | D Loss: 0.3144 | G Loss: 2.2781
+Grid Size (13, 13) | Epoch [360/1000] | D Loss: 0.2119 | G Loss: 2.6056
+Grid Size (13, 13) | Epoch [370/1000] | D Loss: 0.2291 | G Loss: 2.6085
+Grid Size (13, 13) | Epoch [380/1000] | D Loss: 0.1757 | G Loss: 2.3035
+Grid Size (13, 13) | Epoch [390/1000] | D Loss: 0.2312 | G Loss: 2.9612
+Grid Size (13, 13) | Epoch [400/1000] | D Loss: 0.2179 | G Loss: 3.4987
+Grid Size (13, 13) | Epoch [410/1000] | D Loss: 0.1995 | G Loss: 2.5231
+Grid Size (13, 13) | Epoch [420/1000] | D Loss: 0.2078 | G Loss: 3.2777
+Grid Size (13, 13) | Epoch [430/1000] | D Loss: 0.2267 | G Loss: 2.2427
+Grid Size (13, 13) | Epoch [440/1000] | D Loss: 0.1699 | G Loss: 2.2047
+Grid Size (13, 13) | Epoch [450/1000] | D Loss: 0.2310 | G Loss: 3.1475
+Grid Size (13, 13) | Epoch [460/1000] | D Loss: 0.2088 | G Loss: 2.2127
+Grid Size (13, 13) | Epoch [470/1000] | D Loss: 0.3166 | G Loss: 2.7561
+Grid Size (13, 13) | Epoch [480/1000] | D Loss: 0.2382 | G Loss: 2.4299
+Grid Size (13, 13) | Epoch [490/1000] | D Loss: 0.2597 | G Loss: 2.0722
+Grid Size (13, 13) | Epoch [500/1000] | D Loss: 0.1892 | G Loss: 2.6428
+Grid Size (13, 13) | Epoch [510/1000] | D Loss: 0.1582 | G Loss: 3.1439
+Grid Size (13, 13) | Epoch [520/1000] | D Loss: 0.1790 | G Loss: 3.3137
+Grid Size (13, 13) | Epoch [530/1000] | D Loss: 0.5307 | G Loss: 2.4604
+Grid Size (13, 13) | Epoch [540/1000] | D Loss: 0.1497 | G Loss: 2.3675
+Grid Size (13, 13) | Epoch [550/1000] | D Loss: 0.1827 | G Loss: 3.3307
+Grid Size (13, 13) | Epoch [560/1000] | D Loss: 0.1588 | G Loss: 2.5357
+Grid Size (13, 13) | Epoch [570/1000] | D Loss: 0.1904 | G Loss: 3.0123
+Grid Size (13, 13) | Epoch [580/1000] | D Loss: 0.2468 | G Loss: 2.7345
+Grid Size (13, 13) | Epoch [590/1000] | D Loss: 0.2214 | G Loss: 3.4484
+Grid Size (13, 13) | Epoch [600/1000] | D Loss: 0.1654 | G Loss: 2.6273
+Grid Size (13, 13) | Epoch [610/1000] | D Loss: 0.2251 | G Loss: 3.2828
+Grid Size (13, 13) | Epoch [620/1000] | D Loss: 0.1680 | G Loss: 3.7135
+Grid Size (13, 13) | Epoch [630/1000] | D Loss: 0.2739 | G Loss: 2.6312
+Grid Size (13, 13) | Epoch [640/1000] | D Loss: 0.1863 | G Loss: 2.0568
+Grid Size (13, 13) | Epoch [650/1000] | D Loss: 0.2697 | G Loss: 2.6418
+Grid Size (13, 13) | Epoch [660/1000] | D Loss: 0.1481 | G Loss: 3.6493
+Grid Size (13, 13) | Epoch [670/1000] | D Loss: 0.1981 | G Loss: 3.7679
+Grid Size (13, 13) | Epoch [680/1000] | D Loss: 0.0887 | G Loss: 2.6636
+Grid Size (13, 13) | Epoch [690/1000] | D Loss: 0.1121 | G Loss: 3.7024
+Grid Size (13, 13) | Epoch [700/1000] | D Loss: 0.1375 | G Loss: 3.0422
+Grid Size (13, 13) | Epoch [710/1000] | D Loss: 0.1303 | G Loss: 3.3167
+Grid Size (13, 13) | Epoch [720/1000] | D Loss: 0.1432 | G Loss: 3.7839
+Grid Size (13, 13) | Epoch [730/1000] | D Loss: 0.1527 | G Loss: 2.6502
+Grid Size (13, 13) | Epoch [740/1000] | D Loss: 0.0769 | G Loss: 3.2016
+Grid Size (13, 13) | Epoch [750/1000] | D Loss: 0.1112 | G Loss: 3.9992
+Grid Size (13, 13) | Epoch [760/1000] | D Loss: 0.2204 | G Loss: 3.2260
+Grid Size (13, 13) | Epoch [770/1000] | D Loss: 0.1397 | G Loss: 2.5594
+Grid Size (13, 13) | Epoch [780/1000] | D Loss: 0.1157 | G Loss: 3.3212
+Grid Size (13, 13) | Epoch [790/1000] | D Loss: 0.0790 | G Loss: 2.9510
+Grid Size (13, 13) | Epoch [800/1000] | D Loss: 0.1177 | G Loss: 2.5724
+Grid Size (13, 13) | Epoch [810/1000] | D Loss: 0.0937 | G Loss: 3.6595
+Grid Size (13, 13) | Epoch [820/1000] | D Loss: 0.1012 | G Loss: 4.0754
+Grid Size (13, 13) | Epoch [830/1000] | D Loss: 0.1508 | G Loss: 3.2078
+Grid Size (13, 13) | Epoch [840/1000] | D Loss: 0.1021 | G Loss: 3.6261
+Grid Size (13, 13) | Epoch [850/1000] | D Loss: 0.2174 | G Loss: 3.5170
+Grid Size (13, 13) | Epoch [860/1000] | D Loss: 0.3914 | G Loss: 2.4850
+Grid Size (13, 13) | Epoch [870/1000] | D Loss: 0.1159 | G Loss: 3.1331
+Grid Size (13, 13) | Epoch [880/1000] | D Loss: 0.0801 | G Loss: 3.5385
+Grid Size (13, 13) | Epoch [890/1000] | D Loss: 0.0867 | G Loss: 3.2748
+Grid Size (13, 13) | Epoch [900/1000] | D Loss: 0.0755 | G Loss: 3.4244
+Grid Size (13, 13) | Epoch [910/1000] | D Loss: 0.0798 | G Loss: 2.7932
+Grid Size (13, 13) | Epoch [920/1000] | D Loss: 0.0707 | G Loss: 3.5608
+Grid Size (13, 13) | Epoch [930/1000] | D Loss: 0.1046 | G Loss: 3.7359
+Grid Size (13, 13) | Epoch [940/1000] | D Loss: 0.0828 | G Loss: 3.4665
+Grid Size (13, 13) | Epoch [950/1000] | D Loss: 0.0710 | G Loss: 3.8934
+Grid Size (13, 13) | Epoch [960/1000] | D Loss: 0.0989 | G Loss: 3.3657
+Grid Size (13, 13) | Epoch [970/1000] | D Loss: 0.0935 | G Loss: 3.3984
+Grid Size (13, 13) | Epoch [980/1000] | D Loss: 0.1059 | G Loss: 3.8129
+Grid Size (13, 13) | Epoch [990/1000] | D Loss: 0.1493 | G Loss: 3.6535
+
+Training complete for grid size (13, 13).
+
+Generating 200 new examples for grid size (13, 13)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_13x13.json'.
+
+Processing grid size (16, 26) with 6 examples...
+Skipping training for grid size (16, 26) due to insufficient data (6 examples).
+
+Processing grid size (26, 16) with 2 examples...
+Skipping training for grid size (26, 16) due to insufficient data (2 examples).
+
+Processing grid size (12, 10) with 18 examples...
+Skipping training for grid size (12, 10) due to insufficient data (18 examples).
+
+Processing grid size (10, 12) with 22 examples...
+Skipping training for grid size (10, 12) due to insufficient data (22 examples).
+
+Processing grid size (8, 8) with 168 examples...
+Using Conv models for grid size (8, 8).
+Grid Size (8, 8) | Epoch [0/1000] | D Loss: 1.2790 | G Loss: 0.9607
+Grid Size (8, 8) | Epoch [10/1000] | D Loss: 1.2256 | G Loss: 0.8881
+Grid Size (8, 8) | Epoch [20/1000] | D Loss: 1.1224 | G Loss: 0.8518
+Grid Size (8, 8) | Epoch [30/1000] | D Loss: 0.8491 | G Loss: 1.1082
+Grid Size (8, 8) | Epoch [40/1000] | D Loss: 0.8943 | G Loss: 1.1334
+Grid Size (8, 8) | Epoch [50/1000] | D Loss: 0.8757 | G Loss: 1.1082
+Grid Size (8, 8) | Epoch [60/1000] | D Loss: 0.9762 | G Loss: 0.9280
+Grid Size (8, 8) | Epoch [70/1000] | D Loss: 1.0696 | G Loss: 0.9771
+Grid Size (8, 8) | Epoch [80/1000] | D Loss: 1.1081 | G Loss: 1.0629
+Grid Size (8, 8) | Epoch [90/1000] | D Loss: 1.0262 | G Loss: 1.0034
+Grid Size (8, 8) | Epoch [100/1000] | D Loss: 0.9087 | G Loss: 1.1790
+Grid Size (8, 8) | Epoch [110/1000] | D Loss: 0.9107 | G Loss: 1.2196
+Grid Size (8, 8) | Epoch [120/1000] | D Loss: 0.8680 | G Loss: 1.1076
+Grid Size (8, 8) | Epoch [130/1000] | D Loss: 0.8472 | G Loss: 1.1563
+Grid Size (8, 8) | Epoch [140/1000] | D Loss: 0.8346 | G Loss: 1.0884
+Grid Size (8, 8) | Epoch [150/1000] | D Loss: 0.7590 | G Loss: 1.2097
+Grid Size (8, 8) | Epoch [160/1000] | D Loss: 0.7964 | G Loss: 1.2020
+Grid Size (8, 8) | Epoch [170/1000] | D Loss: 0.7165 | G Loss: 1.2748
+Grid Size (8, 8) | Epoch [180/1000] | D Loss: 0.6947 | G Loss: 1.2277
+Grid Size (8, 8) | Epoch [190/1000] | D Loss: 0.6934 | G Loss: 1.4152
+Grid Size (8, 8) | Epoch [200/1000] | D Loss: 0.7044 | G Loss: 1.4225
+Grid Size (8, 8) | Epoch [210/1000] | D Loss: 0.6346 | G Loss: 1.4049
+Grid Size (8, 8) | Epoch [220/1000] | D Loss: 0.6656 | G Loss: 1.3680
+Grid Size (8, 8) | Epoch [230/1000] | D Loss: 0.5724 | G Loss: 1.5507
+Grid Size (8, 8) | Epoch [240/1000] | D Loss: 0.6439 | G Loss: 1.3908
+Grid Size (8, 8) | Epoch [250/1000] | D Loss: 0.5623 | G Loss: 1.4171
+Grid Size (8, 8) | Epoch [260/1000] | D Loss: 0.5238 | G Loss: 1.6758
+Grid Size (8, 8) | Epoch [270/1000] | D Loss: 0.5215 | G Loss: 1.5150
+Grid Size (8, 8) | Epoch [280/1000] | D Loss: 0.4644 | G Loss: 1.8037
+Grid Size (8, 8) | Epoch [290/1000] | D Loss: 0.4810 | G Loss: 1.7536
+Grid Size (8, 8) | Epoch [300/1000] | D Loss: 0.5011 | G Loss: 1.9131
+Grid Size (8, 8) | Epoch [310/1000] | D Loss: 0.4320 | G Loss: 1.6951
+Grid Size (8, 8) | Epoch [320/1000] | D Loss: 0.4739 | G Loss: 1.7310
+Grid Size (8, 8) | Epoch [330/1000] | D Loss: 0.4333 | G Loss: 1.8434
+Grid Size (8, 8) | Epoch [340/1000] | D Loss: 0.4010 | G Loss: 1.7742
+Grid Size (8, 8) | Epoch [350/1000] | D Loss: 0.2919 | G Loss: 1.9615
+Grid Size (8, 8) | Epoch [360/1000] | D Loss: 0.3962 | G Loss: 2.6156
+Grid Size (8, 8) | Epoch [370/1000] | D Loss: 0.3697 | G Loss: 2.0150
+Grid Size (8, 8) | Epoch [380/1000] | D Loss: 0.3422 | G Loss: 2.1832
+Grid Size (8, 8) | Epoch [390/1000] | D Loss: 0.3113 | G Loss: 1.9397
+Grid Size (8, 8) | Epoch [400/1000] | D Loss: 0.2817 | G Loss: 2.2441
+Grid Size (8, 8) | Epoch [410/1000] | D Loss: 0.2739 | G Loss: 2.1561
+Grid Size (8, 8) | Epoch [420/1000] | D Loss: 0.2786 | G Loss: 2.2923
+Grid Size (8, 8) | Epoch [430/1000] | D Loss: 0.3008 | G Loss: 2.3660
+Grid Size (8, 8) | Epoch [440/1000] | D Loss: 0.3206 | G Loss: 1.7971
+Grid Size (8, 8) | Epoch [450/1000] | D Loss: 0.2396 | G Loss: 2.4932
+Grid Size (8, 8) | Epoch [460/1000] | D Loss: 0.2556 | G Loss: 2.5308
+Grid Size (8, 8) | Epoch [470/1000] | D Loss: 0.2460 | G Loss: 2.4026
+Grid Size (8, 8) | Epoch [480/1000] | D Loss: 0.2202 | G Loss: 2.6383
+Grid Size (8, 8) | Epoch [490/1000] | D Loss: 0.1972 | G Loss: 2.6899
+Grid Size (8, 8) | Epoch [500/1000] | D Loss: 0.2124 | G Loss: 2.6632
+Grid Size (8, 8) | Epoch [510/1000] | D Loss: 0.1876 | G Loss: 2.8356
+Grid Size (8, 8) | Epoch [520/1000] | D Loss: 0.2351 | G Loss: 2.3321
+Grid Size (8, 8) | Epoch [530/1000] | D Loss: 0.1913 | G Loss: 2.7473
+Grid Size (8, 8) | Epoch [540/1000] | D Loss: 0.2979 | G Loss: 2.3437
+Grid Size (8, 8) | Epoch [550/1000] | D Loss: 0.1550 | G Loss: 2.8556
+Grid Size (8, 8) | Epoch [560/1000] | D Loss: 0.1305 | G Loss: 2.9627
+Grid Size (8, 8) | Epoch [570/1000] | D Loss: 0.1906 | G Loss: 2.5444
+Grid Size (8, 8) | Epoch [580/1000] | D Loss: 0.1715 | G Loss: 2.7171
+Grid Size (8, 8) | Epoch [590/1000] | D Loss: 0.1854 | G Loss: 2.7664
+Grid Size (8, 8) | Epoch [600/1000] | D Loss: 0.1428 | G Loss: 2.9542
+Grid Size (8, 8) | Epoch [610/1000] | D Loss: 0.1368 | G Loss: 3.0977
+Grid Size (8, 8) | Epoch [620/1000] | D Loss: 0.1775 | G Loss: 3.1454
+Grid Size (8, 8) | Epoch [630/1000] | D Loss: 0.1229 | G Loss: 3.3116
+Grid Size (8, 8) | Epoch [640/1000] | D Loss: 0.1462 | G Loss: 3.0577
+Grid Size (8, 8) | Epoch [650/1000] | D Loss: 0.1172 | G Loss: 3.0371
+Grid Size (8, 8) | Epoch [660/1000] | D Loss: 0.1733 | G Loss: 3.0131
+Grid Size (8, 8) | Epoch [670/1000] | D Loss: 0.1277 | G Loss: 3.3616
+Grid Size (8, 8) | Epoch [680/1000] | D Loss: 0.1485 | G Loss: 3.6992
+Grid Size (8, 8) | Epoch [690/1000] | D Loss: 0.1557 | G Loss: 3.1433
+Grid Size (8, 8) | Epoch [700/1000] | D Loss: 0.1388 | G Loss: 3.3922
+Grid Size (8, 8) | Epoch [710/1000] | D Loss: 0.1212 | G Loss: 3.4222
+Grid Size (8, 8) | Epoch [720/1000] | D Loss: 0.0818 | G Loss: 3.7607
+Grid Size (8, 8) | Epoch [730/1000] | D Loss: 0.0919 | G Loss: 3.7252
+Grid Size (8, 8) | Epoch [740/1000] | D Loss: 0.1101 | G Loss: 3.7548
+Grid Size (8, 8) | Epoch [750/1000] | D Loss: 0.1004 | G Loss: 3.9356
+Grid Size (8, 8) | Epoch [760/1000] | D Loss: 0.0831 | G Loss: 3.9976
+Grid Size (8, 8) | Epoch [770/1000] | D Loss: 0.0942 | G Loss: 3.8500
+Grid Size (8, 8) | Epoch [780/1000] | D Loss: 0.0851 | G Loss: 3.7707
+Grid Size (8, 8) | Epoch [790/1000] | D Loss: 0.0862 | G Loss: 3.2832
+Grid Size (8, 8) | Epoch [800/1000] | D Loss: 0.0808 | G Loss: 3.5263
+Grid Size (8, 8) | Epoch [810/1000] | D Loss: 0.1056 | G Loss: 3.6748
+Grid Size (8, 8) | Epoch [820/1000] | D Loss: 0.1016 | G Loss: 3.3952
+Grid Size (8, 8) | Epoch [830/1000] | D Loss: 0.0908 | G Loss: 3.6709
+Grid Size (8, 8) | Epoch [840/1000] | D Loss: 0.0768 | G Loss: 3.8258
+Grid Size (8, 8) | Epoch [850/1000] | D Loss: 0.0764 | G Loss: 3.9322
+Grid Size (8, 8) | Epoch [860/1000] | D Loss: 0.0852 | G Loss: 4.0272
+Grid Size (8, 8) | Epoch [870/1000] | D Loss: 0.0931 | G Loss: 3.8033
+Grid Size (8, 8) | Epoch [880/1000] | D Loss: 0.0803 | G Loss: 3.9980
+Grid Size (8, 8) | Epoch [890/1000] | D Loss: 0.0782 | G Loss: 4.0784
+Grid Size (8, 8) | Epoch [900/1000] | D Loss: 0.0519 | G Loss: 4.1945
+Grid Size (8, 8) | Epoch [910/1000] | D Loss: 0.0787 | G Loss: 3.7697
+Grid Size (8, 8) | Epoch [920/1000] | D Loss: 0.0456 | G Loss: 4.3814
+Grid Size (8, 8) | Epoch [930/1000] | D Loss: 0.0533 | G Loss: 4.5799
+Grid Size (8, 8) | Epoch [940/1000] | D Loss: 0.0684 | G Loss: 4.3685
+Grid Size (8, 8) | Epoch [950/1000] | D Loss: 0.0782 | G Loss: 4.3646
+Grid Size (8, 8) | Epoch [960/1000] | D Loss: 0.0608 | G Loss: 4.2625
+Grid Size (8, 8) | Epoch [970/1000] | D Loss: 0.0764 | G Loss: 3.8983
+Grid Size (8, 8) | Epoch [980/1000] | D Loss: 0.0562 | G Loss: 4.3342
+Grid Size (8, 8) | Epoch [990/1000] | D Loss: 0.0763 | G Loss: 3.9622
+
+Training complete for grid size (8, 8).
+
+Generating 200 new examples for grid size (8, 8)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_8x8.json'.
+
+Processing grid size (5, 3) with 40 examples...
+Skipping training for grid size (5, 3) due to insufficient data (40 examples).
+
+Processing grid size (3, 5) with 56 examples...
+Skipping training for grid size (3, 5) due to insufficient data (56 examples).
+
+Processing grid size (12, 14) with 20 examples...
+Skipping training for grid size (12, 14) due to insufficient data (20 examples).
+
+Processing grid size (14, 12) with 12 examples...
+Skipping training for grid size (14, 12) due to insufficient data (12 examples).
+
+Processing grid size (10, 7) with 10 examples...
+Skipping training for grid size (10, 7) due to insufficient data (10 examples).
+
+Processing grid size (7, 10) with 14 examples...
+Skipping training for grid size (7, 10) due to insufficient data (14 examples).
+
+Processing grid size (12, 3) with 14 examples...
+Skipping training for grid size (12, 3) due to insufficient data (14 examples).
+
+Processing grid size (3, 12) with 26 examples...
+Skipping training for grid size (3, 12) due to insufficient data (26 examples).
+
+Processing grid size (19, 18) with 12 examples...
+Skipping training for grid size (19, 18) due to insufficient data (12 examples).
+
+Processing grid size (18, 19) with 4 examples...
+Skipping training for grid size (18, 19) due to insufficient data (4 examples).
+
+Processing grid size (19, 19) with 160 examples...
+Using Conv models for grid size (19, 19).
+Grid Size (19, 19) | Epoch [0/1000] | D Loss: 1.6398 | G Loss: 0.6074
+Grid Size (19, 19) | Epoch [10/1000] | D Loss: 0.6811 | G Loss: 1.3865
+Grid Size (19, 19) | Epoch [20/1000] | D Loss: 0.7254 | G Loss: 1.3118
+Grid Size (19, 19) | Epoch [30/1000] | D Loss: 0.5602 | G Loss: 1.5065
+Grid Size (19, 19) | Epoch [40/1000] | D Loss: 0.5176 | G Loss: 1.5708
+Grid Size (19, 19) | Epoch [50/1000] | D Loss: 0.4382 | G Loss: 1.7528
+Grid Size (19, 19) | Epoch [60/1000] | D Loss: 0.4059 | G Loss: 1.9292
+Grid Size (19, 19) | Epoch [70/1000] | D Loss: 0.4478 | G Loss: 2.0060
+Grid Size (19, 19) | Epoch [80/1000] | D Loss: 0.3437 | G Loss: 2.1499
+Grid Size (19, 19) | Epoch [90/1000] | D Loss: 0.3323 | G Loss: 2.2178
+Grid Size (19, 19) | Epoch [100/1000] | D Loss: 0.4022 | G Loss: 1.9796
+Grid Size (19, 19) | Epoch [110/1000] | D Loss: 0.4539 | G Loss: 1.9999
+Grid Size (19, 19) | Epoch [120/1000] | D Loss: 0.4013 | G Loss: 1.7544
+Grid Size (19, 19) | Epoch [130/1000] | D Loss: 0.4331 | G Loss: 2.2095
+Grid Size (19, 19) | Epoch [140/1000] | D Loss: 0.4448 | G Loss: 2.1615
+Grid Size (19, 19) | Epoch [150/1000] | D Loss: 0.4282 | G Loss: 1.8316
+Grid Size (19, 19) | Epoch [160/1000] | D Loss: 0.5385 | G Loss: 2.2038
+Grid Size (19, 19) | Epoch [170/1000] | D Loss: 0.4354 | G Loss: 2.0485
+Grid Size (19, 19) | Epoch [180/1000] | D Loss: 0.5103 | G Loss: 1.9561
+Grid Size (19, 19) | Epoch [190/1000] | D Loss: 0.4740 | G Loss: 1.7095
+Grid Size (19, 19) | Epoch [200/1000] | D Loss: 0.5378 | G Loss: 1.8547
+Grid Size (19, 19) | Epoch [210/1000] | D Loss: 0.5035 | G Loss: 1.8125
+Grid Size (19, 19) | Epoch [220/1000] | D Loss: 0.4944 | G Loss: 1.8624
+Grid Size (19, 19) | Epoch [230/1000] | D Loss: 0.5177 | G Loss: 1.8748
+Grid Size (19, 19) | Epoch [240/1000] | D Loss: 0.4824 | G Loss: 1.5786
+Grid Size (19, 19) | Epoch [250/1000] | D Loss: 0.5155 | G Loss: 1.5780
+Grid Size (19, 19) | Epoch [260/1000] | D Loss: 0.4134 | G Loss: 1.7404
+Grid Size (19, 19) | Epoch [270/1000] | D Loss: 0.3769 | G Loss: 2.0187
+Grid Size (19, 19) | Epoch [280/1000] | D Loss: 0.4191 | G Loss: 2.4458
+Grid Size (19, 19) | Epoch [290/1000] | D Loss: 0.3246 | G Loss: 2.0711
+Grid Size (19, 19) | Epoch [300/1000] | D Loss: 0.2981 | G Loss: 2.3557
+Grid Size (19, 19) | Epoch [310/1000] | D Loss: 0.3045 | G Loss: 2.3455
+Grid Size (19, 19) | Epoch [320/1000] | D Loss: 0.3344 | G Loss: 2.6283
+Grid Size (19, 19) | Epoch [330/1000] | D Loss: 0.3030 | G Loss: 2.7856
+Grid Size (19, 19) | Epoch [340/1000] | D Loss: 0.4799 | G Loss: 2.7055
+Grid Size (19, 19) | Epoch [350/1000] | D Loss: 0.2736 | G Loss: 2.1225
+Grid Size (19, 19) | Epoch [360/1000] | D Loss: 0.2498 | G Loss: 2.4473
+Grid Size (19, 19) | Epoch [370/1000] | D Loss: 0.2538 | G Loss: 2.5133
+Grid Size (19, 19) | Epoch [380/1000] | D Loss: 0.3923 | G Loss: 2.0492
+Grid Size (19, 19) | Epoch [390/1000] | D Loss: 0.2115 | G Loss: 2.4462
+Grid Size (19, 19) | Epoch [400/1000] | D Loss: 0.2526 | G Loss: 2.4030
+Grid Size (19, 19) | Epoch [410/1000] | D Loss: 0.2015 | G Loss: 2.7599
+Grid Size (19, 19) | Epoch [420/1000] | D Loss: 0.2017 | G Loss: 2.4906
+Grid Size (19, 19) | Epoch [430/1000] | D Loss: 0.2033 | G Loss: 3.0237
+Grid Size (19, 19) | Epoch [440/1000] | D Loss: 0.1784 | G Loss: 2.9098
+Grid Size (19, 19) | Epoch [450/1000] | D Loss: 0.1590 | G Loss: 3.0861
+Grid Size (19, 19) | Epoch [460/1000] | D Loss: 0.1873 | G Loss: 2.7614
+Grid Size (19, 19) | Epoch [470/1000] | D Loss: 0.2318 | G Loss: 2.7833
+Grid Size (19, 19) | Epoch [480/1000] | D Loss: 0.3868 | G Loss: 2.1761
+Grid Size (19, 19) | Epoch [490/1000] | D Loss: 0.2122 | G Loss: 2.4718
+Grid Size (19, 19) | Epoch [500/1000] | D Loss: 0.2463 | G Loss: 2.6708
+Grid Size (19, 19) | Epoch [510/1000] | D Loss: 0.2138 | G Loss: 3.0303
+Grid Size (19, 19) | Epoch [520/1000] | D Loss: 0.1402 | G Loss: 3.1559
+Grid Size (19, 19) | Epoch [530/1000] | D Loss: 0.2536 | G Loss: 2.1806
+Grid Size (19, 19) | Epoch [540/1000] | D Loss: 0.2505 | G Loss: 1.8576
+Grid Size (19, 19) | Epoch [550/1000] | D Loss: 0.1202 | G Loss: 3.1859
+Grid Size (19, 19) | Epoch [560/1000] | D Loss: 0.1597 | G Loss: 3.1729
+Grid Size (19, 19) | Epoch [570/1000] | D Loss: 0.2093 | G Loss: 3.1398
+Grid Size (19, 19) | Epoch [580/1000] | D Loss: 0.1723 | G Loss: 3.2982
+Grid Size (19, 19) | Epoch [590/1000] | D Loss: 0.1463 | G Loss: 2.8921
+Grid Size (19, 19) | Epoch [600/1000] | D Loss: 0.1627 | G Loss: 2.4735
+Grid Size (19, 19) | Epoch [610/1000] | D Loss: 0.1402 | G Loss: 2.9107
+Grid Size (19, 19) | Epoch [620/1000] | D Loss: 0.1327 | G Loss: 3.1284
+Grid Size (19, 19) | Epoch [630/1000] | D Loss: 0.1158 | G Loss: 3.6021
+Grid Size (19, 19) | Epoch [640/1000] | D Loss: 0.1333 | G Loss: 3.3387
+Grid Size (19, 19) | Epoch [650/1000] | D Loss: 0.2268 | G Loss: 2.5964
+Grid Size (19, 19) | Epoch [660/1000] | D Loss: 0.1620 | G Loss: 2.9456
+Grid Size (19, 19) | Epoch [670/1000] | D Loss: 0.1105 | G Loss: 3.6829
+Grid Size (19, 19) | Epoch [680/1000] | D Loss: 0.0917 | G Loss: 3.5204
+Grid Size (19, 19) | Epoch [690/1000] | D Loss: 0.1058 | G Loss: 3.4814
+Grid Size (19, 19) | Epoch [700/1000] | D Loss: 0.1568 | G Loss: 3.4645
+Grid Size (19, 19) | Epoch [710/1000] | D Loss: 0.1392 | G Loss: 3.8193
+Grid Size (19, 19) | Epoch [720/1000] | D Loss: 0.0981 | G Loss: 3.2095
+Grid Size (19, 19) | Epoch [730/1000] | D Loss: 0.1049 | G Loss: 3.9258
+Grid Size (19, 19) | Epoch [740/1000] | D Loss: 0.1108 | G Loss: 3.3926
+Grid Size (19, 19) | Epoch [750/1000] | D Loss: 0.1666 | G Loss: 3.6963
+Grid Size (19, 19) | Epoch [760/1000] | D Loss: 0.1678 | G Loss: 3.4069
+Grid Size (19, 19) | Epoch [770/1000] | D Loss: 0.1670 | G Loss: 3.4641
+Grid Size (19, 19) | Epoch [780/1000] | D Loss: 0.0957 | G Loss: 3.8916
+Grid Size (19, 19) | Epoch [790/1000] | D Loss: 0.1153 | G Loss: 3.6793
+Grid Size (19, 19) | Epoch [800/1000] | D Loss: 0.0686 | G Loss: 4.0867
+Grid Size (19, 19) | Epoch [810/1000] | D Loss: 0.0784 | G Loss: 3.9951
+Grid Size (19, 19) | Epoch [820/1000] | D Loss: 0.0772 | G Loss: 3.5913
+Grid Size (19, 19) | Epoch [830/1000] | D Loss: 0.0794 | G Loss: 3.6765
+Grid Size (19, 19) | Epoch [840/1000] | D Loss: 0.0566 | G Loss: 3.9613
+Grid Size (19, 19) | Epoch [850/1000] | D Loss: 0.0656 | G Loss: 3.4957
+Grid Size (19, 19) | Epoch [860/1000] | D Loss: 0.0721 | G Loss: 3.6233
+Grid Size (19, 19) | Epoch [870/1000] | D Loss: 0.0763 | G Loss: 3.9669
+Grid Size (19, 19) | Epoch [880/1000] | D Loss: 0.0876 | G Loss: 3.5529
+Grid Size (19, 19) | Epoch [890/1000] | D Loss: 0.0634 | G Loss: 4.3076
+Grid Size (19, 19) | Epoch [900/1000] | D Loss: 0.0929 | G Loss: 4.1215
+Grid Size (19, 19) | Epoch [910/1000] | D Loss: 0.0941 | G Loss: 3.5528
+Grid Size (19, 19) | Epoch [920/1000] | D Loss: 0.0916 | G Loss: 4.2257
+Grid Size (19, 19) | Epoch [930/1000] | D Loss: 0.0680 | G Loss: 3.6841
+Grid Size (19, 19) | Epoch [940/1000] | D Loss: 0.0515 | G Loss: 4.1917
+Grid Size (19, 19) | Epoch [950/1000] | D Loss: 0.2649 | G Loss: 2.7164
+Grid Size (19, 19) | Epoch [960/1000] | D Loss: 0.0664 | G Loss: 4.4118
+Grid Size (19, 19) | Epoch [970/1000] | D Loss: 0.0563 | G Loss: 3.7257
+Grid Size (19, 19) | Epoch [980/1000] | D Loss: 0.0526 | G Loss: 3.9457
+Grid Size (19, 19) | Epoch [990/1000] | D Loss: 0.0602 | G Loss: 4.1367
+
+Training complete for grid size (19, 19).
+
+Generating 200 new examples for grid size (19, 19)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_19x19.json'.
+
+Processing grid size (8, 11) with 14 examples...
+Skipping training for grid size (8, 11) due to insufficient data (14 examples).
+
+Processing grid size (11, 8) with 10 examples...
+Skipping training for grid size (11, 8) due to insufficient data (10 examples).
+
+Processing grid size (23, 23) with 56 examples...
+Skipping training for grid size (23, 23) due to insufficient data (56 examples).
+
+Processing grid size (7, 23) with 8 examples...
+Skipping training for grid size (7, 23) due to insufficient data (8 examples).
+
+Processing grid size (23, 7) with 8 examples...
+Skipping training for grid size (23, 7) due to insufficient data (8 examples).
+
+Processing grid size (15, 16) with 14 examples...
+Skipping training for grid size (15, 16) due to insufficient data (14 examples).
+
+Processing grid size (16, 15) with 26 examples...
+Skipping training for grid size (16, 15) due to insufficient data (26 examples).
+
+Processing grid size (16, 16) with 400 examples...
+Using Conv models for grid size (16, 16).
+Grid Size (16, 16) | Epoch [0/1000] | D Loss: 1.4251 | G Loss: 0.6759
+Grid Size (16, 16) | Epoch [10/1000] | D Loss: 1.0627 | G Loss: 0.9022
+Grid Size (16, 16) | Epoch [20/1000] | D Loss: 0.8943 | G Loss: 1.0250
+Grid Size (16, 16) | Epoch [30/1000] | D Loss: 0.6578 | G Loss: 1.3312
+Grid Size (16, 16) | Epoch [40/1000] | D Loss: 0.5224 | G Loss: 1.6988
+Grid Size (16, 16) | Epoch [50/1000] | D Loss: 0.4878 | G Loss: 1.5701
+Grid Size (16, 16) | Epoch [60/1000] | D Loss: 0.4727 | G Loss: 1.5941
+Grid Size (16, 16) | Epoch [70/1000] | D Loss: 0.5781 | G Loss: 1.5549
+Grid Size (16, 16) | Epoch [80/1000] | D Loss: 0.5568 | G Loss: 1.6541
+Grid Size (16, 16) | Epoch [90/1000] | D Loss: 0.8107 | G Loss: 1.4934
+Grid Size (16, 16) | Epoch [100/1000] | D Loss: 0.7981 | G Loss: 1.4602
+Grid Size (16, 16) | Epoch [110/1000] | D Loss: 0.8505 | G Loss: 1.4131
+Grid Size (16, 16) | Epoch [120/1000] | D Loss: 0.7500 | G Loss: 1.4521
+Grid Size (16, 16) | Epoch [130/1000] | D Loss: 0.7528 | G Loss: 1.2549
+Grid Size (16, 16) | Epoch [140/1000] | D Loss: 0.7131 | G Loss: 1.2523
+Grid Size (16, 16) | Epoch [150/1000] | D Loss: 0.8024 | G Loss: 1.3974
+Grid Size (16, 16) | Epoch [160/1000] | D Loss: 0.7803 | G Loss: 1.5595
+Grid Size (16, 16) | Epoch [170/1000] | D Loss: 0.7893 | G Loss: 1.4435
+Grid Size (16, 16) | Epoch [180/1000] | D Loss: 0.7808 | G Loss: 1.2734
+Grid Size (16, 16) | Epoch [190/1000] | D Loss: 0.7196 | G Loss: 1.3148
+Grid Size (16, 16) | Epoch [200/1000] | D Loss: 0.6900 | G Loss: 1.4167
+Grid Size (16, 16) | Epoch [210/1000] | D Loss: 0.6421 | G Loss: 1.6434
+Grid Size (16, 16) | Epoch [220/1000] | D Loss: 0.6703 | G Loss: 1.3244
+Grid Size (16, 16) | Epoch [230/1000] | D Loss: 0.5702 | G Loss: 1.6185
+Grid Size (16, 16) | Epoch [240/1000] | D Loss: 0.5657 | G Loss: 1.4610
+Grid Size (16, 16) | Epoch [250/1000] | D Loss: 0.5497 | G Loss: 1.4776
+Grid Size (16, 16) | Epoch [260/1000] | D Loss: 0.6218 | G Loss: 1.6189
+Grid Size (16, 16) | Epoch [270/1000] | D Loss: 0.5397 | G Loss: 1.4321
+Grid Size (16, 16) | Epoch [280/1000] | D Loss: 0.5344 | G Loss: 1.7408
+Grid Size (16, 16) | Epoch [290/1000] | D Loss: 0.5826 | G Loss: 1.4629
+Grid Size (16, 16) | Epoch [300/1000] | D Loss: 0.5496 | G Loss: 1.5744
+Grid Size (16, 16) | Epoch [310/1000] | D Loss: 0.6149 | G Loss: 1.5845
+Grid Size (16, 16) | Epoch [320/1000] | D Loss: 0.5221 | G Loss: 1.6591
+Grid Size (16, 16) | Epoch [330/1000] | D Loss: 0.5274 | G Loss: 1.5960
+Grid Size (16, 16) | Epoch [340/1000] | D Loss: 0.4822 | G Loss: 1.8695
+Grid Size (16, 16) | Epoch [350/1000] | D Loss: 0.5753 | G Loss: 1.7152
+Grid Size (16, 16) | Epoch [360/1000] | D Loss: 0.4786 | G Loss: 1.5682
+Grid Size (16, 16) | Epoch [370/1000] | D Loss: 0.5380 | G Loss: 1.7505
+Grid Size (16, 16) | Epoch [380/1000] | D Loss: 0.4398 | G Loss: 2.0167
+Grid Size (16, 16) | Epoch [390/1000] | D Loss: 0.4788 | G Loss: 1.7771
+Grid Size (16, 16) | Epoch [400/1000] | D Loss: 0.4563 | G Loss: 2.0025
+Grid Size (16, 16) | Epoch [410/1000] | D Loss: 0.4931 | G Loss: 1.6583
+Grid Size (16, 16) | Epoch [420/1000] | D Loss: 0.4293 | G Loss: 1.7663
+Grid Size (16, 16) | Epoch [430/1000] | D Loss: 0.5638 | G Loss: 1.5381
+Grid Size (16, 16) | Epoch [440/1000] | D Loss: 0.5232 | G Loss: 1.7887
+Grid Size (16, 16) | Epoch [450/1000] | D Loss: 0.4163 | G Loss: 1.9116
+Grid Size (16, 16) | Epoch [460/1000] | D Loss: 0.4268 | G Loss: 1.7510
+Grid Size (16, 16) | Epoch [470/1000] | D Loss: 0.5148 | G Loss: 1.7855
+Grid Size (16, 16) | Epoch [480/1000] | D Loss: 0.3879 | G Loss: 1.9748
+Grid Size (16, 16) | Epoch [490/1000] | D Loss: 0.3987 | G Loss: 1.9035
+Grid Size (16, 16) | Epoch [500/1000] | D Loss: 0.4455 | G Loss: 2.2740
+Grid Size (16, 16) | Epoch [510/1000] | D Loss: 0.4127 | G Loss: 1.7200
+Grid Size (16, 16) | Epoch [520/1000] | D Loss: 0.4808 | G Loss: 1.7742
+Grid Size (16, 16) | Epoch [530/1000] | D Loss: 0.3814 | G Loss: 2.2057
+Grid Size (16, 16) | Epoch [540/1000] | D Loss: 0.3141 | G Loss: 2.2112
+Grid Size (16, 16) | Epoch [550/1000] | D Loss: 0.3176 | G Loss: 1.9395
+Grid Size (16, 16) | Epoch [560/1000] | D Loss: 0.5205 | G Loss: 1.5313
+Grid Size (16, 16) | Epoch [570/1000] | D Loss: 0.2700 | G Loss: 2.0979
+Grid Size (16, 16) | Epoch [580/1000] | D Loss: 0.4285 | G Loss: 2.3582
+Grid Size (16, 16) | Epoch [590/1000] | D Loss: 0.3918 | G Loss: 2.1602
+Grid Size (16, 16) | Epoch [600/1000] | D Loss: 0.3600 | G Loss: 2.3506
+Grid Size (16, 16) | Epoch [610/1000] | D Loss: 0.3209 | G Loss: 2.0442
+Grid Size (16, 16) | Epoch [620/1000] | D Loss: 0.3692 | G Loss: 1.9776
+Grid Size (16, 16) | Epoch [630/1000] | D Loss: 0.2675 | G Loss: 2.3974
+Grid Size (16, 16) | Epoch [640/1000] | D Loss: 0.3484 | G Loss: 2.0261
+Grid Size (16, 16) | Epoch [650/1000] | D Loss: 0.3693 | G Loss: 1.9143
+Grid Size (16, 16) | Epoch [660/1000] | D Loss: 0.3297 | G Loss: 2.1147
+Grid Size (16, 16) | Epoch [670/1000] | D Loss: 0.3744 | G Loss: 1.9249
+Grid Size (16, 16) | Epoch [680/1000] | D Loss: 0.3369 | G Loss: 2.3133
+Grid Size (16, 16) | Epoch [690/1000] | D Loss: 0.3739 | G Loss: 1.8679
+Grid Size (16, 16) | Epoch [700/1000] | D Loss: 0.3719 | G Loss: 1.8287
+Grid Size (16, 16) | Epoch [710/1000] | D Loss: 0.3178 | G Loss: 1.9946
+Grid Size (16, 16) | Epoch [720/1000] | D Loss: 0.2618 | G Loss: 2.4652
+Grid Size (16, 16) | Epoch [730/1000] | D Loss: 0.2788 | G Loss: 2.3110
+Grid Size (16, 16) | Epoch [740/1000] | D Loss: 0.3573 | G Loss: 2.3350
+Grid Size (16, 16) | Epoch [750/1000] | D Loss: 0.2359 | G Loss: 2.7662
+Grid Size (16, 16) | Epoch [760/1000] | D Loss: 0.3081 | G Loss: 2.5158
+Grid Size (16, 16) | Epoch [770/1000] | D Loss: 0.1964 | G Loss: 2.6869
+Grid Size (16, 16) | Epoch [780/1000] | D Loss: 0.1966 | G Loss: 2.7397
+Grid Size (16, 16) | Epoch [790/1000] | D Loss: 0.2837 | G Loss: 2.1567
+Grid Size (16, 16) | Epoch [800/1000] | D Loss: 0.3116 | G Loss: 2.0114
+Grid Size (16, 16) | Epoch [810/1000] | D Loss: 0.1685 | G Loss: 2.9011
+Grid Size (16, 16) | Epoch [820/1000] | D Loss: 0.2966 | G Loss: 2.2017
+Grid Size (16, 16) | Epoch [830/1000] | D Loss: 0.2610 | G Loss: 2.5515
+Grid Size (16, 16) | Epoch [840/1000] | D Loss: 0.2653 | G Loss: 2.3260
+Grid Size (16, 16) | Epoch [850/1000] | D Loss: 0.2289 | G Loss: 2.4280
+Grid Size (16, 16) | Epoch [860/1000] | D Loss: 0.2392 | G Loss: 2.6027
+Grid Size (16, 16) | Epoch [870/1000] | D Loss: 0.2260 | G Loss: 2.5744
+Grid Size (16, 16) | Epoch [880/1000] | D Loss: 0.2461 | G Loss: 2.2014
+Grid Size (16, 16) | Epoch [890/1000] | D Loss: 0.1611 | G Loss: 2.8220
+Grid Size (16, 16) | Epoch [900/1000] | D Loss: 0.1925 | G Loss: 2.5430
+Grid Size (16, 16) | Epoch [910/1000] | D Loss: 0.2224 | G Loss: 2.5161
+Grid Size (16, 16) | Epoch [920/1000] | D Loss: 0.2195 | G Loss: 2.8289
+Grid Size (16, 16) | Epoch [930/1000] | D Loss: 0.1740 | G Loss: 2.7641
+Grid Size (16, 16) | Epoch [940/1000] | D Loss: 0.2156 | G Loss: 2.6361
+Grid Size (16, 16) | Epoch [950/1000] | D Loss: 0.1755 | G Loss: 2.7547
+Grid Size (16, 16) | Epoch [960/1000] | D Loss: 0.1722 | G Loss: 2.9575
+Grid Size (16, 16) | Epoch [970/1000] | D Loss: 0.1981 | G Loss: 2.5519
+Grid Size (16, 16) | Epoch [980/1000] | D Loss: 0.2239 | G Loss: 2.5852
+Grid Size (16, 16) | Epoch [990/1000] | D Loss: 0.1500 | G Loss: 3.1603
+
+Training complete for grid size (16, 16).
+
+Generating 200 new examples for grid size (16, 16)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_16x16.json'.
+
+Processing grid size (12, 11) with 14 examples...
+Skipping training for grid size (12, 11) due to insufficient data (14 examples).
+
+Processing grid size (11, 12) with 10 examples...
+Skipping training for grid size (11, 12) due to insufficient data (10 examples).
+
+Processing grid size (17, 17) with 96 examples...
+Skipping training for grid size (17, 17) due to insufficient data (96 examples).
+
+Processing grid size (21, 16) with 6 examples...
+Skipping training for grid size (21, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 21) with 2 examples...
+Skipping training for grid size (16, 21) due to insufficient data (2 examples).
+
+Processing grid size (28, 26) with 8 examples...
+Skipping training for grid size (28, 26) due to insufficient data (8 examples).
+
+Processing grid size (26, 28) with 8 examples...
+Skipping training for grid size (26, 28) due to insufficient data (8 examples).
+
+Processing grid size (17, 11) with 8 examples...
+Skipping training for grid size (17, 11) due to insufficient data (8 examples).
+
+Processing grid size (11, 17) with 8 examples...
+Skipping training for grid size (11, 17) due to insufficient data (8 examples).
+
+Processing grid size (25, 26) with 12 examples...
+Skipping training for grid size (25, 26) due to insufficient data (12 examples).
+
+Processing grid size (26, 25) with 4 examples...
+Skipping training for grid size (26, 25) due to insufficient data (4 examples).
+
+Processing grid size (5, 6) with 24 examples...
+Skipping training for grid size (5, 6) due to insufficient data (24 examples).
+
+Processing grid size (6, 5) with 40 examples...
+Skipping training for grid size (6, 5) due to insufficient data (40 examples).
+
+Processing grid size (2, 2) with 64 examples...
+Skipping training for grid size (2, 2) due to insufficient data (64 examples).
+
+Processing grid size (19, 26) with 6 examples...
+Skipping training for grid size (19, 26) due to insufficient data (6 examples).
+
+Processing grid size (26, 19) with 2 examples...
+Skipping training for grid size (26, 19) due to insufficient data (2 examples).
+
+Processing grid size (1, 1) with 96 examples...
+Skipping training for grid size (1, 1) due to insufficient data (96 examples).
+
+Processing grid size (18, 18) with 72 examples...
+Skipping training for grid size (18, 18) due to insufficient data (72 examples).
+
+Processing grid size (11, 23) with 6 examples...
+Skipping training for grid size (11, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 11) with 2 examples...
+Skipping training for grid size (23, 11) due to insufficient data (2 examples).
+
+Processing grid size (8, 9) with 22 examples...
+Skipping training for grid size (8, 9) due to insufficient data (22 examples).
+
+Processing grid size (9, 8) with 18 examples...
+Skipping training for grid size (9, 8) due to insufficient data (18 examples).
+
+Processing grid size (25, 25) with 80 examples...
+Skipping training for grid size (25, 25) due to insufficient data (80 examples).
+
+Processing grid size (19, 25) with 6 examples...
+Skipping training for grid size (19, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 19) with 2 examples...
+Skipping training for grid size (25, 19) due to insufficient data (2 examples).
+
+Processing grid size (5, 5) with 224 examples...
+Using Linear models for grid size (5, 5).
+Grid Size (5, 5) | Epoch [0/1000] | D Loss: 1.3674 | G Loss: 0.7042
+Grid Size (5, 5) | Epoch [10/1000] | D Loss: 1.3499 | G Loss: 0.7045
+Grid Size (5, 5) | Epoch [20/1000] | D Loss: 1.3072 | G Loss: 0.7056
+Grid Size (5, 5) | Epoch [30/1000] | D Loss: 1.3272 | G Loss: 0.7023
+Grid Size (5, 5) | Epoch [40/1000] | D Loss: 1.3294 | G Loss: 0.6899
+Grid Size (5, 5) | Epoch [50/1000] | D Loss: 1.3314 | G Loss: 0.6961
+Grid Size (5, 5) | Epoch [60/1000] | D Loss: 1.3252 | G Loss: 0.6997
+Grid Size (5, 5) | Epoch [70/1000] | D Loss: 1.3010 | G Loss: 0.6964
+Grid Size (5, 5) | Epoch [80/1000] | D Loss: 1.2962 | G Loss: 0.6933
+Grid Size (5, 5) | Epoch [90/1000] | D Loss: 1.3132 | G Loss: 0.6907
+Grid Size (5, 5) | Epoch [100/1000] | D Loss: 1.2618 | G Loss: 0.6976
+Grid Size (5, 5) | Epoch [110/1000] | D Loss: 1.2800 | G Loss: 0.6878
+Grid Size (5, 5) | Epoch [120/1000] | D Loss: 1.2587 | G Loss: 0.6967
+Grid Size (5, 5) | Epoch [130/1000] | D Loss: 1.2648 | G Loss: 0.6975
+Grid Size (5, 5) | Epoch [140/1000] | D Loss: 1.2921 | G Loss: 0.6894
+Grid Size (5, 5) | Epoch [150/1000] | D Loss: 1.2555 | G Loss: 0.6966
+Grid Size (5, 5) | Epoch [160/1000] | D Loss: 1.2805 | G Loss: 0.6984
+Grid Size (5, 5) | Epoch [170/1000] | D Loss: 1.2505 | G Loss: 0.6940
+Grid Size (5, 5) | Epoch [180/1000] | D Loss: 1.2325 | G Loss: 0.6980
+Grid Size (5, 5) | Epoch [190/1000] | D Loss: 1.2248 | G Loss: 0.7039
+Grid Size (5, 5) | Epoch [200/1000] | D Loss: 1.2219 | G Loss: 0.7096
+Grid Size (5, 5) | Epoch [210/1000] | D Loss: 1.2727 | G Loss: 0.6950
+Grid Size (5, 5) | Epoch [220/1000] | D Loss: 1.2178 | G Loss: 0.7170
+Grid Size (5, 5) | Epoch [230/1000] | D Loss: 1.2730 | G Loss: 0.7133
+Grid Size (5, 5) | Epoch [240/1000] | D Loss: 1.2475 | G Loss: 0.7175
+Grid Size (5, 5) | Epoch [250/1000] | D Loss: 1.2332 | G Loss: 0.7082
+Grid Size (5, 5) | Epoch [260/1000] | D Loss: 1.2135 | G Loss: 0.7165
+Grid Size (5, 5) | Epoch [270/1000] | D Loss: 1.2090 | G Loss: 0.7251
+Grid Size (5, 5) | Epoch [280/1000] | D Loss: 1.2060 | G Loss: 0.7094
+Grid Size (5, 5) | Epoch [290/1000] | D Loss: 1.2040 | G Loss: 0.7141
+Grid Size (5, 5) | Epoch [300/1000] | D Loss: 1.2071 | G Loss: 0.7151
+Grid Size (5, 5) | Epoch [310/1000] | D Loss: 1.2098 | G Loss: 0.7056
+Grid Size (5, 5) | Epoch [320/1000] | D Loss: 1.1986 | G Loss: 0.7273
+Grid Size (5, 5) | Epoch [330/1000] | D Loss: 1.1867 | G Loss: 0.7146
+Grid Size (5, 5) | Epoch [340/1000] | D Loss: 1.2423 | G Loss: 0.7262
+Grid Size (5, 5) | Epoch [350/1000] | D Loss: 1.2078 | G Loss: 0.7044
+Grid Size (5, 5) | Epoch [360/1000] | D Loss: 1.2097 | G Loss: 0.7062
+Grid Size (5, 5) | Epoch [370/1000] | D Loss: 1.1921 | G Loss: 0.7213
+Grid Size (5, 5) | Epoch [380/1000] | D Loss: 1.2179 | G Loss: 0.7379
+Grid Size (5, 5) | Epoch [390/1000] | D Loss: 1.1800 | G Loss: 0.7249
+Grid Size (5, 5) | Epoch [400/1000] | D Loss: 1.1814 | G Loss: 0.7378
+Grid Size (5, 5) | Epoch [410/1000] | D Loss: 1.1977 | G Loss: 0.7169
+Grid Size (5, 5) | Epoch [420/1000] | D Loss: 1.1903 | G Loss: 0.7261
+Grid Size (5, 5) | Epoch [430/1000] | D Loss: 1.1921 | G Loss: 0.7304
+Grid Size (5, 5) | Epoch [440/1000] | D Loss: 1.1931 | G Loss: 0.7166
+Grid Size (5, 5) | Epoch [450/1000] | D Loss: 1.2237 | G Loss: 0.7410
+Grid Size (5, 5) | Epoch [460/1000] | D Loss: 1.1885 | G Loss: 0.7256
+Grid Size (5, 5) | Epoch [470/1000] | D Loss: 1.2151 | G Loss: 0.7326
+Grid Size (5, 5) | Epoch [480/1000] | D Loss: 1.1629 | G Loss: 0.7496
+Grid Size (5, 5) | Epoch [490/1000] | D Loss: 1.1641 | G Loss: 0.7292
+Grid Size (5, 5) | Epoch [500/1000] | D Loss: 1.1516 | G Loss: 0.7460
+Grid Size (5, 5) | Epoch [510/1000] | D Loss: 1.1765 | G Loss: 0.7188
+Grid Size (5, 5) | Epoch [520/1000] | D Loss: 1.2403 | G Loss: 0.7426
+Grid Size (5, 5) | Epoch [530/1000] | D Loss: 1.1477 | G Loss: 0.7334
+Grid Size (5, 5) | Epoch [540/1000] | D Loss: 1.2028 | G Loss: 0.7377
+Grid Size (5, 5) | Epoch [550/1000] | D Loss: 1.2140 | G Loss: 0.7514
+Grid Size (5, 5) | Epoch [560/1000] | D Loss: 1.2258 | G Loss: 0.7526
+Grid Size (5, 5) | Epoch [570/1000] | D Loss: 1.2485 | G Loss: 0.7728
+Grid Size (5, 5) | Epoch [580/1000] | D Loss: 1.1871 | G Loss: 0.7183
+Grid Size (5, 5) | Epoch [590/1000] | D Loss: 1.2315 | G Loss: 0.7396
+Grid Size (5, 5) | Epoch [600/1000] | D Loss: 1.1922 | G Loss: 0.7523
+Grid Size (5, 5) | Epoch [610/1000] | D Loss: 1.2196 | G Loss: 0.7627
+Grid Size (5, 5) | Epoch [620/1000] | D Loss: 1.2517 | G Loss: 0.7403
+Grid Size (5, 5) | Epoch [630/1000] | D Loss: 1.2211 | G Loss: 0.7337
+Grid Size (5, 5) | Epoch [640/1000] | D Loss: 1.1778 | G Loss: 0.7661
+Grid Size (5, 5) | Epoch [650/1000] | D Loss: 1.2334 | G Loss: 0.7473
+Grid Size (5, 5) | Epoch [660/1000] | D Loss: 1.2346 | G Loss: 0.7531
+Grid Size (5, 5) | Epoch [670/1000] | D Loss: 1.2576 | G Loss: 0.7672
+Grid Size (5, 5) | Epoch [680/1000] | D Loss: 1.1775 | G Loss: 0.7517
+Grid Size (5, 5) | Epoch [690/1000] | D Loss: 1.2660 | G Loss: 0.7438
+Grid Size (5, 5) | Epoch [700/1000] | D Loss: 1.2363 | G Loss: 0.7740
+Grid Size (5, 5) | Epoch [710/1000] | D Loss: 1.2142 | G Loss: 0.7437
+Grid Size (5, 5) | Epoch [720/1000] | D Loss: 1.2699 | G Loss: 0.7617
+Grid Size (5, 5) | Epoch [730/1000] | D Loss: 1.3019 | G Loss: 0.7658
+Grid Size (5, 5) | Epoch [740/1000] | D Loss: 1.2688 | G Loss: 0.7434
+Grid Size (5, 5) | Epoch [750/1000] | D Loss: 1.2728 | G Loss: 0.7617
+Grid Size (5, 5) | Epoch [760/1000] | D Loss: 1.2720 | G Loss: 0.7589
+Grid Size (5, 5) | Epoch [770/1000] | D Loss: 1.2491 | G Loss: 0.7656
+Grid Size (5, 5) | Epoch [780/1000] | D Loss: 1.2342 | G Loss: 0.7752
+Grid Size (5, 5) | Epoch [790/1000] | D Loss: 1.2906 | G Loss: 0.7380
+Grid Size (5, 5) | Epoch [800/1000] | D Loss: 1.3149 | G Loss: 0.7796
+Grid Size (5, 5) | Epoch [810/1000] | D Loss: 1.2943 | G Loss: 0.7704
+Grid Size (5, 5) | Epoch [820/1000] | D Loss: 1.3020 | G Loss: 0.7688
+Grid Size (5, 5) | Epoch [830/1000] | D Loss: 1.2994 | G Loss: 0.7681
+Grid Size (5, 5) | Epoch [840/1000] | D Loss: 1.2820 | G Loss: 0.7701
+Grid Size (5, 5) | Epoch [850/1000] | D Loss: 1.2575 | G Loss: 0.7641
+Grid Size (5, 5) | Epoch [860/1000] | D Loss: 1.2809 | G Loss: 0.7726
+Grid Size (5, 5) | Epoch [870/1000] | D Loss: 1.2794 | G Loss: 0.7407
+Grid Size (5, 5) | Epoch [880/1000] | D Loss: 1.3017 | G Loss: 0.7661
+Grid Size (5, 5) | Epoch [890/1000] | D Loss: 1.2780 | G Loss: 0.7659
+Grid Size (5, 5) | Epoch [900/1000] | D Loss: 1.2742 | G Loss: 0.7888
+Grid Size (5, 5) | Epoch [910/1000] | D Loss: 1.3030 | G Loss: 0.7713
+Grid Size (5, 5) | Epoch [920/1000] | D Loss: 1.2855 | G Loss: 0.7672
+Grid Size (5, 5) | Epoch [930/1000] | D Loss: 1.2800 | G Loss: 0.7782
+Grid Size (5, 5) | Epoch [940/1000] | D Loss: 1.3276 | G Loss: 0.7507
+Grid Size (5, 5) | Epoch [950/1000] | D Loss: 1.3199 | G Loss: 0.7809
+Grid Size (5, 5) | Epoch [960/1000] | D Loss: 1.2677 | G Loss: 0.8018
+Grid Size (5, 5) | Epoch [970/1000] | D Loss: 1.3024 | G Loss: 0.7802
+Grid Size (5, 5) | Epoch [980/1000] | D Loss: 1.3325 | G Loss: 0.7908
+Grid Size (5, 5) | Epoch [990/1000] | D Loss: 1.3012 | G Loss: 0.7661
+
+Training complete for grid size (5, 5).
+
+Generating 200 new examples for grid size (5, 5)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_5x5.json'.
+
+Processing grid size (4, 4) with 208 examples...
+Using Linear models for grid size (4, 4).
+Grid Size (4, 4) | Epoch [0/1000] | D Loss: 1.3808 | G Loss: 0.7447
+Grid Size (4, 4) | Epoch [10/1000] | D Loss: 1.3752 | G Loss: 0.7318
+Grid Size (4, 4) | Epoch [20/1000] | D Loss: 1.3678 | G Loss: 0.7334
+Grid Size (4, 4) | Epoch [30/1000] | D Loss: 1.3547 | G Loss: 0.7293
+Grid Size (4, 4) | Epoch [40/1000] | D Loss: 1.3424 | G Loss: 0.7385
+Grid Size (4, 4) | Epoch [50/1000] | D Loss: 1.3318 | G Loss: 0.7336
+Grid Size (4, 4) | Epoch [60/1000] | D Loss: 1.3486 | G Loss: 0.7339
+Grid Size (4, 4) | Epoch [70/1000] | D Loss: 1.3245 | G Loss: 0.7378
+Grid Size (4, 4) | Epoch [80/1000] | D Loss: 1.3045 | G Loss: 0.7339
+Grid Size (4, 4) | Epoch [90/1000] | D Loss: 1.2840 | G Loss: 0.7450
+Grid Size (4, 4) | Epoch [100/1000] | D Loss: 1.3050 | G Loss: 0.7509
+Grid Size (4, 4) | Epoch [110/1000] | D Loss: 1.3067 | G Loss: 0.7419
+Grid Size (4, 4) | Epoch [120/1000] | D Loss: 1.2598 | G Loss: 0.7265
+Grid Size (4, 4) | Epoch [130/1000] | D Loss: 1.2600 | G Loss: 0.7410
+Grid Size (4, 4) | Epoch [140/1000] | D Loss: 1.2563 | G Loss: 0.7424
+Grid Size (4, 4) | Epoch [150/1000] | D Loss: 1.2381 | G Loss: 0.7421
+Grid Size (4, 4) | Epoch [160/1000] | D Loss: 1.2743 | G Loss: 0.7388
+Grid Size (4, 4) | Epoch [170/1000] | D Loss: 1.2493 | G Loss: 0.7497
+Grid Size (4, 4) | Epoch [180/1000] | D Loss: 1.2347 | G Loss: 0.7496
+Grid Size (4, 4) | Epoch [190/1000] | D Loss: 1.2334 | G Loss: 0.7471
+Grid Size (4, 4) | Epoch [200/1000] | D Loss: 1.2444 | G Loss: 0.7563
+Grid Size (4, 4) | Epoch [210/1000] | D Loss: 1.2176 | G Loss: 0.7521
+Grid Size (4, 4) | Epoch [220/1000] | D Loss: 1.2086 | G Loss: 0.7448
+Grid Size (4, 4) | Epoch [230/1000] | D Loss: 1.2147 | G Loss: 0.7595
+Grid Size (4, 4) | Epoch [240/1000] | D Loss: 1.2043 | G Loss: 0.7657
+Grid Size (4, 4) | Epoch [250/1000] | D Loss: 1.1963 | G Loss: 0.7503
+Grid Size (4, 4) | Epoch [260/1000] | D Loss: 1.2026 | G Loss: 0.7577
+Grid Size (4, 4) | Epoch [270/1000] | D Loss: 1.2187 | G Loss: 0.7762
+Grid Size (4, 4) | Epoch [280/1000] | D Loss: 1.1851 | G Loss: 0.7675
+Grid Size (4, 4) | Epoch [290/1000] | D Loss: 1.1641 | G Loss: 0.7661
+Grid Size (4, 4) | Epoch [300/1000] | D Loss: 1.2014 | G Loss: 0.7724
+Grid Size (4, 4) | Epoch [310/1000] | D Loss: 1.1813 | G Loss: 0.7756
+Grid Size (4, 4) | Epoch [320/1000] | D Loss: 1.1670 | G Loss: 0.7606
+Grid Size (4, 4) | Epoch [330/1000] | D Loss: 1.1883 | G Loss: 0.7985
+Grid Size (4, 4) | Epoch [340/1000] | D Loss: 1.1711 | G Loss: 0.7954
+Grid Size (4, 4) | Epoch [350/1000] | D Loss: 1.1169 | G Loss: 0.7860
+Grid Size (4, 4) | Epoch [360/1000] | D Loss: 1.1356 | G Loss: 0.8150
+Grid Size (4, 4) | Epoch [370/1000] | D Loss: 1.1021 | G Loss: 0.7907
+Grid Size (4, 4) | Epoch [380/1000] | D Loss: 1.1564 | G Loss: 0.8221
+Grid Size (4, 4) | Epoch [390/1000] | D Loss: 1.1087 | G Loss: 0.7966
+Grid Size (4, 4) | Epoch [400/1000] | D Loss: 1.1110 | G Loss: 0.8010
+Grid Size (4, 4) | Epoch [410/1000] | D Loss: 1.1572 | G Loss: 0.8108
+Grid Size (4, 4) | Epoch [420/1000] | D Loss: 1.1225 | G Loss: 0.8221
+Grid Size (4, 4) | Epoch [430/1000] | D Loss: 1.1641 | G Loss: 0.8044
+Grid Size (4, 4) | Epoch [440/1000] | D Loss: 1.1599 | G Loss: 0.8030
+Grid Size (4, 4) | Epoch [450/1000] | D Loss: 1.1308 | G Loss: 0.8147
+Grid Size (4, 4) | Epoch [460/1000] | D Loss: 1.1635 | G Loss: 0.8134
+Grid Size (4, 4) | Epoch [470/1000] | D Loss: 1.1280 | G Loss: 0.8249
+Grid Size (4, 4) | Epoch [480/1000] | D Loss: 1.1168 | G Loss: 0.8292
+Grid Size (4, 4) | Epoch [490/1000] | D Loss: 1.0977 | G Loss: 0.8198
+Grid Size (4, 4) | Epoch [500/1000] | D Loss: 1.1113 | G Loss: 0.8421
+Grid Size (4, 4) | Epoch [510/1000] | D Loss: 1.0867 | G Loss: 0.8286
+Grid Size (4, 4) | Epoch [520/1000] | D Loss: 1.0878 | G Loss: 0.8130
+Grid Size (4, 4) | Epoch [530/1000] | D Loss: 1.1440 | G Loss: 0.8025
+Grid Size (4, 4) | Epoch [540/1000] | D Loss: 1.1182 | G Loss: 0.8128
+Grid Size (4, 4) | Epoch [550/1000] | D Loss: 1.1212 | G Loss: 0.8292
+Grid Size (4, 4) | Epoch [560/1000] | D Loss: 1.0801 | G Loss: 0.8134
+Grid Size (4, 4) | Epoch [570/1000] | D Loss: 1.0799 | G Loss: 0.8278
+Grid Size (4, 4) | Epoch [580/1000] | D Loss: 1.0673 | G Loss: 0.8206
+Grid Size (4, 4) | Epoch [590/1000] | D Loss: 1.1365 | G Loss: 0.8477
+Grid Size (4, 4) | Epoch [600/1000] | D Loss: 1.0631 | G Loss: 0.8082
+Grid Size (4, 4) | Epoch [610/1000] | D Loss: 1.1405 | G Loss: 0.8059
+Grid Size (4, 4) | Epoch [620/1000] | D Loss: 1.0503 | G Loss: 0.8445
+Grid Size (4, 4) | Epoch [630/1000] | D Loss: 1.0875 | G Loss: 0.8213
+Grid Size (4, 4) | Epoch [640/1000] | D Loss: 1.0868 | G Loss: 0.8394
+Grid Size (4, 4) | Epoch [650/1000] | D Loss: 1.0575 | G Loss: 0.8204
+Grid Size (4, 4) | Epoch [660/1000] | D Loss: 1.0371 | G Loss: 0.8511
+Grid Size (4, 4) | Epoch [670/1000] | D Loss: 1.1067 | G Loss: 0.7927
+Grid Size (4, 4) | Epoch [680/1000] | D Loss: 1.1205 | G Loss: 0.8405
+Grid Size (4, 4) | Epoch [690/1000] | D Loss: 1.1342 | G Loss: 0.8486
+Grid Size (4, 4) | Epoch [700/1000] | D Loss: 1.1242 | G Loss: 0.8113
+Grid Size (4, 4) | Epoch [710/1000] | D Loss: 1.1409 | G Loss: 0.8566
+Grid Size (4, 4) | Epoch [720/1000] | D Loss: 1.0978 | G Loss: 0.8827
+Grid Size (4, 4) | Epoch [730/1000] | D Loss: 1.1734 | G Loss: 0.8320
+Grid Size (4, 4) | Epoch [740/1000] | D Loss: 1.0937 | G Loss: 0.8523
+Grid Size (4, 4) | Epoch [750/1000] | D Loss: 1.0999 | G Loss: 0.8504
+Grid Size (4, 4) | Epoch [760/1000] | D Loss: 1.1732 | G Loss: 0.8406
+Grid Size (4, 4) | Epoch [770/1000] | D Loss: 1.1032 | G Loss: 0.8621
+Grid Size (4, 4) | Epoch [780/1000] | D Loss: 1.1579 | G Loss: 0.8330
+Grid Size (4, 4) | Epoch [790/1000] | D Loss: 1.0901 | G Loss: 0.8705
+Grid Size (4, 4) | Epoch [800/1000] | D Loss: 1.1323 | G Loss: 0.8805
+Grid Size (4, 4) | Epoch [810/1000] | D Loss: 1.1412 | G Loss: 0.8213
+Grid Size (4, 4) | Epoch [820/1000] | D Loss: 1.1424 | G Loss: 0.8484
+Grid Size (4, 4) | Epoch [830/1000] | D Loss: 1.1230 | G Loss: 0.8247
+Grid Size (4, 4) | Epoch [840/1000] | D Loss: 1.1255 | G Loss: 0.8800
+Grid Size (4, 4) | Epoch [850/1000] | D Loss: 1.2265 | G Loss: 0.8602
+Grid Size (4, 4) | Epoch [860/1000] | D Loss: 1.1615 | G Loss: 0.8467
+Grid Size (4, 4) | Epoch [870/1000] | D Loss: 1.1755 | G Loss: 0.8352
+Grid Size (4, 4) | Epoch [880/1000] | D Loss: 1.0854 | G Loss: 0.8366
+Grid Size (4, 4) | Epoch [890/1000] | D Loss: 1.2345 | G Loss: 0.8531
+Grid Size (4, 4) | Epoch [900/1000] | D Loss: 1.1451 | G Loss: 0.8519
+Grid Size (4, 4) | Epoch [910/1000] | D Loss: 1.2149 | G Loss: 0.8530
+Grid Size (4, 4) | Epoch [920/1000] | D Loss: 1.1798 | G Loss: 0.8618
+Grid Size (4, 4) | Epoch [930/1000] | D Loss: 1.1930 | G Loss: 0.8746
+Grid Size (4, 4) | Epoch [940/1000] | D Loss: 1.2009 | G Loss: 0.9128
+Grid Size (4, 4) | Epoch [950/1000] | D Loss: 1.2190 | G Loss: 0.8485
+Grid Size (4, 4) | Epoch [960/1000] | D Loss: 1.1444 | G Loss: 0.8809
+Grid Size (4, 4) | Epoch [970/1000] | D Loss: 1.1942 | G Loss: 0.8753
+Grid Size (4, 4) | Epoch [980/1000] | D Loss: 1.1972 | G Loss: 0.8829
+Grid Size (4, 4) | Epoch [990/1000] | D Loss: 1.2218 | G Loss: 0.8538
+
+Training complete for grid size (4, 4).
+
+Generating 200 new examples for grid size (4, 4)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_4x4.json'.
+
+Processing grid size (1, 5) with 22 examples...
+Skipping training for grid size (1, 5) due to insufficient data (22 examples).
+
+Processing grid size (5, 1) with 18 examples...
+Skipping training for grid size (5, 1) due to insufficient data (18 examples).
+
+Processing grid size (2, 10) with 8 examples...
+Skipping training for grid size (2, 10) due to insufficient data (8 examples).
+
+Processing grid size (10, 2) with 8 examples...
+Skipping training for grid size (10, 2) due to insufficient data (8 examples).
+
+Processing grid size (6, 10) with 16 examples...
+Skipping training for grid size (6, 10) due to insufficient data (16 examples).
+
+Processing grid size (10, 6) with 16 examples...
+Skipping training for grid size (10, 6) due to insufficient data (16 examples).
+
+Processing grid size (17, 13) with 12 examples...
+Skipping training for grid size (17, 13) due to insufficient data (12 examples).
+
+Processing grid size (13, 17) with 4 examples...
+Skipping training for grid size (13, 17) due to insufficient data (4 examples).
+
+Processing grid size (13, 11) with 8 examples...
+Skipping training for grid size (13, 11) due to insufficient data (8 examples).
+
+Processing grid size (11, 13) with 8 examples...
+Skipping training for grid size (11, 13) due to insufficient data (8 examples).
+
+Processing grid size (21, 23) with 6 examples...
+Skipping training for grid size (21, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 21) with 2 examples...
+Skipping training for grid size (23, 21) due to insufficient data (2 examples).
+
+Processing grid size (7, 30) with 6 examples...
+Skipping training for grid size (7, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 7) with 2 examples...
+Skipping training for grid size (30, 7) due to insufficient data (2 examples).
+
+Processing grid size (1, 6) with 6 examples...
+Skipping training for grid size (1, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 1) with 2 examples...
+Skipping training for grid size (6, 1) due to insufficient data (2 examples).
+
+Processing grid size (22, 4) with 6 examples...
+Skipping training for grid size (22, 4) due to insufficient data (6 examples).
+
+Processing grid size (4, 22) with 2 examples...
+Skipping training for grid size (4, 22) due to insufficient data (2 examples).
+
+Processing grid size (3, 8) with 18 examples...
+Skipping training for grid size (3, 8) due to insufficient data (18 examples).
+
+Processing grid size (8, 3) with 6 examples...
+Skipping training for grid size (8, 3) due to insufficient data (6 examples).
+
+Processing grid size (12, 13) with 32 examples...
+Skipping training for grid size (12, 13) due to insufficient data (32 examples).
+
+Processing grid size (13, 12) with 32 examples...
+Skipping training for grid size (13, 12) due to insufficient data (32 examples).
+
+Processing grid size (26, 23) with 6 examples...
+Skipping training for grid size (26, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 26) with 2 examples...
+Skipping training for grid size (23, 26) due to insufficient data (2 examples).
+
+Processing grid size (16, 11) with 14 examples...
+Skipping training for grid size (16, 11) due to insufficient data (14 examples).
+
+Processing grid size (11, 16) with 10 examples...
+Skipping training for grid size (11, 16) due to insufficient data (10 examples).
+
+Processing grid size (3, 6) with 48 examples...
+Skipping training for grid size (3, 6) due to insufficient data (48 examples).
+
+Processing grid size (6, 3) with 32 examples...
+Skipping training for grid size (6, 3) due to insufficient data (32 examples).
+
+Processing grid size (11, 15) with 6 examples...
+Skipping training for grid size (11, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 11) with 2 examples...
+Skipping training for grid size (15, 11) due to insufficient data (2 examples).
+
+Processing grid size (5, 11) with 16 examples...
+Skipping training for grid size (5, 11) due to insufficient data (16 examples).
+
+Processing grid size (11, 5) with 16 examples...
+Skipping training for grid size (11, 5) due to insufficient data (16 examples).
+
+Processing grid size (14, 16) with 18 examples...
+Skipping training for grid size (14, 16) due to insufficient data (18 examples).
+
+Processing grid size (16, 14) with 6 examples...
+Skipping training for grid size (16, 14) due to insufficient data (6 examples).
+
+Processing grid size (25, 20) with 12 examples...
+Skipping training for grid size (25, 20) due to insufficient data (12 examples).
+
+Processing grid size (20, 25) with 4 examples...
+Skipping training for grid size (20, 25) due to insufficient data (4 examples).
+
+Processing grid size (8, 10) with 26 examples...
+Skipping training for grid size (8, 10) due to insufficient data (26 examples).
+
+Processing grid size (10, 8) with 30 examples...
+Skipping training for grid size (10, 8) due to insufficient data (30 examples).
+
+Processing grid size (19, 21) with 12 examples...
+Skipping training for grid size (19, 21) due to insufficient data (12 examples).
+
+Processing grid size (21, 19) with 4 examples...
+Skipping training for grid size (21, 19) due to insufficient data (4 examples).
+
+Processing grid size (11, 9) with 22 examples...
+Skipping training for grid size (11, 9) due to insufficient data (22 examples).
+
+Processing grid size (9, 11) with 34 examples...
+Skipping training for grid size (9, 11) due to insufficient data (34 examples).
+
+Processing grid size (3, 10) with 6 examples...
+Skipping training for grid size (3, 10) due to insufficient data (6 examples).
+
+Processing grid size (10, 3) with 2 examples...
+Skipping training for grid size (10, 3) due to insufficient data (2 examples).
+
+Processing grid size (28, 28) with 32 examples...
+Skipping training for grid size (28, 28) due to insufficient data (32 examples).
+
+Processing grid size (7, 9) with 20 examples...
+Skipping training for grid size (7, 9) due to insufficient data (20 examples).
+
+Processing grid size (9, 7) with 12 examples...
+Skipping training for grid size (9, 7) due to insufficient data (12 examples).
+
+Processing grid size (3, 14) with 6 examples...
+Skipping training for grid size (3, 14) due to insufficient data (6 examples).
+
+Processing grid size (14, 3) with 2 examples...
+Skipping training for grid size (14, 3) due to insufficient data (2 examples).
+
+Processing grid size (22, 26) with 16 examples...
+Skipping training for grid size (22, 26) due to insufficient data (16 examples).
+
+Processing grid size (26, 22) with 16 examples...
+Skipping training for grid size (26, 22) due to insufficient data (16 examples).
+
+Processing grid size (11, 14) with 6 examples...
+Skipping training for grid size (11, 14) due to insufficient data (6 examples).
+
+Processing grid size (14, 11) with 2 examples...
+Skipping training for grid size (14, 11) due to insufficient data (2 examples).
+
+Processing grid size (22, 23) with 8 examples...
+Skipping training for grid size (22, 23) due to insufficient data (8 examples).
+
+Processing grid size (23, 22) with 8 examples...
+Skipping training for grid size (23, 22) due to insufficient data (8 examples).
+
+Processing grid size (5, 4) with 34 examples...
+Skipping training for grid size (5, 4) due to insufficient data (34 examples).
+
+Processing grid size (4, 5) with 22 examples...
+Skipping training for grid size (4, 5) due to insufficient data (22 examples).
+
+Processing grid size (19, 16) with 10 examples...
+Skipping training for grid size (19, 16) due to insufficient data (10 examples).
+
+Processing grid size (16, 19) with 14 examples...
+Skipping training for grid size (16, 19) due to insufficient data (14 examples).
+
+Processing grid size (3, 13) with 6 examples...
+Skipping training for grid size (3, 13) due to insufficient data (6 examples).
+
+Processing grid size (13, 3) with 2 examples...
+Skipping training for grid size (13, 3) due to insufficient data (2 examples).
+
+Processing grid size (9, 13) with 6 examples...
+Skipping training for grid size (9, 13) due to insufficient data (6 examples).
+
+Processing grid size (13, 9) with 2 examples...
+Skipping training for grid size (13, 9) due to insufficient data (2 examples).
+
+Processing grid size (14, 15) with 8 examples...
+Skipping training for grid size (14, 15) due to insufficient data (8 examples).
+
+Processing grid size (15, 14) with 8 examples...
+Skipping training for grid size (15, 14) due to insufficient data (8 examples).
+
+Processing grid size (17, 18) with 28 examples...
+Skipping training for grid size (17, 18) due to insufficient data (28 examples).
+
+Processing grid size (18, 17) with 20 examples...
+Skipping training for grid size (18, 17) due to insufficient data (20 examples).
+
+Processing grid size (9, 15) with 32 examples...
+Skipping training for grid size (9, 15) due to insufficient data (32 examples).
+
+Processing grid size (15, 9) with 16 examples...
+Skipping training for grid size (15, 9) due to insufficient data (16 examples).
+
+Processing grid size (29, 29) with 40 examples...
+Skipping training for grid size (29, 29) due to insufficient data (40 examples).
+
+Processing grid size (6, 12) with 18 examples...
+Skipping training for grid size (6, 12) due to insufficient data (18 examples).
+
+Processing grid size (12, 6) with 6 examples...
+Skipping training for grid size (12, 6) due to insufficient data (6 examples).
+
+Processing grid size (11, 20) with 6 examples...
+Skipping training for grid size (11, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 11) with 2 examples...
+Skipping training for grid size (20, 11) due to insufficient data (2 examples).
+
+Processing grid size (2, 5) with 6 examples...
+Skipping training for grid size (2, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 2) with 2 examples...
+Skipping training for grid size (5, 2) due to insufficient data (2 examples).
+
+Processing grid size (30, 10) with 6 examples...
+Skipping training for grid size (30, 10) due to insufficient data (6 examples).
+
+Processing grid size (10, 30) with 2 examples...
+Skipping training for grid size (10, 30) due to insufficient data (2 examples).
+
+Processing grid size (4, 24) with 6 examples...
+Skipping training for grid size (4, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 4) with 2 examples...
+Skipping training for grid size (24, 4) due to insufficient data (2 examples).
+
+Processing grid size (17, 19) with 24 examples...
+Skipping training for grid size (17, 19) due to insufficient data (24 examples).
+
+Processing grid size (19, 17) with 8 examples...
+Skipping training for grid size (19, 17) due to insufficient data (8 examples).
+
+Processing grid size (10, 4) with 18 examples...
+Skipping training for grid size (10, 4) due to insufficient data (18 examples).
+
+Processing grid size (4, 10) with 6 examples...
+Skipping training for grid size (4, 10) due to insufficient data (6 examples).
+
+Processing grid size (11, 19) with 6 examples...
+Skipping training for grid size (11, 19) due to insufficient data (6 examples).
+
+Processing grid size (19, 11) with 2 examples...
+Skipping training for grid size (19, 11) due to insufficient data (2 examples).
+
+Processing grid size (17, 14) with 10 examples...
+Skipping training for grid size (17, 14) due to insufficient data (10 examples).
+
+Processing grid size (14, 17) with 14 examples...
+Skipping training for grid size (14, 17) due to insufficient data (14 examples).
+
+Processing grid size (7, 4) with 8 examples...
+Skipping training for grid size (7, 4) due to insufficient data (8 examples).
+
+Processing grid size (4, 7) with 8 examples...
+Skipping training for grid size (4, 7) due to insufficient data (8 examples).
+
+Processing grid size (14, 13) with 28 examples...
+Skipping training for grid size (14, 13) due to insufficient data (28 examples).
+
+Processing grid size (13, 14) with 20 examples...
+Skipping training for grid size (13, 14) due to insufficient data (20 examples).
+
+Processing grid size (17, 21) with 8 examples...
+Skipping training for grid size (17, 21) due to insufficient data (8 examples).
+
+Processing grid size (21, 17) with 8 examples...
+Skipping training for grid size (21, 17) due to insufficient data (8 examples).
+
+Processing grid size (3, 2) with 14 examples...
+Skipping training for grid size (3, 2) due to insufficient data (14 examples).
+
+Processing grid size (2, 3) with 10 examples...
+Skipping training for grid size (2, 3) due to insufficient data (10 examples).
+
+Processing grid size (18, 14) with 16 examples...
+Skipping training for grid size (18, 14) due to insufficient data (16 examples).
+
+Processing grid size (14, 18) with 16 examples...
+Skipping training for grid size (14, 18) due to insufficient data (16 examples).
+
+Processing grid size (26, 24) with 6 examples...
+Skipping training for grid size (26, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 26) with 2 examples...
+Skipping training for grid size (24, 26) due to insufficient data (2 examples).
+
+Processing grid size (1, 4) with 6 examples...
+Skipping training for grid size (1, 4) due to insufficient data (6 examples).
+
+Processing grid size (4, 1) with 2 examples...
+Skipping training for grid size (4, 1) due to insufficient data (2 examples).
+
+Processing grid size (19, 29) with 12 examples...
+Skipping training for grid size (19, 29) due to insufficient data (12 examples).
+
+Processing grid size (29, 19) with 4 examples...
+Skipping training for grid size (29, 19) due to insufficient data (4 examples).
+
+Processing grid size (27, 27) with 40 examples...
+Skipping training for grid size (27, 27) due to insufficient data (40 examples).
+
+Processing grid size (19, 22) with 6 examples...
+Skipping training for grid size (19, 22) due to insufficient data (6 examples).
+
+Processing grid size (22, 19) with 2 examples...
+Skipping training for grid size (22, 19) due to insufficient data (2 examples).
+
+Processing grid size (12, 4) with 12 examples...
+Skipping training for grid size (12, 4) due to insufficient data (12 examples).
+
+Processing grid size (4, 12) with 4 examples...
+Skipping training for grid size (4, 12) due to insufficient data (4 examples).
+
+Processing grid size (16, 17) with 14 examples...
+Skipping training for grid size (16, 17) due to insufficient data (14 examples).
+
+Processing grid size (17, 16) with 10 examples...
+Skipping training for grid size (17, 16) due to insufficient data (10 examples).
+
+Processing grid size (7, 17) with 6 examples...
+Skipping training for grid size (7, 17) due to insufficient data (6 examples).
+
+Processing grid size (17, 7) with 2 examples...
+Skipping training for grid size (17, 7) due to insufficient data (2 examples).
+
+Processing grid size (19, 23) with 6 examples...
+Skipping training for grid size (19, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 19) with 2 examples...
+Skipping training for grid size (23, 19) due to insufficient data (2 examples).
+
+Processing grid size (7, 11) with 22 examples...
+Skipping training for grid size (7, 11) due to insufficient data (22 examples).
+
+Processing grid size (11, 7) with 18 examples...
+Skipping training for grid size (11, 7) due to insufficient data (18 examples).
+
+Processing grid size (4, 18) with 6 examples...
+Skipping training for grid size (4, 18) due to insufficient data (6 examples).
+
+Processing grid size (18, 4) with 2 examples...
+Skipping training for grid size (18, 4) due to insufficient data (2 examples).
+
+Processing grid size (19, 30) with 6 examples...
+Skipping training for grid size (19, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 19) with 2 examples...
+Skipping training for grid size (30, 19) due to insufficient data (2 examples).
+
+Processing grid size (9, 5) with 6 examples...
+Skipping training for grid size (9, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 9) with 2 examples...
+Skipping training for grid size (5, 9) due to insufficient data (2 examples).
+
+Processing grid size (12, 24) with 6 examples...
+Skipping training for grid size (12, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 12) with 2 examples...
+Skipping training for grid size (24, 12) due to insufficient data (2 examples).
+
+Processing grid size (24, 20) with 6 examples...
+Skipping training for grid size (24, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 24) with 2 examples...
+Skipping training for grid size (20, 24) due to insufficient data (2 examples).
+
+Processing grid size (24, 24) with 32 examples...
+Skipping training for grid size (24, 24) due to insufficient data (32 examples).
+
+Processing grid size (30, 16) with 8 examples...
+Skipping training for grid size (30, 16) due to insufficient data (8 examples).
+
+Processing grid size (16, 30) with 8 examples...
+Skipping training for grid size (16, 30) due to insufficient data (8 examples).
+
+Processing grid size (21, 30) with 6 examples...
+Skipping training for grid size (21, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 21) with 2 examples...
+Skipping training for grid size (30, 21) due to insufficient data (2 examples).
+
+Processing grid size (24, 28) with 6 examples...
+Skipping training for grid size (24, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 24) with 2 examples...
+Skipping training for grid size (28, 24) due to insufficient data (2 examples).
+
+Processing grid size (5, 16) with 6 examples...
+Skipping training for grid size (5, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 5) with 2 examples...
+Skipping training for grid size (16, 5) due to insufficient data (2 examples).
+
+Processing grid size (5, 12) with 8 examples...
+Skipping training for grid size (5, 12) due to insufficient data (8 examples).
+
+Processing grid size (12, 5) with 8 examples...
+Skipping training for grid size (12, 5) due to insufficient data (8 examples).
+
+Processing grid size (4, 14) with 6 examples...
+Skipping training for grid size (4, 14) due to insufficient data (6 examples).
+
+Processing grid size (14, 4) with 2 examples...
+Skipping training for grid size (14, 4) due to insufficient data (2 examples).
+
+Processing grid size (16, 18) with 32 examples...
+Skipping training for grid size (16, 18) due to insufficient data (32 examples).
+
+Processing grid size (18, 16) with 16 examples...
+Skipping training for grid size (18, 16) due to insufficient data (16 examples).
+
+Processing grid size (13, 16) with 6 examples...
+Skipping training for grid size (13, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 13) with 2 examples...
+Skipping training for grid size (16, 13) due to insufficient data (2 examples).
+
+Processing grid size (24, 6) with 6 examples...
+Skipping training for grid size (24, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 24) with 2 examples...
+Skipping training for grid size (6, 24) due to insufficient data (2 examples).
+
+Processing grid size (22, 22) with 32 examples...
+Skipping training for grid size (22, 22) due to insufficient data (32 examples).
+
+Processing grid size (21, 12) with 6 examples...
+Skipping training for grid size (21, 12) due to insufficient data (6 examples).
+
+Processing grid size (12, 21) with 2 examples...
+Skipping training for grid size (12, 21) due to insufficient data (2 examples).
+
+Processing grid size (10, 15) with 26 examples...
+Skipping training for grid size (10, 15) due to insufficient data (26 examples).
+
+Processing grid size (15, 10) with 14 examples...
+Skipping training for grid size (15, 10) due to insufficient data (14 examples).
+
+Processing grid size (15, 13) with 8 examples...
+Skipping training for grid size (15, 13) due to insufficient data (8 examples).
+
+Processing grid size (13, 15) with 8 examples...
+Skipping training for grid size (13, 15) due to insufficient data (8 examples).
+
+Processing grid size (7, 6) with 8 examples...
+Skipping training for grid size (7, 6) due to insufficient data (8 examples).
+
+Processing grid size (6, 7) with 8 examples...
+Skipping training for grid size (6, 7) due to insufficient data (8 examples).
+
+Processing grid size (3, 29) with 6 examples...
+Skipping training for grid size (3, 29) due to insufficient data (6 examples).
+
+Processing grid size (29, 3) with 2 examples...
+Skipping training for grid size (29, 3) due to insufficient data (2 examples).
+
+Processing grid size (12, 8) with 10 examples...
+Skipping training for grid size (12, 8) due to insufficient data (10 examples).
+
+Processing grid size (8, 12) with 14 examples...
+Skipping training for grid size (8, 12) due to insufficient data (14 examples).
+
+Processing grid size (7, 5) with 6 examples...
+Skipping training for grid size (7, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 7) with 2 examples...
+Skipping training for grid size (5, 7) due to insufficient data (2 examples).
+
+Processing grid size (3, 25) with 6 examples...
+Skipping training for grid size (3, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 3) with 2 examples...
+Skipping training for grid size (25, 3) due to insufficient data (2 examples).
+
+Processing grid size (7, 8) with 14 examples...
+Skipping training for grid size (7, 8) due to insufficient data (14 examples).
+
+Processing grid size (8, 7) with 10 examples...
+Skipping training for grid size (8, 7) due to insufficient data (10 examples).
+
+Processing grid size (8, 16) with 6 examples...
+Skipping training for grid size (8, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 8) with 2 examples...
+Skipping training for grid size (16, 8) due to insufficient data (2 examples).
+
+Processing grid size (6, 9) with 12 examples...
+Skipping training for grid size (6, 9) due to insufficient data (12 examples).
+
+Processing grid size (9, 6) with 4 examples...
+Skipping training for grid size (9, 6) due to insufficient data (4 examples).
+
+Processing grid size (22, 25) with 12 examples...
+Skipping training for grid size (22, 25) due to insufficient data (12 examples).
+
+Processing grid size (25, 22) with 4 examples...
+Skipping training for grid size (25, 22) due to insufficient data (4 examples).
+
+Processing grid size (29, 28) with 14 examples...
+Skipping training for grid size (29, 28) due to insufficient data (14 examples).
+
+Processing grid size (28, 29) with 10 examples...
+Skipping training for grid size (28, 29) due to insufficient data (10 examples).
+
+Processing grid size (12, 17) with 18 examples...
+Skipping training for grid size (12, 17) due to insufficient data (18 examples).
+
+Processing grid size (17, 12) with 6 examples...
+Skipping training for grid size (17, 12) due to insufficient data (6 examples).
+
+Processing grid size (7, 15) with 18 examples...
+Skipping training for grid size (7, 15) due to insufficient data (18 examples).
+
+Processing grid size (15, 7) with 6 examples...
+Skipping training for grid size (15, 7) due to insufficient data (6 examples).
+
+Processing grid size (10, 20) with 8 examples...
+Skipping training for grid size (10, 20) due to insufficient data (8 examples).
+
+Processing grid size (20, 10) with 8 examples...
+Skipping training for grid size (20, 10) due to insufficient data (8 examples).
+
+Processing grid size (14, 10) with 8 examples...
+Skipping training for grid size (14, 10) due to insufficient data (8 examples).
+
+Processing grid size (10, 14) with 8 examples...
+Skipping training for grid size (10, 14) due to insufficient data (8 examples).
+
+Processing grid size (9, 30) with 6 examples...
+Skipping training for grid size (9, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 9) with 2 examples...
+Skipping training for grid size (30, 9) due to insufficient data (2 examples).
+
+Processing grid size (3, 30) with 6 examples...
+Skipping training for grid size (3, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 3) with 2 examples...
+Skipping training for grid size (30, 3) due to insufficient data (2 examples).
+
+Processing grid size (27, 25) with 12 examples...
+Skipping training for grid size (27, 25) due to insufficient data (12 examples).
+
+Processing grid size (25, 27) with 4 examples...
+Skipping training for grid size (25, 27) due to insufficient data (4 examples).
+
+Processing grid size (15, 18) with 8 examples...
+Skipping training for grid size (15, 18) due to insufficient data (8 examples).
+
+Processing grid size (18, 15) with 8 examples...
+Skipping training for grid size (18, 15) due to insufficient data (8 examples).
+
+Processing grid size (4, 9) with 14 examples...
+Skipping training for grid size (4, 9) due to insufficient data (14 examples).
+
+Processing grid size (9, 4) with 10 examples...
+Skipping training for grid size (9, 4) due to insufficient data (10 examples).
+
+Processing grid size (20, 19) with 6 examples...
+Skipping training for grid size (20, 19) due to insufficient data (6 examples).
+
+Processing grid size (19, 20) with 2 examples...
+Skipping training for grid size (19, 20) due to insufficient data (2 examples).
+
+Processing grid size (3, 11) with 6 examples...
+Skipping training for grid size (3, 11) due to insufficient data (6 examples).
+
+Processing grid size (11, 3) with 2 examples...
+Skipping training for grid size (11, 3) due to insufficient data (2 examples).
+
+Processing grid size (9, 10) with 8 examples...
+Skipping training for grid size (9, 10) due to insufficient data (8 examples).
+
+Processing grid size (10, 9) with 8 examples...
+Skipping training for grid size (10, 9) due to insufficient data (8 examples).
+
+Processing grid size (17, 5) with 6 examples...
+Skipping training for grid size (17, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 17) with 2 examples...
+Skipping training for grid size (5, 17) due to insufficient data (2 examples).
+
+Processing grid size (10, 13) with 8 examples...
+Skipping training for grid size (10, 13) due to insufficient data (8 examples).
+
+Processing grid size (13, 10) with 8 examples...
+Skipping training for grid size (13, 10) due to insufficient data (8 examples).
+
+Processing grid size (9, 12) with 6 examples...
+Skipping training for grid size (9, 12) due to insufficient data (6 examples).
+
+Processing grid size (12, 9) with 2 examples...
+Skipping training for grid size (12, 9) due to insufficient data (2 examples).
+
+Processing grid size (22, 27) with 6 examples...
+Skipping training for grid size (22, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 22) with 2 examples...
+Skipping training for grid size (27, 22) due to insufficient data (2 examples).
+
+Processing grid size (5, 18) with 6 examples...
+Skipping training for grid size (5, 18) due to insufficient data (6 examples).
+
+Processing grid size (18, 5) with 2 examples...
+Skipping training for grid size (18, 5) due to insufficient data (2 examples).
+
+Processing grid size (13, 29) with 6 examples...
+Skipping training for grid size (13, 29) due to insufficient data (6 examples).
+
+Processing grid size (29, 13) with 2 examples...
+Skipping training for grid size (29, 13) due to insufficient data (2 examples).
+
+Processing grid size (10, 16) with 6 examples...
+Skipping training for grid size (10, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 10) with 2 examples...
+Skipping training for grid size (16, 10) due to insufficient data (2 examples).
+
+Processing grid size (12, 26) with 6 examples...
+Skipping training for grid size (12, 26) due to insufficient data (6 examples).
+
+Processing grid size (26, 12) with 2 examples...
+Skipping training for grid size (26, 12) due to insufficient data (2 examples).
+
+Processing grid size (13, 24) with 8 examples...
+Skipping training for grid size (13, 24) due to insufficient data (8 examples).
+
+Processing grid size (24, 13) with 8 examples...
+Skipping training for grid size (24, 13) due to insufficient data (8 examples).
+
+Processing grid size (10, 5) with 12 examples...
+Skipping training for grid size (10, 5) due to insufficient data (12 examples).
+
+Processing grid size (5, 10) with 4 examples...
+Skipping training for grid size (5, 10) due to insufficient data (4 examples).
+
+Processing grid size (7, 28) with 6 examples...
+Skipping training for grid size (7, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 7) with 2 examples...
+Skipping training for grid size (28, 7) due to insufficient data (2 examples).
+
+Processing grid size (16, 27) with 6 examples...
+Skipping training for grid size (16, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 16) with 2 examples...
+Skipping training for grid size (27, 16) due to insufficient data (2 examples).
+
+Processing grid size (28, 27) with 6 examples...
+Skipping training for grid size (28, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 28) with 2 examples...
+Skipping training for grid size (27, 28) due to insufficient data (2 examples).
+
+Processing grid size (26, 27) with 6 examples...
+Skipping training for grid size (26, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 26) with 2 examples...
+Skipping training for grid size (27, 26) due to insufficient data (2 examples).
+
+Processing grid size (5, 8) with 6 examples...
+Skipping training for grid size (5, 8) due to insufficient data (6 examples).
+
+Processing grid size (8, 5) with 2 examples...
+Skipping training for grid size (8, 5) due to insufficient data (2 examples).
+
+Processing grid size (11, 6) with 12 examples...
+Skipping training for grid size (11, 6) due to insufficient data (12 examples).
+
+Processing grid size (6, 11) with 4 examples...
+Skipping training for grid size (6, 11) due to insufficient data (4 examples).
+
+Processing grid size (8, 4) with 6 examples...
+Skipping training for grid size (8, 4) due to insufficient data (6 examples).
+
+Processing grid size (4, 8) with 2 examples...
+Skipping training for grid size (4, 8) due to insufficient data (2 examples).
+
+Processing grid size (10, 24) with 6 examples...
+Skipping training for grid size (10, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 10) with 2 examples...
+Skipping training for grid size (24, 10) due to insufficient data (2 examples).
+
+Processing grid size (8, 2) with 6 examples...
+Skipping training for grid size (8, 2) due to insufficient data (6 examples).
+
+Processing grid size (2, 8) with 2 examples...
+Skipping training for grid size (2, 8) due to insufficient data (2 examples).
+
+Processing grid size (12, 7) with 6 examples...
+Skipping training for grid size (12, 7) due to insufficient data (6 examples).
+
+Processing grid size (7, 12) with 2 examples...
+Skipping training for grid size (7, 12) due to insufficient data (2 examples).
+
+Processing grid size (5, 27) with 6 examples...
+Skipping training for grid size (5, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 5) with 2 examples...
+Skipping training for grid size (27, 5) due to insufficient data (2 examples).
+
+Processing grid size (18, 22) with 12 examples...
+Skipping training for grid size (18, 22) due to insufficient data (12 examples).
+
+Processing grid size (22, 18) with 4 examples...
+Skipping training for grid size (22, 18) due to insufficient data (4 examples).
+
+Processing grid size (27, 23) with 6 examples...
+Skipping training for grid size (27, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 27) with 2 examples...
+Skipping training for grid size (23, 27) due to insufficient data (2 examples).
+
+Processing grid size (19, 9) with 6 examples...
+Skipping training for grid size (19, 9) due to insufficient data (6 examples).
+
+Processing grid size (9, 19) with 2 examples...
+Skipping training for grid size (9, 19) due to insufficient data (2 examples).
+
+Processing grid size (16, 7) with 6 examples...
+Skipping training for grid size (16, 7) due to insufficient data (6 examples).
+
+Processing grid size (7, 16) with 2 examples...
+Skipping training for grid size (7, 16) due to insufficient data (2 examples).
+
+Processing grid size (3, 17) with 12 examples...
+Skipping training for grid size (3, 17) due to insufficient data (12 examples).
+
+Processing grid size (17, 3) with 4 examples...
+Skipping training for grid size (17, 3) due to insufficient data (4 examples).
+
+Processing grid size (4, 20) with 6 examples...
+Skipping training for grid size (4, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 4) with 2 examples...
+Skipping training for grid size (20, 4) due to insufficient data (2 examples).
+
+Processing grid size (21, 22) with 6 examples...
+Skipping training for grid size (21, 22) due to insufficient data (6 examples).
+
+Processing grid size (22, 21) with 2 examples...
+Skipping training for grid size (22, 21) due to insufficient data (2 examples).
+
+Processing grid size (23, 28) with 6 examples...
+Skipping training for grid size (23, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 23) with 2 examples...
+Skipping training for grid size (28, 23) due to insufficient data (2 examples).
+
+Processing grid size (5, 15) with 6 examples...
+Skipping training for grid size (5, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 5) with 2 examples...
+Skipping training for grid size (15, 5) due to insufficient data (2 examples).
+
+Processing grid size (17, 25) with 6 examples...
+Skipping training for grid size (17, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 17) with 2 examples...
+Skipping training for grid size (25, 17) due to insufficient data (2 examples).
+
+Processing grid size (22, 3) with 6 examples...
+Skipping training for grid size (22, 3) due to insufficient data (6 examples).
+
+Processing grid size (3, 22) with 2 examples...
+Skipping training for grid size (3, 22) due to insufficient data (2 examples).
+
+Processing grid size (17, 6) with 6 examples...
+Skipping training for grid size (17, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 17) with 2 examples...
+Skipping training for grid size (6, 17) due to insufficient data (2 examples).
+
+Processing grid size (11, 28) with 6 examples...
+Skipping training for grid size (11, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 11) with 2 examples...
+Skipping training for grid size (28, 11) due to insufficient data (2 examples).
+
+Processing grid size (17, 30) with 8 examples...
+Skipping training for grid size (17, 30) due to insufficient data (8 examples).
+
+Processing grid size (30, 17) with 8 examples...
+Skipping training for grid size (30, 17) due to insufficient data (8 examples).
+
+Processing grid size (3, 15) with 6 examples...
+Skipping training for grid size (3, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 3) with 2 examples...
+Skipping training for grid size (15, 3) due to insufficient data (2 examples).
+
+Processing grid size (3, 1) with 18 examples...
+Skipping training for grid size (3, 1) due to insufficient data (18 examples).
+
+Processing grid size (1, 3) with 6 examples...
+Skipping training for grid size (1, 3) due to insufficient data (6 examples).
+
+Processing grid size (2, 6) with 6 examples...
+Skipping training for grid size (2, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 2) with 2 examples...
+Skipping training for grid size (6, 2) due to insufficient data (2 examples).
+
+Processing grid size (8, 13) with 6 examples...
+Skipping training for grid size (8, 13) due to insufficient data (6 examples).
+
+Processing grid size (13, 8) with 2 examples...
+Skipping training for grid size (13, 8) due to insufficient data (2 examples).
+
+Processing grid size (30, 29) with 6 examples...
+Skipping training for grid size (30, 29) due to insufficient data (6 examples).
+
+Processing grid size (29, 30) with 2 examples...
+Skipping training for grid size (29, 30) due to insufficient data (2 examples).
+
+Processing grid size (25, 15) with 6 examples...
+Skipping training for grid size (25, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 25) with 2 examples...
+Skipping training for grid size (15, 25) due to insufficient data (2 examples).
+
+Processing grid size (20, 18) with 6 examples...
+Skipping training for grid size (20, 18) due to insufficient data (6 examples).
+
+Processing grid size (18, 20) with 2 examples...
+Skipping training for grid size (18, 20) due to insufficient data (2 examples).
+
+Processing grid size (30, 20) with 6 examples...
+Skipping training for grid size (30, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 30) with 2 examples...
+Skipping training for grid size (20, 30) due to insufficient data (2 examples).

@@ -1,0 +1,30 @@
+{
+    "fold_discriminator_losses": [
+        0.3867681622505188,
+        0.12691152095794678
+    ],
+    "fold_generator_losses": [
+        1.6817048788070679,
+        2.0716753005981445
+    ],
+    "average_discriminator_loss_cv": 0.2568398416042328,
+    "average_generator_loss_cv": 1.8766900897026062,
+    "config": {
+        "base_data_path": "/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/data",
+        "input_directory": "GridTransitionDataset/training_transformed_unique_ids",
+        "output_directory": "/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/models",
+        "vocab_size": 12,
+        "max_seq_len": 1802,
+        "d_model": 2,
+        "nhead": 2,
+        "num_layers": 1,
+        "dim_feedforward": 128,
+        "dropout": 0.1,
+        "batch_size": 1,
+        "learning_rate_g": 0.0002,
+        "learning_rate_d": 0.0002,
+        "num_epochs": 1,
+        "n_splits": 2,
+        "train_generator_every": 1
+    }
+}

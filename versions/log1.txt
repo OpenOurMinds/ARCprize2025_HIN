@@ -1,0 +1,45 @@
+Using Linear models for grid size (6, 6).
+Grid Size (6, 6) | Epoch [0/200] | D Loss: 1.4074 | G Loss: 0.6439
+Grid Size (6, 6) | Epoch [10/200] | D Loss: 1.3815 | G Loss: 0.6508
+Grid Size (6, 6) | Epoch [20/200] | D Loss: 1.3426 | G Loss: 0.6516
+Grid Size (6, 6) | Epoch [30/200] | D Loss: 1.3110 | G Loss: 0.6527
+Grid Size (6, 6) | Epoch [40/200] | D Loss: 1.3007 | G Loss: 0.6575
+Grid Size (6, 6) | Epoch [50/200] | D Loss: 1.2822 | G Loss: 0.6548
+Grid Size (6, 6) | Epoch [60/200] | D Loss: 1.2407 | G Loss: 0.6663
+Grid Size (6, 6) | Epoch [70/200] | D Loss: 1.2300 | G Loss: 0.6673
+Grid Size (6, 6) | Epoch [80/200] | D Loss: 1.1893 | G Loss: 0.6779
+Grid Size (6, 6) | Epoch [90/200] | D Loss: 1.2027 | G Loss: 0.6686
+Grid Size (6, 6) | Epoch [100/200] | D Loss: 1.1530 | G Loss: 0.6833
+Grid Size (6, 6) | Epoch [110/200] | D Loss: 1.1239 | G Loss: 0.6772
+Grid Size (6, 6) | Epoch [120/200] | D Loss: 1.1388 | G Loss: 0.6877
+Grid Size (6, 6) | Epoch [130/200] | D Loss: 1.1552 | G Loss: 0.7075
+Grid Size (6, 6) | Epoch [140/200] | D Loss: 1.1361 | G Loss: 0.7204
+Grid Size (6, 6) | Epoch [150/200] | D Loss: 1.1244 | G Loss: 0.7187
+Grid Size (6, 6) | Epoch [160/200] | D Loss: 1.0796 | G Loss: 0.7267
+Grid Size (6, 6) | Epoch [170/200] | D Loss: 1.0894 | G Loss: 0.7401
+Grid Size (6, 6) | Epoch [180/200] | D Loss: 1.0149 | G Loss: 0.7394
+Grid Size (6, 6) | Epoch [190/200] | D Loss: 1.0810 | G Loss: 0.7407
+
+Training complete for grid size (6, 6).
+
+Generating 200 new examples for grid size (6, 6)...
+Generated dataset saved to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_6x6.json'.
+Using Conv models for grid size (9, 9).
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+/tmp/ipython-input-914471540.py in <cell line: 0>()
+    210             # Check if there's enough data to train
+    211             if len(data_tensor) > 128:
+--> 212                 trained_generator = train_gan_for_size(data_tensor, grid_size, num_epochs=200)
+    213                 generate_dataset_for_size(trained_generator, grid_size, num_examples=200)
+    214             else:
+
+10 frames
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/conv.py in _conv_forward(self, input, weight, bias)
+    541                 self.groups,
+    542             )
+--> 543         return F.conv2d(
+    544             input, weight, bias, self.stride, self.padding, self.dilation, self.groups
+    545         )
+
+RuntimeError: Expected 3D (unbatched) or 4D (batched) input to conv2d, but got input of size: [128, 1, 1, 16, 16]
