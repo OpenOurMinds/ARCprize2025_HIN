@@ -1,0 +1,1929 @@
+
+Processing grid size (6, 6) with 216 examples...
+Using Linear models for grid size (6, 6).
+Grid Size (6, 6) | Epoch [0/500] | D Loss: 1.4296 | G Loss: 0.7890
+Grid Size (6, 6) | Epoch [10/500] | D Loss: 1.3865 | G Loss: 0.7792
+Grid Size (6, 6) | Epoch [20/500] | D Loss: 1.3438 | G Loss: 0.7681
+Grid Size (6, 6) | Epoch [30/500] | D Loss: 1.3198 | G Loss: 0.7587
+Grid Size (6, 6) | Epoch [40/500] | D Loss: 1.2908 | G Loss: 0.7652
+Grid Size (6, 6) | Epoch [50/500] | D Loss: 1.2396 | G Loss: 0.7641
+Grid Size (6, 6) | Epoch [60/500] | D Loss: 1.2312 | G Loss: 0.7512
+Grid Size (6, 6) | Epoch [70/500] | D Loss: 1.2100 | G Loss: 0.7596
+Grid Size (6, 6) | Epoch [80/500] | D Loss: 1.2349 | G Loss: 0.7573
+Grid Size (6, 6) | Epoch [90/500] | D Loss: 1.1830 | G Loss: 0.7521
+Grid Size (6, 6) | Epoch [100/500] | D Loss: 1.1307 | G Loss: 0.7542
+Grid Size (6, 6) | Epoch [110/500] | D Loss: 1.1758 | G Loss: 0.7655
+Grid Size (6, 6) | Epoch [120/500] | D Loss: 1.1889 | G Loss: 0.7758
+Grid Size (6, 6) | Epoch [130/500] | D Loss: 1.1523 | G Loss: 0.7745
+Grid Size (6, 6) | Epoch [140/500] | D Loss: 1.1265 | G Loss: 0.7989
+Grid Size (6, 6) | Epoch [150/500] | D Loss: 1.0949 | G Loss: 0.7952
+Grid Size (6, 6) | Epoch [160/500] | D Loss: 1.0937 | G Loss: 0.7906
+Grid Size (6, 6) | Epoch [170/500] | D Loss: 1.0394 | G Loss: 0.8128
+Grid Size (6, 6) | Epoch [180/500] | D Loss: 1.0459 | G Loss: 0.8218
+Grid Size (6, 6) | Epoch [190/500] | D Loss: 1.1035 | G Loss: 0.8060
+Grid Size (6, 6) | Epoch [200/500] | D Loss: 1.1048 | G Loss: 0.8200
+Grid Size (6, 6) | Epoch [210/500] | D Loss: 1.0602 | G Loss: 0.8394
+Grid Size (6, 6) | Epoch [220/500] | D Loss: 1.0832 | G Loss: 0.8306
+Grid Size (6, 6) | Epoch [230/500] | D Loss: 1.0027 | G Loss: 0.8481
+Grid Size (6, 6) | Epoch [240/500] | D Loss: 0.9879 | G Loss: 0.8079
+Grid Size (6, 6) | Epoch [250/500] | D Loss: 0.9988 | G Loss: 0.8219
+Grid Size (6, 6) | Epoch [260/500] | D Loss: 1.0344 | G Loss: 0.8494
+Grid Size (6, 6) | Epoch [270/500] | D Loss: 1.0075 | G Loss: 0.8943
+Grid Size (6, 6) | Epoch [280/500] | D Loss: 1.0762 | G Loss: 0.8964
+Grid Size (6, 6) | Epoch [290/500] | D Loss: 1.0004 | G Loss: 0.8617
+Grid Size (6, 6) | Epoch [300/500] | D Loss: 1.0485 | G Loss: 0.8743
+Grid Size (6, 6) | Epoch [310/500] | D Loss: 1.0492 | G Loss: 0.9029
+Grid Size (6, 6) | Epoch [320/500] | D Loss: 1.0450 | G Loss: 0.8836
+Grid Size (6, 6) | Epoch [330/500] | D Loss: 1.0168 | G Loss: 0.8664
+Grid Size (6, 6) | Epoch [340/500] | D Loss: 1.0309 | G Loss: 0.9180
+Grid Size (6, 6) | Epoch [350/500] | D Loss: 1.0436 | G Loss: 0.9017
+Grid Size (6, 6) | Epoch [360/500] | D Loss: 1.0287 | G Loss: 0.8677
+Grid Size (6, 6) | Epoch [370/500] | D Loss: 1.0853 | G Loss: 0.8595
+Grid Size (6, 6) | Epoch [380/500] | D Loss: 1.0664 | G Loss: 0.9078
+Grid Size (6, 6) | Epoch [390/500] | D Loss: 1.0324 | G Loss: 0.8706
+Grid Size (6, 6) | Epoch [400/500] | D Loss: 1.0042 | G Loss: 0.9037
+Grid Size (6, 6) | Epoch [410/500] | D Loss: 1.0809 | G Loss: 0.8639
+Grid Size (6, 6) | Epoch [420/500] | D Loss: 1.0881 | G Loss: 0.8678
+Grid Size (6, 6) | Epoch [430/500] | D Loss: 1.1362 | G Loss: 0.8912
+Grid Size (6, 6) | Epoch [440/500] | D Loss: 1.1685 | G Loss: 0.9061
+Grid Size (6, 6) | Epoch [450/500] | D Loss: 1.1481 | G Loss: 0.8786
+Grid Size (6, 6) | Epoch [460/500] | D Loss: 1.2143 | G Loss: 0.8707
+Grid Size (6, 6) | Epoch [470/500] | D Loss: 1.1150 | G Loss: 0.9342
+Grid Size (6, 6) | Epoch [480/500] | D Loss: 1.1073 | G Loss: 0.9015
+Grid Size (6, 6) | Epoch [490/500] | D Loss: 1.1482 | G Loss: 0.8971
+
+Training complete for grid size (6, 6).
+
+Generating 200 new examples for grid size (6, 6)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_6x6.json'.
+
+Processing grid size (9, 9) with 352 examples...
+Using Conv models for grid size (9, 9).
+Grid Size (9, 9) | Epoch [0/500] | D Loss: 1.4122 | G Loss: 1.0237
+Grid Size (9, 9) | Epoch [10/500] | D Loss: 1.2829 | G Loss: 1.0968
+Grid Size (9, 9) | Epoch [20/500] | D Loss: 1.0987 | G Loss: 1.3989
+Grid Size (9, 9) | Epoch [30/500] | D Loss: 0.9739 | G Loss: 1.7651
+Grid Size (9, 9) | Epoch [40/500] | D Loss: 0.5077 | G Loss: 2.3884
+Grid Size (9, 9) | Epoch [50/500] | D Loss: 0.6861 | G Loss: 1.8675
+Grid Size (9, 9) | Epoch [60/500] | D Loss: 0.5861 | G Loss: 2.0406
+Grid Size (9, 9) | Epoch [70/500] | D Loss: 0.7323 | G Loss: 1.7713
+Grid Size (9, 9) | Epoch [80/500] | D Loss: 0.7292 | G Loss: 1.5680
+Grid Size (9, 9) | Epoch [90/500] | D Loss: 0.7329 | G Loss: 1.4415
+Grid Size (9, 9) | Epoch [100/500] | D Loss: 0.8771 | G Loss: 1.9081
+Grid Size (9, 9) | Epoch [110/500] | D Loss: 1.1580 | G Loss: 1.1565
+Grid Size (9, 9) | Epoch [120/500] | D Loss: 1.3387 | G Loss: 1.0892
+Grid Size (9, 9) | Epoch [130/500] | D Loss: 1.0300 | G Loss: 1.0589
+Grid Size (9, 9) | Epoch [140/500] | D Loss: 0.9139 | G Loss: 1.5069
+Grid Size (9, 9) | Epoch [150/500] | D Loss: 1.1270 | G Loss: 1.1485
+Grid Size (9, 9) | Epoch [160/500] | D Loss: 1.1330 | G Loss: 1.2207
+Grid Size (9, 9) | Epoch [170/500] | D Loss: 1.0264 | G Loss: 1.1826
+Grid Size (9, 9) | Epoch [180/500] | D Loss: 0.7922 | G Loss: 1.5330
+Grid Size (9, 9) | Epoch [190/500] | D Loss: 0.7067 | G Loss: 1.6569
+Grid Size (9, 9) | Epoch [200/500] | D Loss: 0.6430 | G Loss: 1.6581
+Grid Size (9, 9) | Epoch [210/500] | D Loss: 0.5526 | G Loss: 1.5791
+Grid Size (9, 9) | Epoch [220/500] | D Loss: 0.5186 | G Loss: 1.6539
+Grid Size (9, 9) | Epoch [230/500] | D Loss: 0.4798 | G Loss: 1.7781
+Grid Size (9, 9) | Epoch [240/500] | D Loss: 0.4736 | G Loss: 1.6228
+Grid Size (9, 9) | Epoch [250/500] | D Loss: 0.3880 | G Loss: 2.0953
+Grid Size (9, 9) | Epoch [260/500] | D Loss: 0.3832 | G Loss: 2.4059
+Grid Size (9, 9) | Epoch [270/500] | D Loss: 0.4042 | G Loss: 2.5232
+Grid Size (9, 9) | Epoch [280/500] | D Loss: 0.3068 | G Loss: 2.7136
+Grid Size (9, 9) | Epoch [290/500] | D Loss: 0.4018 | G Loss: 2.5373
+Grid Size (9, 9) | Epoch [300/500] | D Loss: 0.3975 | G Loss: 2.1150
+Grid Size (9, 9) | Epoch [310/500] | D Loss: 0.2368 | G Loss: 2.5809
+Grid Size (9, 9) | Epoch [320/500] | D Loss: 0.2495 | G Loss: 2.4902
+Grid Size (9, 9) | Epoch [330/500] | D Loss: 0.2531 | G Loss: 3.1868
+Grid Size (9, 9) | Epoch [340/500] | D Loss: 0.2289 | G Loss: 3.0586
+Grid Size (9, 9) | Epoch [350/500] | D Loss: 0.1837 | G Loss: 3.2237
+Grid Size (9, 9) | Epoch [360/500] | D Loss: 0.1867 | G Loss: 2.3919
+Grid Size (9, 9) | Epoch [370/500] | D Loss: 0.1673 | G Loss: 2.9783
+Grid Size (9, 9) | Epoch [380/500] | D Loss: 0.1466 | G Loss: 3.3987
+Grid Size (9, 9) | Epoch [390/500] | D Loss: 0.4355 | G Loss: 4.4520
+Grid Size (9, 9) | Epoch [400/500] | D Loss: 0.1835 | G Loss: 2.9937
+Grid Size (9, 9) | Epoch [410/500] | D Loss: 0.1533 | G Loss: 3.1315
+Grid Size (9, 9) | Epoch [420/500] | D Loss: 0.1393 | G Loss: 2.8473
+Grid Size (9, 9) | Epoch [430/500] | D Loss: 0.2260 | G Loss: 3.0525
+Grid Size (9, 9) | Epoch [440/500] | D Loss: 0.1420 | G Loss: 3.0033
+Grid Size (9, 9) | Epoch [450/500] | D Loss: 0.1506 | G Loss: 3.1597
+Grid Size (9, 9) | Epoch [460/500] | D Loss: 0.1515 | G Loss: 3.7603
+Grid Size (9, 9) | Epoch [470/500] | D Loss: 0.2040 | G Loss: 3.6058
+Grid Size (9, 9) | Epoch [480/500] | D Loss: 0.1357 | G Loss: 2.9580
+Grid Size (9, 9) | Epoch [490/500] | D Loss: 0.1303 | G Loss: 3.2100
+
+Training complete for grid size (9, 9).
+
+Generating 200 new examples for grid size (9, 9)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_9x9.json'.
+
+Processing grid size (14, 14) with 88 examples...
+Skipping training for grid size (14, 14) due to insufficient data (88 examples).
+
+Processing grid size (20, 20) with 200 examples...
+Using Conv models for grid size (20, 20).
+Grid Size (20, 20) | Epoch [0/500] | D Loss: 1.4184 | G Loss: 0.9440
+Grid Size (20, 20) | Epoch [10/500] | D Loss: 0.6121 | G Loss: 1.4984
+Grid Size (20, 20) | Epoch [20/500] | D Loss: 0.4975 | G Loss: 1.8859
+Grid Size (20, 20) | Epoch [30/500] | D Loss: 0.3397 | G Loss: 2.3007
+Grid Size (20, 20) | Epoch [40/500] | D Loss: 0.4133 | G Loss: 2.2232
+Grid Size (20, 20) | Epoch [50/500] | D Loss: 0.4877 | G Loss: 2.5937
+Grid Size (20, 20) | Epoch [60/500] | D Loss: 0.5514 | G Loss: 1.5042
+Grid Size (20, 20) | Epoch [70/500] | D Loss: 0.7218 | G Loss: 2.4060
+Grid Size (20, 20) | Epoch [80/500] | D Loss: 0.6677 | G Loss: 2.1060
+Grid Size (20, 20) | Epoch [90/500] | D Loss: 0.7510 | G Loss: 1.3080
+Grid Size (20, 20) | Epoch [100/500] | D Loss: 0.7080 | G Loss: 2.5440
+Grid Size (20, 20) | Epoch [110/500] | D Loss: 0.5757 | G Loss: 1.5643
+Grid Size (20, 20) | Epoch [120/500] | D Loss: 0.9457 | G Loss: 3.1381
+Grid Size (20, 20) | Epoch [130/500] | D Loss: 0.4792 | G Loss: 1.9321
+Grid Size (20, 20) | Epoch [140/500] | D Loss: 0.5541 | G Loss: 1.4112
+Grid Size (20, 20) | Epoch [150/500] | D Loss: 0.5259 | G Loss: 1.9288
+Grid Size (20, 20) | Epoch [160/500] | D Loss: 0.6992 | G Loss: 1.1028
+Grid Size (20, 20) | Epoch [170/500] | D Loss: 0.6489 | G Loss: 1.5302
+Grid Size (20, 20) | Epoch [180/500] | D Loss: 0.6872 | G Loss: 1.3836
+Grid Size (20, 20) | Epoch [190/500] | D Loss: 0.5462 | G Loss: 1.4874
+Grid Size (20, 20) | Epoch [200/500] | D Loss: 0.5128 | G Loss: 1.5585
+Grid Size (20, 20) | Epoch [210/500] | D Loss: 0.4522 | G Loss: 2.3053
+Grid Size (20, 20) | Epoch [220/500] | D Loss: 0.4131 | G Loss: 1.7636
+Grid Size (20, 20) | Epoch [230/500] | D Loss: 0.3712 | G Loss: 1.9408
+Grid Size (20, 20) | Epoch [240/500] | D Loss: 0.4896 | G Loss: 2.5702
+Grid Size (20, 20) | Epoch [250/500] | D Loss: 0.5296 | G Loss: 1.6361
+Grid Size (20, 20) | Epoch [260/500] | D Loss: 0.4451 | G Loss: 1.7650
+Grid Size (20, 20) | Epoch [270/500] | D Loss: 0.4770 | G Loss: 2.4134
+Grid Size (20, 20) | Epoch [280/500] | D Loss: 0.4704 | G Loss: 2.2117
+Grid Size (20, 20) | Epoch [290/500] | D Loss: 0.3630 | G Loss: 1.5677
+Grid Size (20, 20) | Epoch [300/500] | D Loss: 0.3960 | G Loss: 2.2259
+Grid Size (20, 20) | Epoch [310/500] | D Loss: 0.3417 | G Loss: 1.8966
+Grid Size (20, 20) | Epoch [320/500] | D Loss: 0.4885 | G Loss: 2.9232
+Grid Size (20, 20) | Epoch [330/500] | D Loss: 0.3606 | G Loss: 2.1935
+Grid Size (20, 20) | Epoch [340/500] | D Loss: 0.4145 | G Loss: 2.1826
+Grid Size (20, 20) | Epoch [350/500] | D Loss: 0.4206 | G Loss: 2.3103
+Grid Size (20, 20) | Epoch [360/500] | D Loss: 0.3053 | G Loss: 2.1553
+Grid Size (20, 20) | Epoch [370/500] | D Loss: 0.3156 | G Loss: 2.6100
+Grid Size (20, 20) | Epoch [380/500] | D Loss: 0.3832 | G Loss: 2.0319
+Grid Size (20, 20) | Epoch [390/500] | D Loss: 0.2279 | G Loss: 2.5680
+Grid Size (20, 20) | Epoch [400/500] | D Loss: 0.3415 | G Loss: 2.9504
+Grid Size (20, 20) | Epoch [410/500] | D Loss: 0.2966 | G Loss: 2.0053
+Grid Size (20, 20) | Epoch [420/500] | D Loss: 0.2734 | G Loss: 2.6493
+Grid Size (20, 20) | Epoch [430/500] | D Loss: 0.2010 | G Loss: 2.5507
+Grid Size (20, 20) | Epoch [440/500] | D Loss: 0.3340 | G Loss: 3.3882
+Grid Size (20, 20) | Epoch [450/500] | D Loss: 0.4145 | G Loss: 1.6388
+Grid Size (20, 20) | Epoch [460/500] | D Loss: 0.2961 | G Loss: 2.3081
+Grid Size (20, 20) | Epoch [470/500] | D Loss: 0.2573 | G Loss: 2.8958
+Grid Size (20, 20) | Epoch [480/500] | D Loss: 0.2609 | G Loss: 2.3729
+Grid Size (20, 20) | Epoch [490/500] | D Loss: 0.2819 | G Loss: 3.2314
+
+Training complete for grid size (20, 20).
+
+Generating 200 new examples for grid size (20, 20)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_20x20.json'.
+
+Processing grid size (9, 3) with 8 examples...
+Skipping training for grid size (9, 3) due to insufficient data (8 examples).
+
+Processing grid size (3, 9) with 8 examples...
+Skipping training for grid size (3, 9) due to insufficient data (8 examples).
+
+Processing grid size (10, 10) with 936 examples...
+Using Conv models for grid size (10, 10).
+Grid Size (10, 10) | Epoch [0/500] | D Loss: 1.3514 | G Loss: 1.1000
+Grid Size (10, 10) | Epoch [10/500] | D Loss: 0.4089 | G Loss: 2.1983
+Grid Size (10, 10) | Epoch [20/500] | D Loss: 0.4633 | G Loss: 2.4068
+Grid Size (10, 10) | Epoch [30/500] | D Loss: 0.2913 | G Loss: 2.5645
+Grid Size (10, 10) | Epoch [40/500] | D Loss: 0.6777 | G Loss: 2.0020
+Grid Size (10, 10) | Epoch [50/500] | D Loss: 0.4090 | G Loss: 2.5505
+Grid Size (10, 10) | Epoch [60/500] | D Loss: 0.4094 | G Loss: 2.2038
+Grid Size (10, 10) | Epoch [70/500] | D Loss: 0.9643 | G Loss: 1.1317
+Grid Size (10, 10) | Epoch [80/500] | D Loss: 0.8830 | G Loss: 1.1445
+Grid Size (10, 10) | Epoch [90/500] | D Loss: 0.9030 | G Loss: 1.1577
+Grid Size (10, 10) | Epoch [100/500] | D Loss: 1.1282 | G Loss: 1.3210
+Grid Size (10, 10) | Epoch [110/500] | D Loss: 1.1038 | G Loss: 1.1286
+Grid Size (10, 10) | Epoch [120/500] | D Loss: 1.0100 | G Loss: 0.7429
+Grid Size (10, 10) | Epoch [130/500] | D Loss: 1.1805 | G Loss: 0.9401
+Grid Size (10, 10) | Epoch [140/500] | D Loss: 1.1017 | G Loss: 0.9567
+Grid Size (10, 10) | Epoch [150/500] | D Loss: 1.0959 | G Loss: 0.8954
+Grid Size (10, 10) | Epoch [160/500] | D Loss: 1.0481 | G Loss: 1.2268
+Grid Size (10, 10) | Epoch [170/500] | D Loss: 1.0614 | G Loss: 0.9646
+Grid Size (10, 10) | Epoch [180/500] | D Loss: 1.1572 | G Loss: 1.1341
+Grid Size (10, 10) | Epoch [190/500] | D Loss: 0.9913 | G Loss: 1.0785
+Grid Size (10, 10) | Epoch [200/500] | D Loss: 1.1594 | G Loss: 1.5676
+Grid Size (10, 10) | Epoch [210/500] | D Loss: 0.9052 | G Loss: 1.2331
+Grid Size (10, 10) | Epoch [220/500] | D Loss: 0.7892 | G Loss: 1.4083
+Grid Size (10, 10) | Epoch [230/500] | D Loss: 0.8899 | G Loss: 1.4284
+Grid Size (10, 10) | Epoch [240/500] | D Loss: 0.6948 | G Loss: 1.6033
+Grid Size (10, 10) | Epoch [250/500] | D Loss: 0.6570 | G Loss: 1.2817
+Grid Size (10, 10) | Epoch [260/500] | D Loss: 0.5448 | G Loss: 1.5794
+Grid Size (10, 10) | Epoch [270/500] | D Loss: 0.5350 | G Loss: 1.7587
+Grid Size (10, 10) | Epoch [280/500] | D Loss: 0.7163 | G Loss: 2.1078
+Grid Size (10, 10) | Epoch [290/500] | D Loss: 0.4804 | G Loss: 1.7299
+Grid Size (10, 10) | Epoch [300/500] | D Loss: 0.4817 | G Loss: 2.0976
+Grid Size (10, 10) | Epoch [310/500] | D Loss: 0.4235 | G Loss: 2.2449
+Grid Size (10, 10) | Epoch [320/500] | D Loss: 0.3940 | G Loss: 2.1841
+Grid Size (10, 10) | Epoch [330/500] | D Loss: 0.4769 | G Loss: 2.0183
+Grid Size (10, 10) | Epoch [340/500] | D Loss: 0.5751 | G Loss: 1.9391
+Grid Size (10, 10) | Epoch [350/500] | D Loss: 0.4586 | G Loss: 2.3605
+Grid Size (10, 10) | Epoch [360/500] | D Loss: 0.5218 | G Loss: 1.8524
+Grid Size (10, 10) | Epoch [370/500] | D Loss: 0.4061 | G Loss: 2.0637
+Grid Size (10, 10) | Epoch [380/500] | D Loss: 0.4041 | G Loss: 2.4879
+Grid Size (10, 10) | Epoch [390/500] | D Loss: 0.2542 | G Loss: 2.5171
+Grid Size (10, 10) | Epoch [400/500] | D Loss: 0.2829 | G Loss: 2.3407
+Grid Size (10, 10) | Epoch [410/500] | D Loss: 0.2790 | G Loss: 2.8511
+Grid Size (10, 10) | Epoch [420/500] | D Loss: 0.5220 | G Loss: 1.8634
+Grid Size (10, 10) | Epoch [430/500] | D Loss: 1.1473 | G Loss: 4.3935
+Grid Size (10, 10) | Epoch [440/500] | D Loss: 0.3245 | G Loss: 2.6406
+Grid Size (10, 10) | Epoch [450/500] | D Loss: 0.4038 | G Loss: 2.0307
+Grid Size (10, 10) | Epoch [460/500] | D Loss: 0.2857 | G Loss: 2.8456
+Grid Size (10, 10) | Epoch [470/500] | D Loss: 0.3966 | G Loss: 1.5492
+Grid Size (10, 10) | Epoch [480/500] | D Loss: 0.3385 | G Loss: 2.2467
+Grid Size (10, 10) | Epoch [490/500] | D Loss: 0.2502 | G Loss: 2.5860
+
+Training complete for grid size (10, 10).
+
+Generating 200 new examples for grid size (10, 10)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_10x10.json'.
+
+Processing grid size (21, 21) with 48 examples...
+Skipping training for grid size (21, 21) due to insufficient data (48 examples).
+
+Processing grid size (3, 3) with 560 examples...
+Using Linear models for grid size (3, 3).
+Grid Size (3, 3) | Epoch [0/500] | D Loss: 1.3659 | G Loss: 0.7003
+Grid Size (3, 3) | Epoch [10/500] | D Loss: 1.3517 | G Loss: 0.7110
+Grid Size (3, 3) | Epoch [20/500] | D Loss: 1.3393 | G Loss: 0.7142
+Grid Size (3, 3) | Epoch [30/500] | D Loss: 1.3249 | G Loss: 0.7122
+Grid Size (3, 3) | Epoch [40/500] | D Loss: 1.2806 | G Loss: 0.7283
+Grid Size (3, 3) | Epoch [50/500] | D Loss: 1.2656 | G Loss: 0.7309
+Grid Size (3, 3) | Epoch [60/500] | D Loss: 1.2793 | G Loss: 0.7379
+Grid Size (3, 3) | Epoch [70/500] | D Loss: 1.2519 | G Loss: 0.7305
+Grid Size (3, 3) | Epoch [80/500] | D Loss: 1.2651 | G Loss: 0.7420
+Grid Size (3, 3) | Epoch [90/500] | D Loss: 1.2477 | G Loss: 0.7560
+Grid Size (3, 3) | Epoch [100/500] | D Loss: 1.2372 | G Loss: 0.7489
+Grid Size (3, 3) | Epoch [110/500] | D Loss: 1.2550 | G Loss: 0.7764
+Grid Size (3, 3) | Epoch [120/500] | D Loss: 1.1875 | G Loss: 0.7695
+Grid Size (3, 3) | Epoch [130/500] | D Loss: 1.2409 | G Loss: 0.7709
+Grid Size (3, 3) | Epoch [140/500] | D Loss: 1.2380 | G Loss: 0.7739
+Grid Size (3, 3) | Epoch [150/500] | D Loss: 1.2318 | G Loss: 0.7961
+Grid Size (3, 3) | Epoch [160/500] | D Loss: 1.2264 | G Loss: 0.7697
+Grid Size (3, 3) | Epoch [170/500] | D Loss: 1.2727 | G Loss: 0.8078
+Grid Size (3, 3) | Epoch [180/500] | D Loss: 1.2339 | G Loss: 0.7932
+Grid Size (3, 3) | Epoch [190/500] | D Loss: 1.2786 | G Loss: 0.7883
+Grid Size (3, 3) | Epoch [200/500] | D Loss: 1.2279 | G Loss: 0.7999
+Grid Size (3, 3) | Epoch [210/500] | D Loss: 1.2516 | G Loss: 0.7974
+Grid Size (3, 3) | Epoch [220/500] | D Loss: 1.1882 | G Loss: 0.8148
+Grid Size (3, 3) | Epoch [230/500] | D Loss: 1.1672 | G Loss: 0.8134
+Grid Size (3, 3) | Epoch [240/500] | D Loss: 1.1575 | G Loss: 0.8303
+Grid Size (3, 3) | Epoch [250/500] | D Loss: 1.1563 | G Loss: 0.8231
+Grid Size (3, 3) | Epoch [260/500] | D Loss: 1.2286 | G Loss: 0.8315
+Grid Size (3, 3) | Epoch [270/500] | D Loss: 1.2257 | G Loss: 0.8368
+Grid Size (3, 3) | Epoch [280/500] | D Loss: 1.1509 | G Loss: 0.8323
+Grid Size (3, 3) | Epoch [290/500] | D Loss: 1.1761 | G Loss: 0.8293
+Grid Size (3, 3) | Epoch [300/500] | D Loss: 1.2153 | G Loss: 0.8103
+Grid Size (3, 3) | Epoch [310/500] | D Loss: 1.1916 | G Loss: 0.8502
+Grid Size (3, 3) | Epoch [320/500] | D Loss: 1.1887 | G Loss: 0.8247
+Grid Size (3, 3) | Epoch [330/500] | D Loss: 1.1896 | G Loss: 0.8287
+Grid Size (3, 3) | Epoch [340/500] | D Loss: 1.1706 | G Loss: 0.8619
+Grid Size (3, 3) | Epoch [350/500] | D Loss: 1.2033 | G Loss: 0.8245
+Grid Size (3, 3) | Epoch [360/500] | D Loss: 1.1799 | G Loss: 0.8358
+Grid Size (3, 3) | Epoch [370/500] | D Loss: 1.1427 | G Loss: 0.8386
+Grid Size (3, 3) | Epoch [380/500] | D Loss: 1.1885 | G Loss: 0.8590
+Grid Size (3, 3) | Epoch [390/500] | D Loss: 1.2673 | G Loss: 0.8430
+Grid Size (3, 3) | Epoch [400/500] | D Loss: 1.2106 | G Loss: 0.8189
+Grid Size (3, 3) | Epoch [410/500] | D Loss: 1.2139 | G Loss: 0.8706
+Grid Size (3, 3) | Epoch [420/500] | D Loss: 1.1306 | G Loss: 0.8040
+Grid Size (3, 3) | Epoch [430/500] | D Loss: 1.1510 | G Loss: 0.8408
+Grid Size (3, 3) | Epoch [440/500] | D Loss: 1.2304 | G Loss: 0.8061
+Grid Size (3, 3) | Epoch [450/500] | D Loss: 1.1792 | G Loss: 0.8219
+Grid Size (3, 3) | Epoch [460/500] | D Loss: 1.2027 | G Loss: 0.8188
+Grid Size (3, 3) | Epoch [470/500] | D Loss: 1.2101 | G Loss: 0.8217
+Grid Size (3, 3) | Epoch [480/500] | D Loss: 1.2839 | G Loss: 0.8493
+Grid Size (3, 3) | Epoch [490/500] | D Loss: 1.1487 | G Loss: 0.8433
+
+Training complete for grid size (3, 3).
+
+Generating 200 new examples for grid size (3, 3)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_3x3.json'.
+
+Processing grid size (7, 7) with 128 examples...
+Skipping training for grid size (7, 7) due to insufficient data (128 examples).
+
+Processing grid size (30, 30) with 216 examples...
+Using Conv models for grid size (30, 30).
+Grid Size (30, 30) | Epoch [0/500] | D Loss: 1.3852 | G Loss: 1.0533
+Grid Size (30, 30) | Epoch [10/500] | D Loss: 0.4768 | G Loss: 1.7496
+Grid Size (30, 30) | Epoch [20/500] | D Loss: 0.6435 | G Loss: 1.6898
+Grid Size (30, 30) | Epoch [30/500] | D Loss: 0.6072 | G Loss: 1.9269
+Grid Size (30, 30) | Epoch [40/500] | D Loss: 0.6792 | G Loss: 1.9890
+Grid Size (30, 30) | Epoch [50/500] | D Loss: 1.1102 | G Loss: 1.6928
+Grid Size (30, 30) | Epoch [60/500] | D Loss: 0.7750 | G Loss: 1.5658
+Grid Size (30, 30) | Epoch [70/500] | D Loss: 0.9029 | G Loss: 1.0778
+Grid Size (30, 30) | Epoch [80/500] | D Loss: 1.1065 | G Loss: 1.0830
+Grid Size (30, 30) | Epoch [90/500] | D Loss: 0.9368 | G Loss: 0.9622
+Grid Size (30, 30) | Epoch [100/500] | D Loss: 0.9643 | G Loss: 1.1254
+Grid Size (30, 30) | Epoch [110/500] | D Loss: 0.9199 | G Loss: 1.1383
+Grid Size (30, 30) | Epoch [120/500] | D Loss: 0.9462 | G Loss: 1.0988
+Grid Size (30, 30) | Epoch [130/500] | D Loss: 0.8691 | G Loss: 1.1842
+Grid Size (30, 30) | Epoch [140/500] | D Loss: 0.8412 | G Loss: 1.2626
+Grid Size (30, 30) | Epoch [150/500] | D Loss: 0.8591 | G Loss: 1.1543
+Grid Size (30, 30) | Epoch [160/500] | D Loss: 0.7428 | G Loss: 1.3407
+Grid Size (30, 30) | Epoch [170/500] | D Loss: 0.7921 | G Loss: 1.4857
+Grid Size (30, 30) | Epoch [180/500] | D Loss: 0.7164 | G Loss: 1.2520
+Grid Size (30, 30) | Epoch [190/500] | D Loss: 0.6777 | G Loss: 1.3704
+Grid Size (30, 30) | Epoch [200/500] | D Loss: 0.5443 | G Loss: 1.7000
+Grid Size (30, 30) | Epoch [210/500] | D Loss: 0.5948 | G Loss: 2.1522
+Grid Size (30, 30) | Epoch [220/500] | D Loss: 0.4722 | G Loss: 1.8587
+Grid Size (30, 30) | Epoch [230/500] | D Loss: 0.7815 | G Loss: 1.6026
+Grid Size (30, 30) | Epoch [240/500] | D Loss: 0.5369 | G Loss: 2.0245
+Grid Size (30, 30) | Epoch [250/500] | D Loss: 0.3981 | G Loss: 1.7341
+Grid Size (30, 30) | Epoch [260/500] | D Loss: 0.4558 | G Loss: 1.5960
+Grid Size (30, 30) | Epoch [270/500] | D Loss: 0.5309 | G Loss: 1.5625
+Grid Size (30, 30) | Epoch [280/500] | D Loss: 0.4239 | G Loss: 1.8614
+Grid Size (30, 30) | Epoch [290/500] | D Loss: 0.4521 | G Loss: 1.7949
+Grid Size (30, 30) | Epoch [300/500] | D Loss: 0.4759 | G Loss: 1.4354
+Grid Size (30, 30) | Epoch [310/500] | D Loss: 0.7139 | G Loss: 1.8174
+Grid Size (30, 30) | Epoch [320/500] | D Loss: 0.5213 | G Loss: 1.8117
+Grid Size (30, 30) | Epoch [330/500] | D Loss: 0.4968 | G Loss: 1.7752
+Grid Size (30, 30) | Epoch [340/500] | D Loss: 0.5251 | G Loss: 1.5924
+Grid Size (30, 30) | Epoch [350/500] | D Loss: 0.5135 | G Loss: 1.8999
+Grid Size (30, 30) | Epoch [360/500] | D Loss: 0.5310 | G Loss: 1.8098
+Grid Size (30, 30) | Epoch [370/500] | D Loss: 0.4082 | G Loss: 2.1092
+Grid Size (30, 30) | Epoch [380/500] | D Loss: 0.4346 | G Loss: 2.0594
+Grid Size (30, 30) | Epoch [390/500] | D Loss: 0.4332 | G Loss: 2.0639
+Grid Size (30, 30) | Epoch [400/500] | D Loss: 0.3790 | G Loss: 1.9375
+Grid Size (30, 30) | Epoch [410/500] | D Loss: 0.3432 | G Loss: 2.5171
+Grid Size (30, 30) | Epoch [420/500] | D Loss: 0.3643 | G Loss: 1.9100
+Grid Size (30, 30) | Epoch [430/500] | D Loss: 0.4304 | G Loss: 2.3830
+Grid Size (30, 30) | Epoch [440/500] | D Loss: 0.3562 | G Loss: 2.6224
+Grid Size (30, 30) | Epoch [450/500] | D Loss: 0.3391 | G Loss: 2.0990
+Grid Size (30, 30) | Epoch [460/500] | D Loss: 0.2949 | G Loss: 2.0161
+Grid Size (30, 30) | Epoch [470/500] | D Loss: 0.3693 | G Loss: 2.0403
+Grid Size (30, 30) | Epoch [480/500] | D Loss: 0.3008 | G Loss: 2.3219
+Grid Size (30, 30) | Epoch [490/500] | D Loss: 0.4304 | G Loss: 1.9477
+
+Training complete for grid size (30, 30).
+
+Generating 200 new examples for grid size (30, 30)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_30x30.json'.
+
+Processing grid size (11, 10) with 18 examples...
+Skipping training for grid size (11, 10) due to insufficient data (18 examples).
+
+Processing grid size (10, 11) with 22 examples...
+Skipping training for grid size (10, 11) due to insufficient data (22 examples).
+
+Processing grid size (24, 22) with 8 examples...
+Skipping training for grid size (24, 22) due to insufficient data (8 examples).
+
+Processing grid size (22, 24) with 8 examples...
+Skipping training for grid size (22, 24) due to insufficient data (8 examples).
+
+Processing grid size (26, 26) with 56 examples...
+Skipping training for grid size (26, 26) due to insufficient data (56 examples).
+
+Processing grid size (11, 11) with 176 examples...
+Using Conv models for grid size (11, 11).
+Grid Size (11, 11) | Epoch [0/500] | D Loss: 1.2962 | G Loss: 1.0802
+Grid Size (11, 11) | Epoch [10/500] | D Loss: 0.7081 | G Loss: 1.5394
+Grid Size (11, 11) | Epoch [20/500] | D Loss: 0.8993 | G Loss: 1.4303
+Grid Size (11, 11) | Epoch [30/500] | D Loss: 0.7903 | G Loss: 1.7719
+Grid Size (11, 11) | Epoch [40/500] | D Loss: 0.3495 | G Loss: 2.5712
+Grid Size (11, 11) | Epoch [50/500] | D Loss: 0.4420 | G Loss: 2.4594
+Grid Size (11, 11) | Epoch [60/500] | D Loss: 0.4718 | G Loss: 2.3947
+Grid Size (11, 11) | Epoch [70/500] | D Loss: 0.4871 | G Loss: 2.1958
+Grid Size (11, 11) | Epoch [80/500] | D Loss: 0.7769 | G Loss: 1.1807
+Grid Size (11, 11) | Epoch [90/500] | D Loss: 0.9500 | G Loss: 1.2428
+Grid Size (11, 11) | Epoch [100/500] | D Loss: 0.9669 | G Loss: 1.4362
+Grid Size (11, 11) | Epoch [110/500] | D Loss: 0.7888 | G Loss: 1.7878
+Grid Size (11, 11) | Epoch [120/500] | D Loss: 0.8940 | G Loss: 1.1738
+Grid Size (11, 11) | Epoch [130/500] | D Loss: 0.6496 | G Loss: 1.5154
+Grid Size (11, 11) | Epoch [140/500] | D Loss: 0.7274 | G Loss: 1.1592
+Grid Size (11, 11) | Epoch [150/500] | D Loss: 0.5644 | G Loss: 1.7075
+Grid Size (11, 11) | Epoch [160/500] | D Loss: 0.5655 | G Loss: 1.6836
+Grid Size (11, 11) | Epoch [170/500] | D Loss: 0.5659 | G Loss: 1.8572
+Grid Size (11, 11) | Epoch [180/500] | D Loss: 0.5004 | G Loss: 1.8494
+Grid Size (11, 11) | Epoch [190/500] | D Loss: 0.4531 | G Loss: 1.9416
+Grid Size (11, 11) | Epoch [200/500] | D Loss: 0.4503 | G Loss: 1.7504
+Grid Size (11, 11) | Epoch [210/500] | D Loss: 0.4792 | G Loss: 1.7053
+Grid Size (11, 11) | Epoch [220/500] | D Loss: 0.4190 | G Loss: 2.1466
+Grid Size (11, 11) | Epoch [230/500] | D Loss: 0.3342 | G Loss: 2.0596
+Grid Size (11, 11) | Epoch [240/500] | D Loss: 0.3230 | G Loss: 1.8574
+Grid Size (11, 11) | Epoch [250/500] | D Loss: 0.4939 | G Loss: 1.7091
+Grid Size (11, 11) | Epoch [260/500] | D Loss: 0.3230 | G Loss: 2.6567
+Grid Size (11, 11) | Epoch [270/500] | D Loss: 0.2849 | G Loss: 1.9798
+Grid Size (11, 11) | Epoch [280/500] | D Loss: 0.3154 | G Loss: 2.2904
+Grid Size (11, 11) | Epoch [290/500] | D Loss: 0.2509 | G Loss: 2.2596
+Grid Size (11, 11) | Epoch [300/500] | D Loss: 0.3547 | G Loss: 2.1078
+Grid Size (11, 11) | Epoch [310/500] | D Loss: 0.2371 | G Loss: 2.6439
+Grid Size (11, 11) | Epoch [320/500] | D Loss: 0.2070 | G Loss: 2.5684
+Grid Size (11, 11) | Epoch [330/500] | D Loss: 0.2108 | G Loss: 2.5909
+Grid Size (11, 11) | Epoch [340/500] | D Loss: 0.2733 | G Loss: 3.4026
+Grid Size (11, 11) | Epoch [350/500] | D Loss: 0.3055 | G Loss: 2.9454
+Grid Size (11, 11) | Epoch [360/500] | D Loss: 0.2047 | G Loss: 2.8353
+Grid Size (11, 11) | Epoch [370/500] | D Loss: 0.1972 | G Loss: 2.8646
+Grid Size (11, 11) | Epoch [380/500] | D Loss: 0.2016 | G Loss: 3.3718
+Grid Size (11, 11) | Epoch [390/500] | D Loss: 0.2245 | G Loss: 2.5128
+Grid Size (11, 11) | Epoch [400/500] | D Loss: 0.1544 | G Loss: 3.2511
+Grid Size (11, 11) | Epoch [410/500] | D Loss: 0.1519 | G Loss: 3.2594
+Grid Size (11, 11) | Epoch [420/500] | D Loss: 0.1601 | G Loss: 3.4220
+Grid Size (11, 11) | Epoch [430/500] | D Loss: 0.1209 | G Loss: 3.4027
+Grid Size (11, 11) | Epoch [440/500] | D Loss: 0.2901 | G Loss: 4.3872
+Grid Size (11, 11) | Epoch [450/500] | D Loss: 0.2842 | G Loss: 2.7214
+Grid Size (11, 11) | Epoch [460/500] | D Loss: 0.1251 | G Loss: 2.8116
+Grid Size (11, 11) | Epoch [470/500] | D Loss: 0.1190 | G Loss: 3.2736
+Grid Size (11, 11) | Epoch [480/500] | D Loss: 0.1359 | G Loss: 3.6562
+Grid Size (11, 11) | Epoch [490/500] | D Loss: 0.1429 | G Loss: 3.6865
+
+Training complete for grid size (11, 11).
+
+Generating 200 new examples for grid size (11, 11)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_11x11.json'.
+
+Processing grid size (12, 12) with 248 examples...
+Using Conv models for grid size (12, 12).
+Grid Size (12, 12) | Epoch [0/500] | D Loss: 1.5372 | G Loss: 0.6354
+Grid Size (12, 12) | Epoch [10/500] | D Loss: 0.7238 | G Loss: 1.3812
+Grid Size (12, 12) | Epoch [20/500] | D Loss: 0.7009 | G Loss: 1.6001
+Grid Size (12, 12) | Epoch [30/500] | D Loss: 0.8306 | G Loss: 1.6619
+Grid Size (12, 12) | Epoch [40/500] | D Loss: 0.8810 | G Loss: 1.7000
+Grid Size (12, 12) | Epoch [50/500] | D Loss: 1.1668 | G Loss: 1.2802
+Grid Size (12, 12) | Epoch [60/500] | D Loss: 0.9910 | G Loss: 1.1062
+Grid Size (12, 12) | Epoch [70/500] | D Loss: 0.9373 | G Loss: 1.1336
+Grid Size (12, 12) | Epoch [80/500] | D Loss: 0.8825 | G Loss: 1.5238
+Grid Size (12, 12) | Epoch [90/500] | D Loss: 0.9709 | G Loss: 1.2533
+Grid Size (12, 12) | Epoch [100/500] | D Loss: 0.8048 | G Loss: 1.3083
+Grid Size (12, 12) | Epoch [110/500] | D Loss: 0.8947 | G Loss: 1.2492
+Grid Size (12, 12) | Epoch [120/500] | D Loss: 0.9424 | G Loss: 1.4377
+Grid Size (12, 12) | Epoch [130/500] | D Loss: 0.7838 | G Loss: 1.4659
+Grid Size (12, 12) | Epoch [140/500] | D Loss: 0.7126 | G Loss: 1.2622
+Grid Size (12, 12) | Epoch [150/500] | D Loss: 0.6501 | G Loss: 1.4642
+Grid Size (12, 12) | Epoch [160/500] | D Loss: 0.6702 | G Loss: 1.3269
+Grid Size (12, 12) | Epoch [170/500] | D Loss: 0.6202 | G Loss: 1.6577
+Grid Size (12, 12) | Epoch [180/500] | D Loss: 0.6053 | G Loss: 1.3090
+Grid Size (12, 12) | Epoch [190/500] | D Loss: 0.5568 | G Loss: 1.5715
+Grid Size (12, 12) | Epoch [200/500] | D Loss: 0.5290 | G Loss: 1.5218
+Grid Size (12, 12) | Epoch [210/500] | D Loss: 0.4694 | G Loss: 1.6766
+Grid Size (12, 12) | Epoch [220/500] | D Loss: 0.4377 | G Loss: 2.2268
+Grid Size (12, 12) | Epoch [230/500] | D Loss: 0.3705 | G Loss: 1.9278
+Grid Size (12, 12) | Epoch [240/500] | D Loss: 0.3213 | G Loss: 2.1033
+Grid Size (12, 12) | Epoch [250/500] | D Loss: 0.3572 | G Loss: 2.0843
+Grid Size (12, 12) | Epoch [260/500] | D Loss: 0.2739 | G Loss: 2.2268
+Grid Size (12, 12) | Epoch [270/500] | D Loss: 0.3452 | G Loss: 2.1714
+Grid Size (12, 12) | Epoch [280/500] | D Loss: 0.3155 | G Loss: 2.3742
+Grid Size (12, 12) | Epoch [290/500] | D Loss: 0.2851 | G Loss: 2.1460
+Grid Size (12, 12) | Epoch [300/500] | D Loss: 0.4151 | G Loss: 3.1283
+Grid Size (12, 12) | Epoch [310/500] | D Loss: 0.2539 | G Loss: 2.7027
+Grid Size (12, 12) | Epoch [320/500] | D Loss: 0.2552 | G Loss: 2.7039
+Grid Size (12, 12) | Epoch [330/500] | D Loss: 0.3596 | G Loss: 2.1857
+Grid Size (12, 12) | Epoch [340/500] | D Loss: 0.2902 | G Loss: 2.1383
+Grid Size (12, 12) | Epoch [350/500] | D Loss: 0.5010 | G Loss: 2.3702
+Grid Size (12, 12) | Epoch [360/500] | D Loss: 0.3306 | G Loss: 2.1333
+Grid Size (12, 12) | Epoch [370/500] | D Loss: 0.2567 | G Loss: 2.1647
+Grid Size (12, 12) | Epoch [380/500] | D Loss: 0.3430 | G Loss: 2.5555
+Grid Size (12, 12) | Epoch [390/500] | D Loss: 0.2536 | G Loss: 2.5514
+Grid Size (12, 12) | Epoch [400/500] | D Loss: 0.2053 | G Loss: 2.5907
+Grid Size (12, 12) | Epoch [410/500] | D Loss: 0.2547 | G Loss: 2.5957
+Grid Size (12, 12) | Epoch [420/500] | D Loss: 0.3077 | G Loss: 2.5234
+Grid Size (12, 12) | Epoch [430/500] | D Loss: 0.2042 | G Loss: 2.5048
+Grid Size (12, 12) | Epoch [440/500] | D Loss: 0.2521 | G Loss: 3.0469
+Grid Size (12, 12) | Epoch [450/500] | D Loss: 0.2380 | G Loss: 2.5379
+Grid Size (12, 12) | Epoch [460/500] | D Loss: 0.1754 | G Loss: 2.4680
+Grid Size (12, 12) | Epoch [470/500] | D Loss: 0.1676 | G Loss: 3.1098
+Grid Size (12, 12) | Epoch [480/500] | D Loss: 0.1932 | G Loss: 3.3399
+Grid Size (12, 12) | Epoch [490/500] | D Loss: 0.1829 | G Loss: 3.0236
+
+Training complete for grid size (12, 12).
+
+Generating 200 new examples for grid size (12, 12)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_12x12.json'.
+
+Processing grid size (4, 3) with 52 examples...
+Skipping training for grid size (4, 3) due to insufficient data (52 examples).
+
+Processing grid size (3, 4) with 28 examples...
+Skipping training for grid size (3, 4) due to insufficient data (28 examples).
+
+Processing grid size (15, 17) with 28 examples...
+Skipping training for grid size (15, 17) due to insufficient data (28 examples).
+
+Processing grid size (17, 15) with 20 examples...
+Skipping training for grid size (17, 15) due to insufficient data (20 examples).
+
+Processing grid size (11, 27) with 6 examples...
+Skipping training for grid size (11, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 11) with 2 examples...
+Skipping training for grid size (27, 11) due to insufficient data (2 examples).
+
+Processing grid size (15, 15) with 280 examples...
+Using Conv models for grid size (15, 15).
+Grid Size (15, 15) | Epoch [0/500] | D Loss: 1.4802 | G Loss: 0.8043
+Grid Size (15, 15) | Epoch [10/500] | D Loss: 0.4496 | G Loss: 1.6999
+Grid Size (15, 15) | Epoch [20/500] | D Loss: 0.5416 | G Loss: 1.8971
+Grid Size (15, 15) | Epoch [30/500] | D Loss: 0.5432 | G Loss: 2.1146
+Grid Size (15, 15) | Epoch [40/500] | D Loss: 0.3643 | G Loss: 2.4517
+Grid Size (15, 15) | Epoch [50/500] | D Loss: 0.3904 | G Loss: 2.4427
+Grid Size (15, 15) | Epoch [60/500] | D Loss: 0.4818 | G Loss: 1.7449
+Grid Size (15, 15) | Epoch [70/500] | D Loss: 0.3481 | G Loss: 2.0048
+Grid Size (15, 15) | Epoch [80/500] | D Loss: 0.4181 | G Loss: 1.9292
+Grid Size (15, 15) | Epoch [90/500] | D Loss: 0.3408 | G Loss: 2.1638
+Grid Size (15, 15) | Epoch [100/500] | D Loss: 1.0004 | G Loss: 1.4089
+Grid Size (15, 15) | Epoch [110/500] | D Loss: 1.0862 | G Loss: 1.4396
+Grid Size (15, 15) | Epoch [120/500] | D Loss: 0.6810 | G Loss: 1.7501
+Grid Size (15, 15) | Epoch [130/500] | D Loss: 0.5323 | G Loss: 1.7125
+Grid Size (15, 15) | Epoch [140/500] | D Loss: 0.5734 | G Loss: 1.9063
+Grid Size (15, 15) | Epoch [150/500] | D Loss: 0.8271 | G Loss: 1.8962
+Grid Size (15, 15) | Epoch [160/500] | D Loss: 0.8518 | G Loss: 1.3505
+Grid Size (15, 15) | Epoch [170/500] | D Loss: 0.8187 | G Loss: 1.7256
+Grid Size (15, 15) | Epoch [180/500] | D Loss: 0.7633 | G Loss: 1.5541
+Grid Size (15, 15) | Epoch [190/500] | D Loss: 0.6835 | G Loss: 1.6636
+Grid Size (15, 15) | Epoch [200/500] | D Loss: 0.6019 | G Loss: 2.0072
+Grid Size (15, 15) | Epoch [210/500] | D Loss: 0.7141 | G Loss: 1.0689
+Grid Size (15, 15) | Epoch [220/500] | D Loss: 0.6972 | G Loss: 1.1980
+Grid Size (15, 15) | Epoch [230/500] | D Loss: 0.8189 | G Loss: 1.7170
+Grid Size (15, 15) | Epoch [240/500] | D Loss: 0.6326 | G Loss: 1.5814
+Grid Size (15, 15) | Epoch [250/500] | D Loss: 0.7214 | G Loss: 1.4349
+Grid Size (15, 15) | Epoch [260/500] | D Loss: 0.6368 | G Loss: 2.0938
+Grid Size (15, 15) | Epoch [270/500] | D Loss: 0.5353 | G Loss: 1.7111
+Grid Size (15, 15) | Epoch [280/500] | D Loss: 0.7712 | G Loss: 2.0301
+Grid Size (15, 15) | Epoch [290/500] | D Loss: 0.5410 | G Loss: 1.7263
+Grid Size (15, 15) | Epoch [300/500] | D Loss: 0.6136 | G Loss: 1.5260
+Grid Size (15, 15) | Epoch [310/500] | D Loss: 0.5776 | G Loss: 1.6642
+Grid Size (15, 15) | Epoch [320/500] | D Loss: 0.5025 | G Loss: 1.8035
+Grid Size (15, 15) | Epoch [330/500] | D Loss: 0.6519 | G Loss: 2.0043
+Grid Size (15, 15) | Epoch [340/500] | D Loss: 0.4239 | G Loss: 1.6152
+Grid Size (15, 15) | Epoch [350/500] | D Loss: 0.4591 | G Loss: 1.7868
+Grid Size (15, 15) | Epoch [360/500] | D Loss: 0.4974 | G Loss: 2.3588
+Grid Size (15, 15) | Epoch [370/500] | D Loss: 0.4532 | G Loss: 2.1098
+Grid Size (15, 15) | Epoch [380/500] | D Loss: 0.5184 | G Loss: 1.7071
+Grid Size (15, 15) | Epoch [390/500] | D Loss: 0.4483 | G Loss: 1.5040
+Grid Size (15, 15) | Epoch [400/500] | D Loss: 0.4227 | G Loss: 2.1607
+Grid Size (15, 15) | Epoch [410/500] | D Loss: 0.4535 | G Loss: 1.9632
+Grid Size (15, 15) | Epoch [420/500] | D Loss: 0.3807 | G Loss: 2.0577
+Grid Size (15, 15) | Epoch [430/500] | D Loss: 0.3931 | G Loss: 2.1123
+Grid Size (15, 15) | Epoch [440/500] | D Loss: 0.5105 | G Loss: 2.8161
+Grid Size (15, 15) | Epoch [450/500] | D Loss: 0.3457 | G Loss: 2.3071
+Grid Size (15, 15) | Epoch [460/500] | D Loss: 0.3504 | G Loss: 2.2232
+Grid Size (15, 15) | Epoch [470/500] | D Loss: 0.5121 | G Loss: 1.8957
+Grid Size (15, 15) | Epoch [480/500] | D Loss: 0.3041 | G Loss: 2.3224
+Grid Size (15, 15) | Epoch [490/500] | D Loss: 0.4896 | G Loss: 2.6997
+
+Training complete for grid size (15, 15).
+
+Generating 200 new examples for grid size (15, 15)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_15x15.json'.
+
+Processing grid size (6, 8) with 24 examples...
+Skipping training for grid size (6, 8) due to insufficient data (24 examples).
+
+Processing grid size (8, 6) with 8 examples...
+Skipping training for grid size (8, 6) due to insufficient data (8 examples).
+
+Processing grid size (6, 4) with 46 examples...
+Skipping training for grid size (6, 4) due to insufficient data (46 examples).
+
+Processing grid size (4, 6) with 26 examples...
+Skipping training for grid size (4, 6) due to insufficient data (26 examples).
+
+Processing grid size (23, 25) with 6 examples...
+Skipping training for grid size (23, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 23) with 2 examples...
+Skipping training for grid size (25, 23) due to insufficient data (2 examples).
+
+Processing grid size (24, 19) with 8 examples...
+Skipping training for grid size (24, 19) due to insufficient data (8 examples).
+
+Processing grid size (19, 24) with 8 examples...
+Skipping training for grid size (19, 24) due to insufficient data (8 examples).
+
+Processing grid size (13, 13) with 152 examples...
+Using Conv models for grid size (13, 13).
+Grid Size (13, 13) | Epoch [0/500] | D Loss: 1.3332 | G Loss: 1.0421
+Grid Size (13, 13) | Epoch [10/500] | D Loss: 0.3322 | G Loss: 2.2847
+Grid Size (13, 13) | Epoch [20/500] | D Loss: 0.1931 | G Loss: 3.0206
+Grid Size (13, 13) | Epoch [30/500] | D Loss: 0.2849 | G Loss: 2.5699
+Grid Size (13, 13) | Epoch [40/500] | D Loss: 0.3507 | G Loss: 2.8336
+Grid Size (13, 13) | Epoch [50/500] | D Loss: 0.2099 | G Loss: 3.0843
+Grid Size (13, 13) | Epoch [60/500] | D Loss: 0.4781 | G Loss: 2.5835
+Grid Size (13, 13) | Epoch [70/500] | D Loss: 0.6551 | G Loss: 2.4622
+Grid Size (13, 13) | Epoch [80/500] | D Loss: 0.3095 | G Loss: 2.3301
+Grid Size (13, 13) | Epoch [90/500] | D Loss: 0.3768 | G Loss: 3.0603
+Grid Size (13, 13) | Epoch [100/500] | D Loss: 0.6103 | G Loss: 2.1292
+Grid Size (13, 13) | Epoch [110/500] | D Loss: 0.5881 | G Loss: 2.1468
+Grid Size (13, 13) | Epoch [120/500] | D Loss: 0.4982 | G Loss: 2.0879
+Grid Size (13, 13) | Epoch [130/500] | D Loss: 0.5278 | G Loss: 2.3950
+Grid Size (13, 13) | Epoch [140/500] | D Loss: 0.6154 | G Loss: 2.1097
+Grid Size (13, 13) | Epoch [150/500] | D Loss: 0.4229 | G Loss: 2.2510
+Grid Size (13, 13) | Epoch [160/500] | D Loss: 0.4290 | G Loss: 2.0006
+Grid Size (13, 13) | Epoch [170/500] | D Loss: 0.4233 | G Loss: 2.1970
+Grid Size (13, 13) | Epoch [180/500] | D Loss: 0.2759 | G Loss: 2.2931
+Grid Size (13, 13) | Epoch [190/500] | D Loss: 0.2972 | G Loss: 2.3146
+Grid Size (13, 13) | Epoch [200/500] | D Loss: 0.3437 | G Loss: 2.3079
+Grid Size (13, 13) | Epoch [210/500] | D Loss: 1.0758 | G Loss: 2.1455
+Grid Size (13, 13) | Epoch [220/500] | D Loss: 0.2611 | G Loss: 2.1910
+Grid Size (13, 13) | Epoch [230/500] | D Loss: 0.2903 | G Loss: 2.5796
+Grid Size (13, 13) | Epoch [240/500] | D Loss: 0.3245 | G Loss: 2.4054
+Grid Size (13, 13) | Epoch [250/500] | D Loss: 0.2332 | G Loss: 2.8255
+Grid Size (13, 13) | Epoch [260/500] | D Loss: 0.4366 | G Loss: 2.0150
+Grid Size (13, 13) | Epoch [270/500] | D Loss: 0.4627 | G Loss: 2.9017
+Grid Size (13, 13) | Epoch [280/500] | D Loss: 0.2216 | G Loss: 2.4574
+Grid Size (13, 13) | Epoch [290/500] | D Loss: 0.3662 | G Loss: 1.7209
+Grid Size (13, 13) | Epoch [300/500] | D Loss: 0.2893 | G Loss: 2.4391
+Grid Size (13, 13) | Epoch [310/500] | D Loss: 0.2648 | G Loss: 2.0037
+Grid Size (13, 13) | Epoch [320/500] | D Loss: 0.1714 | G Loss: 2.9708
+Grid Size (13, 13) | Epoch [330/500] | D Loss: 0.2990 | G Loss: 2.1408
+Grid Size (13, 13) | Epoch [340/500] | D Loss: 0.2120 | G Loss: 2.0550
+Grid Size (13, 13) | Epoch [350/500] | D Loss: 0.5966 | G Loss: 2.8435
+Grid Size (13, 13) | Epoch [360/500] | D Loss: 0.2375 | G Loss: 2.6230
+Grid Size (13, 13) | Epoch [370/500] | D Loss: 0.2088 | G Loss: 3.1910
+Grid Size (13, 13) | Epoch [380/500] | D Loss: 0.2669 | G Loss: 3.2728
+Grid Size (13, 13) | Epoch [390/500] | D Loss: 0.1774 | G Loss: 2.3431
+Grid Size (13, 13) | Epoch [400/500] | D Loss: 0.2584 | G Loss: 2.9304
+Grid Size (13, 13) | Epoch [410/500] | D Loss: 0.3055 | G Loss: 3.1234
+Grid Size (13, 13) | Epoch [420/500] | D Loss: 0.2384 | G Loss: 2.6417
+Grid Size (13, 13) | Epoch [430/500] | D Loss: 0.1422 | G Loss: 3.2646
+Grid Size (13, 13) | Epoch [440/500] | D Loss: 0.1954 | G Loss: 2.2853
+Grid Size (13, 13) | Epoch [450/500] | D Loss: 0.3425 | G Loss: 1.7721
+Grid Size (13, 13) | Epoch [460/500] | D Loss: 0.1452 | G Loss: 2.4339
+Grid Size (13, 13) | Epoch [470/500] | D Loss: 0.1807 | G Loss: 3.1109
+Grid Size (13, 13) | Epoch [480/500] | D Loss: 0.1705 | G Loss: 2.7173
+Grid Size (13, 13) | Epoch [490/500] | D Loss: 0.2160 | G Loss: 3.0852
+
+Training complete for grid size (13, 13).
+
+Generating 200 new examples for grid size (13, 13)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_13x13.json'.
+
+Processing grid size (16, 26) with 6 examples...
+Skipping training for grid size (16, 26) due to insufficient data (6 examples).
+
+Processing grid size (26, 16) with 2 examples...
+Skipping training for grid size (26, 16) due to insufficient data (2 examples).
+
+Processing grid size (12, 10) with 18 examples...
+Skipping training for grid size (12, 10) due to insufficient data (18 examples).
+
+Processing grid size (10, 12) with 22 examples...
+Skipping training for grid size (10, 12) due to insufficient data (22 examples).
+
+Processing grid size (8, 8) with 168 examples...
+Using Conv models for grid size (8, 8).
+Grid Size (8, 8) | Epoch [0/500] | D Loss: 1.4448 | G Loss: 0.7126
+Grid Size (8, 8) | Epoch [10/500] | D Loss: 0.8054 | G Loss: 1.3785
+Grid Size (8, 8) | Epoch [20/500] | D Loss: 1.0456 | G Loss: 1.0349
+Grid Size (8, 8) | Epoch [30/500] | D Loss: 0.9147 | G Loss: 1.3296
+Grid Size (8, 8) | Epoch [40/500] | D Loss: 0.9904 | G Loss: 0.9998
+Grid Size (8, 8) | Epoch [50/500] | D Loss: 1.0349 | G Loss: 1.0881
+Grid Size (8, 8) | Epoch [60/500] | D Loss: 0.9427 | G Loss: 1.1890
+Grid Size (8, 8) | Epoch [70/500] | D Loss: 1.0139 | G Loss: 1.1306
+Grid Size (8, 8) | Epoch [80/500] | D Loss: 0.8553 | G Loss: 1.2912
+Grid Size (8, 8) | Epoch [90/500] | D Loss: 0.8319 | G Loss: 1.3382
+Grid Size (8, 8) | Epoch [100/500] | D Loss: 0.8218 | G Loss: 1.2381
+Grid Size (8, 8) | Epoch [110/500] | D Loss: 0.8115 | G Loss: 1.4165
+Grid Size (8, 8) | Epoch [120/500] | D Loss: 0.6867 | G Loss: 1.4601
+Grid Size (8, 8) | Epoch [130/500] | D Loss: 0.7038 | G Loss: 1.4308
+Grid Size (8, 8) | Epoch [140/500] | D Loss: 0.7518 | G Loss: 1.5595
+Grid Size (8, 8) | Epoch [150/500] | D Loss: 0.5425 | G Loss: 1.6104
+Grid Size (8, 8) | Epoch [160/500] | D Loss: 0.4983 | G Loss: 1.8712
+Grid Size (8, 8) | Epoch [170/500] | D Loss: 0.6140 | G Loss: 1.6808
+Grid Size (8, 8) | Epoch [180/500] | D Loss: 0.4605 | G Loss: 1.8304
+Grid Size (8, 8) | Epoch [190/500] | D Loss: 0.4800 | G Loss: 1.8460
+Grid Size (8, 8) | Epoch [200/500] | D Loss: 0.3624 | G Loss: 1.8937
+Grid Size (8, 8) | Epoch [210/500] | D Loss: 0.4469 | G Loss: 1.7233
+Grid Size (8, 8) | Epoch [220/500] | D Loss: 0.4376 | G Loss: 1.7769
+Grid Size (8, 8) | Epoch [230/500] | D Loss: 0.3742 | G Loss: 1.8311
+Grid Size (8, 8) | Epoch [240/500] | D Loss: 0.3236 | G Loss: 2.2795
+Grid Size (8, 8) | Epoch [250/500] | D Loss: 0.3644 | G Loss: 1.8480
+Grid Size (8, 8) | Epoch [260/500] | D Loss: 0.3072 | G Loss: 2.2259
+Grid Size (8, 8) | Epoch [270/500] | D Loss: 0.3283 | G Loss: 2.5125
+Grid Size (8, 8) | Epoch [280/500] | D Loss: 0.3130 | G Loss: 2.3017
+Grid Size (8, 8) | Epoch [290/500] | D Loss: 0.2535 | G Loss: 2.3837
+Grid Size (8, 8) | Epoch [300/500] | D Loss: 0.2640 | G Loss: 2.8657
+Grid Size (8, 8) | Epoch [310/500] | D Loss: 0.2615 | G Loss: 2.8643
+Grid Size (8, 8) | Epoch [320/500] | D Loss: 0.2602 | G Loss: 2.4885
+Grid Size (8, 8) | Epoch [330/500] | D Loss: 0.1838 | G Loss: 2.8384
+Grid Size (8, 8) | Epoch [340/500] | D Loss: 0.2249 | G Loss: 2.7362
+Grid Size (8, 8) | Epoch [350/500] | D Loss: 0.1943 | G Loss: 2.6411
+Grid Size (8, 8) | Epoch [360/500] | D Loss: 0.1409 | G Loss: 2.9903
+Grid Size (8, 8) | Epoch [370/500] | D Loss: 0.1507 | G Loss: 2.8412
+Grid Size (8, 8) | Epoch [380/500] | D Loss: 0.1467 | G Loss: 2.6757
+Grid Size (8, 8) | Epoch [390/500] | D Loss: 0.1312 | G Loss: 3.2378
+Grid Size (8, 8) | Epoch [400/500] | D Loss: 0.1354 | G Loss: 3.4450
+Grid Size (8, 8) | Epoch [410/500] | D Loss: 0.1292 | G Loss: 3.2189
+Grid Size (8, 8) | Epoch [420/500] | D Loss: 0.0937 | G Loss: 3.3048
+Grid Size (8, 8) | Epoch [430/500] | D Loss: 0.0801 | G Loss: 3.6458
+Grid Size (8, 8) | Epoch [440/500] | D Loss: 0.0849 | G Loss: 3.9773
+Grid Size (8, 8) | Epoch [450/500] | D Loss: 0.0884 | G Loss: 3.7415
+Grid Size (8, 8) | Epoch [460/500] | D Loss: 0.0712 | G Loss: 3.7425
+Grid Size (8, 8) | Epoch [470/500] | D Loss: 0.0690 | G Loss: 4.0555
+Grid Size (8, 8) | Epoch [480/500] | D Loss: 0.0743 | G Loss: 3.8311
+Grid Size (8, 8) | Epoch [490/500] | D Loss: 0.0815 | G Loss: 3.7209
+
+Training complete for grid size (8, 8).
+
+Generating 200 new examples for grid size (8, 8)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_8x8.json'.
+
+Processing grid size (5, 3) with 40 examples...
+Skipping training for grid size (5, 3) due to insufficient data (40 examples).
+
+Processing grid size (3, 5) with 56 examples...
+Skipping training for grid size (3, 5) due to insufficient data (56 examples).
+
+Processing grid size (12, 14) with 20 examples...
+Skipping training for grid size (12, 14) due to insufficient data (20 examples).
+
+Processing grid size (14, 12) with 12 examples...
+Skipping training for grid size (14, 12) due to insufficient data (12 examples).
+
+Processing grid size (10, 7) with 10 examples...
+Skipping training for grid size (10, 7) due to insufficient data (10 examples).
+
+Processing grid size (7, 10) with 14 examples...
+Skipping training for grid size (7, 10) due to insufficient data (14 examples).
+
+Processing grid size (12, 3) with 14 examples...
+Skipping training for grid size (12, 3) due to insufficient data (14 examples).
+
+Processing grid size (3, 12) with 26 examples...
+Skipping training for grid size (3, 12) due to insufficient data (26 examples).
+
+Processing grid size (19, 18) with 12 examples...
+Skipping training for grid size (19, 18) due to insufficient data (12 examples).
+
+Processing grid size (18, 19) with 4 examples...
+Skipping training for grid size (18, 19) due to insufficient data (4 examples).
+
+Processing grid size (19, 19) with 160 examples...
+Using Conv models for grid size (19, 19).
+Grid Size (19, 19) | Epoch [0/500] | D Loss: 1.4697 | G Loss: 0.8997
+Grid Size (19, 19) | Epoch [10/500] | D Loss: 0.8457 | G Loss: 1.3370
+Grid Size (19, 19) | Epoch [20/500] | D Loss: 0.4102 | G Loss: 2.0539
+Grid Size (19, 19) | Epoch [30/500] | D Loss: 0.4004 | G Loss: 2.1420
+Grid Size (19, 19) | Epoch [40/500] | D Loss: 0.2859 | G Loss: 2.4872
+Grid Size (19, 19) | Epoch [50/500] | D Loss: 0.3722 | G Loss: 2.3887
+Grid Size (19, 19) | Epoch [60/500] | D Loss: 0.2919 | G Loss: 2.5843
+Grid Size (19, 19) | Epoch [70/500] | D Loss: 0.3088 | G Loss: 2.3613
+Grid Size (19, 19) | Epoch [80/500] | D Loss: 0.4694 | G Loss: 2.4081
+Grid Size (19, 19) | Epoch [90/500] | D Loss: 0.7523 | G Loss: 1.0319
+Grid Size (19, 19) | Epoch [100/500] | D Loss: 0.6854 | G Loss: 1.3330
+Grid Size (19, 19) | Epoch [110/500] | D Loss: 0.8146 | G Loss: 1.5321
+Grid Size (19, 19) | Epoch [120/500] | D Loss: 0.6944 | G Loss: 1.5379
+Grid Size (19, 19) | Epoch [130/500] | D Loss: 0.6386 | G Loss: 1.8319
+Grid Size (19, 19) | Epoch [140/500] | D Loss: 0.7993 | G Loss: 1.4008
+Grid Size (19, 19) | Epoch [150/500] | D Loss: 0.5889 | G Loss: 1.6254
+Grid Size (19, 19) | Epoch [160/500] | D Loss: 0.5685 | G Loss: 1.9111
+Grid Size (19, 19) | Epoch [170/500] | D Loss: 0.6120 | G Loss: 1.6775
+Grid Size (19, 19) | Epoch [180/500] | D Loss: 0.4803 | G Loss: 1.9902
+Grid Size (19, 19) | Epoch [190/500] | D Loss: 0.4587 | G Loss: 2.3623
+Grid Size (19, 19) | Epoch [200/500] | D Loss: 0.4528 | G Loss: 2.0204
+Grid Size (19, 19) | Epoch [210/500] | D Loss: 0.3784 | G Loss: 2.2890
+Grid Size (19, 19) | Epoch [220/500] | D Loss: 0.3832 | G Loss: 2.3146
+Grid Size (19, 19) | Epoch [230/500] | D Loss: 0.4541 | G Loss: 2.3866
+Grid Size (19, 19) | Epoch [240/500] | D Loss: 0.3210 | G Loss: 2.3719
+Grid Size (19, 19) | Epoch [250/500] | D Loss: 0.3466 | G Loss: 2.4390
+Grid Size (19, 19) | Epoch [260/500] | D Loss: 0.3058 | G Loss: 2.3134
+Grid Size (19, 19) | Epoch [270/500] | D Loss: 0.2219 | G Loss: 2.4038
+Grid Size (19, 19) | Epoch [280/500] | D Loss: 0.3694 | G Loss: 2.1506
+Grid Size (19, 19) | Epoch [290/500] | D Loss: 0.2885 | G Loss: 2.1459
+Grid Size (19, 19) | Epoch [300/500] | D Loss: 0.2692 | G Loss: 2.2807
+Grid Size (19, 19) | Epoch [310/500] | D Loss: 0.2308 | G Loss: 2.8044
+Grid Size (19, 19) | Epoch [320/500] | D Loss: 0.3258 | G Loss: 1.8105
+Grid Size (19, 19) | Epoch [330/500] | D Loss: 0.3331 | G Loss: 2.1575
+Grid Size (19, 19) | Epoch [340/500] | D Loss: 0.3289 | G Loss: 3.0586
+Grid Size (19, 19) | Epoch [350/500] | D Loss: 0.1859 | G Loss: 3.0759
+Grid Size (19, 19) | Epoch [360/500] | D Loss: 0.1364 | G Loss: 3.2269
+Grid Size (19, 19) | Epoch [370/500] | D Loss: 0.1502 | G Loss: 2.9355
+Grid Size (19, 19) | Epoch [380/500] | D Loss: 0.1599 | G Loss: 3.2580
+Grid Size (19, 19) | Epoch [390/500] | D Loss: 0.1409 | G Loss: 2.7560
+Grid Size (19, 19) | Epoch [400/500] | D Loss: 0.1760 | G Loss: 2.7582
+Grid Size (19, 19) | Epoch [410/500] | D Loss: 0.1282 | G Loss: 3.5438
+Grid Size (19, 19) | Epoch [420/500] | D Loss: 0.1784 | G Loss: 3.1364
+Grid Size (19, 19) | Epoch [430/500] | D Loss: 0.1311 | G Loss: 3.5738
+Grid Size (19, 19) | Epoch [440/500] | D Loss: 0.2045 | G Loss: 2.9442
+Grid Size (19, 19) | Epoch [450/500] | D Loss: 0.1157 | G Loss: 3.6822
+Grid Size (19, 19) | Epoch [460/500] | D Loss: 0.1214 | G Loss: 3.5772
+Grid Size (19, 19) | Epoch [470/500] | D Loss: 2.0756 | G Loss: 2.9084
+Grid Size (19, 19) | Epoch [480/500] | D Loss: 0.2974 | G Loss: 2.5014
+Grid Size (19, 19) | Epoch [490/500] | D Loss: 0.1337 | G Loss: 2.9972
+
+Training complete for grid size (19, 19).
+
+Generating 200 new examples for grid size (19, 19)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_19x19.json'.
+
+Processing grid size (8, 11) with 14 examples...
+Skipping training for grid size (8, 11) due to insufficient data (14 examples).
+
+Processing grid size (11, 8) with 10 examples...
+Skipping training for grid size (11, 8) due to insufficient data (10 examples).
+
+Processing grid size (23, 23) with 56 examples...
+Skipping training for grid size (23, 23) due to insufficient data (56 examples).
+
+Processing grid size (7, 23) with 8 examples...
+Skipping training for grid size (7, 23) due to insufficient data (8 examples).
+
+Processing grid size (23, 7) with 8 examples...
+Skipping training for grid size (23, 7) due to insufficient data (8 examples).
+
+Processing grid size (15, 16) with 14 examples...
+Skipping training for grid size (15, 16) due to insufficient data (14 examples).
+
+Processing grid size (16, 15) with 26 examples...
+Skipping training for grid size (16, 15) due to insufficient data (26 examples).
+
+Processing grid size (16, 16) with 400 examples...
+Using Conv models for grid size (16, 16).
+Grid Size (16, 16) | Epoch [0/500] | D Loss: 1.4223 | G Loss: 0.9361
+Grid Size (16, 16) | Epoch [10/500] | D Loss: 0.8203 | G Loss: 1.3380
+Grid Size (16, 16) | Epoch [20/500] | D Loss: 0.5778 | G Loss: 1.6815
+Grid Size (16, 16) | Epoch [30/500] | D Loss: 0.4715 | G Loss: 2.2804
+Grid Size (16, 16) | Epoch [40/500] | D Loss: 0.2980 | G Loss: 2.3340
+Grid Size (16, 16) | Epoch [50/500] | D Loss: 0.5585 | G Loss: 1.9603
+Grid Size (16, 16) | Epoch [60/500] | D Loss: 0.7144 | G Loss: 1.8605
+Grid Size (16, 16) | Epoch [70/500] | D Loss: 0.8768 | G Loss: 1.4843
+Grid Size (16, 16) | Epoch [80/500] | D Loss: 0.8632 | G Loss: 1.4504
+Grid Size (16, 16) | Epoch [90/500] | D Loss: 0.9573 | G Loss: 1.2039
+Grid Size (16, 16) | Epoch [100/500] | D Loss: 0.8234 | G Loss: 1.2073
+Grid Size (16, 16) | Epoch [110/500] | D Loss: 0.7175 | G Loss: 1.8653
+Grid Size (16, 16) | Epoch [120/500] | D Loss: 0.7740 | G Loss: 1.6803
+Grid Size (16, 16) | Epoch [130/500] | D Loss: 0.6502 | G Loss: 1.4689
+Grid Size (16, 16) | Epoch [140/500] | D Loss: 0.6358 | G Loss: 1.5376
+Grid Size (16, 16) | Epoch [150/500] | D Loss: 0.6565 | G Loss: 1.5193
+Grid Size (16, 16) | Epoch [160/500] | D Loss: 0.5925 | G Loss: 1.5435
+Grid Size (16, 16) | Epoch [170/500] | D Loss: 0.5121 | G Loss: 1.6146
+Grid Size (16, 16) | Epoch [180/500] | D Loss: 0.7482 | G Loss: 1.9107
+Grid Size (16, 16) | Epoch [190/500] | D Loss: 0.7128 | G Loss: 1.7445
+Grid Size (16, 16) | Epoch [200/500] | D Loss: 0.6262 | G Loss: 1.4312
+Grid Size (16, 16) | Epoch [210/500] | D Loss: 0.7036 | G Loss: 1.1780
+Grid Size (16, 16) | Epoch [220/500] | D Loss: 0.5866 | G Loss: 1.6784
+Grid Size (16, 16) | Epoch [230/500] | D Loss: 0.6252 | G Loss: 1.5883
+Grid Size (16, 16) | Epoch [240/500] | D Loss: 0.7521 | G Loss: 1.6264
+Grid Size (16, 16) | Epoch [250/500] | D Loss: 0.6212 | G Loss: 1.4814
+Grid Size (16, 16) | Epoch [260/500] | D Loss: 0.5755 | G Loss: 2.2348
+Grid Size (16, 16) | Epoch [270/500] | D Loss: 0.6790 | G Loss: 1.4875
+Grid Size (16, 16) | Epoch [280/500] | D Loss: 0.5762 | G Loss: 1.6244
+Grid Size (16, 16) | Epoch [290/500] | D Loss: 0.4862 | G Loss: 1.8376
+Grid Size (16, 16) | Epoch [300/500] | D Loss: 0.5706 | G Loss: 1.3237
+Grid Size (16, 16) | Epoch [310/500] | D Loss: 0.4949 | G Loss: 2.2055
+Grid Size (16, 16) | Epoch [320/500] | D Loss: 0.4569 | G Loss: 1.9469
+Grid Size (16, 16) | Epoch [330/500] | D Loss: 0.4435 | G Loss: 1.7079
+Grid Size (16, 16) | Epoch [340/500] | D Loss: 0.6971 | G Loss: 1.7905
+Grid Size (16, 16) | Epoch [350/500] | D Loss: 0.3566 | G Loss: 2.2051
+Grid Size (16, 16) | Epoch [360/500] | D Loss: 0.4824 | G Loss: 1.9702
+Grid Size (16, 16) | Epoch [370/500] | D Loss: 0.3906 | G Loss: 1.6929
+Grid Size (16, 16) | Epoch [380/500] | D Loss: 0.4398 | G Loss: 1.9945
+Grid Size (16, 16) | Epoch [390/500] | D Loss: 0.3093 | G Loss: 2.3372
+Grid Size (16, 16) | Epoch [400/500] | D Loss: 0.3710 | G Loss: 2.3653
+Grid Size (16, 16) | Epoch [410/500] | D Loss: 0.3590 | G Loss: 1.8139
+Grid Size (16, 16) | Epoch [420/500] | D Loss: 0.3442 | G Loss: 2.1866
+Grid Size (16, 16) | Epoch [430/500] | D Loss: 0.3458 | G Loss: 1.8827
+Grid Size (16, 16) | Epoch [440/500] | D Loss: 0.6110 | G Loss: 1.9924
+Grid Size (16, 16) | Epoch [450/500] | D Loss: 0.3614 | G Loss: 2.1296
+Grid Size (16, 16) | Epoch [460/500] | D Loss: 0.2949 | G Loss: 2.4013
+Grid Size (16, 16) | Epoch [470/500] | D Loss: 0.2500 | G Loss: 2.4861
+Grid Size (16, 16) | Epoch [480/500] | D Loss: 0.2931 | G Loss: 2.8321
+Grid Size (16, 16) | Epoch [490/500] | D Loss: 0.5227 | G Loss: 1.8666
+
+Training complete for grid size (16, 16).
+
+Generating 200 new examples for grid size (16, 16)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_16x16.json'.
+
+Processing grid size (12, 11) with 14 examples...
+Skipping training for grid size (12, 11) due to insufficient data (14 examples).
+
+Processing grid size (11, 12) with 10 examples...
+Skipping training for grid size (11, 12) due to insufficient data (10 examples).
+
+Processing grid size (17, 17) with 96 examples...
+Skipping training for grid size (17, 17) due to insufficient data (96 examples).
+
+Processing grid size (21, 16) with 6 examples...
+Skipping training for grid size (21, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 21) with 2 examples...
+Skipping training for grid size (16, 21) due to insufficient data (2 examples).
+
+Processing grid size (28, 26) with 8 examples...
+Skipping training for grid size (28, 26) due to insufficient data (8 examples).
+
+Processing grid size (26, 28) with 8 examples...
+Skipping training for grid size (26, 28) due to insufficient data (8 examples).
+
+Processing grid size (17, 11) with 8 examples...
+Skipping training for grid size (17, 11) due to insufficient data (8 examples).
+
+Processing grid size (11, 17) with 8 examples...
+Skipping training for grid size (11, 17) due to insufficient data (8 examples).
+
+Processing grid size (25, 26) with 12 examples...
+Skipping training for grid size (25, 26) due to insufficient data (12 examples).
+
+Processing grid size (26, 25) with 4 examples...
+Skipping training for grid size (26, 25) due to insufficient data (4 examples).
+
+Processing grid size (5, 6) with 24 examples...
+Skipping training for grid size (5, 6) due to insufficient data (24 examples).
+
+Processing grid size (6, 5) with 40 examples...
+Skipping training for grid size (6, 5) due to insufficient data (40 examples).
+
+Processing grid size (2, 2) with 64 examples...
+Skipping training for grid size (2, 2) due to insufficient data (64 examples).
+
+Processing grid size (19, 26) with 6 examples...
+Skipping training for grid size (19, 26) due to insufficient data (6 examples).
+
+Processing grid size (26, 19) with 2 examples...
+Skipping training for grid size (26, 19) due to insufficient data (2 examples).
+
+Processing grid size (1, 1) with 96 examples...
+Skipping training for grid size (1, 1) due to insufficient data (96 examples).
+
+Processing grid size (18, 18) with 72 examples...
+Skipping training for grid size (18, 18) due to insufficient data (72 examples).
+
+Processing grid size (11, 23) with 6 examples...
+Skipping training for grid size (11, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 11) with 2 examples...
+Skipping training for grid size (23, 11) due to insufficient data (2 examples).
+
+Processing grid size (8, 9) with 22 examples...
+Skipping training for grid size (8, 9) due to insufficient data (22 examples).
+
+Processing grid size (9, 8) with 18 examples...
+Skipping training for grid size (9, 8) due to insufficient data (18 examples).
+
+Processing grid size (25, 25) with 80 examples...
+Skipping training for grid size (25, 25) due to insufficient data (80 examples).
+
+Processing grid size (19, 25) with 6 examples...
+Skipping training for grid size (19, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 19) with 2 examples...
+Skipping training for grid size (25, 19) due to insufficient data (2 examples).
+
+Processing grid size (5, 5) with 224 examples...
+Using Linear models for grid size (5, 5).
+Grid Size (5, 5) | Epoch [0/500] | D Loss: 1.3973 | G Loss: 0.7471
+Grid Size (5, 5) | Epoch [10/500] | D Loss: 1.3729 | G Loss: 0.7346
+Grid Size (5, 5) | Epoch [20/500] | D Loss: 1.3655 | G Loss: 0.7265
+Grid Size (5, 5) | Epoch [30/500] | D Loss: 1.3420 | G Loss: 0.7328
+Grid Size (5, 5) | Epoch [40/500] | D Loss: 1.3360 | G Loss: 0.7246
+Grid Size (5, 5) | Epoch [50/500] | D Loss: 1.3192 | G Loss: 0.7130
+Grid Size (5, 5) | Epoch [60/500] | D Loss: 1.2885 | G Loss: 0.7169
+Grid Size (5, 5) | Epoch [70/500] | D Loss: 1.3025 | G Loss: 0.7027
+Grid Size (5, 5) | Epoch [80/500] | D Loss: 1.2677 | G Loss: 0.7086
+Grid Size (5, 5) | Epoch [90/500] | D Loss: 1.2809 | G Loss: 0.7064
+Grid Size (5, 5) | Epoch [100/500] | D Loss: 1.2765 | G Loss: 0.7101
+Grid Size (5, 5) | Epoch [110/500] | D Loss: 1.2683 | G Loss: 0.7095
+Grid Size (5, 5) | Epoch [120/500] | D Loss: 1.2715 | G Loss: 0.7176
+Grid Size (5, 5) | Epoch [130/500] | D Loss: 1.2329 | G Loss: 0.7136
+Grid Size (5, 5) | Epoch [140/500] | D Loss: 1.2515 | G Loss: 0.7138
+Grid Size (5, 5) | Epoch [150/500] | D Loss: 1.2226 | G Loss: 0.7186
+Grid Size (5, 5) | Epoch [160/500] | D Loss: 1.2084 | G Loss: 0.7240
+Grid Size (5, 5) | Epoch [170/500] | D Loss: 1.2185 | G Loss: 0.7318
+Grid Size (5, 5) | Epoch [180/500] | D Loss: 1.2044 | G Loss: 0.7279
+Grid Size (5, 5) | Epoch [190/500] | D Loss: 1.1805 | G Loss: 0.7325
+Grid Size (5, 5) | Epoch [200/500] | D Loss: 1.1965 | G Loss: 0.7256
+Grid Size (5, 5) | Epoch [210/500] | D Loss: 1.1926 | G Loss: 0.7393
+Grid Size (5, 5) | Epoch [220/500] | D Loss: 1.1708 | G Loss: 0.7536
+Grid Size (5, 5) | Epoch [230/500] | D Loss: 1.2190 | G Loss: 0.7583
+Grid Size (5, 5) | Epoch [240/500] | D Loss: 1.1771 | G Loss: 0.7392
+Grid Size (5, 5) | Epoch [250/500] | D Loss: 1.2090 | G Loss: 0.7499
+Grid Size (5, 5) | Epoch [260/500] | D Loss: 1.1490 | G Loss: 0.7649
+Grid Size (5, 5) | Epoch [270/500] | D Loss: 1.1726 | G Loss: 0.7414
+Grid Size (5, 5) | Epoch [280/500] | D Loss: 1.2477 | G Loss: 0.7681
+Grid Size (5, 5) | Epoch [290/500] | D Loss: 1.1860 | G Loss: 0.7997
+Grid Size (5, 5) | Epoch [300/500] | D Loss: 1.2049 | G Loss: 0.7628
+Grid Size (5, 5) | Epoch [310/500] | D Loss: 1.1899 | G Loss: 0.7287
+Grid Size (5, 5) | Epoch [320/500] | D Loss: 1.2544 | G Loss: 0.7432
+Grid Size (5, 5) | Epoch [330/500] | D Loss: 1.2232 | G Loss: 0.7345
+Grid Size (5, 5) | Epoch [340/500] | D Loss: 1.2678 | G Loss: 0.7232
+Grid Size (5, 5) | Epoch [350/500] | D Loss: 1.2300 | G Loss: 0.7516
+Grid Size (5, 5) | Epoch [360/500] | D Loss: 1.2295 | G Loss: 0.7709
+Grid Size (5, 5) | Epoch [370/500] | D Loss: 1.2641 | G Loss: 0.7684
+Grid Size (5, 5) | Epoch [380/500] | D Loss: 1.2267 | G Loss: 0.7947
+Grid Size (5, 5) | Epoch [390/500] | D Loss: 1.2903 | G Loss: 0.7670
+Grid Size (5, 5) | Epoch [400/500] | D Loss: 1.2823 | G Loss: 0.7592
+Grid Size (5, 5) | Epoch [410/500] | D Loss: 1.2867 | G Loss: 0.7855
+Grid Size (5, 5) | Epoch [420/500] | D Loss: 1.2771 | G Loss: 0.7640
+Grid Size (5, 5) | Epoch [430/500] | D Loss: 1.3180 | G Loss: 0.8123
+Grid Size (5, 5) | Epoch [440/500] | D Loss: 1.2541 | G Loss: 0.7622
+Grid Size (5, 5) | Epoch [450/500] | D Loss: 1.2932 | G Loss: 0.7565
+Grid Size (5, 5) | Epoch [460/500] | D Loss: 1.3132 | G Loss: 0.8059
+Grid Size (5, 5) | Epoch [470/500] | D Loss: 1.2920 | G Loss: 0.7821
+Grid Size (5, 5) | Epoch [480/500] | D Loss: 1.2885 | G Loss: 0.7711
+Grid Size (5, 5) | Epoch [490/500] | D Loss: 1.2484 | G Loss: 0.7976
+
+Training complete for grid size (5, 5).
+
+Generating 200 new examples for grid size (5, 5)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_5x5.json'.
+
+Processing grid size (4, 4) with 208 examples...
+Using Linear models for grid size (4, 4).
+Grid Size (4, 4) | Epoch [0/500] | D Loss: 1.3800 | G Loss: 0.6787
+Grid Size (4, 4) | Epoch [10/500] | D Loss: 1.3451 | G Loss: 0.6849
+Grid Size (4, 4) | Epoch [20/500] | D Loss: 1.3358 | G Loss: 0.6873
+Grid Size (4, 4) | Epoch [30/500] | D Loss: 1.2928 | G Loss: 0.6920
+Grid Size (4, 4) | Epoch [40/500] | D Loss: 1.3046 | G Loss: 0.6955
+Grid Size (4, 4) | Epoch [50/500] | D Loss: 1.2740 | G Loss: 0.7018
+Grid Size (4, 4) | Epoch [60/500] | D Loss: 1.2506 | G Loss: 0.7007
+Grid Size (4, 4) | Epoch [70/500] | D Loss: 1.2524 | G Loss: 0.7081
+Grid Size (4, 4) | Epoch [80/500] | D Loss: 1.2296 | G Loss: 0.7159
+Grid Size (4, 4) | Epoch [90/500] | D Loss: 1.2035 | G Loss: 0.7181
+Grid Size (4, 4) | Epoch [100/500] | D Loss: 1.2145 | G Loss: 0.7326
+Grid Size (4, 4) | Epoch [110/500] | D Loss: 1.2147 | G Loss: 0.7489
+Grid Size (4, 4) | Epoch [120/500] | D Loss: 1.1720 | G Loss: 0.7412
+Grid Size (4, 4) | Epoch [130/500] | D Loss: 1.2260 | G Loss: 0.7501
+Grid Size (4, 4) | Epoch [140/500] | D Loss: 1.1707 | G Loss: 0.7521
+Grid Size (4, 4) | Epoch [150/500] | D Loss: 1.1190 | G Loss: 0.7414
+Grid Size (4, 4) | Epoch [160/500] | D Loss: 1.2070 | G Loss: 0.7340
+Grid Size (4, 4) | Epoch [170/500] | D Loss: 1.1830 | G Loss: 0.7638
+Grid Size (4, 4) | Epoch [180/500] | D Loss: 1.1391 | G Loss: 0.7757
+Grid Size (4, 4) | Epoch [190/500] | D Loss: 1.0645 | G Loss: 0.7590
+Grid Size (4, 4) | Epoch [200/500] | D Loss: 1.1186 | G Loss: 0.7813
+Grid Size (4, 4) | Epoch [210/500] | D Loss: 1.1364 | G Loss: 0.7794
+Grid Size (4, 4) | Epoch [220/500] | D Loss: 1.0996 | G Loss: 0.8097
+Grid Size (4, 4) | Epoch [230/500] | D Loss: 1.1460 | G Loss: 0.8062
+Grid Size (4, 4) | Epoch [240/500] | D Loss: 1.1206 | G Loss: 0.7956
+Grid Size (4, 4) | Epoch [250/500] | D Loss: 1.0790 | G Loss: 0.8020
+Grid Size (4, 4) | Epoch [260/500] | D Loss: 1.0951 | G Loss: 0.8185
+Grid Size (4, 4) | Epoch [270/500] | D Loss: 1.1205 | G Loss: 0.8443
+Grid Size (4, 4) | Epoch [280/500] | D Loss: 1.0783 | G Loss: 0.8233
+Grid Size (4, 4) | Epoch [290/500] | D Loss: 1.0560 | G Loss: 0.8426
+Grid Size (4, 4) | Epoch [300/500] | D Loss: 1.1297 | G Loss: 0.8455
+Grid Size (4, 4) | Epoch [310/500] | D Loss: 1.1330 | G Loss: 0.8236
+Grid Size (4, 4) | Epoch [320/500] | D Loss: 1.1017 | G Loss: 0.8421
+Grid Size (4, 4) | Epoch [330/500] | D Loss: 1.1261 | G Loss: 0.8661
+Grid Size (4, 4) | Epoch [340/500] | D Loss: 1.1329 | G Loss: 0.8998
+Grid Size (4, 4) | Epoch [350/500] | D Loss: 1.1254 | G Loss: 0.8491
+Grid Size (4, 4) | Epoch [360/500] | D Loss: 1.1726 | G Loss: 0.8751
+Grid Size (4, 4) | Epoch [370/500] | D Loss: 1.1332 | G Loss: 0.8317
+Grid Size (4, 4) | Epoch [380/500] | D Loss: 1.0952 | G Loss: 0.8460
+Grid Size (4, 4) | Epoch [390/500] | D Loss: 1.2094 | G Loss: 0.8562
+Grid Size (4, 4) | Epoch [400/500] | D Loss: 1.1934 | G Loss: 0.8443
+Grid Size (4, 4) | Epoch [410/500] | D Loss: 1.2140 | G Loss: 0.8597
+Grid Size (4, 4) | Epoch [420/500] | D Loss: 1.2153 | G Loss: 0.8680
+Grid Size (4, 4) | Epoch [430/500] | D Loss: 1.2148 | G Loss: 0.8732
+Grid Size (4, 4) | Epoch [440/500] | D Loss: 1.0843 | G Loss: 0.8727
+Grid Size (4, 4) | Epoch [450/500] | D Loss: 1.2057 | G Loss: 0.8398
+Grid Size (4, 4) | Epoch [460/500] | D Loss: 1.1896 | G Loss: 0.8708
+Grid Size (4, 4) | Epoch [470/500] | D Loss: 1.2167 | G Loss: 0.8880
+Grid Size (4, 4) | Epoch [480/500] | D Loss: 1.1157 | G Loss: 0.8571
+Grid Size (4, 4) | Epoch [490/500] | D Loss: 1.1507 | G Loss: 0.8906
+
+Training complete for grid size (4, 4).
+
+Generating 200 new examples for grid size (4, 4)...
+Generated dataset appended to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_4x4.json'.
+
+Processing grid size (1, 5) with 22 examples...
+Skipping training for grid size (1, 5) due to insufficient data (22 examples).
+
+Processing grid size (5, 1) with 18 examples...
+Skipping training for grid size (5, 1) due to insufficient data (18 examples).
+
+Processing grid size (2, 10) with 8 examples...
+Skipping training for grid size (2, 10) due to insufficient data (8 examples).
+
+Processing grid size (10, 2) with 8 examples...
+Skipping training for grid size (10, 2) due to insufficient data (8 examples).
+
+Processing grid size (6, 10) with 16 examples...
+Skipping training for grid size (6, 10) due to insufficient data (16 examples).
+
+Processing grid size (10, 6) with 16 examples...
+Skipping training for grid size (10, 6) due to insufficient data (16 examples).
+
+Processing grid size (17, 13) with 12 examples...
+Skipping training for grid size (17, 13) due to insufficient data (12 examples).
+
+Processing grid size (13, 17) with 4 examples...
+Skipping training for grid size (13, 17) due to insufficient data (4 examples).
+
+Processing grid size (13, 11) with 8 examples...
+Skipping training for grid size (13, 11) due to insufficient data (8 examples).
+
+Processing grid size (11, 13) with 8 examples...
+Skipping training for grid size (11, 13) due to insufficient data (8 examples).
+
+Processing grid size (21, 23) with 6 examples...
+Skipping training for grid size (21, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 21) with 2 examples...
+Skipping training for grid size (23, 21) due to insufficient data (2 examples).
+
+Processing grid size (7, 30) with 6 examples...
+Skipping training for grid size (7, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 7) with 2 examples...
+Skipping training for grid size (30, 7) due to insufficient data (2 examples).
+
+Processing grid size (1, 6) with 6 examples...
+Skipping training for grid size (1, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 1) with 2 examples...
+Skipping training for grid size (6, 1) due to insufficient data (2 examples).
+
+Processing grid size (22, 4) with 6 examples...
+Skipping training for grid size (22, 4) due to insufficient data (6 examples).
+
+Processing grid size (4, 22) with 2 examples...
+Skipping training for grid size (4, 22) due to insufficient data (2 examples).
+
+Processing grid size (3, 8) with 18 examples...
+Skipping training for grid size (3, 8) due to insufficient data (18 examples).
+
+Processing grid size (8, 3) with 6 examples...
+Skipping training for grid size (8, 3) due to insufficient data (6 examples).
+
+Processing grid size (12, 13) with 32 examples...
+Skipping training for grid size (12, 13) due to insufficient data (32 examples).
+
+Processing grid size (13, 12) with 32 examples...
+Skipping training for grid size (13, 12) due to insufficient data (32 examples).
+
+Processing grid size (26, 23) with 6 examples...
+Skipping training for grid size (26, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 26) with 2 examples...
+Skipping training for grid size (23, 26) due to insufficient data (2 examples).
+
+Processing grid size (16, 11) with 14 examples...
+Skipping training for grid size (16, 11) due to insufficient data (14 examples).
+
+Processing grid size (11, 16) with 10 examples...
+Skipping training for grid size (11, 16) due to insufficient data (10 examples).
+
+Processing grid size (3, 6) with 48 examples...
+Skipping training for grid size (3, 6) due to insufficient data (48 examples).
+
+Processing grid size (6, 3) with 32 examples...
+Skipping training for grid size (6, 3) due to insufficient data (32 examples).
+
+Processing grid size (11, 15) with 6 examples...
+Skipping training for grid size (11, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 11) with 2 examples...
+Skipping training for grid size (15, 11) due to insufficient data (2 examples).
+
+Processing grid size (5, 11) with 16 examples...
+Skipping training for grid size (5, 11) due to insufficient data (16 examples).
+
+Processing grid size (11, 5) with 16 examples...
+Skipping training for grid size (11, 5) due to insufficient data (16 examples).
+
+Processing grid size (14, 16) with 18 examples...
+Skipping training for grid size (14, 16) due to insufficient data (18 examples).
+
+Processing grid size (16, 14) with 6 examples...
+Skipping training for grid size (16, 14) due to insufficient data (6 examples).
+
+Processing grid size (25, 20) with 12 examples...
+Skipping training for grid size (25, 20) due to insufficient data (12 examples).
+
+Processing grid size (20, 25) with 4 examples...
+Skipping training for grid size (20, 25) due to insufficient data (4 examples).
+
+Processing grid size (8, 10) with 26 examples...
+Skipping training for grid size (8, 10) due to insufficient data (26 examples).
+
+Processing grid size (10, 8) with 30 examples...
+Skipping training for grid size (10, 8) due to insufficient data (30 examples).
+
+Processing grid size (19, 21) with 12 examples...
+Skipping training for grid size (19, 21) due to insufficient data (12 examples).
+
+Processing grid size (21, 19) with 4 examples...
+Skipping training for grid size (21, 19) due to insufficient data (4 examples).
+
+Processing grid size (11, 9) with 22 examples...
+Skipping training for grid size (11, 9) due to insufficient data (22 examples).
+
+Processing grid size (9, 11) with 34 examples...
+Skipping training for grid size (9, 11) due to insufficient data (34 examples).
+
+Processing grid size (3, 10) with 6 examples...
+Skipping training for grid size (3, 10) due to insufficient data (6 examples).
+
+Processing grid size (10, 3) with 2 examples...
+Skipping training for grid size (10, 3) due to insufficient data (2 examples).
+
+Processing grid size (28, 28) with 32 examples...
+Skipping training for grid size (28, 28) due to insufficient data (32 examples).
+
+Processing grid size (7, 9) with 20 examples...
+Skipping training for grid size (7, 9) due to insufficient data (20 examples).
+
+Processing grid size (9, 7) with 12 examples...
+Skipping training for grid size (9, 7) due to insufficient data (12 examples).
+
+Processing grid size (3, 14) with 6 examples...
+Skipping training for grid size (3, 14) due to insufficient data (6 examples).
+
+Processing grid size (14, 3) with 2 examples...
+Skipping training for grid size (14, 3) due to insufficient data (2 examples).
+
+Processing grid size (22, 26) with 16 examples...
+Skipping training for grid size (22, 26) due to insufficient data (16 examples).
+
+Processing grid size (26, 22) with 16 examples...
+Skipping training for grid size (26, 22) due to insufficient data (16 examples).
+
+Processing grid size (11, 14) with 6 examples...
+Skipping training for grid size (11, 14) due to insufficient data (6 examples).
+
+Processing grid size (14, 11) with 2 examples...
+Skipping training for grid size (14, 11) due to insufficient data (2 examples).
+
+Processing grid size (22, 23) with 8 examples...
+Skipping training for grid size (22, 23) due to insufficient data (8 examples).
+
+Processing grid size (23, 22) with 8 examples...
+Skipping training for grid size (23, 22) due to insufficient data (8 examples).
+
+Processing grid size (5, 4) with 34 examples...
+Skipping training for grid size (5, 4) due to insufficient data (34 examples).
+
+Processing grid size (4, 5) with 22 examples...
+Skipping training for grid size (4, 5) due to insufficient data (22 examples).
+
+Processing grid size (19, 16) with 10 examples...
+Skipping training for grid size (19, 16) due to insufficient data (10 examples).
+
+Processing grid size (16, 19) with 14 examples...
+Skipping training for grid size (16, 19) due to insufficient data (14 examples).
+
+Processing grid size (3, 13) with 6 examples...
+Skipping training for grid size (3, 13) due to insufficient data (6 examples).
+
+Processing grid size (13, 3) with 2 examples...
+Skipping training for grid size (13, 3) due to insufficient data (2 examples).
+
+Processing grid size (9, 13) with 6 examples...
+Skipping training for grid size (9, 13) due to insufficient data (6 examples).
+
+Processing grid size (13, 9) with 2 examples...
+Skipping training for grid size (13, 9) due to insufficient data (2 examples).
+
+Processing grid size (14, 15) with 8 examples...
+Skipping training for grid size (14, 15) due to insufficient data (8 examples).
+
+Processing grid size (15, 14) with 8 examples...
+Skipping training for grid size (15, 14) due to insufficient data (8 examples).
+
+Processing grid size (17, 18) with 28 examples...
+Skipping training for grid size (17, 18) due to insufficient data (28 examples).
+
+Processing grid size (18, 17) with 20 examples...
+Skipping training for grid size (18, 17) due to insufficient data (20 examples).
+
+Processing grid size (9, 15) with 32 examples...
+Skipping training for grid size (9, 15) due to insufficient data (32 examples).
+
+Processing grid size (15, 9) with 16 examples...
+Skipping training for grid size (15, 9) due to insufficient data (16 examples).
+
+Processing grid size (29, 29) with 40 examples...
+Skipping training for grid size (29, 29) due to insufficient data (40 examples).
+
+Processing grid size (6, 12) with 18 examples...
+Skipping training for grid size (6, 12) due to insufficient data (18 examples).
+
+Processing grid size (12, 6) with 6 examples...
+Skipping training for grid size (12, 6) due to insufficient data (6 examples).
+
+Processing grid size (11, 20) with 6 examples...
+Skipping training for grid size (11, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 11) with 2 examples...
+Skipping training for grid size (20, 11) due to insufficient data (2 examples).
+
+Processing grid size (2, 5) with 6 examples...
+Skipping training for grid size (2, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 2) with 2 examples...
+Skipping training for grid size (5, 2) due to insufficient data (2 examples).
+
+Processing grid size (30, 10) with 6 examples...
+Skipping training for grid size (30, 10) due to insufficient data (6 examples).
+
+Processing grid size (10, 30) with 2 examples...
+Skipping training for grid size (10, 30) due to insufficient data (2 examples).
+
+Processing grid size (4, 24) with 6 examples...
+Skipping training for grid size (4, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 4) with 2 examples...
+Skipping training for grid size (24, 4) due to insufficient data (2 examples).
+
+Processing grid size (17, 19) with 24 examples...
+Skipping training for grid size (17, 19) due to insufficient data (24 examples).
+
+Processing grid size (19, 17) with 8 examples...
+Skipping training for grid size (19, 17) due to insufficient data (8 examples).
+
+Processing grid size (10, 4) with 18 examples...
+Skipping training for grid size (10, 4) due to insufficient data (18 examples).
+
+Processing grid size (4, 10) with 6 examples...
+Skipping training for grid size (4, 10) due to insufficient data (6 examples).
+
+Processing grid size (11, 19) with 6 examples...
+Skipping training for grid size (11, 19) due to insufficient data (6 examples).
+
+Processing grid size (19, 11) with 2 examples...
+Skipping training for grid size (19, 11) due to insufficient data (2 examples).
+
+Processing grid size (17, 14) with 10 examples...
+Skipping training for grid size (17, 14) due to insufficient data (10 examples).
+
+Processing grid size (14, 17) with 14 examples...
+Skipping training for grid size (14, 17) due to insufficient data (14 examples).
+
+Processing grid size (7, 4) with 8 examples...
+Skipping training for grid size (7, 4) due to insufficient data (8 examples).
+
+Processing grid size (4, 7) with 8 examples...
+Skipping training for grid size (4, 7) due to insufficient data (8 examples).
+
+Processing grid size (14, 13) with 28 examples...
+Skipping training for grid size (14, 13) due to insufficient data (28 examples).
+
+Processing grid size (13, 14) with 20 examples...
+Skipping training for grid size (13, 14) due to insufficient data (20 examples).
+
+Processing grid size (17, 21) with 8 examples...
+Skipping training for grid size (17, 21) due to insufficient data (8 examples).
+
+Processing grid size (21, 17) with 8 examples...
+Skipping training for grid size (21, 17) due to insufficient data (8 examples).
+
+Processing grid size (3, 2) with 14 examples...
+Skipping training for grid size (3, 2) due to insufficient data (14 examples).
+
+Processing grid size (2, 3) with 10 examples...
+Skipping training for grid size (2, 3) due to insufficient data (10 examples).
+
+Processing grid size (18, 14) with 16 examples...
+Skipping training for grid size (18, 14) due to insufficient data (16 examples).
+
+Processing grid size (14, 18) with 16 examples...
+Skipping training for grid size (14, 18) due to insufficient data (16 examples).
+
+Processing grid size (26, 24) with 6 examples...
+Skipping training for grid size (26, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 26) with 2 examples...
+Skipping training for grid size (24, 26) due to insufficient data (2 examples).
+
+Processing grid size (1, 4) with 6 examples...
+Skipping training for grid size (1, 4) due to insufficient data (6 examples).
+
+Processing grid size (4, 1) with 2 examples...
+Skipping training for grid size (4, 1) due to insufficient data (2 examples).
+
+Processing grid size (19, 29) with 12 examples...
+Skipping training for grid size (19, 29) due to insufficient data (12 examples).
+
+Processing grid size (29, 19) with 4 examples...
+Skipping training for grid size (29, 19) due to insufficient data (4 examples).
+
+Processing grid size (27, 27) with 40 examples...
+Skipping training for grid size (27, 27) due to insufficient data (40 examples).
+
+Processing grid size (19, 22) with 6 examples...
+Skipping training for grid size (19, 22) due to insufficient data (6 examples).
+
+Processing grid size (22, 19) with 2 examples...
+Skipping training for grid size (22, 19) due to insufficient data (2 examples).
+
+Processing grid size (12, 4) with 12 examples...
+Skipping training for grid size (12, 4) due to insufficient data (12 examples).
+
+Processing grid size (4, 12) with 4 examples...
+Skipping training for grid size (4, 12) due to insufficient data (4 examples).
+
+Processing grid size (16, 17) with 14 examples...
+Skipping training for grid size (16, 17) due to insufficient data (14 examples).
+
+Processing grid size (17, 16) with 10 examples...
+Skipping training for grid size (17, 16) due to insufficient data (10 examples).
+
+Processing grid size (7, 17) with 6 examples...
+Skipping training for grid size (7, 17) due to insufficient data (6 examples).
+
+Processing grid size (17, 7) with 2 examples...
+Skipping training for grid size (17, 7) due to insufficient data (2 examples).
+
+Processing grid size (19, 23) with 6 examples...
+Skipping training for grid size (19, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 19) with 2 examples...
+Skipping training for grid size (23, 19) due to insufficient data (2 examples).
+
+Processing grid size (7, 11) with 22 examples...
+Skipping training for grid size (7, 11) due to insufficient data (22 examples).
+
+Processing grid size (11, 7) with 18 examples...
+Skipping training for grid size (11, 7) due to insufficient data (18 examples).
+
+Processing grid size (4, 18) with 6 examples...
+Skipping training for grid size (4, 18) due to insufficient data (6 examples).
+
+Processing grid size (18, 4) with 2 examples...
+Skipping training for grid size (18, 4) due to insufficient data (2 examples).
+
+Processing grid size (19, 30) with 6 examples...
+Skipping training for grid size (19, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 19) with 2 examples...
+Skipping training for grid size (30, 19) due to insufficient data (2 examples).
+
+Processing grid size (9, 5) with 6 examples...
+Skipping training for grid size (9, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 9) with 2 examples...
+Skipping training for grid size (5, 9) due to insufficient data (2 examples).
+
+Processing grid size (12, 24) with 6 examples...
+Skipping training for grid size (12, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 12) with 2 examples...
+Skipping training for grid size (24, 12) due to insufficient data (2 examples).
+
+Processing grid size (24, 20) with 6 examples...
+Skipping training for grid size (24, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 24) with 2 examples...
+Skipping training for grid size (20, 24) due to insufficient data (2 examples).
+
+Processing grid size (24, 24) with 32 examples...
+Skipping training for grid size (24, 24) due to insufficient data (32 examples).
+
+Processing grid size (30, 16) with 8 examples...
+Skipping training for grid size (30, 16) due to insufficient data (8 examples).
+
+Processing grid size (16, 30) with 8 examples...
+Skipping training for grid size (16, 30) due to insufficient data (8 examples).
+
+Processing grid size (21, 30) with 6 examples...
+Skipping training for grid size (21, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 21) with 2 examples...
+Skipping training for grid size (30, 21) due to insufficient data (2 examples).
+
+Processing grid size (24, 28) with 6 examples...
+Skipping training for grid size (24, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 24) with 2 examples...
+Skipping training for grid size (28, 24) due to insufficient data (2 examples).
+
+Processing grid size (5, 16) with 6 examples...
+Skipping training for grid size (5, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 5) with 2 examples...
+Skipping training for grid size (16, 5) due to insufficient data (2 examples).
+
+Processing grid size (5, 12) with 8 examples...
+Skipping training for grid size (5, 12) due to insufficient data (8 examples).
+
+Processing grid size (12, 5) with 8 examples...
+Skipping training for grid size (12, 5) due to insufficient data (8 examples).
+
+Processing grid size (4, 14) with 6 examples...
+Skipping training for grid size (4, 14) due to insufficient data (6 examples).
+
+Processing grid size (14, 4) with 2 examples...
+Skipping training for grid size (14, 4) due to insufficient data (2 examples).
+
+Processing grid size (16, 18) with 32 examples...
+Skipping training for grid size (16, 18) due to insufficient data (32 examples).
+
+Processing grid size (18, 16) with 16 examples...
+Skipping training for grid size (18, 16) due to insufficient data (16 examples).
+
+Processing grid size (13, 16) with 6 examples...
+Skipping training for grid size (13, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 13) with 2 examples...
+Skipping training for grid size (16, 13) due to insufficient data (2 examples).
+
+Processing grid size (24, 6) with 6 examples...
+Skipping training for grid size (24, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 24) with 2 examples...
+Skipping training for grid size (6, 24) due to insufficient data (2 examples).
+
+Processing grid size (22, 22) with 32 examples...
+Skipping training for grid size (22, 22) due to insufficient data (32 examples).
+
+Processing grid size (21, 12) with 6 examples...
+Skipping training for grid size (21, 12) due to insufficient data (6 examples).
+
+Processing grid size (12, 21) with 2 examples...
+Skipping training for grid size (12, 21) due to insufficient data (2 examples).
+
+Processing grid size (10, 15) with 26 examples...
+Skipping training for grid size (10, 15) due to insufficient data (26 examples).
+
+Processing grid size (15, 10) with 14 examples...
+Skipping training for grid size (15, 10) due to insufficient data (14 examples).
+
+Processing grid size (15, 13) with 8 examples...
+Skipping training for grid size (15, 13) due to insufficient data (8 examples).
+
+Processing grid size (13, 15) with 8 examples...
+Skipping training for grid size (13, 15) due to insufficient data (8 examples).
+
+Processing grid size (7, 6) with 8 examples...
+Skipping training for grid size (7, 6) due to insufficient data (8 examples).
+
+Processing grid size (6, 7) with 8 examples...
+Skipping training for grid size (6, 7) due to insufficient data (8 examples).
+
+Processing grid size (3, 29) with 6 examples...
+Skipping training for grid size (3, 29) due to insufficient data (6 examples).
+
+Processing grid size (29, 3) with 2 examples...
+Skipping training for grid size (29, 3) due to insufficient data (2 examples).
+
+Processing grid size (12, 8) with 10 examples...
+Skipping training for grid size (12, 8) due to insufficient data (10 examples).
+
+Processing grid size (8, 12) with 14 examples...
+Skipping training for grid size (8, 12) due to insufficient data (14 examples).
+
+Processing grid size (7, 5) with 6 examples...
+Skipping training for grid size (7, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 7) with 2 examples...
+Skipping training for grid size (5, 7) due to insufficient data (2 examples).
+
+Processing grid size (3, 25) with 6 examples...
+Skipping training for grid size (3, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 3) with 2 examples...
+Skipping training for grid size (25, 3) due to insufficient data (2 examples).
+
+Processing grid size (7, 8) with 14 examples...
+Skipping training for grid size (7, 8) due to insufficient data (14 examples).
+
+Processing grid size (8, 7) with 10 examples...
+Skipping training for grid size (8, 7) due to insufficient data (10 examples).
+
+Processing grid size (8, 16) with 6 examples...
+Skipping training for grid size (8, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 8) with 2 examples...
+Skipping training for grid size (16, 8) due to insufficient data (2 examples).
+
+Processing grid size (6, 9) with 12 examples...
+Skipping training for grid size (6, 9) due to insufficient data (12 examples).
+
+Processing grid size (9, 6) with 4 examples...
+Skipping training for grid size (9, 6) due to insufficient data (4 examples).
+
+Processing grid size (22, 25) with 12 examples...
+Skipping training for grid size (22, 25) due to insufficient data (12 examples).
+
+Processing grid size (25, 22) with 4 examples...
+Skipping training for grid size (25, 22) due to insufficient data (4 examples).
+
+Processing grid size (29, 28) with 14 examples...
+Skipping training for grid size (29, 28) due to insufficient data (14 examples).
+
+Processing grid size (28, 29) with 10 examples...
+Skipping training for grid size (28, 29) due to insufficient data (10 examples).
+
+Processing grid size (12, 17) with 18 examples...
+Skipping training for grid size (12, 17) due to insufficient data (18 examples).
+
+Processing grid size (17, 12) with 6 examples...
+Skipping training for grid size (17, 12) due to insufficient data (6 examples).
+
+Processing grid size (7, 15) with 18 examples...
+Skipping training for grid size (7, 15) due to insufficient data (18 examples).
+
+Processing grid size (15, 7) with 6 examples...
+Skipping training for grid size (15, 7) due to insufficient data (6 examples).
+
+Processing grid size (10, 20) with 8 examples...
+Skipping training for grid size (10, 20) due to insufficient data (8 examples).
+
+Processing grid size (20, 10) with 8 examples...
+Skipping training for grid size (20, 10) due to insufficient data (8 examples).
+
+Processing grid size (14, 10) with 8 examples...
+Skipping training for grid size (14, 10) due to insufficient data (8 examples).
+
+Processing grid size (10, 14) with 8 examples...
+Skipping training for grid size (10, 14) due to insufficient data (8 examples).
+
+Processing grid size (9, 30) with 6 examples...
+Skipping training for grid size (9, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 9) with 2 examples...
+Skipping training for grid size (30, 9) due to insufficient data (2 examples).
+
+Processing grid size (3, 30) with 6 examples...
+Skipping training for grid size (3, 30) due to insufficient data (6 examples).
+
+Processing grid size (30, 3) with 2 examples...
+Skipping training for grid size (30, 3) due to insufficient data (2 examples).
+
+Processing grid size (27, 25) with 12 examples...
+Skipping training for grid size (27, 25) due to insufficient data (12 examples).
+
+Processing grid size (25, 27) with 4 examples...
+Skipping training for grid size (25, 27) due to insufficient data (4 examples).
+
+Processing grid size (15, 18) with 8 examples...
+Skipping training for grid size (15, 18) due to insufficient data (8 examples).
+
+Processing grid size (18, 15) with 8 examples...
+Skipping training for grid size (18, 15) due to insufficient data (8 examples).
+
+Processing grid size (4, 9) with 14 examples...
+Skipping training for grid size (4, 9) due to insufficient data (14 examples).
+
+Processing grid size (9, 4) with 10 examples...
+Skipping training for grid size (9, 4) due to insufficient data (10 examples).
+
+Processing grid size (20, 19) with 6 examples...
+Skipping training for grid size (20, 19) due to insufficient data (6 examples).
+
+Processing grid size (19, 20) with 2 examples...
+Skipping training for grid size (19, 20) due to insufficient data (2 examples).
+
+Processing grid size (3, 11) with 6 examples...
+Skipping training for grid size (3, 11) due to insufficient data (6 examples).
+
+Processing grid size (11, 3) with 2 examples...
+Skipping training for grid size (11, 3) due to insufficient data (2 examples).
+
+Processing grid size (9, 10) with 8 examples...
+Skipping training for grid size (9, 10) due to insufficient data (8 examples).
+
+Processing grid size (10, 9) with 8 examples...
+Skipping training for grid size (10, 9) due to insufficient data (8 examples).
+
+Processing grid size (17, 5) with 6 examples...
+Skipping training for grid size (17, 5) due to insufficient data (6 examples).
+
+Processing grid size (5, 17) with 2 examples...
+Skipping training for grid size (5, 17) due to insufficient data (2 examples).
+
+Processing grid size (10, 13) with 8 examples...
+Skipping training for grid size (10, 13) due to insufficient data (8 examples).
+
+Processing grid size (13, 10) with 8 examples...
+Skipping training for grid size (13, 10) due to insufficient data (8 examples).
+
+Processing grid size (9, 12) with 6 examples...
+Skipping training for grid size (9, 12) due to insufficient data (6 examples).
+
+Processing grid size (12, 9) with 2 examples...
+Skipping training for grid size (12, 9) due to insufficient data (2 examples).
+
+Processing grid size (22, 27) with 6 examples...
+Skipping training for grid size (22, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 22) with 2 examples...
+Skipping training for grid size (27, 22) due to insufficient data (2 examples).
+
+Processing grid size (5, 18) with 6 examples...
+Skipping training for grid size (5, 18) due to insufficient data (6 examples).
+
+Processing grid size (18, 5) with 2 examples...
+Skipping training for grid size (18, 5) due to insufficient data (2 examples).
+
+Processing grid size (13, 29) with 6 examples...
+Skipping training for grid size (13, 29) due to insufficient data (6 examples).
+
+Processing grid size (29, 13) with 2 examples...
+Skipping training for grid size (29, 13) due to insufficient data (2 examples).
+
+Processing grid size (10, 16) with 6 examples...
+Skipping training for grid size (10, 16) due to insufficient data (6 examples).
+
+Processing grid size (16, 10) with 2 examples...
+Skipping training for grid size (16, 10) due to insufficient data (2 examples).
+
+Processing grid size (12, 26) with 6 examples...
+Skipping training for grid size (12, 26) due to insufficient data (6 examples).
+
+Processing grid size (26, 12) with 2 examples...
+Skipping training for grid size (26, 12) due to insufficient data (2 examples).
+
+Processing grid size (13, 24) with 8 examples...
+Skipping training for grid size (13, 24) due to insufficient data (8 examples).
+
+Processing grid size (24, 13) with 8 examples...
+Skipping training for grid size (24, 13) due to insufficient data (8 examples).
+
+Processing grid size (10, 5) with 12 examples...
+Skipping training for grid size (10, 5) due to insufficient data (12 examples).
+
+Processing grid size (5, 10) with 4 examples...
+Skipping training for grid size (5, 10) due to insufficient data (4 examples).
+
+Processing grid size (7, 28) with 6 examples...
+Skipping training for grid size (7, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 7) with 2 examples...
+Skipping training for grid size (28, 7) due to insufficient data (2 examples).
+
+Processing grid size (16, 27) with 6 examples...
+Skipping training for grid size (16, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 16) with 2 examples...
+Skipping training for grid size (27, 16) due to insufficient data (2 examples).
+
+Processing grid size (28, 27) with 6 examples...
+Skipping training for grid size (28, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 28) with 2 examples...
+Skipping training for grid size (27, 28) due to insufficient data (2 examples).
+
+Processing grid size (26, 27) with 6 examples...
+Skipping training for grid size (26, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 26) with 2 examples...
+Skipping training for grid size (27, 26) due to insufficient data (2 examples).
+
+Processing grid size (5, 8) with 6 examples...
+Skipping training for grid size (5, 8) due to insufficient data (6 examples).
+
+Processing grid size (8, 5) with 2 examples...
+Skipping training for grid size (8, 5) due to insufficient data (2 examples).
+
+Processing grid size (11, 6) with 12 examples...
+Skipping training for grid size (11, 6) due to insufficient data (12 examples).
+
+Processing grid size (6, 11) with 4 examples...
+Skipping training for grid size (6, 11) due to insufficient data (4 examples).
+
+Processing grid size (8, 4) with 6 examples...
+Skipping training for grid size (8, 4) due to insufficient data (6 examples).
+
+Processing grid size (4, 8) with 2 examples...
+Skipping training for grid size (4, 8) due to insufficient data (2 examples).
+
+Processing grid size (10, 24) with 6 examples...
+Skipping training for grid size (10, 24) due to insufficient data (6 examples).
+
+Processing grid size (24, 10) with 2 examples...
+Skipping training for grid size (24, 10) due to insufficient data (2 examples).
+
+Processing grid size (8, 2) with 6 examples...
+Skipping training for grid size (8, 2) due to insufficient data (6 examples).
+
+Processing grid size (2, 8) with 2 examples...
+Skipping training for grid size (2, 8) due to insufficient data (2 examples).
+
+Processing grid size (12, 7) with 6 examples...
+Skipping training for grid size (12, 7) due to insufficient data (6 examples).
+
+Processing grid size (7, 12) with 2 examples...
+Skipping training for grid size (7, 12) due to insufficient data (2 examples).
+
+Processing grid size (5, 27) with 6 examples...
+Skipping training for grid size (5, 27) due to insufficient data (6 examples).
+
+Processing grid size (27, 5) with 2 examples...
+Skipping training for grid size (27, 5) due to insufficient data (2 examples).
+
+Processing grid size (18, 22) with 12 examples...
+Skipping training for grid size (18, 22) due to insufficient data (12 examples).
+
+Processing grid size (22, 18) with 4 examples...
+Skipping training for grid size (22, 18) due to insufficient data (4 examples).
+
+Processing grid size (27, 23) with 6 examples...
+Skipping training for grid size (27, 23) due to insufficient data (6 examples).
+
+Processing grid size (23, 27) with 2 examples...
+Skipping training for grid size (23, 27) due to insufficient data (2 examples).
+
+Processing grid size (19, 9) with 6 examples...
+Skipping training for grid size (19, 9) due to insufficient data (6 examples).
+
+Processing grid size (9, 19) with 2 examples...
+Skipping training for grid size (9, 19) due to insufficient data (2 examples).
+
+Processing grid size (16, 7) with 6 examples...
+Skipping training for grid size (16, 7) due to insufficient data (6 examples).
+
+Processing grid size (7, 16) with 2 examples...
+Skipping training for grid size (7, 16) due to insufficient data (2 examples).
+
+Processing grid size (3, 17) with 12 examples...
+Skipping training for grid size (3, 17) due to insufficient data (12 examples).
+
+Processing grid size (17, 3) with 4 examples...
+Skipping training for grid size (17, 3) due to insufficient data (4 examples).
+
+Processing grid size (4, 20) with 6 examples...
+Skipping training for grid size (4, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 4) with 2 examples...
+Skipping training for grid size (20, 4) due to insufficient data (2 examples).
+
+Processing grid size (21, 22) with 6 examples...
+Skipping training for grid size (21, 22) due to insufficient data (6 examples).
+
+Processing grid size (22, 21) with 2 examples...
+Skipping training for grid size (22, 21) due to insufficient data (2 examples).
+
+Processing grid size (23, 28) with 6 examples...
+Skipping training for grid size (23, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 23) with 2 examples...
+Skipping training for grid size (28, 23) due to insufficient data (2 examples).
+
+Processing grid size (5, 15) with 6 examples...
+Skipping training for grid size (5, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 5) with 2 examples...
+Skipping training for grid size (15, 5) due to insufficient data (2 examples).
+
+Processing grid size (17, 25) with 6 examples...
+Skipping training for grid size (17, 25) due to insufficient data (6 examples).
+
+Processing grid size (25, 17) with 2 examples...
+Skipping training for grid size (25, 17) due to insufficient data (2 examples).
+
+Processing grid size (22, 3) with 6 examples...
+Skipping training for grid size (22, 3) due to insufficient data (6 examples).
+
+Processing grid size (3, 22) with 2 examples...
+Skipping training for grid size (3, 22) due to insufficient data (2 examples).
+
+Processing grid size (17, 6) with 6 examples...
+Skipping training for grid size (17, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 17) with 2 examples...
+Skipping training for grid size (6, 17) due to insufficient data (2 examples).
+
+Processing grid size (11, 28) with 6 examples...
+Skipping training for grid size (11, 28) due to insufficient data (6 examples).
+
+Processing grid size (28, 11) with 2 examples...
+Skipping training for grid size (28, 11) due to insufficient data (2 examples).
+
+Processing grid size (17, 30) with 8 examples...
+Skipping training for grid size (17, 30) due to insufficient data (8 examples).
+
+Processing grid size (30, 17) with 8 examples...
+Skipping training for grid size (30, 17) due to insufficient data (8 examples).
+
+Processing grid size (3, 15) with 6 examples...
+Skipping training for grid size (3, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 3) with 2 examples...
+Skipping training for grid size (15, 3) due to insufficient data (2 examples).
+
+Processing grid size (3, 1) with 18 examples...
+Skipping training for grid size (3, 1) due to insufficient data (18 examples).
+
+Processing grid size (1, 3) with 6 examples...
+Skipping training for grid size (1, 3) due to insufficient data (6 examples).
+
+Processing grid size (2, 6) with 6 examples...
+Skipping training for grid size (2, 6) due to insufficient data (6 examples).
+
+Processing grid size (6, 2) with 2 examples...
+Skipping training for grid size (6, 2) due to insufficient data (2 examples).
+
+Processing grid size (8, 13) with 6 examples...
+Skipping training for grid size (8, 13) due to insufficient data (6 examples).
+
+Processing grid size (13, 8) with 2 examples...
+Skipping training for grid size (13, 8) due to insufficient data (2 examples).
+
+Processing grid size (30, 29) with 6 examples...
+Skipping training for grid size (30, 29) due to insufficient data (6 examples).
+
+Processing grid size (29, 30) with 2 examples...
+Skipping training for grid size (29, 30) due to insufficient data (2 examples).
+
+Processing grid size (25, 15) with 6 examples...
+Skipping training for grid size (25, 15) due to insufficient data (6 examples).
+
+Processing grid size (15, 25) with 2 examples...
+Skipping training for grid size (15, 25) due to insufficient data (2 examples).
+
+Processing grid size (20, 18) with 6 examples...
+Skipping training for grid size (20, 18) due to insufficient data (6 examples).
+
+Processing grid size (18, 20) with 2 examples...
+Skipping training for grid size (18, 20) due to insufficient data (2 examples).
+
+Processing grid size (30, 20) with 6 examples...
+Skipping training for grid size (30, 20) due to insufficient data (6 examples).
+
+Processing grid size (20, 30) with 2 examples...
+Skipping training for grid size (20, 30) due to insufficient data (2 examples).

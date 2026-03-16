@@ -1,0 +1,108 @@
+Using Linear models for grid size (6, 6).
+Grid Size (6, 6) | Epoch [0/200] | D Loss: 1.3843 | G Loss: 0.6557
+Grid Size (6, 6) | Epoch [10/200] | D Loss: 1.3459 | G Loss: 0.6615
+Grid Size (6, 6) | Epoch [20/200] | D Loss: 1.3061 | G Loss: 0.6505
+Grid Size (6, 6) | Epoch [30/200] | D Loss: 1.2909 | G Loss: 0.6673
+Grid Size (6, 6) | Epoch [40/200] | D Loss: 1.2711 | G Loss: 0.6667
+Grid Size (6, 6) | Epoch [50/200] | D Loss: 1.2571 | G Loss: 0.6728
+Grid Size (6, 6) | Epoch [60/200] | D Loss: 1.2390 | G Loss: 0.6781
+Grid Size (6, 6) | Epoch [70/200] | D Loss: 1.2352 | G Loss: 0.6744
+Grid Size (6, 6) | Epoch [80/200] | D Loss: 1.2521 | G Loss: 0.6813
+Grid Size (6, 6) | Epoch [90/200] | D Loss: 1.2207 | G Loss: 0.6893
+Grid Size (6, 6) | Epoch [100/200] | D Loss: 1.1598 | G Loss: 0.6930
+Grid Size (6, 6) | Epoch [110/200] | D Loss: 1.1620 | G Loss: 0.6983
+Grid Size (6, 6) | Epoch [120/200] | D Loss: 1.1402 | G Loss: 0.7046
+Grid Size (6, 6) | Epoch [130/200] | D Loss: 1.1732 | G Loss: 0.7098
+Grid Size (6, 6) | Epoch [140/200] | D Loss: 1.0672 | G Loss: 0.7030
+Grid Size (6, 6) | Epoch [150/200] | D Loss: 1.1099 | G Loss: 0.7173
+Grid Size (6, 6) | Epoch [160/200] | D Loss: 1.0597 | G Loss: 0.7365
+Grid Size (6, 6) | Epoch [170/200] | D Loss: 1.1452 | G Loss: 0.7465
+Grid Size (6, 6) | Epoch [180/200] | D Loss: 1.0934 | G Loss: 0.7576
+Grid Size (6, 6) | Epoch [190/200] | D Loss: 1.0829 | G Loss: 0.7580
+
+Training complete for grid size (6, 6).
+
+Generating 200 new examples for grid size (6, 6)...
+Generated dataset saved to '/content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/datasets/generated_dcgan_dataset_6x6.json'.
+Using Conv models for grid size (9, 9).
+---------------------------------------------------------------------------
+RuntimeError                              Traceback (most recent call last)
+/tmp/ipython-input-2315215961.py in <cell line: 0>()
+    246             # Check if there's enough data to train
+    247             if len(data_tensor) > 128:
+--> 248                 trained_generator = train_gan_for_size(data_tensor, grid_size, num_epochs=200)
+    249                 generate_dataset_for_size(trained_generator, grid_size, num_examples=200)
+    250             else:
+
+9 frames
+/tmp/ipython-input-2315215961.py in train_gan_for_size(data_tensor, grid_size, latent_dim, num_epochs)
+    182         real_labels = torch.full((128,), 1., dtype=torch.float)
+    183 
+--> 184         output = discriminator(real_data).view(-1)
+    185         err_d_real = criterion(output, real_labels)
+    186         err_d_real.backward()
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _wrapped_call_impl(self, *args, **kwargs)
+   1771             return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+   1772         else:
+-> 1773             return self._call_impl(*args, **kwargs)
+   1774 
+   1775     # torchrec tests the code consistency with the following code
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _call_impl(self, *args, **kwargs)
+   1782                 or _global_backward_pre_hooks or _global_backward_hooks
+   1783                 or _global_forward_hooks or _global_forward_pre_hooks):
+-> 1784             return forward_call(*args, **kwargs)
+   1785 
+   1786         result = None
+
+/tmp/ipython-input-2315215961.py in forward(self, x)
+     96         x = self.initial_conv(x)
+     97         x = self.conv_layers(x)
+---> 98         return self.linear_layer(x)
+     99 
+    100 # New linear-based Generator for small grids
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _wrapped_call_impl(self, *args, **kwargs)
+   1771             return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+   1772         else:
+-> 1773             return self._call_impl(*args, **kwargs)
+   1774 
+   1775     # torchrec tests the code consistency with the following code
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _call_impl(self, *args, **kwargs)
+   1782                 or _global_backward_pre_hooks or _global_backward_hooks
+   1783                 or _global_forward_hooks or _global_forward_pre_hooks):
+-> 1784             return forward_call(*args, **kwargs)
+   1785 
+   1786         result = None
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/container.py in forward(self, input)
+    242     def forward(self, input):
+    243         for module in self:
+--> 244             input = module(input)
+    245         return input
+    246 
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _wrapped_call_impl(self, *args, **kwargs)
+   1771             return self._compiled_call_impl(*args, **kwargs)  # type: ignore[misc]
+   1772         else:
+-> 1773             return self._call_impl(*args, **kwargs)
+   1774 
+   1775     # torchrec tests the code consistency with the following code
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/module.py in _call_impl(self, *args, **kwargs)
+   1782                 or _global_backward_pre_hooks or _global_backward_hooks
+   1783                 or _global_forward_hooks or _global_forward_pre_hooks):
+-> 1784             return forward_call(*args, **kwargs)
+   1785 
+   1786         result = None
+
+/usr/local/lib/python3.12/dist-packages/torch/nn/modules/linear.py in forward(self, input)
+    123 
+    124     def forward(self, input: Tensor) -> Tensor:
+--> 125         return F.linear(input, self.weight, self.bias)
+    126 
+    127     def extra_repr(self) -> str:
+
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (128x128 and 512x1)

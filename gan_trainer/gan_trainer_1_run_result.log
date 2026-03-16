@@ -1,0 +1,17 @@
+Total files found: 16144
+--- FOLD 1/2 ---
+Epoch 1/1: 100%|██████████| 8072/8072 [2:45:02<00:00,  1.23s/it]
+--- Finished Fold ---
+Average Discriminator Loss: 0.3868
+Average Generator Loss: 1.6817
+Saved models for fold 1 to /content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/models/generator_fold_1.pth and /content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/models/discriminator_fold_1.pth
+--- FOLD 2/2 ---
+Epoch 1/1: 100%|██████████| 8072/8072 [2:46:57<00:00,  1.24s/it]--- Finished Fold ---
+Average Discriminator Loss: 0.1269
+Average Generator Loss: 2.0717
+Saved models for fold 2 to /content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/models/generator_fold_2.pth and /content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/models/discriminator_fold_2.pth
+
+--- Cross-Validation Results ---
+Average Discriminator Loss across 2 folds: 0.2568
+Average Generator Loss across 2 folds: 1.8767
+Saved cross-validation results to /content/drive/MyDrive/Google_AI_Studio/ARCAGI2025/models/cross_validation_results.json

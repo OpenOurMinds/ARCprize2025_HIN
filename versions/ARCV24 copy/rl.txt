@@ -1,0 +1,192 @@
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.optim as optim
+import torch.nn.functional as F
+from torch.distributions import Categorical
+
+import preprocessing
+import initializers
+import layers
+import multitensor_systems
+
+
+# Apply the project's standard NumPy and PyTorch seed settings and device settings
+np.random.seed(0)
+torch.manual_seed(0)
+if torch.cuda.is_available():
+    torch.set_default_device('cuda')
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+
+class RLAgent(nn.Module):
+    """
+    A Reinforcement Learning agent using a Deep Q-Network (DQN) to generate
+    plausible ARC grids based on feedback from a trained VAE.
+    """
+    def __init__(self, task, vae_model, scoring_function, learning_rate=0.001,
+                 discount_factor=0.99, exploration_rate=1.0, min_exploration_rate=0.01,
+                 exploration_decay_rate=0.995):
+        """
+        Initializes the RLAgent.
+        Args:
+            task (preprocessing.Task): The task object to retrieve grid dimensions.
+            vae_model (ARCCompressor): The trained VAE model for reward calculation.
+            scoring_function (Callable): A function that takes a grid and returns a reward.
+        """
+        super(RLAgent, self).__init__()
+        self.task = task
+        self.vae_model = vae_model
+        self.scoring_function = scoring_function
+        
+        # [cite_start]Get dimensions from the Task object as requested by the user [cite: 400]
+        self.n_x = self.task.n_x
+        self.n_y = self.task.n_y
+        self.n_colors = self.task.n_colors
+
+        # [cite_start]Hyperparameters retained from the original rl.txt [cite: 425]
+        self.action_space_size = self.n_x * self.n_y * self.n_colors
+        self.learning_rate = learning_rate
+        self.discount_factor = discount_factor
+        self.exploration_rate = exploration_rate
+        self.min_exploration_rate = min_exploration_rate
+        self.exploration_decay_rate = exploration_decay_rate
+
+        self.q_network = self._build_q_network()
+        self.optimizer = optim.Adam(self.q_network.parameters(), lr=self.learning_rate)
+        self.device = torch.get_default_device()
+
+    def _build_q_network(self):
+        """
+        Builds the Q-network using PyTorch.
+        [cite_start]Replaces the TensorFlow/Keras architecture[cite: 425].
+        """
+        # The input is a one-hot encoded grid of shape (n_colors, n_x, n_y)
+        return nn.Sequential(
+            nn.Conv2d(in_channels=self.n_colors, out_channels=32, kernel_size=3, padding='same'),
+            nn.ReLU(),
+            nn.Flatten(),
+            nn.Linear(32 * self.n_x * self.n_y, 128),
+            nn.ReLU(),
+            nn.Linear(128, self.action_space_size)
+        )
+
+    def _map_index_to_action(self, index):
+        """Maps a flat action index to a (x, y, color) tuple."""
+        color = index % self.n_colors
+        index = index // self.n_colors
+        y = index % self.n_y
+        x = index // self.n_y
+        return x, y, color
+
+    def _map_action_to_index(self, x, y, color):
+        """Maps a (x, y, color) tuple to a flat action index."""
+        return x * self.n_y * self.n_colors + y * self.n_colors + color
+
+    def get_q_values(self, grid):
+        """Converts a grid to a tensor and gets Q-values from the network."""
+        grid_tensor = torch.from_numpy(grid).to(self.device).long()
+        # One-hot encode the grid to create an input tensor of shape (1, n_colors, n_x, n_y)
+        grid_one_hot = F.one_hot(grid_tensor, num_classes=self.n_colors).permute(2, 0, 1).unsqueeze(0).float()
+        q_values = self.q_network(grid_one_hot)
+        return q_values
+
+    def choose_action(self, current_grid):
+        """
+        Implements the epsilon-greedy action selection strategy using PyTorch.
+        """
+        if np.random.rand() <= self.exploration_rate:
+            return np.random.randint(self.action_space_size)
+        else:
+            with torch.no_grad():
+                q_values = self.get_q_values(current_grid)
+                return torch.argmax(q_values).item()
+                
+    def get_vae_reward(self, grid):
+        """
+        Calculates the VAE reward based on output uncertainty.
+        This function implements the scoring logic as defined in the user prompt.
+        """
+        # 1. Convert numpy grid to VAE input tensor format
+        # The ARCCompressor takes a tensor of shape (N, C, H, W)
+        # We need to add the batch dimension and one-hot encode the colors
+        grid_tensor = torch.from_numpy(grid).long().to(self.device)
+        input_tensor = F.one_hot(grid_tensor, num_classes=self.n_colors).permute(2, 0, 1).float().unsqueeze(0)
+
+        # 2. Run VAE forward pass to get logits.
+        # Based on `arc_compressor.txt`'s `forward` pass, it outputs logits
+        with torch.no_grad():
+            output_logits = self.vae_model.forward(input_tensor)
+
+        # 3. Calculate uncertainties (logsumexp - amax)
+        # [cite_start]The user hint is based on solution_selection.Logger, which uses these metrics [cite: 446]
+        log_sum_exp = torch.logsumexp(output_logits, dim=1, keepdim=True)
+        max_log_prob = torch.max(output_logits, dim=1, keepdim=True)[0]
+        uncertainty = (log_sum_exp - max_log_prob).squeeze()
+
+        # 4. Return negative score based on mean uncertainty
+        mean_uncertainty = torch.mean(uncertainty).item()
+        score = -10.0 * mean_uncertainty
+
+        return score
+
+    def train_step(self, current_grid, action_index, reward, next_grid, done):
+        """
+        Performs a single training step using PyTorch.
+        [cite_start]This replaces the TensorFlow training logic[cite: 425].
+        """
+        # Get predicted Q-values for the current state
+        predicted_q_values = self.get_q_values(current_grid)
+
+        # Calculate the target Q-value using the Bellman equation
+        with torch.no_grad():
+            if done:
+                target_q_value = torch.tensor(reward, device=self.device)
+            else:
+                next_q_values = self.get_q_values(next_grid)
+                max_q_next = torch.max(next_q_values)
+                target_q_value = torch.tensor(reward, device=self.device) + self.discount_factor * max_q_next
+
+        # Extract the predicted Q-value for the taken action
+        predicted_q_for_action = predicted_q_values.squeeze()[action_index]
+        
+        # Calculate loss using MSE
+        loss = F.mse_loss(predicted_q_for_action, target_q_value)
+
+        # Perform backpropagation and update weights
+        self.optimizer.zero_grad()
+        loss.backward()
+        self.optimizer.step()
+
+    def decay_exploration_rate(self):
+        """Decays the exploration rate."""
+        self.exploration_rate = max(self.min_exploration_rate, self.exploration_rate * self.exploration_decay_rate)
+    
+    def generate_grid_with_rl(self, max_steps=1000):
+        """
+        Generates a grid using the RL agent.
+        [cite_start]Uses task dimensions instead of a hardcoded grid_size[cite: 400].
+        """
+        current_grid = np.zeros((self.n_x, self.n_y), dtype=np.int32)
+        
+        for step in range(max_steps):
+            action_index = self.choose_action(current_grid)
+            x, y, color = self._map_index_to_action(action_index)
+
+            next_grid = current_grid.copy()
+            next_grid[x, y] = color
+
+            reward = self.get_vae_reward(next_grid)
+            done = step == max_steps - 1
+
+            self.train_step(current_grid, action_index, reward, next_grid, done)
+
+            current_grid = next_grid
+            self.decay_exploration_rate()
+            
+            # Optional logging or visualization can be added here
+            
+        return current_grid
+
+Sources

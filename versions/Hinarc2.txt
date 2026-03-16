@@ -1,0 +1,754 @@
+import os
+import json
+import numpy as np
+import logging
+import sys
+import random
+from tensorflow import keras
+from tensorflow.keras import layers
+import tensorflow as tf
+from tensorflow.keras import Model
+from tensorflow.keras.initializers import GlorotNormal, RandomUniform
+from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import ModelCheckpoint, TensorBoard, EarlyStopping
+from tensorflow.keras.losses import SparseCategoricalCrossentropy
+
+# Configure logging
+logging.basicConfig(level=logging.INFO, stream=sys.stdout, format='%(asctime)s - %(levelname)s - %(message)s')
+
+class Config:
+    """Centralized configuration for the ARC project."""
+    def __init__(self):
+        self.project_root_input = '/kaggle/input/arc-prize-2025/'
+        self.project_branch_input = '/kaggle/input/customized-dataset'
+      
+        self.output_root = '/kaggle/working/'
+        self.vae_checkpoints_dir = os.path.join(self.output_root, 'vae_checkpoints')
+        self.rl_checkpoints_dir = os.path.join(self.output_root, 'rl_checkpoints')
+        self.compressor_artifacts_dir = os.path.join(self.output_root, 'compressor_artifacts')
+        os.makedirs(self.vae_checkpoints_dir, exist_ok=True)
+        os.makedirs(self.rl_checkpoints_dir, exist_ok=True)
+        os.makedirs(self.compressor_artifacts_dir, exist_ok=True) 
+        
+        self.datasets_dir = self.project_root_input
+        self.dataset2_dir = self.project_branch_input
+        
+        self.training_challenges_path = os.path.join(self.datasets_dir, 'arc-agi_training_challenges.json')
+        self.training_solutions_path = os.path.join(self.datasets_dir, 'arc-agi_training_solutions.json')
+        self.evaluation_challenges_path = os.path.join(self.datasets_dir, 'arc-agi_evaluation_challenges.json')
+        self.evaluation_solutions_path = os.path.join(self.datasets_dir, 'arc-agi_evaluation_solutions.json')
+        self.test_challenges_path = os.path.join(self.datasets_dir, 'arc-agi_test_challenges.json')
+        self.sample_submission_path = os.path.join(self.datasets_dir, 'sample_submission.json')
+        
+        self.grid_size = 30
+        self.latent_dim = 128
+        self.num_colors = 10
+        self.epochs = 15
+        self.batch_size = 64
+        self.vq_embedding_dim = 16
+        self.learning_rate = 0.001
+        self.run_eagerly = False 
+        self.debug_mode = False
+        self.verbose_logging = True
+        self.use_one_hot_input = False
+        self.output_discretization_method = "argmax"
+        self.use_vector_quantization = True
+        self.vq_num_embeddings = 256
+        self.vq_embedding_dim = 128
+        self.compressor_transformer_heads = 4
+        self.compressor_transformer_layers = 2
+        self.rl_learning_rate = 0.0001
+        self.rl_discount_factor = 0.99
+        self.rl_exploration_rate = 1.0
+        self.rl_min_exploration_rate = 0.01
+        self.rl_exploration_decay_rate = 0.998
+        self.rl_latent_dim = self.vq_embedding_dim
+        self.rl_max_steps = 10000
+        
+        self.compressor_max_sequence_length = self.grid_size * self.grid_size
+        self.rl_latent_dim = self.vq_embedding_dim
+    
+        self.synthetic_data_paths = [
+            os.path.join(self.dataset2_dir, f'generated_dcgan_dataset_{size}x{size}.json')
+            for size in [3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 19, 20, 30]
+        ]
+        self.synthetic_data_paths.append(
+            os.path.join(self.dataset2_dir, 'training_augmented_dataset.json')
+        )
+
+class BaseDataLoader:
+    """Base class for creating a tf.data.Dataset pipeline."""
+    def __init__(self, config):
+        self.config = config
+
+    def _pad_and_crop_grid_tf(self, grid_tensor):
+        """Pads or crops a grid tensor to a fixed square size."""
+        height, width = tf.shape(grid_tensor)[0], tf.shape(grid_tensor)[1]
+        pad_height = tf.maximum(0, self.config.grid_size - height)
+        pad_width = tf.maximum(0, self.config.grid_size - width)
+        padded_grid = tf.pad(grid_tensor, [[0, pad_height], [0, pad_width]], constant_values=0)
+        cropped_grid = padded_grid[:self.config.grid_size, :self.config.grid_size]
+        
+        # FIX 1: Explicitly set the shape of the single element
+        cropped_grid.set_shape([self.config.grid_size, self.config.grid_size]) 
+        
+        return tf.cast(cropped_grid, dtype=tf.int32)
+    
+    def _create_raw_dataset(self):
+        """Creates an unbatched, un-shuffled dataset from the generator."""
+        ds = tf.data.Dataset.from_generator(
+            self._get_data_generator,
+            output_signature=tf.TensorSpec(shape=(None, None), dtype=tf.int32)
+        )
+        ds = ds.filter(lambda x: tf.rank(x) == 2 and tf.shape(x)[0] > 0 and tf.shape(x)[1] > 0)
+        ds = ds.map(self._pad_and_crop_grid_tf, num_parallel_calls=tf.data.AUTOTUNE)
+        ds = ds.map(lambda x: tf.expand_dims(tf.cast(x, tf.float32), axis=-1), num_parallel_calls=tf.data.AUTOTUNE)
+        
+        element_shape = tf.TensorShape([self.config.grid_size, self.config.grid_size, 1])
+        ds = ds.map(lambda x: tf.ensure_shape(x, element_shape), num_parallel_calls=tf.data.AUTOTUNE)
+        
+        return ds
+
+    def load_dataset(self):
+        """Returns a batched, pre-processed tf.data.Dataset from the generator."""
+        logging.info("Starting dataset loading and preprocessing pipeline...")
+        ds = self._create_raw_dataset()
+        ds = ds.shuffle(buffer_size=5000)
+        ds = ds.batch(self.config.batch_size, drop_remainder=True)
+        ds = ds.prefetch(tf.data.AUTOTUNE)
+        logging.info("Dataset pipeline created and ready.")
+        return ds
+
+
+class DummyDataLoader(BaseDataLoader):
+    """Dummy data loader for testing the pipeline."""
+    def _get_data_generator(self):
+        """Generates 100 random grids of varying sizes."""
+        for _ in range(100):
+            # Generate grids of random sizes between 1x1 and 40x40
+            h = np.random.randint(1, 40)
+            w = np.random.randint(1, 40)
+            yield np.random.randint(0, self.config.num_colors, size=(h, w), dtype=np.int32)
+
+class ARCDataLoader(BaseDataLoader):
+    """Data loader for the official ARC training challenges."""
+    def _get_data_generator(self):
+        """Loads grids from the official ARC training challenges JSON file."""
+        try:
+            with open(self.config.training_challenges_path, 'r') as f:
+                full_data = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError) as e:
+            logging.error(f"Error loading ARC training challenges file: {e}")
+            sys.exit(1)
+
+        logging.info(f"Loading ARC training challenges from {self.config.training_challenges_path}")
+        for task_data in full_data.values():
+            for example in task_data.get('train', []):
+                if 'output' in example and example['output'] is not None:
+                    output_grid = np.array(example['output'], dtype=np.int32)
+                    if output_grid.size > 0:
+                        yield output_grid
+
+class SyntheticDataLoader(BaseDataLoader):
+    """Data loader for GAN-generated synthetic grids."""
+    def _get_data_generator(self):
+        """Loads grids from multiple synthetic dataset JSON files."""
+        logging.info("Starting synthetic data generator...")
+        for path in self.config.synthetic_data_paths:
+            if not os.path.exists(path):
+                logging.warning(f"File not found, skipping: {path}")
+                continue
+            try:
+                with open(path, 'r') as f:
+                    data = json.load(f)
+                logging.info(f"Loading synthetic data from {path}")
+                for item in data:
+                    grid = None
+                    if isinstance(item, list) and all(isinstance(sublist, list) for sublist in item):
+                        grid = np.array(item, dtype=np.int32)
+                    elif isinstance(item, list) and all(isinstance(val, (int, float)) for val in item):
+                        grid_size_sq = len(item)
+                        grid_size = int(np.sqrt(grid_size_sq))
+                        if grid_size * grid_size == grid_size_sq:
+                            grid = np.array(item, dtype=np.int32).reshape(grid_size, grid_size)
+                        else:
+                            logging.warning(f"Skipping malformed flattened grid in {path}.")
+                    else:
+                        logging.warning(f"Skipping malformed data item in {path}.")
+                    if grid is not None and grid.size > 0:
+                        yield grid
+            except (FileNotFoundError, json.JSONDecodeError, Exception) as e:
+                logging.error(f"Error loading synthetic file {path}: {e}")
+        logging.info("Finished synthetic data generation.")
+
+class MultiTensorSystem:
+    """
+    A system for handling multi-dimensional configurations of 'examples',
+    'colors', 'directions', and (x, y) positions. This class can generate
+    and iterate through valid dimension combinations.
+    """
+    def __init__(self, n_examples, n_colors, n_x, n_y, task):
+        """
+        Args:
+            n_examples (int): Number of examples.
+            n_colors (int): Number of colors.
+            n_x (int): Size of the X dimension.
+            n_y (int): Size of the Y dimension.
+            task: ARC task that the multitensor system is created for
+        """
+        self.n_examples = n_examples
+        self.n_colors = n_colors
+        self.n_directions = 8
+        self.n_x = n_x
+        self.n_y = n_y
+        self.task = task
+        self.dim_lengths = [self.n_examples, self.n_colors,
+                            self.n_directions, self.n_x, self.n_y]
+    def dims_valid(self, dims):
+        """
+        Checks whether a given dimension combination is valid.
+        Validity rules:
+        1. If any of x/y is set (dims[3] or dims[4]), then examples (dims[0]) must also be set.
+        2. Sum of dims[1:] cannot be zero (i.e., at least color, direction, or x/y must be set).
+        Args:
+            dims (list[int]): A list of 0/1 flags indicating which dimensions are included.
+        Returns:
+            bool: Whether the dimension combination is valid.
+        """
+        if (dims[3] or dims[4]) and not dims[0]:
+            return False
+        if sum(dims[1:]) == 0:
+            return False
+        return True
+
+    def shape(self, dims, extra_dim=None):
+        """
+        Creates a shape tuple for PyTorch or NumPy based on which dimensions are used.
+        Args:
+            dims (list[int]): A list of 0/1 flags for each dimension.
+            extra_dim (int, optional): An additional dimension to be appended at the end.
+        Returns:
+            list[int]: The computed shape.
+        """
+        shape = []
+        for dim_index, length in enumerate(self.dim_lengths):
+            if dims[dim_index]:
+                shape.append(length)
+        if extra_dim is not None:
+            shape.append(extra_dim)
+        return shape
+
+    def _generate_dims_combinations(self):
+        """Generate all possible 5-bit dimension combinations (from 0..31)."""
+        for i in range(2 ** NUM_DIMENSIONS):
+            dims = [(i >> bit) & 1 for bit in range(NUM_DIMENSIONS)]
+            yield dims
+
+    def __iter__(self):
+        """
+        Yields valid dims.
+        """
+        for dims in self._generate_dims_combinations():
+            if self.dims_valid(dims):
+                yield dims
+
+    def _make_multitensor(self, default, index):
+        """
+        Recursively creates a nested list (tree-like) of shape [2 x 2 x 2 x 2 x 2]
+        (depth = NUM_DIMENSIONS) if `index < NUM_DIMENSIONS`.
+        Once index == NUM_DIMENSIONS, returns `default`.
+        """
+        if index == NUM_DIMENSIONS:
+            return default
+        return [self._make_multitensor(default, index+1) for _ in range(2)]
+
+    def make_multitensor(self, default=None):
+        """
+        Create a multitensor with a default object to place at every index.
+        """
+        return MultiTensor(self._make_multitensor(default, 0), self)
+
+class MultiTensor:
+    """
+    Wrapper for a nested data structure that can be indexed by a 5-element dims array.
+    """
+    def __init__(self, data, multitensor_system):
+        self.data = data
+        self.multitensor_system = multitensor_system
+
+    def __getitem__(self, dims):
+        d = self.data
+        for dim_val in dims:
+            d = d[dim_val]
+        return d
+
+    def __setitem__(self, dims, value):
+        d = self.data
+        for dim_val in dims[:-1]:
+            d = d[dim_val]
+        d[dims[-1]] = value
+
+def multify(fn):
+    """
+    Decorator that applies a function to all valid dimension combinations
+    if any arguments are MultiTensor instances.
+    """
+    def wrapper(*args, **kwargs):
+        multitensor_system = None
+        multi_mode = False
+
+        for arg in args:
+            if isinstance(arg, MultiTensor):
+                multi_mode = True
+                multitensor_system = arg.multitensor_system
+        if not multi_mode:
+            for value in kwargs.values():
+                if isinstance(value, MultiTensor):
+                    multi_mode = True
+                    multitensor_system = value.multitensor_system
+                    break
+
+        if not multi_mode:
+            return fn(None, *args, **kwargs)
+
+        def iterate_and_assign(multitensor_system, result_data):
+            """Helper to iterate over dims and assign function outputs."""
+            for dims in multitensor_system:
+                new_args = []
+                for arg in args:
+                    if isinstance(arg, MultiTensor):
+                        new_args.append(arg[dims])
+                    else:
+                        new_args.append(arg)
+                new_kwargs = {}
+                for key, value in kwargs.items():
+                    if isinstance(value, MultiTensor):
+                        new_kwargs[key] = value[dims]
+                    else:
+                        new_kwargs[key] = value
+                output = fn(dims, *new_args, **new_kwargs)
+                result_data[dims] = output
+
+        result_data = multitensor_system.make_multitensor()
+        iterate_and_assign(multitensor_system, result_data)
+
+        return result_data
+
+    return wrapper
+
+# --- New TensorGate class for real-time shape management ---
+
+class TensorGate:
+    """
+    Manages and controls the shape of tensors in the data pipeline.
+    This class ensures inputs and outputs are in the correct format
+    for each model component, preventing runtime dimension errors.
+    """
+    def __init__(self, grid_size):
+        self.grid_size = grid_size
+
+    def process_for_encoder(self, tensor):
+        """
+        Reshapes a raw generated grid into the 4D tensor expected by
+        the VQ-VAE's encoder: (batch_size, height, width, channels).
+        """
+        # The reshape to 4D is the crucial part for the Conv2D layer
+        return tf.reshape(tf.cast(tensor, tf.float32), 
+                          shape=(-1, self.grid_size, self.grid_size, 1))
+
+class Encoder(Model):
+    """
+    Encoder for the VQ-VAE. It maps the input grid to a dense latent representation.
+    The output of this encoder is fed directly into the VectorQuantizer.
+    """
+    def __init__(self, latent_dim, grid_size, name='encoder', **kwargs):
+        super(Encoder, self).__init__(name=name, **kwargs)
+        self.latent_dim = latent_dim
+        self.grid_size = grid_size
+        self.conv1 = layers.Conv2D(32, 3, activation='relu', strides=2, padding='same', kernel_initializer=GlorotNormal())
+        self.bn1 = layers.BatchNormalization()
+        self.conv2 = layers.Conv2D(64, 3, activation='relu', strides=2, padding='same', kernel_initializer=GlorotNormal())
+        self.bn2 = layers.BatchNormalization()
+        self.flatten = layers.Flatten()
+        self.dense = layers.Dense(latent_dim, name='dense_latent')
+
+    def call(self, inputs, training=None):
+        x = self.conv1(inputs)
+        x = self.bn1(x, training=training)
+        x = self.conv2(x)
+        x = self.bn2(x, training=training)
+        x = self.flatten(x)
+        x = self.dense(x)
+        return x
+
+class Decoder(Model):
+    """
+    Decoder for the VQ-VAE. It reconstructs the grid from the quantized latent representation.
+    """
+    def __init__(self, latent_dim, num_colors, grid_size, name='decoder', **kwargs):
+        super(Decoder, self).__init__(name=name, **kwargs)
+        self.latent_dim = latent_dim
+        self.num_colors = num_colors
+        self.grid_size = grid_size
+        
+        # Encoder goes from 30x30 -> 15x15 -> 8x8. This architecture reverses that.
+        # This will produce a 32x32 output which we will then crop.
+        initial_h = 8
+        initial_w = 8
+        
+        self.dense = layers.Dense(initial_h * initial_w * 64, activation='relu', name='dense_upsample')
+        self.reshape = layers.Reshape((initial_h, initial_w, 64))
+        self.deconv1 = layers.Conv2DTranspose(64, 3, activation='relu', strides=2, padding='same')
+        self.bn1 = layers.BatchNormalization()
+        self.deconv2 = layers.Conv2DTranspose(32, 3, activation='relu', strides=2, padding='same')
+        self.bn2 = layers.BatchNormalization()
+        self.output_conv = layers.Conv2D(num_colors, 3, activation='softmax', padding='same')
+        
+        # Add a cropping layer to trim the 32x32 output to the target 30x30 size.
+        # It crops 1 pixel from the top, 1 from the bottom, 1 from the left, 1 from the right.
+        self.cropping = layers.Cropping2D(cropping=((1, 1), (1, 1)))
+
+    def call(self, inputs, training=None):
+        x = self.dense(inputs)
+        x = self.reshape(x)
+        x = self.deconv1(x)
+        x = self.bn1(x, training=training)
+        x = self.deconv2(x)
+        x = self.bn2(x, training=training)
+        # The output here is (batch, 32, 32, num_colors)
+        output_logits = self.output_conv(x)
+        
+        # Replace the problematic tf.image.resize with the robust Cropping2D layer.
+        final_output = self.cropping(output_logits)
+        
+        final_output.set_shape([None, self.grid_size, self.grid_size, self.num_colors])
+        return final_output
+
+class VectorQuantizer(layers.Layer):
+    """
+    A Keras Layer for Vector Quantization.
+    Quantizes a continuous latent representation to discrete codebook embeddings.
+    """
+    def __init__(self, num_embeddings, embedding_dim, beta=0.25, **kwargs):
+        super().__init__(**kwargs)
+        self.embedding_dim = embedding_dim
+        self.num_embeddings = num_embeddings
+        self.beta = beta
+        
+        w_init = RandomUniform()
+        self.embeddings = self.add_weight(
+            name="embeddings_vqvae",
+            shape=[self.num_embeddings, self.embedding_dim],
+            initializer=w_init,
+            trainable=True,
+        )
+
+    def call(self, x):
+        flattened = tf.reshape(x, [-1, self.embedding_dim])
+        
+        distances = (
+            tf.reduce_sum(flattened**2, 1, keepdims=True)
+            + tf.transpose(tf.reduce_sum(self.embeddings**2, 1, keepdims=True))
+            - 2 * tf.matmul(flattened, self.embeddings, transpose_b=True)
+        )
+
+        encoding_indices = tf.argmin(distances, axis=1)
+        encodings = tf.one_hot(encoding_indices, self.num_embeddings)
+        quantized = tf.matmul(encodings, self.embeddings)
+        
+        quantized = tf.reshape(quantized, tf.shape(x))
+        
+        commitment_loss = tf.reduce_mean((tf.stop_gradient(quantized) - x) ** 2)
+        dictionary_loss = tf.reduce_mean((quantized - tf.stop_gradient(x)) ** 2)
+        self.add_loss(self.beta * commitment_loss + dictionary_loss)
+
+        quantized = x + tf.stop_gradient(quantized - x)
+        
+        return quantized
+
+class VQVAE(keras.Model):
+    """
+    The main VQ-VAE model.
+    It chains the Encoder, VectorQuantizer, and Decoder together.
+    """
+    def __init__(self, num_embeddings, embedding_dim, num_colors, grid_size, **kwargs):
+        super(VQVAE, self).__init__(**kwargs)
+        self.encoder = Encoder(latent_dim=embedding_dim, grid_size=grid_size)
+        self.vector_quantizer = VectorQuantizer(num_embeddings, embedding_dim)
+        self.decoder = Decoder(latent_dim=embedding_dim, num_colors=num_colors, grid_size=grid_size)
+        self.total_loss_tracker = tf.keras.metrics.Mean(name="total_loss")
+        self.reconstruction_loss_tracker = tf.keras.metrics.Mean(name="reconstruction_loss")
+        self.vq_loss_tracker = tf.keras.metrics.Mean(name="vq_loss")
+
+    def call(self, inputs):
+        encoded_outputs = self.encoder(inputs)
+        quantized_latents = self.vector_quantizer(encoded_outputs)
+        reconstructions = self.decoder(quantized_latents)
+        return reconstructions
+
+    @property
+    def metrics(self):
+        return [self.total_loss_tracker, self.reconstruction_loss_tracker, self.vq_loss_tracker]
+
+    def train_step(self, data):
+        with tf.GradientTape() as tape:
+            encoded_outputs = self.encoder(data, training=True)
+            quantized_latents = self.vector_quantizer(encoded_outputs)
+            reconstructions = self.decoder(quantized_latents)
+            reconstruction_loss = tf.reduce_mean(
+                tf.keras.losses.sparse_categorical_crossentropy(
+                    tf.cast(data, tf.int32), reconstructions, from_logits=False
+                )
+            )
+            vq_loss = self.vector_quantizer.losses[0]
+            total_loss = reconstruction_loss + vq_loss
+        grads = tape.gradient(total_loss, self.trainable_variables)
+        self.optimizer.apply_gradients(zip(grads, self.trainable_variables))
+        self.total_loss_tracker.update_state(total_loss)
+        self.reconstruction_loss_tracker.update_state(reconstruction_loss)
+        self.vq_loss_tracker.update_state(vq_loss)
+        return {
+            "loss": self.total_loss_tracker.result(),
+            "reconstruction_loss": self.reconstruction_loss_tracker.result(),
+            "vq_loss": self.vq_loss_tracker.result(),
+        }
+
+    def test_step(self, data):
+        encoded_outputs = self.encoder(data, training=False)
+        quantized_latents = self.vector_quantizer(encoded_outputs)
+        reconstructions = self.decoder(quantized_latents)
+        reconstruction_loss = tf.reduce_mean(
+            tf.keras.losses.sparse_categorical_crossentropy(
+                tf.cast(data, tf.int32), reconstructions, from_logits=False
+            )
+        )
+        vq_loss = self.vector_quantizer.losses[0]
+        total_loss = reconstruction_loss + vq_loss
+        self.total_loss_tracker.update_state(total_loss)
+        self.reconstruction_loss_tracker.update_state(reconstruction_loss)
+        self.vq_loss_tracker.update_state(vq_loss)
+        return {
+            "loss": self.total_loss_tracker.result(),
+            "reconstruction_loss": self.reconstruction_loss_tracker.result(),
+            "vq_loss": self.vq_loss_tracker.result(),
+        }
+
+class ModelTrainer:
+    def __init__(self, config, model, dataset):
+        self.config = config
+        self.model = model
+        self.dataset = dataset
+        self.model.compile(optimizer=Adam(learning_rate=self.config.learning_rate))
+        os.makedirs(self.config.vae_checkpoints_dir, exist_ok=True)
+        self.checkpoint_filepath = os.path.join(self.config.vae_checkpoints_dir, 'vqvae_weights_best.weights.h5')
+        logging.info(f"Model checkpoints will be saved to: {self.checkpoint_filepath}")
+
+    def train(self):
+        callbacks = [
+            ModelCheckpoint(
+                filepath=self.checkpoint_filepath,
+                save_weights_only=True,
+                monitor='reconstruction_loss',
+                mode='min',
+                save_best_only=True,
+                verbose=1
+            ),
+            EarlyStopping(monitor='reconstruction_loss', mode='min', patience=5, verbose=1)
+        ]
+        logging.info(f"Starting VQ-VAE training for {self.config.epochs} epochs...")
+        # A good estimate for steps_per_epoch to prevent the progress bar from hanging.
+        steps_per_epoch = 1000 
+        self.model.fit(self.dataset, epochs=self.config.epochs, callbacks=callbacks, steps_per_epoch=steps_per_epoch)
+        logging.info("VQ-VAE training complete.")
+
+class PlausibilityValidator:
+    """Uses the trained VQ-VAE to score the plausibility of an ARC grid."""
+    def __init__(self, vae_model, grid_size, num_colors):
+        self.vae_model = vae_model
+        self.grid_size = grid_size
+        self.num_colors = num_colors
+        self.loss_fn = SparseCategoricalCrossentropy(from_logits=False)
+
+    def get_plausibility_score(self, grid):
+        """Calculates a plausibility score based on VAE's reconstruction error."""
+        if tf.rank(grid) == 2:
+            grid = tf.expand_dims(grid, axis=-1)
+        grid_resized = tf.image.resize_with_crop_or_pad(
+            tf.cast(grid, tf.float32),
+            target_height=self.grid_size,
+            target_width=self.grid_size
+        )
+        grid_tensor_input = tf.expand_dims(grid_resized, axis=0)
+        reconstruction = self.vae_model(grid_tensor_input, training=False)
+        grid_tensor_loss_target = tf.cast(tf.squeeze(grid_resized, axis=-1), dtype=tf.int32)
+        grid_tensor_loss_target = tf.expand_dims(grid_tensor_loss_target, axis=0)
+        reconstruction_loss = self.loss_fn(grid_tensor_loss_target, reconstruction)
+        return float(tf.exp(-reconstruction_loss).numpy())
+
+class ReplayBuffer:
+    """Standard experience replay buffer for DQN."""
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.buffer = []
+        self.position = 0
+
+    def push(self, state, action, reward, next_state, done):
+        """Stores a transition (s, a, r, s', done) in the buffer."""
+        if len(self.buffer) < self.capacity:
+            self.buffer.append(None)
+        self.buffer[self.position] = (state, action, reward, next_state, done)
+        self.position = (self.position + 1) % self.capacity
+
+    def sample(self, batch_size):
+        """Samples a random batch of transitions for training."""
+        batch = random.sample(self.buffer, batch_size)
+        # Separate and stack the components
+        state, action, reward, next_state, done = map(np.stack, zip(*batch))
+        return state, action, reward, next_state, done
+
+    def __len__(self):
+        return len(self.buffer)
+
+class RLAgent:
+    """
+    A Reinforcement Learning agent using the VAE's decoder to generate
+    latent vectors that produce plausible grids.
+    """
+    def __init__(self, vae_model, config):
+        self.vae_model = vae_model
+        self.config = config
+        
+        self.action_space_size = self.config.rl_latent_dim
+        self.learning_rate = self.config.rl_learning_rate
+
+        # The state is a single, trainable latent vector.
+        self.latent_vector = tf.Variable(
+            initial_value=tf.random.uniform(shape=(1, self.config.rl_latent_dim)),
+            dtype=tf.float32,
+            trainable=True,
+            name="agent_latent_vector"
+        )
+        self.optimizer = Adam(learning_rate=self.learning_rate)
+        
+        os.makedirs(self.config.rl_checkpoints_dir, exist_ok=True)
+        self.checkpoint_path = os.path.join(self.config.rl_checkpoints_dir, 'rl_agent_best.weights.h5')
+
+    @tf.function
+    def train_step(self):
+        """
+        Performs a single update on the latent vector by pulling it towards
+        the nearest learned embedding in the VQ-VAE's codebook.
+        """
+        with tf.GradientTape() as tape:
+            # Get the VQ-VAE's learned codebook embeddings.
+            # Shape: (num_embeddings, embedding_dim)
+            codebook = self.vae_model.vector_quantizer.embeddings
+
+            # Calculate the squared L2 distance between the agent's current latent
+            # vector and every vector in the codebook.
+            # This is a differentiable operation.
+            distances = tf.reduce_sum(
+                (self.latent_vector - codebook) ** 2, axis=1
+            )
+
+            # The loss is the distance to the single closest codebook vector.
+            loss = tf.reduce_min(distances)
+
+        # Get the gradients with respect to the latent vector. This will now work
+        # as the entire path from loss to the vector is differentiable.
+        grads = tape.gradient(loss, [self.latent_vector])
+        
+        # Apply the gradients to update the latent vector.
+        self.optimizer.apply_gradients(zip(grads, [self.latent_vector]))
+        
+        return loss
+
+
+    def generate_and_train(self, max_steps):
+        logging.info("RL Agent: Starting latent vector optimization...")
+        
+        for step in range(max_steps):
+            loss = self.train_step()
+
+            if tf.math.is_nan(loss):
+                logging.error(f"RL Agent: Training failed at step {step}. Loss is NaN.")
+                break
+            
+            if (step + 1) % 500 == 0:
+                reward = -loss.numpy()
+                logging.info(f"RL Agent: Step {step + 1}/{max_steps}, Reward: {reward:.4f}, Loss: {loss.numpy():.4f}")
+        
+        logging.info("RL Agent: Latent vector optimization complete.")
+        
+        # Generate the final grid from the optimized latent vector.
+        final_grid_logits = self.vae_model.decoder(self.latent_vector)
+        final_grid = tf.argmax(final_grid_logits, axis=-1, output_type=tf.int32).numpy().squeeze()
+        return final_grid
+
+    def calculate_reward(self, grid):
+        """Calculates the reward for a given grid based on VAE reconstruction loss."""
+        # Ensure the grid has the correct shape and type for the VAE model.
+        # Shape: (batch_size, height, width, channels) -> (1, 30, 30, 1)
+        grid_input = tf.expand_dims(tf.expand_dims(tf.cast(grid, tf.float32), axis=0), axis=-1)
+        
+        # Pass the grid through the VAE to get the reconstruction.
+        reconstructed_logits = self.vae_model(grid_input, training=False)
+        
+        # Prepare the target tensor by adding a batch dimension.
+        target_grid = tf.expand_dims(tf.cast(grid, tf.int32), axis=0) # Shape becomes (1, 30, 30)
+
+        # Calculate the reconstruction loss with correctly shaped tensors.
+        loss = tf.reduce_mean(
+            tf.keras.losses.sparse_categorical_crossentropy(
+                target_grid,  # Correct shape: (1, 30, 30)
+                reconstructed_logits,
+                from_logits=False
+            )
+        )
+        
+        # The reward is the negative of the loss.
+        return -loss.numpy()
+
+
+def main():
+    config = Config()
+    
+    # --- VQ-VAE TRAINING (Offline) ---
+    logging.info("Initializing DataLoaders...")
+    # Recommendation: Use real data for meaningful training.
+    arc_loader = ARCDataLoader(config)
+    synthetic_loader = SyntheticDataLoader(config)
+    arc_ds = arc_loader.load_dataset()
+    synthetic_ds = synthetic_loader.load_dataset()
+    combined_ds = arc_ds.concatenate(synthetic_ds).shuffle(buffer_size=5000)
+
+    logging.info("Initializing VQ-VAE model...")
+    vqvae = VQVAE(
+        num_embeddings=config.vq_num_embeddings,
+        embedding_dim=config.vq_embedding_dim,
+        num_colors=config.num_colors,
+        grid_size=config.grid_size
+    )
+    vqvae.build(input_shape=(config.batch_size, config.grid_size, config.grid_size, 1))
+    vqvae.summary(line_length=170)
+
+    logging.info("Initializing ModelTrainer and starting VQ-VAE training...")
+    trainer = ModelTrainer(config, vqvae, combined_ds)
+    trainer.train()
+    
+    logging.info("\nStarting RL Agent training to generate a plausible grid...")
+    rl_agent = RLAgent(vae_model=vqvae, config=config)
+    generated_grid = rl_agent.generate_and_train(max_steps=config.rl_max_steps)
+    
+    logging.info("\nGenerated a plausible grid using the RL agent:")
+    # Print a small portion of the generated grid for visualization
+    for row in generated_grid[:10, :10]:
+        logging.info(' '.join(map(str, row)))
+        
+    # Corrected method call
+    final_reward = rl_agent.calculate_reward(generated_grid)
+    logging.info(f"Final reward of RL-generated grid: {final_reward:.4f}")
+    logging.info("Full main execution complete.")
+
+if __name__ == "__main__":
+    main()
