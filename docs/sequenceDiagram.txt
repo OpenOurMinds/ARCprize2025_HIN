@@ -1,0 +1,115 @@
+sequenceDiagram
+
+  participant DS as Data Scientist
+
+  participant Storage as Cloud Storage
+
+  participant VAE_Train as VAE Training Cluster (GPU)
+
+  participant Meta_RL_Train as Meta-RL Training Cluster (GPU)
+
+  participant VAE as Pre-trained VAE (Plausibility Validator)
+
+  participant Agent as Meta-RL Agent (Program Synthesizer)
+
+  participant Executor as Program Executor (Token Vocab)
+
+  participant Env as ARC Task Environment
+
+  participant Eval as Evaluation Server
+
+  participant Sub as Submission File
+
+  participant Expert as Human Expert / Analyst
+
+
+
+  DS->>Storage: Upload All Datasets (ARC & Synthetic)
+
+  Note over DS, Storage: Stage 1: VAE Pre-training
+
+  Storage->>VAE_Train: Load Synthetic Grids
+
+  VAE_Train->>VAE_Train: Train VAE for Grid Reconstruction
+
+  VAE_Train->>Storage: Save Frozen VAE Model
+
+ 
+
+  DS->>Meta_RL_Train: Load Frozen VAE & ARC Challenges
+
+  Meta_RL_Train->>Executor: Load Initial Token Vocabulary
+
+ 
+
+  Note over Meta_RL_Train, Env: Stage 2: Meta-RL Program Synthesis
+
+  loop For multiple meta-learning epochs
+
+    Meta_RL_Train->>Env: Sample batch of tasks (Curriculum-based)
+
+    loop For each task
+
+      Env->>Agent: Provide state (input grid, I/O pairs)
+
+      loop Adapt Policy for this task
+
+        Agent->>Agent: Synthesize symbolic program P
+
+        Agent->>Executor: Pass program P
+
+        Executor->>Env: Apply P, get candidate grid
+
+        Env->>VAE: Pass candidate grid for validation
+
+        VAE->>Env: Return Plausibility Score
+
+        Env->>Agent: Return Composite Reward (Accuracy + Plausibility)
+
+      end
+
+      Agent->>Agent: Update task-specific policy
+
+    end
+
+    Meta_RL_Train->>Meta_RL_Train: Update Meta-Agent's Core Networks
+
+  end
+
+ 
+
+  Note over Meta_RL_Train, Eval: Stage 3: Inference & Submission
+
+  loop For each Test Task
+
+    Meta_RL_Train->>Env: Initialize task
+
+    Agent->>Agent: Policy (with MCTS) synthesizes best program P
+
+    Agent->>Executor: Pass program P
+
+    Executor->>Meta_RL_Train: Get final output grid
+
+    Meta_RL_Train->>Sub: Append formatted prediction
+
+  end
+
+  DS->>Eval: Submit Predictions
+
+  Eval-->>DS: Return Final Score & Task Failures
+
+ 
+
+  Note over Eval, Expert: The Extensibility Loop: Continuous Improvement
+
+  loop Continuous Operation
+
+    Eval->>Expert: Flag Unsolved Tasks / "Conceptual Gaps"
+
+    Expert->>Expert: Analyze failures & identify new primitive
+
+    Expert->>Executor: Define and integrate a new symbolic token
+
+    Expert->>Meta_RL_Train: Inform system of new token & prepare for re-training
+
+  end
